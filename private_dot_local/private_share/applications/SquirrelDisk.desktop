@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=SquirrelDisk
+Exec=/home/lichti/Apps/squirrel-disk.AppImage
+Terminal=false
+NoDisplay=true
