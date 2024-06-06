@@ -1,3 +1,0 @@
-2024-06-06 01:41:51.383 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/lichti/.local/share/chezmoi/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/lichti/.local/share/chezmoi/--disable-gpu","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
-2024-06-06 01:41:51.581 [info] Started local extension host with pid 142122.
-2024-06-06 01:41:54.240 [info] [perf] Render performance baseline is 22ms

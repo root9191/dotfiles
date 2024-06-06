@@ -1,3 +1,0 @@
-2024-06-04 00:56:18.096 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/lichti/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/lichti/--disable-gpu","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
-2024-06-04 00:56:18.309 [info] Started local extension host with pid 153710.
-2024-06-04 00:56:20.911 [info] [perf] Render performance baseline is 27ms

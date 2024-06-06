@@ -1,5 +1,0 @@
-2024-06-06 01:41:51.875 [info] Log level: Info
-2024-06-06 01:41:51.875 [info] Validating found git in: "git"
-2024-06-06 01:41:51.875 [info] Using git "2.45.2" from "git"
-2024-06-06 01:42:28.154 [info] > git rev-parse --show-toplevel [1ms]
-2024-06-06 01:42:28.154 [info] fatal: this operation must be run in a work tree
