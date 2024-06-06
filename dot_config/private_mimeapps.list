@@ -1,0 +1,23 @@
+[Added Associations]
+image/png=viewnior.desktop;swappy.desktop;
+image/jpeg=viewnior.desktop;
+image/gif=viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/x-csrc=geany.desktop;
+text/plain=geany.desktop;code-oss.desktop;
+application/x-shellscript=code-oss.desktop;geany.desktop;
+application/x-theme=geany.desktop;
+application/json=geany.desktop;
+application/x-zerosize=geany.desktop;code-oss.desktop;
+application/octet-stream=code-oss.desktop;geany.desktop;
+application/vnd.ms-publisher=geany.desktop;
+
+[Default Applications]
+image/gif=viewnior.desktop
+image/svg+xml=viewnior.desktop
+inode/directory=org.kde.dolphin.desktop
+dorion=dorion-handler.desktop
+application/x-zerosize=code-oss.desktop
+application/octet-stream=geany.desktop
+application/vnd.ms-publisher=geany.desktop
+text/plain=code-oss.desktop

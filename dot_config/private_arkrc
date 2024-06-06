@@ -1,0 +1,11 @@
+[ExtractDialog]
+3440x1440 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Downloads/dorion/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled

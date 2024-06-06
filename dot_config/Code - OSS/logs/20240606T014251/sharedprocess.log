@@ -1,0 +1,275 @@
+2024-06-06 01:43:24.358 [info] Getting Manifest... pinage404.git-extension-pack
+2024-06-06 01:43:24.559 [info] Installing extension: pinage404.git-extension-pack
+2024-06-06 01:43:24.793 [info] Getting Manifest... felipecaputo.git-project-manager
+2024-06-06 01:43:25.088 [info] Getting Manifest... mhutchie.git-graph
+2024-06-06 01:43:25.425 [info] Getting Manifest... eamodio.gitlens
+2024-06-06 01:43:26.077 [info] Installing extension: felipecaputo.git-project-manager
+2024-06-06 01:43:26.077 [info] Installing extension: mhutchie.git-graph
+2024-06-06 01:43:26.077 [info] Installing extension: eamodio.gitlens
+2024-06-06 01:43:26.844 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:43:26.844 [info] Extension signature verification is not done: pinage404.git-extension-pack
+2024-06-06 01:43:26.879 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/pinage404.git-extension-pack-2.0.0-universal: pinage404.git-extension-pack
+2024-06-06 01:43:26.893 [info] Renamed to /home/lichti/.vscode-oss/extensions/pinage404.git-extension-pack-2.0.0-universal
+2024-06-06 01:43:26.894 [info] Extracting extension completed. pinage404.git-extension-pack
+2024-06-06 01:43:26.980 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-06 01:43:27.109 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:43:27.109 [info] Extension signature verification is not done: mhutchie.git-graph
+2024-06-06 01:43:27.144 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/mhutchie.git-graph-1.30.0-universal: mhutchie.git-graph
+2024-06-06 01:43:27.161 [info] Renamed to /home/lichti/.vscode-oss/extensions/mhutchie.git-graph-1.30.0-universal
+2024-06-06 01:43:27.163 [info] Extracting extension completed. mhutchie.git-graph
+2024-06-06 01:43:27.247 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-06 01:43:27.324 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:43:27.325 [info] Extension signature verification is not done: felipecaputo.git-project-manager
+2024-06-06 01:43:27.371 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/felipecaputo.git-project-manager-1.8.2-universal: felipecaputo.git-project-manager
+2024-06-06 01:43:27.389 [info] Renamed to /home/lichti/.vscode-oss/extensions/felipecaputo.git-project-manager-1.8.2-universal
+2024-06-06 01:43:27.390 [info] Extracting extension completed. felipecaputo.git-project-manager
+2024-06-06 01:43:27.471 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-06 01:43:29.178 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:43:29.179 [info] Extension signature verification is not done: eamodio.gitlens
+2024-06-06 01:43:29.324 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/eamodio.gitlens-15.0.4-universal: eamodio.gitlens
+2024-06-06 01:43:29.352 [info] Renamed to /home/lichti/.vscode-oss/extensions/eamodio.gitlens-15.0.4-universal
+2024-06-06 01:43:29.355 [info] Extracting extension completed. eamodio.gitlens
+2024-06-06 01:43:29.375 [info] Extension installed successfully: pinage404.git-extension-pack
+2024-06-06 01:43:29.375 [info] Extension installed successfully: mhutchie.git-graph
+2024-06-06 01:43:29.375 [info] Extension installed successfully: felipecaputo.git-project-manager
+2024-06-06 01:43:29.375 [info] Extension installed successfully: eamodio.gitlens
+2024-06-06 01:43:29.436 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-06 01:44:10.127 [info] Getting Manifest... gydunhn.vsc-essentials
+2024-06-06 01:44:10.320 [info] Installing extension: gydunhn.vsc-essentials
+2024-06-06 01:44:10.574 [info] Getting Manifest... mechatroner.rainbow-csv
+2024-06-06 01:44:10.822 [info] Getting Manifest... mhutchie.git-graph
+2024-06-06 01:44:10.829 [info] Getting Manifest... adpyke.codesnap
+2024-06-06 01:44:11.089 [info] Getting Manifest... alefragnani.bookmarks
+2024-06-06 01:44:11.342 [info] Getting Manifest... oderwat.indent-rainbow
+2024-06-06 01:44:11.588 [info] Getting Manifest... donjayamanne.githistory
+2024-06-06 01:44:11.855 [info] Getting Manifest... ibm.output-colorizer
+2024-06-06 01:44:12.131 [info] Getting Manifest... eamodio.gitlens
+2024-06-06 01:44:12.166 [info] Getting Manifest... gruntfuggly.todo-tree
+2024-06-06 01:44:12.436 [info] Getting Manifest... davidanson.vscode-markdownlint
+2024-06-06 01:44:12.694 [info] Getting Manifest... bierner.emojisense
+2024-06-06 01:44:13.008 [info] Getting Manifest... aaron-bond.better-comments
+2024-06-06 01:44:13.264 [info] Getting Manifest... codezombiech.gitignore
+2024-06-06 01:44:13.518 [info] Getting Manifest... dotjoshjohnson.xml
+2024-06-06 01:44:13.780 [info] Getting Manifest... yzhang.markdown-all-in-one
+2024-06-06 01:44:14.047 [info] Getting Manifest... naumovs.color-highlight
+2024-06-06 01:44:14.306 [info] Getting Manifest... pkief.material-icon-theme
+2024-06-06 01:44:14.610 [info] Installing extension: mechatroner.rainbow-csv
+2024-06-06 01:44:14.611 [info] Installing extension: adpyke.codesnap
+2024-06-06 01:44:14.611 [info] Installing extension: alefragnani.bookmarks
+2024-06-06 01:44:14.611 [info] Installing extension: oderwat.indent-rainbow
+2024-06-06 01:44:14.611 [info] Installing extension: donjayamanne.githistory
+2024-06-06 01:44:14.611 [info] Installing extension: ibm.output-colorizer
+2024-06-06 01:44:14.611 [info] Installing extension: gruntfuggly.todo-tree
+2024-06-06 01:44:14.611 [info] Installing extension: davidanson.vscode-markdownlint
+2024-06-06 01:44:14.611 [info] Installing extension: bierner.emojisense
+2024-06-06 01:44:14.611 [info] Installing extension: aaron-bond.better-comments
+2024-06-06 01:44:14.611 [info] Installing extension: codezombiech.gitignore
+2024-06-06 01:44:14.612 [info] Installing extension: dotjoshjohnson.xml
+2024-06-06 01:44:14.612 [info] Installing extension: yzhang.markdown-all-in-one
+2024-06-06 01:44:14.612 [info] Installing extension: naumovs.color-highlight
+2024-06-06 01:44:14.612 [info] Installing extension: pkief.material-icon-theme
+2024-06-06 01:44:17.501 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:17.502 [info] Extension signature verification is not done: gydunhn.vsc-essentials
+2024-06-06 01:44:17.516 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/gydunhn.vsc-essentials-0.6.0-universal: gydunhn.vsc-essentials
+2024-06-06 01:44:17.534 [info] Renamed to /home/lichti/.vscode-oss/extensions/gydunhn.vsc-essentials-0.6.0-universal
+2024-06-06 01:44:17.535 [info] Extracting extension completed. gydunhn.vsc-essentials
+2024-06-06 01:44:17.588 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:17.588 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-06-06 01:44:17.618 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-06 01:44:17.660 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:17.660 [info] Extension signature verification is not done: mechatroner.rainbow-csv
+2024-06-06 01:44:17.684 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/mechatroner.rainbow-csv-3.3.0-universal: mechatroner.rainbow-csv
+2024-06-06 01:44:17.710 [info] Renamed to /home/lichti/.vscode-oss/extensions/mechatroner.rainbow-csv-3.3.0-universal
+2024-06-06 01:44:17.711 [info] Extracting extension completed. mechatroner.rainbow-csv
+2024-06-06 01:44:17.746 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:17.746 [info] Extension signature verification is not done: aaron-bond.better-comments
+2024-06-06 01:44:17.754 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/aaron-bond.better-comments-3.0.2-universal: aaron-bond.better-comments
+2024-06-06 01:44:17.770 [info] Renamed to /home/lichti/.vscode-oss/extensions/aaron-bond.better-comments-3.0.2-universal
+2024-06-06 01:44:17.771 [info] Extracting extension completed. aaron-bond.better-comments
+2024-06-06 01:44:17.804 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/pkief.material-icon-theme-5.3.0-universal: pkief.material-icon-theme
+2024-06-06 01:44:17.823 [info] Renamed to /home/lichti/.vscode-oss/extensions/pkief.material-icon-theme-5.3.0-universal
+2024-06-06 01:44:17.825 [info] Extracting extension completed. pkief.material-icon-theme
+2024-06-06 01:44:17.841 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:17.841 [info] Extension signature verification is not done: gruntfuggly.todo-tree
+2024-06-06 01:44:17.873 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal: gruntfuggly.todo-tree
+2024-06-06 01:44:17.888 [info] Renamed to /home/lichti/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal
+2024-06-06 01:44:17.891 [info] Extracting extension completed. gruntfuggly.todo-tree
+2024-06-06 01:44:17.938 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:17.938 [info] Extension signature verification is not done: oderwat.indent-rainbow
+2024-06-06 01:44:18.011 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.011 [info] Extension signature verification is not done: codezombiech.gitignore
+2024-06-06 01:44:18.015 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/codezombiech.gitignore-0.9.0-universal: codezombiech.gitignore
+2024-06-06 01:44:18.034 [info] Renamed to /home/lichti/.vscode-oss/extensions/codezombiech.gitignore-0.9.0-universal
+2024-06-06 01:44:18.035 [info] Extracting extension completed. codezombiech.gitignore
+2024-06-06 01:44:18.123 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.123 [info] Extension signature verification is not done: naumovs.color-highlight
+2024-06-06 01:44:18.209 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/naumovs.color-highlight-2.8.0-universal: naumovs.color-highlight
+2024-06-06 01:44:18.213 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.213 [info] Extension signature verification is not done: bierner.emojisense
+2024-06-06 01:44:18.224 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/bierner.emojisense-0.10.0-universal: bierner.emojisense
+2024-06-06 01:44:18.226 [info] Renamed to /home/lichti/.vscode-oss/extensions/naumovs.color-highlight-2.8.0-universal
+2024-06-06 01:44:18.227 [info] Extracting extension completed. naumovs.color-highlight
+2024-06-06 01:44:18.231 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/oderwat.indent-rainbow-8.3.1-universal: oderwat.indent-rainbow
+2024-06-06 01:44:18.239 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.239 [info] Extension signature verification is not done: yzhang.markdown-all-in-one
+2024-06-06 01:44:18.251 [info] Renamed to /home/lichti/.vscode-oss/extensions/bierner.emojisense-0.10.0-universal
+2024-06-06 01:44:18.252 [info] Renamed to /home/lichti/.vscode-oss/extensions/oderwat.indent-rainbow-8.3.1-universal
+2024-06-06 01:44:18.253 [info] Extracting extension completed. bierner.emojisense
+2024-06-06 01:44:18.253 [info] Extracting extension completed. oderwat.indent-rainbow
+2024-06-06 01:44:18.259 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/yzhang.markdown-all-in-one-3.6.2-universal: yzhang.markdown-all-in-one
+2024-06-06 01:44:18.298 [info] Renamed to /home/lichti/.vscode-oss/extensions/yzhang.markdown-all-in-one-3.6.2-universal
+2024-06-06 01:44:18.302 [info] Extracting extension completed. yzhang.markdown-all-in-one
+2024-06-06 01:44:18.320 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.321 [info] Extension signature verification is not done: ibm.output-colorizer
+2024-06-06 01:44:18.363 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/ibm.output-colorizer-0.1.2-universal: ibm.output-colorizer
+2024-06-06 01:44:18.381 [info] Renamed to /home/lichti/.vscode-oss/extensions/ibm.output-colorizer-0.1.2-universal
+2024-06-06 01:44:18.384 [info] Extracting extension completed. ibm.output-colorizer
+2024-06-06 01:44:18.457 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.457 [info] Extension signature verification is not done: adpyke.codesnap
+2024-06-06 01:44:18.615 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.615 [info] Extension signature verification is not done: dotjoshjohnson.xml
+2024-06-06 01:44:18.675 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.676 [info] Extension signature verification is not done: donjayamanne.githistory
+2024-06-06 01:44:18.697 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/donjayamanne.githistory-0.6.20-universal: donjayamanne.githistory
+2024-06-06 01:44:18.719 [info] Renamed to /home/lichti/.vscode-oss/extensions/donjayamanne.githistory-0.6.20-universal
+2024-06-06 01:44:18.720 [info] Extracting extension completed. donjayamanne.githistory
+2024-06-06 01:44:18.869 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.870 [info] Extension signature verification is not done: davidanson.vscode-markdownlint
+2024-06-06 01:44:18.887 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:44:18.887 [info] Extension signature verification is not done: alefragnani.bookmarks
+2024-06-06 01:44:18.894 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/davidanson.vscode-markdownlint-0.55.0-universal: davidanson.vscode-markdownlint
+2024-06-06 01:44:18.916 [info] Renamed to /home/lichti/.vscode-oss/extensions/davidanson.vscode-markdownlint-0.55.0-universal
+2024-06-06 01:44:18.916 [info] Extracting extension completed. davidanson.vscode-markdownlint
+2024-06-06 01:44:18.963 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/alefragnani.bookmarks-13.5.0-universal: alefragnani.bookmarks
+2024-06-06 01:44:18.982 [info] Renamed to /home/lichti/.vscode-oss/extensions/alefragnani.bookmarks-13.5.0-universal
+2024-06-06 01:44:18.984 [info] Extracting extension completed. alefragnani.bookmarks
+2024-06-06 01:44:19.008 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/adpyke.codesnap-1.3.4-universal: adpyke.codesnap
+2024-06-06 01:44:19.017 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/dotjoshjohnson.xml-2.5.1-universal: dotjoshjohnson.xml
+2024-06-06 01:44:19.023 [info] Renamed to /home/lichti/.vscode-oss/extensions/adpyke.codesnap-1.3.4-universal
+2024-06-06 01:44:19.023 [info] Extracting extension completed. adpyke.codesnap
+2024-06-06 01:44:19.037 [info] Renamed to /home/lichti/.vscode-oss/extensions/dotjoshjohnson.xml-2.5.1-universal
+2024-06-06 01:44:19.038 [info] Extracting extension completed. dotjoshjohnson.xml
+2024-06-06 01:44:19.090 [info] Extension installed successfully: gydunhn.vsc-essentials
+2024-06-06 01:44:19.091 [info] Extension installed successfully: mechatroner.rainbow-csv
+2024-06-06 01:44:19.091 [info] Extension installed successfully: aaron-bond.better-comments
+2024-06-06 01:44:19.092 [info] Extension installed successfully: pkief.material-icon-theme
+2024-06-06 01:44:19.093 [info] Extension installed successfully: gruntfuggly.todo-tree
+2024-06-06 01:44:19.093 [info] Extension installed successfully: codezombiech.gitignore
+2024-06-06 01:44:19.093 [info] Extension installed successfully: naumovs.color-highlight
+2024-06-06 01:44:19.094 [info] Extension installed successfully: bierner.emojisense
+2024-06-06 01:44:19.094 [info] Extension installed successfully: oderwat.indent-rainbow
+2024-06-06 01:44:19.094 [info] Extension installed successfully: yzhang.markdown-all-in-one
+2024-06-06 01:44:19.095 [info] Extension installed successfully: ibm.output-colorizer
+2024-06-06 01:44:19.095 [info] Extension installed successfully: donjayamanne.githistory
+2024-06-06 01:44:19.095 [info] Extension installed successfully: davidanson.vscode-markdownlint
+2024-06-06 01:44:19.095 [info] Extension installed successfully: alefragnani.bookmarks
+2024-06-06 01:44:19.095 [info] Extension installed successfully: adpyke.codesnap
+2024-06-06 01:44:19.095 [info] Extension installed successfully: dotjoshjohnson.xml
+2024-06-06 01:53:34.924 [info] Getting Manifest... solomonkinard.git-blame
+2024-06-06 01:53:35.108 [info] Installing extension: solomonkinard.git-blame
+2024-06-06 01:53:35.774 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-06 01:53:35.775 [info] Extension signature verification is not done: solomonkinard.git-blame
+2024-06-06 01:53:35.793 [info] Extracted extension to file:///home/lichti/.vscode-oss/extensions/solomonkinard.git-blame-0.2.14-universal: solomonkinard.git-blame
+2024-06-06 01:53:35.797 [info] Renamed to /home/lichti/.vscode-oss/extensions/solomonkinard.git-blame-0.2.14-universal
+2024-06-06 01:53:35.799 [info] Extracting extension completed. solomonkinard.git-blame
+2024-06-06 01:53:35.810 [info] Extension installed successfully: solomonkinard.git-blame
+2024-06-06 01:53:35.883 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lichti/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)

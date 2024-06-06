@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "chezmoi",
+			"path": "../../../../.local/share/chezmoi"
+		},
+		{
+			"name": ".vscode-oss",
+			"path": "../../../../.vscode-oss"
+		}
+	],
+	"settings": {}
+}

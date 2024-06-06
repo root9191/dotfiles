@@ -1,0 +1,54 @@
+## Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
+##
+## Mako configuration file
+
+# GLOBAL CONFIGURATION OPTIONS
+max-history=100
+sort=-time
+
+# BINDING OPTIONS
+on-button-left=dismiss
+on-button-middle=none
+on-button-right=dismiss-all
+on-touch=dismiss
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+
+# STYLE OPTIONS
+font=JetBrains Mono 10
+width=300
+height=100
+margin=10
+padding=15
+border-size=2
+border-radius=0
+icons=1
+max-icon-size=48
+icon-location=left
+markup=1
+actions=1
+history=1
+text-alignment=left
+default-timeout=5000
+ignore-timeout=0
+max-visible=5
+layer=overlay
+anchor=top-right
+
+# Mako_Colors
+background-color=#0F0512
+text-color=#d3b8b6
+border-color=#200e26
+progress-color=over #8C1C2B
+
+[urgency=low]
+border-color=#200e26
+default-timeout=2000
+
+[urgency=normal]
+border-color=#200e26
+default-timeout=5000
+
+[urgency=high]
+border-color=#58202A
+text-color=#58202A
+default-timeout=0
