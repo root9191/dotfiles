@@ -1,0 +1,14 @@
+[Unit]
+Description=SSH agent (ssh-agent)
+
+[Service]
+Type=simple
+Environment=SSH_AUTH_SOCK=%t/ssh-agent.socket
+Environment=DISPLAY=:0
+ExecStart=ssh-agent -D -a $SSH_AUTH_SOCK
+ExecStartPost=/bin/sleep 3
+ExecStartPost=/bin/sh -c ‘/usr/bin/ssh-add /home/$USER/.ssh/id_git’
+ExecStop=kill -15 $MAINPID
+
+[Install]
+WantedBy=default.target
