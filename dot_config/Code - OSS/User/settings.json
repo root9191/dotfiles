@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "wallbash",
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "true",
   "editor.fontSize": 13,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
