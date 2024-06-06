@@ -1,6 +1,8 @@
 #test with
 # Path to your oh-my-zsh installation.
 #ZSH=/usr/share/oh-my-zsh/
+eval `ssh-agent` && ssh-add ~/.ssh/id_git >2/&1
+
 
 # Path to powerlevel10k theme
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
