@@ -1,0 +1,101 @@
+exec-once = waybar -c $PWD/waybar.conf
+
+monitor = WL-1, 900x600, auto, 1
+monitor = WL-2, 750x500, auto, 1
+
+input {
+    kb_layout = us
+    kb_variant = altgr-intl
+    kb_model =
+    kb_options = compose:ralt
+    kb_rules =
+
+    follow_mouse = 1
+
+    touchpad {
+        natural_scroll = yes
+    }
+
+    sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
+}
+
+general {
+    gaps_in = 0
+    gaps_out = 0
+    border_size = 1
+    col.active_border = 0xee$lavenderAlpha
+    col.inactive_border = 0xaa$mauveAlpha
+
+    layout = slidr
+}
+
+decoration {
+    rounding = 2
+    drop_shadow = yes
+    shadow_range = 4
+    shadow_render_power = 3
+    col.shadow = rgba(1a1a1aee)
+}
+
+animations {
+    enabled = yes
+
+    animation = windows, 1, 7, default
+    animation = windowsOut, 1, 7, default, popin 80%
+    animation = border, 1, 10, default
+    animation = borderangle, 1, 8, default
+    animation = fade, 1, 7, default
+    animation = workspaces, 1, 6, default
+}
+
+gestures {
+    workspace_swipe = off
+}
+
+binds {
+    allow_workspace_cycles = yes
+}
+
+debug {
+    enable_stdout_logs = true
+}
+
+$mainMod = ALT
+
+bind = $mainMod SHIFT, X, exec, foot
+bind = $mainMod SHIFT, Q, exit, 
+
+# focus
+bind = $mainMod, H, slidr:movefocus, l
+bind = $mainMod, L, slidr:movefocus, r
+bind = $mainMod, K, slidr:movefocus, u
+bind = $mainMod, J, slidr:movefocus, d
+bind = $mainMod SHIFT, H, movewindow, l
+bind = $mainMod SHIFT, L, movewindow, r
+bind = $mainMod SHIFT, K, movewindow, u
+bind = $mainMod SHIFT, J, movewindow, d
+
+# workspaces
+bind = $mainMod, B, workspace, previous
+
+bind = $mainMod, 1, workspace, 1
+bind = $mainMod, 2, workspace, 2
+bind = $mainMod, 3, workspace, 3
+bind = $mainMod SHIFT, 1, movetoworkspace, 1
+bind = $mainMod SHIFT, 2, movetoworkspace, 2
+bind = $mainMod SHIFT, 3, movetoworkspace, 3
+
+# window control
+bind = $mainMode, R, slidr:cyclesize
+bind = $mainMode, C, slidr:alignwindow, c
+bind = $mainMode, LEFT, slidr:alignwindow, l
+bind = $mainMode, RIGHT, slidr:alignwindow, r
+bind = $mainMode SHIFT, F, fullscreen,0
+bind = $mainMode, F, fullscreen,1
+bind = $mainMode, I, slidr:admitwindow
+bind = $mainMode, o, slidr:expelwindow
+bind = $mainMode, D, slidr:printsliders
+
+bind = $mainMode, W, fullscreen
+
+plugin = $PWD/hyprslidr.so
