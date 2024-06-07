@@ -1,0 +1,15 @@
+#Scratchpad for SonixD
+$sonixd = title:^(Sonixd)$
+windowrulev2 = float,$sonixd
+windowrulev2 = opacity 0.90 override 0.90 override,$sonixd
+windowrulev2 = size 75% 65%,$sonixd
+windowrulev2 = workspace special silent,$sonixd
+windowrulev2 = center.$sonixd
+
+#Scratchpad for Firefox
+$firefox = title:^(firefox)$
+windowrulev2 = workspace movewindow slidr:alignwindow, c,$firefox
+windowrulev2 = opacity 0.90 override 0.90 override,$firefox
+windowrulev2 = size 75% 65%,$firefox
+windowrulev2 = workspace silent,$firefox
+windowrulev2 = center.$firefox
