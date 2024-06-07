@@ -248,3 +248,4 @@ eval "$(fzf --zsh)"
 # Initialize Atuin
 echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
 
+#test
