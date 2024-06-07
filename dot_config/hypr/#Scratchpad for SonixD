@@ -13,3 +13,52 @@ windowrulev2 = opacity 0.90 override 0.90 override,$firefox
 windowrulev2 = size 75% 65%,$firefox
 windowrulev2 = workspace silent,$firefox
 windowrulev2 = center.$firefox
+
+
+general {
+    gaps_in = 0
+    gaps_out = 0
+    border_size = 1
+    col.active_border = 0xee$lavenderAlpha
+    col.inactive_border = 0xaa$mauveAlpha
+
+ #   layout = slidr
+}
+
+binds {
+    allow_workspace_cycles = yes
+}
+
+debug {
+    enable_stdout_logs = true
+}
+
+#bind = $mainMod, N, workspace, previous
+
+
+# Add hyprslidr
+
+
+#general {
+#    layout = slidr
+#}
+#exec-once = hyprpm reload -n
+
+# █░░ ▄▀█ █▄█ █▀█ █░█ ▀█▀ █▀
+# █▄▄ █▀█ ░█░ █▄█ █▄█ ░█░ ▄█
+
+# See https://wiki.hyprland.org/Configuring/Dwindle-Layout/
+
+dwindle {
+    pseudotile = true
+    preserve_split = true
+}
+
+# See https://wiki.hyprland.org/Configuring/Master-Layout/
+
+master {
+    new_is_master = true
+    orientation = center
+    always_center_master=true
+    smart_resizing = true
+}
