@@ -73,7 +73,7 @@ alias pa='$aurhelper -Ss' # list availabe package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias vc='code' # gui code editor
-alias git='nocorrect git'
+
 alias cnano='chezmoi edit'
 
 # Handy change dir shortcuts
@@ -234,6 +234,8 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin master'
 
+alias git='nocorrect git'
+
 export PATH="/home/lichti/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -245,3 +247,4 @@ eval "$(fzf --zsh)"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Initialize Atuin
 echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+
