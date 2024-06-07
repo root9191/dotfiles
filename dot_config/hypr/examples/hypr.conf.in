@@ -1,3 +1,5 @@
+#Test Example
+
 exec-once = waybar -c $PWD/waybar.conf
 
 monitor = WL-1, 900x600, auto, 1
