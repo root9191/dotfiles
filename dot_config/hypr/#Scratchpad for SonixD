@@ -62,3 +62,17 @@ master {
     always_center_master=true
     smart_resizing = true
 }
+
+
+
+# window control
+bind = $mainMode, R, slidr:cyclesize
+bind = $mainMode, T, slidr:alignwindow, c
+bind = $mainMode, J, slidr:alignwindow, l
+bind = $mainMode, N, slidr:alignwindow, r
+bind = $mainMode SHIFT, F, fullscreen,0
+bind = $mainMode, F, fullscreen,1
+bind = $mainMode, I, slidr:admitwindow
+bind = $mainMode, o, slidr:expelwindow
+#bind = $mainMode, U, slidr:printslider
+
