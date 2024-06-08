@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="recorditnow" transform="translate(.090003 -2)">
+		<rect style="opacity:.125;fill:none" height="22" width="22" y="2" x="-.090003"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" d="m19.788 2.0317-19.128 3.2808c-.75.14319-.75.31737-.75 1.6875v3 4.3438 8.6562c0 .554.446 1 1 1h20c.554 0 1-.446 1-1v-13c0-.554-.446-1-1-1h-16l-.2813-.2812 16.031-2.7813c.54597-.093972.90647-.61028.8125-1.1562l-.343-1.9688c-.131-.8125-.847-.8577-1.341-.7808zm.341.9683l.34375 1.9688-2.3125-1.625zm-3.9375.65625 2.3125 1.6562-2.9375.5-2.3125-1.625zm-4.9062.875 2.2812 1.625-2.9375.5-2.3125-1.625zm-4.9385.8438 2.3125 1.625l-2.9688.5-2.3125-1.625zm-4.9375.84375 2.3125 1.625-2.8125.46875v-2zm-0.5 3.7812h3l-2 2h2l2-2h3l-2 2h2l2-2h3l-2 2h2l2-2h3l-2 2h2l2-2v2 11h-20v-11zm7 3.5312v6.9375l6-3.468z"/>
+	</g>
+</svg>

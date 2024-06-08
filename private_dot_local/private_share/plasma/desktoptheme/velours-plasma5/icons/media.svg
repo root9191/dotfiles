@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0" viewBox="0 0 448 48" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#0000FF; }
+			.ColorScheme-Highlight { color:#FF00FF; }</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="72-72-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="152" y="123" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m168 137h-4v47h4zm44 49v-53l-44 27z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="198" y="-136" width="16" height="16" style="fill:none"/>
+		<rect x="200" y="-134" width="12" height="12" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="264" y="-118" width="22" height="22" style="fill:none"/>
+		<rect x="267" y="-115" width="16" height="16" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="286" y="-93.9" width="24" height="24" style="fill:none"/>
+		<rect x="289" y="-90.9" width="18" height="18" style="fill:currentColor"/>
+	</g>
+	<g id="media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="375" y="-69" width="32" height="32" style="fill:none"/>
+		<rect x="379" y="-65" width="24" height="24" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="550" y=".14" width="48" height="48" style="fill:none"/>
+		<rect x="557" y="7.12" width="34" height="34" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="791" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<rect x="800" y="62" width="47.9" height="47.9" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="1210" y="205" width="105" height="105" style="fill:none"/>
+		<rect x="1220" y="219" width="74.9" height="74.9" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="180" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m182-134v12h5v-12zm7 0v12h5v-12z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="240" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m253-115h6v16h-6zm-10 0h6v16h-6z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="260" y="-93.9" width="24" height="24" style="fill:none"/>
+		<path d="m274-90.9h7v18h-7zm-11 0h7v18h-7z" style="fill:currentColor"/>
+	</g>
+	<g id="media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="341" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m345-65v24h10v-24zm14 0v24h10v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="500" y=".14" width="48" height="48" style="fill:none"/>
+		<path d="m528 7.12h13v33.98h-13zm-21 0h13v33.98h-13z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="720" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m759 62h18v48h-18zm-30 0h18v48h-18z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="1100" y="205" width="105" height="105" style="fill:none"/>
+		<path d="m1170 219h20v76h-20zm-50 0h30v76h-30z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="162" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m175-128-10 6v-12z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="216" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m235-107-14-8v16z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="234" y="-93.9" width="24" height="24" style="fill:none"/>
+		<path d="m255-81.9-16-9v18z" style="fill:currentColor"/>
+	</g>
+	<g id="media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="307" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m333-53-20 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="450" y=".14" width="48" height="48" style="fill:none"/>
+		<path d="m491 24.1-30-16.98v33.98z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="649" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m706 86.1-42-24.1v48z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="995" y="205" width="105" height="105" style="fill:none"/>
+		<path d="m1090 257-70-38v76z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="144" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m152-134-7 7h14zm-7 9v2h14v-2z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="192" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m195-104h16v2h-16zm0-2 8-8 8 8z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="208" y="-94" width="24" height="24" style="fill:none"/>
+		<path d="m211-79h18v3h-18zm0-1.9 9-9 9 9z" style="fill:currentColor"/>
+	</g>
+	<g id="media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="273" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m288-64-14 14h28zm-14 18v5h28v-5z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="400" y=".08" width="48" height="48" style="fill:none"/>
+		<path d="m407 31h34v6.1h-34zm0-5 17-16.98 17 16.98z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="577" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m586 95.9h48v7.1h-48zm0-6.8 24-24.1 24 24.1z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="880" y="204" width="105" height="105" style="fill:none"/>
+		<path d="m895 272h75v10h-75zm0-11 37-37 38 37z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="126" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m134-134v12l6-6zm-6 0v12l6-6z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="168" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m179-99v-16l8 8zm-8 0v-16l8 8z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="182" y="-94" width="24" height="24" style="fill:none"/>
+		<path d="m194-73v-17.9l9 8.9zm-9 0v-17.9l9 8.9z" style="fill:currentColor"/>
+	</g>
+	<g id="media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="239" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m255-65v24l12-12zm-12 0v24l12-12z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="350" y=".08" width="48" height="48" style="fill:none"/>
+		<path d="m374 41.1v-34.04l17 17.04zm-17 0v-34.04l17 17.04z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1,1)" x="-571" y="52.1" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m539 110v-48.6l25 24.7zm-25 0v-48.6l25 24.7z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1,1)" x="-875" y="204" width="105" height="105" style="fill:none"/>
+		<path d="m824 294v-75l39 38zm-39 0v-75l39 38z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="108" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m120-133h2v10h-2zm0 5-10 6v-12z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="144" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m161-114h2v14h-2zm-14 15v-16l14 8z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="156" y="-94" width="24" height="24" style="fill:none"/>
+		<path d="m175-89.9h2v15.9h-2zm-16 16.9v-17.9l16 8.9z" style="fill:currentColor"/>
+	</g>
+	<g id="media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="205" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m231-64h2v22h-2zm0 11-22 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="300" y=".08" width="48" height="48" style="fill:none"/>
+		<path d="m337 8h4v32h-4zm-30 33.1v-34.1l30 17z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1,1)" x="-499" y="52.1" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m484 64h4v44h-4zm-40 46v-48l40 24z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1,1)" x="-765" y="204" width="105" height="105" style="fill:none"/>
+		<path d="m741 223h5v68h-5zm-62 71v-75l62 38z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="90" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m91.9-134v12h5v-12zm7.1 0v12h5v-12z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="120" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m133-115h6v16h-6zm-10 0h6v16h-6z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="130" y="-93.9" width="24" height="24" style="fill:none"/>
+		<path d="m144-90.9h7v18h-7zm-11 0h7v18h-7z" style="fill:currentColor"/>
+	</g>
+	<g id="media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="171" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m175-65v24h10v-24zm14 0v24h10v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="250" y=".14" width="48" height="48" style="fill:none"/>
+		<path d="m278 7.12h13v33.98h-13zm-21 0h13v33.98h-13z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="361" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m400 62h18v48h-18zm-30 0h18v48h-18z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="551" y="205" width="105" height="105" style="fill:none"/>
+		<path d="m613 219h28v76h-28zm-48 0h29v76h-29z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="72" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m85-128-10 6v-12z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="96" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m115-107-14-8v16z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="104" y="-93.9" width="24" height="24" style="fill:none"/>
+		<path d="m125-81.9-16-9v18z" style="fill:currentColor"/>
+	</g>
+	<g id="media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="137" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m163-53-20 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="200" y=".14" width="48" height="48" style="fill:none"/>
+		<path d="m241 24.1-30-16.98v33.98z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="289" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m346 86.1-42-24.1v48z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="440" y="205" width="105" height="105" style="fill:none"/>
+		<path d="m530 257-66-38v76z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="54" y="-136" width="16" height="16" style="fill:none"/>
+		<rect x="56" y="-134" width="12" height="12" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="72" y="-118" width="22" height="22" style="fill:none"/>
+		<rect x="75" y="-115" width="16" height="16" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="78" y="-93.9" width="24" height="24" style="fill:none"/>
+		<rect x="81" y="-90.9" width="18" height="18" style="fill:currentColor"/>
+	</g>
+	<g id="media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="103" y="-69" width="32" height="32" style="fill:none"/>
+		<rect x="107" y="-65" width="24" height="24" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="150" y=".14" width="48" height="48" style="fill:none"/>
+		<rect x="157" y="7.12" width="34" height="34" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="217" y="53" width="66.1" height="66.1" style="fill:none"/>
+		<rect x="226" y="62" width="47.9" height="47.9" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="330" y="205" width="105" height="105" style="fill:none"/>
+		<rect x="345" y="219" width="74.9" height="74.9" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="36" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m40-133h-2v10h2zm0 5 10 6v-12z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="48" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m53-114h-2v14h2zm14 15v-16l-14 8z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="52" y="-93.9" width="24" height="24" style="fill:none"/>
+		<path d="m57-89.5h-2v15.5h2zm16 16.6v-17.7l-16 8.7z" style="fill:currentColor"/>
+	</g>
+	<g id="media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="69" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m75-64h-2v22h2zm0 11 22 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="100" y=".2" width="48" height="48" style="fill:none"/>
+		<path d="m111 8.92h-4v31.18h4zm30 32.28v-34.46l-30 17.46z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="145" y="52.1" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m160 64h-4v44h4zm40 46v-48l-40 24.1z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="220" y="204" width="105" height="105" style="fill:none"/>
+		<path d="m244 223h-5v68h5zm62 71v-75l-62 38z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="18" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m26-134v12l-6-6zm6 0v12l-6-6z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="24" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m35-99v-16l-8 8zm8 0v-16l-8 8z" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="26" y="-93.9" width="24" height="24" style="fill:none"/>
+		<path d="m38-72.9v-17.7l-9 8.7zm9 0v-17.7l-9 8.7z" style="fill:currentColor"/>
+	</g>
+	<g id="media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="35" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m51-65v24l-12-12zm12 0v24l-12-12z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="50.1" y=".2" width="48" height="48" style="fill:none"/>
+		<path d="m74 41.2v-34.46l-17 17.46zm17 0v-34.46l-17 17.46z" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="73" y="52.1" width="66.1" height="66.1" style="fill:none"/>
+		<path d="m105 110v-48.6l-24.9 24.7zm25 0v-48.6l-25 24.7z" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="111" y="204" width="105" height="105" style="fill:none"/>
+		<path d="m162 294v-75l-39 38zm39 0v-75l-39 38z" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m14-128a6 6 0 1 1-12 0 6 6 0 1 1 12 0z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect y="-118" width="22" height="22" style="fill:none"/>
+		<circle cx="11" cy="-107" r="7" style="fill:currentColor"/>
+	</g>
+	<g id="24-24-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect x=".06" y="-93.9" width="24" height="24" style="fill:none"/>
+		<circle cx="12.1" cy="-81.9" r="7.99" style="fill:currentColor"/>
+	</g>
+	<g id="media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m28-53a12 12 0 1 1-24 0 12 12 0 1 1 24 0z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="48-48-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect x=".12" y=".2" width="48" height="48" style="fill:none"/>
+		<circle cx="24.1" cy="24.2" r="15" style="fill:currentColor"/>
+	</g>
+	<g id="66-66-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect x=".987" y="52.1" width="66.1" height="66.1" style="fill:none"/>
+		<circle cx="34" cy="86.1" r="21" style="fill:currentColor"/>
+	</g>
+	<g id="105-105-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect x=".18" y="204" width="105" height="105" style="fill:none"/>
+		<circle cx="52.7" cy="257" r="32.5" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="608" y="124" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m618 171h52v8h-52zm0-8 26-26 26 26z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1,1)" x="-604" y="123" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m569 186v-53l27 27zm-27 0v-53l27 27z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1,1)" x="-528" y="123" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m512 137h4v47h-4zm-44 49v-53l44 27z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="380" y="125" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m423 135h19v52h-19zm-33 0h19v52h-19z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="304" y="125" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m366 161-46-26v52z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="228" y="125" width="72.1" height="72.1" style="fill:none"/>
+		<rect x="238" y="135" width="51.9" height="51.9" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="75.8" y="123" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m111 186v-53l-27.8 27zm27 0v-53l-27 27z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect x="-.409" y="123" width="72.1" height="72.1" style="fill:none"/>
+		<circle cx="35.7" cy="160" r="23" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="684" y="125" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m746 161-46-26v52z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="760" y="125" width="72.1" height="72.1" style="fill:none"/>
+		<path d="m803 135h19v52h-19zm-33 0h19v52h-19z" style="fill:currentColor"/>
+	</g>
+	<g id="72-72-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="836" y="125" width="72.1" height="72.1" style="fill:none"/>
+		<rect x="846" y="135" width="51.9" height="51.9" style="fill:currentColor"/>
+	</g>
+	<g id="16-16-media-mount" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="216" y="-136" width="16" height="16" style="fill:none"/>
+		<path d="m217-125v2h14v-2z" style="fill:currentColor"/>
+		<path d="m224-127-7-7h14z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-mount" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="288" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m291-114 8 8 8-8z" style="fill:currentColor"/>
+		<path d="m291-104h16v2h-16z" style="fill:currentColor"/>
+	</g>
+	<g id="media-mount" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="409" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m411-47v5h28v-5z" style="fill:currentColor"/>
+		<path d="m425-51-14-14h28z" style="fill:currentColor"/>
+	</g>
+	<g id="media-playlist-shuffle" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="443" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m446-46h5l14-14h6m-25 0h5l5 5m4 4 5 5h6" style="fill:none;stroke-linejoin:round;stroke-width:2;stroke:currentColor"/>
+		<path d="m468-50 4 4-4 4m0-22 4 4-4 4" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-media-playlist-shuffle" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="312" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m313-102h3l10-10h5m-18 0h3l3 3m4 4 3 3h5" style="fill:none;stroke-linejoin:round;stroke-width:2;stroke:currentColor"/>
+		<path d="m328-105 3 3-3 3m0-16 3 3-3 3" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="32-32-media-playback-stopped" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="375" y="-35" width="32" height="32" style="fill:none"/>
+		<rect x="379" y="-31" width="24" height="24" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-playback-paused" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="341" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m345-31v24h10v-24zm14 0v24h10v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-playback-playing" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="307" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m333-19-20 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-eject" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="273" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m288-30-14 14h28zm-14 18v5h28v-5z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-seek-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="239" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m255-31v24l12-12zm-12 0v24l12-12z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-playback-pause" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="171" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m175-31v24h10v-24zm14 0v24h10v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-playback-start" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="137" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m163-19-20 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-playback-stop" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="103" y="-35" width="32" height="32" style="fill:none"/>
+		<rect x="107" y="-31" width="24" height="24" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-skip-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="69" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m75-30h-2v22h2zm0 11 22 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-seek-backward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="35" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m51-31v24l-12-12zm12 0v24l-12-12z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-record" class="ColorScheme-Highlight" style="opacity:.875">
+		<rect y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m28-19a12 12 0 1 1-24 0 12 12 0 1 1 24 0z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="32-32-media-mount" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="409" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m411-13v5h28v-5z" style="fill:currentColor"/>
+		<path d="m425-17-14-14h28z" style="fill:currentColor"/>
+	</g>
+	<g id="32-32-media-playlist-shuffle" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="443" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m446-12h5l14-14h6m-25 0h5l5 5m4 4 5 5h6" style="fill:none;stroke-linejoin:round;stroke-width:2;stroke:currentColor"/>
+		<path d="m468-16 4 4-4 4m0-22 4 4-4 4" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="32-32-media-skip-forward" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="205" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m231-30h2v22h-2zm0 11-22 12v-24z" style="fill:currentColor;stroke-width:2"/>
+	</g>
+	<g id="media-playlist-repeat-song" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="477" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m480-49 4-4 4 4m14 2c0 1.7-1 3-3 3h-12c-2 0-3-1.3-3-3v-4m22-6-4 4-4-4m-14-2c0-1.7 1-3 3-3h12c2 0 3 1.3 3 3v5" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+		<path d="m493-58c0 1-1 1-2 1v1h2v7h-2v1h5v-1h-2v-9z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-media-playlist-repeat-song" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="336" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m337-104 3-3 3 3m11 1c0 2-1 3-3 3h-8c-2 0-3-1-3-3v-2m17-5-3 3-3-3m-11-1c0-2 1-3 3-3h8c2 0 3 1 3 3v3" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+		<path d="m347-111c0 1 0 1-1 1v1h1v5h-1v1h3v-1h-1v-7z" style="fill:currentColor"/>
+	</g>
+	<g id="media-playlist-repeat" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="511" y="-69" width="32" height="32" style="fill:none"/>
+		<path d="m536-47c0 1.7-1 3-3 3h-12c-2 0-3-1.3-3-3v-4m4 2-4-4-4 4m26-8-4 4-4-4m4 2v-4c0-1.7-1-3-3-3h-12c-2 0-3 1.3-3 3" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="32-32-media-playlist-repeat" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="511" y="-35" width="32" height="32" style="fill:none"/>
+		<path d="m536-13c0 1.7-1 3-3 3h-12c-2 0-3-1.3-3-3v-4m4 2-4-4-4 4m26-8-4 4-4-4m4 2v-4c0-1.7-1-3-3-3h-12c-2 0-3 1.3-3 3" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-media-playlist-repeat" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="360" y="-118" width="22" height="22" style="fill:none"/>
+		<path d="m361-104 3-3 3 3m11 1c0 2-1 3-3 3h-8c-2 0-3-1-3-3v-2m17-5-3 3-3-3m-11-1c0-2 1-3 3-3h8c2 0 3 1 3 3v3" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="32-32-media-playlist-repeat-song" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="477" y="-35" width="32" height="32" style="fill:none;opacity:.875"/>
+		<path d="m480-15 4-4 4 4m14 2c0 1.7-1 3-3 3h-12c-2 0-3-1.3-3-3v-4m22-6-4 4-4-4m-14-2c0-1.7 1-3 3-3h12c2 0 3 1.3 3 3v5" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+		<path d="m493-24c0 1-1 1-2 1v1h2v7h-2v1h2 1 2v-1h-2v-9h-1z" style="fill:currentColor"/>
+	</g>
+</svg>

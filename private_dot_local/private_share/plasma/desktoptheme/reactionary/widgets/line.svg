@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7"
+   height="1.9999704"
+   viewBox="0 0 7 1.9999705"
+   version="1.1"
+   id="svg17788"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="line.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17790"
+     pagecolor="#d1d1d1"
+     bordercolor="#6b6b6b"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     shape-rendering="crispEdges"
+     inkscape:zoom="12.400674"
+     inkscape:cx="23.022943"
+     inkscape:cy="4.1933206"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid683"
+       originx="-265"
+       originy="-708"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs17785" />
+  <style
+     id="current-color-scheme"
+     type="text/css">
+      .ColorScheme-Text {
+      }
+      .ColorScheme-Background{
+      }
+      .ColorScheme-Highlight{
+      }
+      .ColorScheme-ViewText {
+      }
+      .ColorScheme-ViewBackground{
+      }
+      .ColorScheme-ViewHover {
+      }
+      .ColorScheme-ViewFocus{
+      }
+      .ColorScheme-ButtonText {
+      }
+      .ColorScheme-ButtonBackground{
+      }
+      .ColorScheme-ButtonHover {
+      }
+      .ColorScheme-ButtonFocus{
+      }
+    </style>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-265,-708)">
+    <g
+       id="horizontal-line">
+      <rect
+         style="fill:#faf7f2;fill-opacity:1;stroke-width:5;paint-order:stroke fill markers"
+         id="rect2"
+         width="2"
+         height="0.9999705"
+         x="270"
+         y="709" />
+      <rect
+         style="fill:#676561;fill-opacity:1;stroke-width:5;paint-order:stroke fill markers"
+         id="rect1"
+         width="2"
+         height="0.9999705"
+         x="270"
+         y="708" />
+    </g>
+    <rect
+       style="fill:#676561;fill-opacity:1;stroke-width:5;paint-order:stroke fill markers"
+       id="vertical-line"
+       width="1"
+       height="0.99999994"
+       x="265"
+       y="708" />
+  </g>
+</svg>

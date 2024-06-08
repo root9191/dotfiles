@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg4342" width="45" height="51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<metadata id="metadata2">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<defs id="defs5">
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {	color:#0000FF; }
+			.ColorScheme-Background { color:#FF0000; }</style>
+	</defs>
+	<rect id="hint-scrollbar-size" x="-40.875" y="31.375" width="10" height="10" style="fill:#278000"/>
+	<rect id="background-vertical-left" class="ColorScheme-Background" y="5" width="5" height="41" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-vertical-right" class="ColorScheme-Background" x="6" y="5" width="5" height="41" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-vertical-center" class="ColorScheme-Background" x="5" y="5" width="1" height="41" style="fill:currentColor;opacity:.375"/>
+	<path id="background-vertical-topleft" class="ColorScheme-Background" d="m5 0c-2.77 0-5 2.23-5 5h5z" style="fill:currentColor;opacity:.375"/>
+	<path id="background-vertical-topright" class="ColorScheme-Background" d="m6 0c2.77 0 5 2.23 5 5h-5z" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-vertical-top" class="ColorScheme-Background" x="5" width="1" height="5" style="fill:currentColor;opacity:.375"/>
+	<path id="background-vertical-bottomleft" class="ColorScheme-Background" d="m5 51c-2.77 0-5-2.23-5-5h5z" style="fill:currentColor;opacity:.375"/>
+	<path id="background-vertical-bottomright" class="ColorScheme-Background" d="m6 51c2.77 0 5-2.23 5-5h-5z" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-vertical-bottom" class="ColorScheme-Background" x="5" y="46" width="1" height="5" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-horizontal-left" class="ColorScheme-Background" x="14" y="5" width="5" height="1" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-horizontal-right" class="ColorScheme-Background" x="40" y="5" width="5" height="1" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-horizontal-center" class="ColorScheme-Background" x="19" y="5" width="21" height="1" style="fill:currentColor;opacity:.375"/>
+	<path id="background-horizontal-topleft" class="ColorScheme-Background" d="m19 0c-2.77 0-5 2.23-5 5h5z" style="fill:currentColor;opacity:.375"/>
+	<path id="background-horizontal-topright" class="ColorScheme-Background" d="m40 0c2.77 0 5 2.23 5 5h-5z" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-horizontal-top" class="ColorScheme-Background" x="19" width="21" height="5" style="fill:currentColor;opacity:.375"/>
+	<path id="background-horizontal-bottomleft" class="ColorScheme-Background" d="m19 11c-2.77 0-5-2.23-5-5h5z" style="fill:currentColor;opacity:.375"/>
+	<path id="background-horizontal-bottomright" class="ColorScheme-Background" d="m40 11c2.77 0 5-2.23 5-5h-5z" style="fill:currentColor;opacity:.375"/>
+	<rect id="background-horizontal-bottom" class="ColorScheme-Background" x="19" y="6" width="21" height="5" style="fill:currentColor;opacity:.375"/>
+	<rect id="hint-tile-center" x="-40.875" y="14.375" width="7" height="7" style="fill:#278000"/>
+	<g id="slider-left" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="20" y="7" width="5" height="1" style="fill:none"/>
+		<rect x="24" y="7" width="1" height="1" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="slider-right" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="26" y="7" width="5" height="1" style="fill:none"/>
+		<rect x="26" y="7" width="1" height="1" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<rect id="slider-center" class="ColorScheme-Text" x="5" y="18" width="1" height="1" style="fill:currentColor;opacity:.375"/>
+	<g id="slider-topleft" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="20" y="2" width="5" height="5" style="fill:none"/>
+		<path d="m25 6c-.554 0-1 .446-1 1h1z" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="slider-topright" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="26" y="2" width="5" height="5" style="fill:none"/>
+		<path d="m26 6c.554 0 1 .446 1 1h-1z" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="slider-top" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="25" y="2" width="1" height="5" style="fill:none"/>
+		<rect x="25" y="6" width="1" height="1" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="slider-bottomleft" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="20" y="8" width="5" height="5" style="fill:none"/>
+		<path d="m25 9c-.554 0-1-.446-1-1h1z" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="slider-bottomright" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="26" y="8" width="5" height="5" style="fill:none"/>
+		<path d="m26 9c.554 0 1-.446 1-1h-1z" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="slider-bottom" class="ColorScheme-Text" transform="translate(-20,11)">
+		<rect x="25" y="8" width="1" height="5" style="fill:none"/>
+		<rect x="25" y="8" width="1" height="1" style="fill:currentColor;opacity:.375"/>
+	</g>
+	<g id="sunken-slider-left" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="20" y="7" width="5" height="1" style="fill:none"/>
+		<rect x="22" y="7" width="3" height="1" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="sunken-slider-right" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="26" y="7" width="5" height="1" style="fill:none"/>
+		<rect x="26" y="7" width="3" height="1" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<rect id="sunken-slider-center" class="ColorScheme-Text" x="5" y="28" width="1" height="1" style="fill:currentColor;opacity:.75"/>
+	<g id="sunken-slider-topleft" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="20" y="2" width="5" height="5" style="fill:none"/>
+		<path d="m25 4c-1.662 0-3 1.338-3 3h3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="sunken-slider-topright" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="26" y="2" width="5" height="5" style="fill:none"/>
+		<path d="m26 4c1.662 0 3 1.338 3 3h-3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="sunken-slider-top" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="25" y="2" width="1" height="5" style="fill:none"/>
+		<rect x="25" y="4" width="1" height="3" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="sunken-slider-bottomleft" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="20" y="8" width="5" height="5" style="fill:none"/>
+		<path d="m25 11c-1.662 0-3-1.338-3-3h3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="sunken-slider-bottomright" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="26" y="8" width="5" height="5" style="fill:none"/>
+		<path d="m26 11c1.662 0 3-1.338 3-3h-3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="sunken-slider-bottom" class="ColorScheme-Text" transform="translate(-20,21)">
+		<rect x="25" y="8" width="1" height="5" style="fill:none"/>
+		<rect x="25" y="8" width="1" height="3" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-left" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="20" y="7" width="5" height="1" style="fill:none"/>
+		<rect x="22" y="7" width="3" height="1" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-right" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="26" y="7" width="5" height="1" style="fill:none"/>
+		<rect x="26" y="7" width="3" height="1" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<rect id="mouseover-slider-center" class="ColorScheme-Text" x="5" y="40" width="1" height="1" style="color:blue;fill:currentColor;opacity:.75"/>
+	<g id="mouseover-slider-topleft" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="20" y="2" width="5" height="5" style="fill:none"/>
+		<path d="m25 4c-1.7 0-3 1.34-3 3h3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-topright" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="26" y="2" width="5" height="5" style="fill:none"/>
+		<path d="m26 4c1.7 0 3 1.34 3 3h-3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-top" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="25" y="2" width="1" height="5" style="fill:none"/>
+		<rect x="25" y="4" width="1" height="3" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-bottomleft" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="20" y="8" width="5" height="5" style="fill:none"/>
+		<path d="m25 11c-1.7 0-3-1.34-3-3h3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-bottomright" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="26" y="8" width="5" height="5" style="fill:none"/>
+		<path d="m26 11c1.7 0 3-1.34 3-3h-3z" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<g id="mouseover-slider-bottom" class="ColorScheme-Text" transform="translate(-20,33)">
+		<rect x="25" y="8" width="1" height="5" style="fill:none"/>
+		<rect x="25" y="8" width="1" height="3" style="fill:currentColor;opacity:.75"/>
+	</g>
+</svg>

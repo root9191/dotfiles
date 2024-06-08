@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg3727" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="wallet-open">
+		<rect style="opacity:.875;fill:none" height="22" width="22" y="0" x="0"/>
+		<path d="m16.25 12 .75 2 4-3-4-2h-7.541c-.7136-1.236-2.0318-1.9982-3.459-2-2.2091 0-4 1.7909-4 4s1.7909 4 4 4c1.4272-.0018 2.7454-.76398 3.459-2h.5410l1 1 .75-2h.5l.75 2 1-1 1 1 .75-2zm-13.25-1c0-.55228.44772-1 1-1s1 .44772 1 1-.44772 1-1 1-1-.44772-1-1z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="wallet-closed">
+		<path class="ColorScheme-Text" style="opacity:.375;fill:currentColor" d="m35 16.25-2 .75 3 4 2-4v-7.541c1.236-.7136 1.998-2.0318 2-3.459 0-2.2091-1.791-4-4-4-2.2091 0-4 1.7909-4 4 .0018 1.4272.76398 2.7454 2 3.459v.5410l-1 1 2 .75v.5l-2 .75 1 1-1 1 2 .75zm1-13.25c.55228 0 1 .44772 1 1s-.44772 1-1 1-1-.44772-1-1 .44772-1 1-1z"/>
+		<rect style="opacity:.875;fill:none" height="22" width="22" y="0" x="25"/>
+	</g>
+</svg>

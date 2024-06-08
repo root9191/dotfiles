@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="28" width="28" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<defs id="defs5">
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Highlight { color:#FF00FF; }
+			.ColorScheme-Text { color:#0000FF; }
+			.ColorScheme-Background { color:#FF0000; }
+		</style>
+		<g class="ColorScheme-Text">
+			<linearGradient id="linearGradient4170-2">
+				<stop id="stop4186" style="stop-color:currentColor" offset="0"/>
+				<stop id="stop4188" style="stop-color:currentColor" offset=".5"/>
+				<stop id="stop4190" style="stop-color:currentColor;stop-opacity:0" offset=".58333"/>
+				<stop id="stop4192" style="stop-color:currentColor;stop-opacity:0" offset="1"/>
+			</linearGradient>
+		</g>
+		<g class="ColorScheme-Background">
+			<linearGradient id="linearGradient4170">
+				<stop id="stop4172" style="stop-color:currentColor" offset="0"/>
+				<stop id="stop4180" style="stop-color:currentColor" offset=".58333"/>
+				<stop id="stop4174" style="stop-color:currentColor;stop-opacity:0" offset="1"/>
+			</linearGradient>
+		</g>
+		<radialGradient id="radialGradient4176" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" cy="18" cx="55" gradientTransform="matrix(0 -.66667 .66667 0 0 48.667)" r="6"/>
+		<radialGradient id="radialGradient4188" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" cy="18" cx="67" gradientTransform="matrix(.66667 0 0 .66667 -28.667 0)" r="6"/>
+		<radialGradient id="radialGradient4196" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" cy="30" cx="67" gradientTransform="matrix(0 .66667 -.66667 0 36 -28.667)" r="6"/>
+		<radialGradient id="radialGradient4206" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" cy="30" cx="55" gradientTransform="matrix(-.66667 0 0 -.66667 48.667 36)" r="6"/>
+		<linearGradient id="linearGradient4214" x1="55" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" y1="21" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" x2="43" y2="21"/>
+		<linearGradient id="linearGradient4224" x1="60" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" y1="18" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" x2="60" y2="6"/>
+		<linearGradient id="linearGradient4232" x1="67" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" y1="24" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" x2="79" y2="24"/>
+		<linearGradient id="linearGradient4240" x1="60" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" y1="30" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" x2="60" y2="42"/>
+		<linearGradient id="linearGradient4194" y2="21" xlink:href="#linearGradient4170" gradientUnits="userSpaceOnUse" x2="43" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" y1="21" x1="55"/>
+		<radialGradient id="radialGradient4198" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" cy="18" cx="55" gradientTransform="matrix(0 -.66667 .66667 0 0 48.667)" r="6"/>
+		<linearGradient id="linearGradient4202" y2="6" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" x2="60" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" y1="18" x1="60"/>
+		<radialGradient id="radialGradient4207" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" cy="18" cx="67" gradientTransform="matrix(.66667 0 0 .66667 -28.667 0)" r="6"/>
+		<linearGradient id="linearGradient4211" y2="24" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" x2="79" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" y1="24" x1="67"/>
+		<radialGradient id="radialGradient4215" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" cy="30" cx="67" gradientTransform="matrix(0 .66667 -.66667 0 36 -28.667)" r="6"/>
+		<linearGradient id="linearGradient4219" y2="42" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" x2="60" gradientTransform="matrix(.33333 0 0 .33333 -6.3333 6)" y1="30" x1="60"/>
+		<radialGradient id="radialGradient4223" xlink:href="#linearGradient4170-2" gradientUnits="userSpaceOnUse" cy="30" cx="55" gradientTransform="matrix(-.66667 0 0 -.66667 48.667 36)" r="6"/>
+	</defs>
+	<rect id="hint-tile-center" style="fill:#4f8100" height="5" width="5" y="31.454" x="-30.695"/>
+	<g id="topleft">
+		<rect style="fill:url(#radialGradient4176)" height="12" width="12" y="0" x="0"/>
+		<rect style="fill:url(#radialGradient4198)" height="12" width="12" y="0" x="0"/>
+	</g>
+	<g id="top">
+		<rect style="fill:url(#linearGradient4224)" height="12" width="4" y="0" x="12"/>
+		<rect style="fill:url(#linearGradient4202)" height="12" width="4" y="0" x="12"/>
+	</g>
+	<g id="topright">
+		<rect style="fill:url(#radialGradient4188)" height="12" width="12" y="0" x="16"/>
+		<rect style="fill:url(#radialGradient4207)" height="12" width="12" y="0" x="16"/>
+	</g>
+	<g id="left">
+		<rect style="fill:url(#linearGradient4194)" height="4" width="12" y="12" x="0"/>
+		<rect style="fill:url(#linearGradient4214)" height="4" width="12" y="12" x="0"/>
+	</g>
+	<g id="right">
+		<rect style="fill:url(#linearGradient4232)" height="4" width="12" y="12" x="16"/>
+		<rect style="fill:url(#linearGradient4211)" height="4" width="12" y="12" x="16"/>
+	</g>
+	<g id="bottomleft">
+		<rect style="fill:url(#radialGradient4206)" height="12" width="12" y="16" x="0"/>
+		<rect style="fill:url(#radialGradient4223)" height="12" width="12" y="16" x="0"/>
+	</g>
+	<g id="bottom">
+		<rect style="fill:url(#linearGradient4240)" height="12" width="4" y="16" x="12"/>
+		<rect style="fill:url(#linearGradient4219)" height="12" width="4" y="16" x="12"/>
+	</g>
+	<g id="bottomright">
+		<rect style="fill:url(#radialGradient4196)" height="12" width="12" y="16" x="16"/>
+		<rect style="fill:url(#radialGradient4215)" height="12" width="12" y="16" x="16"/>
+	</g>
+</svg>

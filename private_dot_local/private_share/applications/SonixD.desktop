@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=SonixD
+Exec=/home/lichti/Apps/Sonixd.AppImage
+Terminal=false
+Icon=/home/lichti/.icons/sonixd.png

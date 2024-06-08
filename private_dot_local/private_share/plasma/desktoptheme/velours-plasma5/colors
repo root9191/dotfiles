@@ -1,0 +1,31 @@
+#Comment out these three colors to use the application color scheme
+[Colors:Window]
+#Background color for the panels and widgets
+BackgroundNormal=0,0,0
+#Color used for decorations, highlight, progress bars and sliders
+DecorationHover=255,33,33
+#Color used for text and icons
+ForegroundNormal=255,255,255
+
+#For logout pane, lockscreen, etc.
+[Colors:Complementary]
+BackgroundNormal=0,0,0
+DecorationHover=255,33,33
+ForegroundNormal=255,255,255
+
+[Colors:Button]
+#BackgroundNormal=224,224,224
+#ForegroundActive=255,0,0
+#Used for text and icons inside buttons -- DO NOT REMOVE
+ForegroundNormal=0,0,0
+
+[Colors:Selection]
+#Fix for Frameworks 5.22
+BackgroundNormal=255,33,33
+
+#Text fields
+[Colors:View]
+#Selected text background
+DecorationFocus=255,95,80
+#Text color -- DO NOT REMOVE
+ForegroundNormal=0,0,0

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#0000FF; }</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-go-previous-symbolic" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="48" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m58 17-6-6 6-6m7.9 6h-12.9" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-go-next" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="26" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m34.6 18 7-7-7-7" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-go-up" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="rotate(90)" x="26" y="-22" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m3 40 7-7 7 7" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-go-down" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="rotate(90)" x="26" y="-48" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m30.6 34 7 7 7-7" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-go-home" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="-33" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m-25 18v-7h-4l7-7 7 7h-4v7z" style="fill:none;stroke-linejoin:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-next" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="31.9" y="-72" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m43.9-47 8.9-9.1-8.9-8.9" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-home" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="-33.9" y="-65" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m-23-39.1v-10h-6l11-10.9 10.95 10.9h-5.95v10z" style="fill:none;stroke-linejoin:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-up" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="rotate(-90)" x="7.95" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m25-19.9-9-8.9-9.02 8.9" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-previous" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1)" x="-32" y="40" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m20.1-65-8.9 9.1 8.9 8.9" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-down" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="matrix(0,1,1,0,0,0)" x="-40" y="32" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m57-28.1-9.1 8.9-8.9-8.9" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-go-previous" class="ColorScheme-Text" style="opacity:.875">
+		<rect width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m13.6 18-7-7 7-7" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="22-22-go-previous-symbolic-rtl" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="70" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m81.9 17 6-6-6-6m-7.9 6h12.9" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-previous-symbolic" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1)" x="-95.8" y="40" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m79.5-65-8.9 9.1 8.9 8.9m-8-8.9h18" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="go-previous-symbolic-rtl" class="ColorScheme-Text" style="opacity:.875">
+		<rect transform="scale(-1)" x="-128" y="40" width="31.9" height="31.9" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m113-65 9 9.1-9 8.9m8-8.9h-18" style="fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+</svg>

@@ -1,0 +1,32 @@
+HOW TO INSTALL
+--------------
+
+[EN]
+
+System-wide install:
+Extract this folder to /usr/share/plasma/desktoptheme/ directory
+
+User-only install:
+Extract this folder to ~/.local/share/plasma/desktoptheme/ directory
+
+Select and apply the theme in KDE System Settings > Workspace Appearance > Desktop Theme > Velours
+
+[ES]
+
+Instalación en todo el sistema:
+Extraer carpeta en el directorio /usr/share/plasma/desktoptheme/
+
+Instalación para el usuario solo:
+Extraer esta carpeta en el directorio ~/.local/share/plasma/desktoptheme/
+
+Selecciona y aplica el tema en System Settings de KDE ("Preferencias del sistema") > Apariencia del espacio de trabajo > Tema de escritorio > Velours
+
+[FR]
+
+Installation dans tout le système:
+Extraire ce dossier dans le répertoire /usr/share/plasma/desktoptheme/
+
+Installation pour un seul utilisateur:
+Extraire ce dossier dans le répertoire ~/.local/share/plasma/desktoptheme/
+
+Sélectionner et appliquer le thème dans les paramètres de KDE > Apparence de l'espace de travail > Thème de bureau > Velours

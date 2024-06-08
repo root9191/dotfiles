@@ -1,0 +1,5 @@
+[MIME Cache]
+image/x-foo=SquirrelDisk.desktop;
+x-scheme-handler/dorion=dorion-handler.desktop;
+x-scheme-handler/steam=steam.desktop;
+x-scheme-handler/steamlink=steam.desktop;

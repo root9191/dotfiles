@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg57" version="1.0" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs id="defs18">
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Highlight { color:#FF00FF; }
+			.ColorScheme-Text { color:#0000FF; }</style>
+		<g class="ColorScheme-Text">
+			<linearGradient id="linearGradient4631">
+				<stop id="stop8" style="stop-color:currentColor;stop-opacity:.75294" offset="0"/>
+				<stop id="stop10" style="stop-color:currentColor;stop-opacity:.87843" offset="1"/>
+			</linearGradient>
+		</g>
+		<linearGradient id="linearGradient4189" x1="-4" x2="-4" y1="-16" y2="16" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4631"/>
+		<linearGradient id="linearGradient4715" x1="44" x2="44" y1="-13" y2="-3" gradientTransform="translate(-4.1864 23.559)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4631"/>
+		<linearGradient id="linearGradient4465" x1="28" x2="28" y1="20" y2="36" gradientTransform="translate(0,-56)" gradientUnits="userSpaceOnUse">
+			<stop id="stop3" style="stop-color:currentColor;stop-opacity:.33" offset="0"/>
+			<stop id="stop5" style="stop-color:currentColor;stop-opacity:.21" offset="1"/>
+		</linearGradient>
+	</defs>
+	<metadata id="metadata20">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="focus" class="ColorScheme-Highlight">
+		<circle cx="16" cy="56" r="16" style="fill:currentColor;opacity:.75"/>
+	</g>
+	<circle id="hover" class="ColorScheme-Text" cx="56" cy="56" r="16" style="fill:currentColor;opacity:.5"/>
+	<g id="normal" class="ColorScheme-Text" transform="translate(20,16)">
+		<circle transform="scale(1,-1)" cx="-4" r="16" style="fill-rule:evenodd;fill:url(#linearGradient4189);opacity:.875"/>
+		<path d="m10.207-7.192a17 17 0 0 0 -14.282 -7.808 17 17 0 0 0 -14.132 7.578 16 16 0 0 1 14.132 -8.578 16 16 0 0 1 14.282 8.808z" style="fill-rule:evenodd;fill:currentColor;opacity:.5"/>
+	</g>
+	<g id="pressed" class="ColorScheme-Text" transform="matrix(2,0,0,2,0,-40)">
+		<circle transform="scale(1,-1)" cx="28" cy="-28" r="8" style="fill-rule:evenodd;fill:url(#linearGradient4465)"/>
+		<path d="m35.311 24.766a9 9 0 0 0 -7.311 -3.766 9 9 0 0 0 -7.305 3.762 8 8 0 0 1 7.305 -4.762 8 8 0 0 1 7.311 4.766z" style="fill-rule:evenodd;fill:#000000;opacity:.187"/>
+	</g>
+	<g id="22-22-pressed" class="ColorScheme-Text" transform="matrix(1.375,0,0,1.375,81.5,-17.5)">
+		<circle transform="scale(1,-1)" cx="28" cy="-28" r="8" style="fill-rule:evenodd;fill:url(#linearGradient4465)"/>
+		<path transform="matrix(.72727 0 0 .72727 -44.727 24.364)" d="m100-6a11 11 0 0 0 -10.24 7.0156 13 13 0 0 1 10.24 -5.0156 13 13 0 0 1 10.25 5.0137 11 11 0 0 0 -10.25 -7.0137z" style="fill-rule:evenodd;fill:#000000;opacity:.187"/>
+	</g>
+	<circle id="22-22-focus" class="ColorScheme-Highlight" cx="91" cy="51" r="11" style="fill:currentColor;opacity:.75"/>
+	<circle id="22-22-hover" class="ColorScheme-Text" cx="120" cy="51" r="11" style="fill:currentColor;opacity:.5"/>
+	<g id="22-22-normal" class="ColorScheme-Text" transform="matrix(.6875 0 0 .6875 93.75 21)">
+		<circle transform="scale(1,-1)" cx="-4" r="16" style="fill-rule:evenodd;fill:url(#linearGradient4189);opacity:.875"/>
+		<circle cx="-4" r="16" style="fill-rule:evenodd;fill:url(#linearGradient4187)"/>
+	</g>
+	<rect id="pressed-center" transform="scale(1,-1)" x="34.814" y="10.559" width="10" height="10" style="fill:url(#linearGradient4715)"/>
+</svg>

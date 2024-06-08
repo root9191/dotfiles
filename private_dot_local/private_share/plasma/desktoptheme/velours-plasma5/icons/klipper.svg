@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-klipper" transform="translate(-29,-1)">
+		<rect style="opacity:.125;fill:none" height="22" width="22" y="1" x="29"/>
+		<path d="m34 3c-1.108 0-2 .892-2 2v2c0 1.108.892 2 2 2h12c1.108 0 2-.892 2-2v-2c0-1.108-.892-2-2-2h-12zm4 2c0 .277.223.5.5.5h3c.277 0 .5-.223.5-.5.554 0 1 .446 1 1s-.446 1-1 1h-4c-.554 0-1-.446-1-1s.446-1 1-1zm-5 7-2.4062 2.5938c-.362.361-.594.852-.594 1.406v3c0 1.108.892 2 2 2h16c1.108 0 2-.892 2-2v-3c0-.554-.23225-1.0448-.59375-1.4062l-2.406-2.594h-1l1 2h-14l1-2h-1zm4 4.0938c.033.502.458.906.969.906h4.0625c.51078 0 .93592-.40406.96875-.90625.58702.20326 1 .74838 1 1.4062 0 .831-.669 1.5-1.5 1.5h-5c-.832 0-1.501-.669-1.501-1.5 0-.65788.41298-1.203 1-1.4062z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="klipper" transform="matrix(1.4545 0 0 1.4545 -18.182 -11.455)">
+		<rect style="opacity:.125;fill:none" height="22" width="22" y="1" x="29"/>
+		<path d="m31-7c-1.662 0-3 1.338-3 3v3c0 1.662 1.338 3 3 3h18c1.662 0 3-1.338 3-3v-3c0-1.662-1.338-3-3-3h-18zm5.0176 3.0859c.045.5113.458.9141.982.9141h6c.52350 0 .93699-.40276.98242-.91406.592.2011 1.018.7533 1.018 1.4141 0 .8310-.669 1.5-1.5 1.5h-7c-.831 0-1.5-.6690-1.5-1.5 0-.66078.42648-1.213 1.0176-1.4141zm-6.018 9.9141-3.123 3.877c-.542.5420-.877 1.292-.877 2.123v4c0 1.662 1.338 3 3 3h22c1.662 0 3-1.338 3-3v-4c0-.831-.335-1.581-.877-2.123l-3.123-3.877h-1l2 3h-22l2-3h-1zm5 6.303v.697c0 .554.446 1 1 1h8c.554 0 1-.446 1-1v-.69727c.59746.36047 1 1.0083 1 1.7598v.17383c0 1.1426-.91988 2.0625-2.0625 2.0625h-7.875c-1.143-.001-2.063-.921-2.063-2.064v-.174c0-.75149.40254-1.3993 1-1.7598z" class="ColorScheme-Text" style="opacity:.875;fill:currentColor" transform="matrix(.68750 0 0 .68750 12.5 7.875)"/>
+	</g>
+</svg>

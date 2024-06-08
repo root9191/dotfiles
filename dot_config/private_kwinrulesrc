@@ -1,0 +1,696 @@
+[0a17ac98-fc90-4251-baaa-312df1c9a39f]
+Description=Programm-Einstellungen für vlc
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=vlc
+wmclassmatch=1
+
+[0f4b311f-a111-491d-9ba7-5296a860b9de]
+Description=Programm-Einstellungen für kitty
+position=1290,393
+positionrule=3
+size=859,686
+sizerule=3
+wmclass=kitty
+wmclassmatch=1
+
+[0fc37f6a-2201-425b-817a-636525326201]
+Description=Programm-Einstellungen für atril
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=atril
+wmclassmatch=1
+
+[1]
+Description=Programm-Einstellungen für evolution
+clientmachine=localhost
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+title=lichti@archcraft:~
+wmclass=evolution
+wmclassmatch=1
+
+[10]
+Description=Programm-Einstellungen für GParted
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=gpartedbin GParted
+wmclasscomplete=true
+wmclassmatch=1
+
+[11]
+Description=Programm-Einstellungen für galculator
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=galculator
+wmclassmatch=1
+
+[12]
+Description=Programm-Einstellungen für foot
+clientmachine=localhost
+position=2582,36
+positionrule=3
+size=854,669
+sizerule=3
+title=lichti@archcraft:~
+wmclass=foot
+wmclassmatch=1
+
+[12f1002c-caf5-49f6-bc3f-ca48966362d2]
+Description=Programm-Einstellungen für antimicrox
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+wmclass=antimicrox
+wmclassmatch=1
+
+[13]
+Description=Programm-Einstellungen für Electron
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=electron Electron
+wmclasscomplete=true
+wmclassmatch=1
+
+[13dc5447-d3fb-4d78-a8cb-b399fc74e63a]
+Description=Programm-Einstellungen für com.github.tchx84.Flatseal
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=\scom.github.tchx84.Flatseal
+wmclasscomplete=true
+wmclassmatch=1
+
+[14]
+Description=Programm-Einstellungen für WebCord
+clientmachine=localhost
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+title=lichti@archcraft:~
+wmclass=webcord WebCord
+wmclasscomplete=true
+wmclassmatch=1
+
+[15]
+Description=Programm-Einstellungen für dorion
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+title=lichti@archcraft:~
+wmclass=dorion
+wmclassmatch=1
+
+[16]
+Description=Programm-Einstellungen für Thunar
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=thunar Thunar
+wmclasscomplete=true
+wmclassmatch=1
+
+[17]
+Description=Programm-Einstellungen für ckb-next
+position=3,36
+positionrule=3
+size=1008,709
+sizerule=3
+title=lichti@archcraft:~
+wmclass=ckb-next.real ckb-next
+wmclasscomplete=true
+wmclassmatch=1
+
+[18]
+Description=Programm-Einstellungen für org.kde.ark
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=ark org.kde.ark
+wmclasscomplete=true
+wmclassmatch=1
+
+[19]
+Description=Programm-Einstellungen für blueman-manager
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+title=lichti@archcraft:~
+wmclass=python3.12 blueman-manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Programm-Einstellungen für io.missioncenter.MissionCenter
+clientmachine=localhost
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+title=lichti@archcraft:~
+wmclass=missioncenter io.missioncenter.MissionCenter
+wmclasscomplete=true
+wmclassmatch=1
+
+[20]
+Description=Programm-Einstellungen für atril
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=atril
+wmclassmatch=1
+
+[21]
+Description=Programm-Einstellungen für antimicrox
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+title=lichti@archcraft:~
+wmclass=antimicrox
+wmclassmatch=1
+
+[22]
+Description=Programm-Einstellungen für Bitwarden
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=\sBitwarden
+wmclasscomplete=true
+wmclassmatch=1
+
+[23]
+Description=Programm-Einstellungen für com.github.tchx84.Flatseal
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=\scom.github.tchx84.Flatseal
+wmclasscomplete=true
+wmclassmatch=1
+
+[23bd0911-8162-4cf3-945a-70607bcf8262]
+Description=Programm-Einstellungen für org.pulseaudio.pavucontrol
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+wmclass=pavucontrol org.pulseaudio.pavucontrol
+wmclasscomplete=true
+wmclassmatch=1
+
+[24]
+Description=Programm-Einstellungen für code-oss
+position=3,36
+positionrule=3
+size=856,1401
+title=lichti@archcraft:~
+wmclass=electron code-oss
+wmclasscomplete=true
+wmclassmatch=1
+
+[25]
+Description=Programm-Einstellungen für org.kde.dolphin
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+title=lichti@archcraft:~
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[26]
+Description=Programm-Einstellungen für org.kde.discover
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+title=lichti@archcraft:~
+wmclass=plasma-discover org.kde.discover
+wmclasscomplete=true
+wmclassmatch=1
+
+[26c96d17-af34-4add-8667-11bc48787856]
+Description=Programm-Einstellungen für code-oss
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+wmclass=electron code-oss
+wmclasscomplete=true
+wmclassmatch=1
+
+[27]
+Description=Programm-Einstellungen für org.pulseaudio.pavucontrol
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+title=lichti@archcraft:~
+wmclass=pavucontrol org.pulseaudio.pavucontrol
+wmclasscomplete=true
+wmclassmatch=1
+
+[28]
+Description=Programm-Einstellungen für org.manjaro.pamac.manager
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+title=lichti@archcraft:~
+wmclass=pamac-manager org.manjaro.pamac.manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[29]
+Description=Programm-Einstellungen für kitty
+position=2581,34
+positionrule=3
+size=859,686
+sizerule=3
+title=lichti@archcraft:~
+wmclass=kitty
+wmclassmatch=1
+
+[3]
+Description=Programm-Einstellungen für Viewnior
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=viewnior Viewnior
+wmclasscomplete=true
+wmclassmatch=1
+
+[30]
+Description=Fenster-Einstellungen für kitty
+position=2581,34
+positionrule=3
+size=859,686
+sizerule=3
+title=lichti@archcraft:~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[31]
+Description=Fenster-Einstellungen für firefox
+position=1381,475
+positionrule=3
+size=677,523
+sizerule=3
+title=How do i make KDE remember window position? : r/kde – Mozilla Firefox
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[32]
+Description=Programm-Einstellungen für systemsettings
+position=1,34
+positionrule=3
+size=859,1405
+sizerule=3
+wmclass=systemsettings
+wmclassmatch=1
+
+[33]
+Description=Sonixd
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+wmclass=Sonixd
+wmclassmatch=2
+
+[33d7f656-1e6e-4b6c-bf12-7bb4128c40f7]
+Description=Programm-Einstellungen für virt-manager
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=python3.12 virt-manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[3d17883d-f767-4621-934d-834c62cea05d]
+Description=Programm-Einstellungen für Bitwarden
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=\sBitwarden
+wmclasscomplete=true
+wmclassmatch=1
+
+[3e29597d-e139-4c92-84bc-50d4a4e827de]
+Description=Programm-Einstellungen für Grub-customizer
+clientmachine=localhost
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+wmclass=grub-customizer Grub-customizer
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Programm-Einstellungen für virt-manager
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=python3.12 virt-manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[40d551cb-5973-458e-8821-8efb0a3726ab]
+Description=Programm-Einstellungen für WebCord
+clientmachine=localhost
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+wmclass=webcord WebCord
+wmclasscomplete=true
+wmclassmatch=1
+
+[4120cf10-3cf0-46ba-832f-f3b7b6b5c537]
+Description=Programm-Einstellungen für org.kde.ark
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=ark org.kde.ark
+wmclasscomplete=true
+wmclassmatch=1
+
+[4c253792-7292-4b64-bc9f-da10bdcbabe1]
+Description=Fenster-Einstellungen für firefox
+position=1381,475
+positionrule=3
+size=677,523
+sizerule=3
+title=How do i make KDE remember window position? : r/kde – Mozilla Firefox
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[4c370eea-e12f-4e0e-bbd9-ccd8c9fa9f6a]
+Description=Programm-Einstellungen für galculator
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=galculator
+wmclassmatch=1
+
+[5]
+Description=Programm-Einstellungen für xarchiver
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=xarchiver
+wmclassmatch=1
+
+[543d35b0-e045-4a95-8e14-5353fc936959]
+Description=Programm-Einstellungen für geany
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=geany
+wmclassmatch=1
+
+[562f454c-5575-4e43-84c9-1f4aac6367e4]
+Description=Programm-Einstellungen für ckb-next
+position=3,36
+positionrule=3
+size=1008,709
+sizerule=3
+wmclass=ckb-next.real ckb-next
+wmclasscomplete=true
+wmclassmatch=1
+
+[5a6e0aff-e181-4238-acc6-3f001add6fb7]
+Description=Programm-Einstellungen für Electron
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=electron Electron
+wmclasscomplete=true
+wmclassmatch=1
+
+[5f68e983-7ee0-434c-901f-e3e9cd62491e]
+Description=Programm-Einstellungen für Timeshift-gtk
+clientmachine=localhost
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+wmclass=timeshift-gtk Timeshift-gtk
+wmclasscomplete=true
+wmclassmatch=1
+
+[6]
+Description=Programm-Einstellungen für vlc
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=vlc
+wmclassmatch=1
+
+[7]
+Description=Programm-Einstellungen für geany
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+title=lichti@archcraft:~
+wmclass=geany
+wmclassmatch=1
+
+[8]
+Description=Programm-Einstellungen für Timeshift-gtk
+clientmachine=localhost
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+title=lichti@archcraft:~
+wmclass=timeshift-gtk Timeshift-gtk
+wmclasscomplete=true
+wmclassmatch=1
+
+[8d716aec-91f4-4ef3-8a56-cd67d26c6df8]
+Description=Programm-Einstellungen für xarchiver
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=xarchiver
+wmclassmatch=1
+
+[9]
+Description=Programm-Einstellungen für Grub-customizer
+clientmachine=localhost
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+title=lichti@archcraft:~
+wmclass=grub-customizer Grub-customizer
+wmclasscomplete=true
+wmclassmatch=1
+
+[9903c99b-5949-4bc9-84a0-485c14c93dfd]
+Description=Programm-Einstellungen für foot
+position=2582,36
+positionrule=3
+size=854,669
+sizerule=3
+wmclass=foot
+wmclassmatch=1
+
+[General]
+count=33
+rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33
+
+[ad96f8d1-9ad3-4cce-8959-c1244d226069]
+Description=Programm-Einstellungen für org.manjaro.pamac.manager
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+wmclass=pamac-manager org.manjaro.pamac.manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[afb79b80-fa3c-40aa-ad7a-bacacbbe7e97]
+Description=Fenster-Einstellungen für kitty
+position=2581,34
+positionrule=3
+size=859,686
+sizerule=3
+title=lichti@archcraft:~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[b91d5590-d31c-449d-9ead-42337914ecad]
+Description=Programm-Einstellungen für org.kde.discover
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+wmclass=plasma-discover org.kde.discover
+wmclasscomplete=true
+wmclassmatch=1
+
+[ba7f3060-00ff-4642-8fea-6486de79918a]
+Description=Programm-Einstellungen für Viewnior
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=viewnior Viewnior
+wmclasscomplete=true
+wmclassmatch=1
+
+[bf4112dd-47a3-407d-9433-32e8c5949743]
+Description=Programm-Einstellungen für GParted
+clientmachine=localhost
+position=2582,722
+positionrule=3
+size=856,716
+sizerule=3
+wmclass=gpartedbin GParted
+wmclasscomplete=true
+wmclassmatch=1
+
+[c2ae43f7-c23f-4d81-a70e-a4c1d4752f78]
+Description=Programm-Einstellungen für blueman-manager
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+wmclass=python3.12 blueman-manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[c79b512c-4ff6-4843-aaf6-c6f632a9ac0e]
+Description=Programm-Einstellungen für dorion
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+wmclass=dorion
+wmclassmatch=1
+
+[db0a5fea-8390-496a-9a60-c0e21961a459]
+Description=Programm-Einstellungen für systemsettings
+position=1,34
+positionrule=3
+size=859,1405
+sizerule=3
+wmclass=systemsettings
+wmclassmatch=1
+
+[e09eca0c-a541-468e-a4b6-a94cf6d6193e]
+Description=Sonixd
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+wmclass=Sonixd
+wmclassmatch=2
+
+[e3888491-e6ca-4f47-8b6f-b939ffad82bd]
+Description=Programm-Einstellungen für Thunar
+position=2581,719
+positionrule=3
+size=690,719
+sizerule=3
+wmclass=thunar Thunar
+wmclasscomplete=true
+wmclassmatch=1
+
+[f02609d7-3d89-4946-8ede-b5e3c5fbaa38]
+Description=Programm-Einstellungen für evolution
+position=3,36
+positionrule=3
+size=856,1401
+sizerule=3
+wmclass=evolution
+wmclassmatch=1
+
+[f31e8267-bc35-4475-8904-59bf62f1a60d]
+Description=Programm-Einstellungen für org.kde.dolphin
+position=2581,721
+positionrule=3
+size=859,719
+sizerule=3
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[febf860b-c10d-4e51-959a-ce7627a6d539]
+Description=Programm-Einstellungen für io.missioncenter.MissionCenter
+position=2582,36
+positionrule=3
+size=856,683
+sizerule=3
+wmclass=missioncenter io.missioncenter.MissionCenter
+wmclasscomplete=true
+wmclassmatch=1

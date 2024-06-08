@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="RSSicon" width="22" height="22" version="1.1" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#0000FF; }</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-akregator" class="ColorScheme-Text" style="opacity:.875">
+		<rect width="44" height="44" style="fill:none"/>
+		<path d="m24 36v-2.6c0-7.4-6-13.4-13.4-13.4h-2.6" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:4;stroke:currentColor"/>
+		<path d="m36 36v-2c0-14.4-11.6-26-26-26h-2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:4;stroke:currentColor"/>
+		<circle cx="10" cy="34" r="4" style="fill:currentColor"/>
+	</g>
+	<g id="akregator" class="ColorScheme-Text" style="opacity:.875">
+		<rect x="48" y="-20" width="64" height="64" style="fill:none"/>
+		<circle cx="60" cy="32" r="6" style="fill:currentColor"/>
+		<path d="m57 9c14.4 0 26 11.6 26 26m-26-46c25.4 0 46 20.6 46 46" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:6;stroke:currentColor"/>
+	</g>
+</svg>

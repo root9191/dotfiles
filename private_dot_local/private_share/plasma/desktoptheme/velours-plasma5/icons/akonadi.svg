@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="17.6pt" width="17.6pt" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="akonadi" transform="translate(-1,-1)">
+		<rect style="opacity:.25;fill:none" height="22" width="22" y="1" x="1"/>
+		<path style="fill:currentColor;opacity:.875" d="m2 12c0 5.5228 4.4772 10 10 10s10-4.4772 10-10c0 1.6569-4.4772 3-10 3s-10-1.343-10-3z" class="ColorScheme-Text"/>
+		<path d="m5.625 5.625c-1.7339 1.7339-2.6018 4.0034-2.625 6.281.0015.031.0015.063 0 .094 0-.03615.00919.08429.375.34375s1.006.56117 1.8438.8125c1.2765.383 2.978.666 4.9062.782-.011-.011-.021-.021-.031-.032-3.515-3.514-5.5234-7.2266-4.469-8.281z" style="fill:currentColor;opacity:.875" class="ColorScheme-Text"/>
+		<path d="m12 4c-2.1776 0-4.1512.8698-5.5938 2.2812-.0101.0107-.0206.0211-.0312.0313.0004-.0002-.0275.0087-.0312.0313-.0075.0452-.0017.1527.0312.3437.0658.3820.2846.9993.6562 1.6875.74338 1.3765 2.081 3.1123 3.7812 4.8125.28156.28156.56204.55188.84375.8125.11587.0013.22687 0 .34375 0 2.6804 0 5.1057-.34108 6.7812-.84375.47399-.14220.85392-.31108 1.1875-.46875.019-.228.031-.453.031-.687 0-4.4183-3.582-8-8-8z" style="fill:currentColor;opacity:.875" class="ColorScheme-Text"/>
+	</g>
+</svg>

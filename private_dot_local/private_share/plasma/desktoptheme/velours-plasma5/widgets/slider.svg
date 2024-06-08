@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" shape-rendering="crispEdges" version="1.1" viewBox="0 0 36 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs id="defs3">
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {	color:#0000FF; }
+			.ColorScheme-Highlight { color:#FF00FF; }</style>
+	</defs>
+	<defs id="defs32">
+		<g class="ColorScheme-Highlight">
+			<radialGradient id="radialGradient1973" cx="19" cy="38" r="8" gradientUnits="userSpaceOnUse">
+				<stop style="stop-color:currentColor;stop-opacity:0" offset="0"/>
+				<stop style="stop-color:currentColor;stop-opacity:0" offset=".7"/>
+				<stop style="stop-color:currentColor;stop-opacity:.75" offset=".75"/>
+				<stop style="stop-color:currentColor;stop-opacity:0" offset="1"/>
+			</radialGradient>
+		</g>
+		<linearGradient id="linearGradient4207">
+			<stop style="stop-opacity:0" offset="0"/>
+			<stop style="stop-opacity:.375" offset="1"/>
+		</linearGradient>
+		<linearGradient id="linearGradient4213" x1="10" x2="10" y1="5" y2="11" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4207"/>
+		<linearGradient id="linearGradient4249" x1="1.5" x2="1.5" y1="5" y2="11" gradientTransform="translate(0,-2)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4207"/>
+		<linearGradient id="linearGradient4251" x1="1.5" x2="1.5" y1="5" y2="11" gradientTransform="translate(0,2)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4207"/>
+		<linearGradient id="linearGradient927-3" x1="5" x2="5" y1="14" y2="26" gradientTransform="translate(13,-12)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4207"/>
+		<radialGradient id="radialGradient963" cx="48" cy="-12" r="8" gradientTransform="matrix(.9375 0 0 .9375 -27 19.75)" gradientUnits="userSpaceOnUse">
+			<stop offset="0"/>
+			<stop offset=".8"/>
+			<stop style="stop-opacity:0" offset="1"/>
+		</radialGradient>
+	</defs>
+	<metadata id="metadata34">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<rect id="groove-center" class="ColorScheme-Text" x="3" y="16" width="30" height="4" style="fill:currentColor;opacity:.5"/>
+	<rect id="groove-right" class="ColorScheme-Text" x="33" y="16" width="3" height="4" style="fill:currentColor;opacity:.5"/>
+	<rect id="groove-left" class="ColorScheme-Text" y="16" width="3" height="4" style="fill:currentColor;opacity:.5"/>
+	<g id="groove-top" transform="matrix(6,0,0,1,573,-9)">
+		<rect class="ColorScheme-Text" x="-95" y="14" width="5" height="3" style="fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="groove-topleft" transform="translate(98,-9)">
+		<path class="ColorScheme-Text" d="m-95 14c-1.662 0-3 1.338-3 3h3v-3z" style="fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="groove-topright" transform="translate(123,-9)">
+		<path class="ColorScheme-Text" d="m-90 14c1.662 0 3 1.338 3 3h-3v-3z" style="fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="groove-bottom" transform="matrix(6,0,0,1,573,-42)">
+		<rect class="ColorScheme-Text" x="-95" y="50" width="5" height="3" style="fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="groove-bottomleft" transform="translate(98,-42)">
+		<path class="ColorScheme-Text" d="m-95 53c-1.662 0-3-1.338-3-3h3v3z" style="fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="groove-bottomright" transform="translate(123,-42)">
+		<path class="ColorScheme-Text" d="m-90 53c1.662 0 3-1.338 3-3h-3v3z" style="fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="groove-highlight-top">
+		<rect class="ColorScheme-Highlight" x="3" y="5" width="15" height="3" style="fill-rule:evenodd;fill:currentColor"/>
+		<rect x="3" y="5" width="15" height="3" style="fill-rule:evenodd;fill:url(#linearGradient4213)"/>
+	</g>
+	<g id="groove-highlight-bottom">
+		<rect class="ColorScheme-Highlight" x="3" y="8" width="15" height="3" style="fill-rule:evenodd;fill:currentColor"/>
+		<rect x="3" y="8" width="15" height="3" style="fill-rule:evenodd;fill:url(#linearGradient4213)"/>
+	</g>
+	<g id="groove-highlight-topleft" transform="translate(0,2)">
+		<path class="ColorScheme-Highlight" d="m3 3a3 3 0 0 0-3 3h3v-3z" style="fill-rule:evenodd;fill:currentColor"/>
+		<path d="m3 3a3 3 0 0 0-3 3h3v-3z" style="fill-rule:evenodd;fill:url(#linearGradient4249)"/>
+	</g>
+	<g id="groove-highlight-bottomleft" transform="translate(0,-2)">
+		<path class="ColorScheme-Highlight" d="m0 10a3 3 0 0 0 3 3v-3h-3z" style="fill-rule:evenodd;fill:currentColor"/>
+		<path d="m0 10a3 3 0 0 0 3 3v-3h-3z" style="fill-rule:evenodd;fill:url(#linearGradient4251)"/>
+	</g>
+	<g id="groove-highlight-topright" transform="matrix(-1,0,0,1,21,2)">
+		<path class="ColorScheme-Highlight" d="m3 3a3 3 0 0 0-3 3h3v-3z" style="fill-rule:evenodd;fill:currentColor"/>
+		<path d="m3 3a3 3 0 0 0-3 3h3v-3z" style="fill-rule:evenodd;fill:url(#linearGradient4249)"/>
+	</g>
+	<g id="groove-highlight-bottomright" transform="matrix(-1,0,0,1,21,-2)">
+		<path class="ColorScheme-Highlight" d="m0 10a3 3 0 0 0 3 3v-3h-3z" style="fill-rule:evenodd;fill:currentColor"/>
+		<path d="m0 10a3 3 0 0 0 3 3v-3h-3z" style="fill-rule:evenodd;fill:url(#linearGradient4251)"/>
+	</g>
+	<g id="groove-highlight-center">
+		<rect class="ColorScheme-Highlight" x="3" y="16" width="15" height="4" style="fill:currentColor"/>
+		<rect x="3" y="16" width="15" height="4" style="fill-opacity:.18824"/>
+	</g>
+	<g id="groove-highlight-left" transform="translate(0,-2)">
+		<rect class="ColorScheme-Highlight" y="18" width="3" height="4" style="fill:currentColor"/>
+		<rect y="18" width="3" height="4" style="fill-opacity:.18824"/>
+	</g>
+	<g id="groove-highlight-right">
+		<rect class="ColorScheme-Highlight" x="18" y="16" width="3" height="4" style="fill:currentColor"/>
+		<rect x="18" y="16" width="3" height="4" style="fill-opacity:.18824"/>
+	</g>
+	<rect id="hint-bar-size" x="-20.5" y="-30.333" width="6" height="6" style="fill:#17c000"/>
+	<g id="horizontal-slider-handle" transform="translate(1)">
+		<rect x="10" width="16" height="16" style="fill:none"/>
+		<path d="m11.371 5a7.5 7.5 0 0 0-0.87109 3.5 7.5 7.5 0 0 0 7.5 7.5 7.5 7.5 0 0 0 7.5-7.5 7.5 7.5 0 0 0-0.87305-3.5z" style="fill:url(#radialGradient963);opacity:.25"/>
+		<circle class="ColorScheme-Text" cx="18" cy="8" r="6" style="fill:currentColor"/>
+		<circle cx="18" cy="8" r="6" style="fill-rule:evenodd;fill:url(#linearGradient927-3)"/>
+	</g>
+	<rect id="hint-handle-size" x="-10.5" y="-36.333" width="12" height="12" style="fill:#17c000"/>
+	<g id="vertical-slider-handle" transform="translate(0,-20)">
+		<rect x="10" width="16" height="16" style="fill:none"/>
+		<circle cx="18" cy="8.5" r="7.5" style="fill:url(#radialGradient963);opacity:.25"/>
+		<circle class="ColorScheme-Text" cx="18" cy="8" r="6" style="fill:currentColor"/>
+		<circle cx="18" cy="8" r="6" style="fill-rule:evenodd;fill:url(#linearGradient927-3)"/>
+	</g>
+	<g id="horizontal-slider-hover" class="ColorScheme-Highlight" transform="translate(1,30)">
+		<rect x="10" width="16" height="16" style="fill:none"/>
+		<path transform="translate(-1,-30)" d="m19 30c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8 8-3.5817 8-8-3.5817-8-8-8z" style="fill:url(#radialGradient1973)"/>
+	</g>
+	<g id="horizontal-slider-focus" class="ColorScheme-Highlight" transform="translate(21,30)">
+		<rect x="10" width="16" height="16" style="fill:none"/>
+		<circle cx="18" cy="8" r="3" style="fill-opacity:.99;fill:currentColor"/>
+	</g>
+	<g id="vertical-slider-hover" class="ColorScheme-Highlight" transform="translate(1,50)">
+		<rect x="10" width="16" height="16" style="fill:none"/>
+		<path transform="translate(-1,-30)" d="m19 30c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8 8-3.5817 8-8-3.5817-8-8-8z" style="fill:url(#radialGradient1973)"/>
+	</g>
+	<g id="vertical-slider-focus" class="ColorScheme-Highlight" transform="translate(21,50)">
+		<rect x="10" width="16" height="16" style="fill:none"/>
+		<circle id="path4294-3" cx="18" cy="8" r="3" style="fill-opacity:.99;fill:currentColor"/>
+	</g>
+</svg>

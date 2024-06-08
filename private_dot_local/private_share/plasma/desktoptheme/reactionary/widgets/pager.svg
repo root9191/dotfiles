@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   sodipodi:docname="pager.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   id="svg17788"
+   version="1.1"
+   viewBox="0 0 42 12.000001"
+   height="12"
+   width="42"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17790"
+     pagecolor="#d1d1d1"
+     bordercolor="#6b6b6b"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     shape-rendering="crispEdges"
+     inkscape:zoom="22.580354"
+     inkscape:cx="21.766709"
+     inkscape:cy="12.090156"
+     inkscape:current-layer="layer1"
+     borderlayer="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1040"
+       originx="-154"
+       originy="-292.00003"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs17785" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-154,-292)">
+    <rect
+       style="fill:#d4d0c8;fill-opacity:1;stroke-width:0.186218;opacity:0.6"
+       id="normal-center"
+       width="10"
+       height="10"
+       x="170"
+       y="293" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="normal-top"
+       width="10"
+       height="1"
+       x="170"
+       y="292" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="normal-left"
+       width="1"
+       height="10"
+       x="169"
+       y="293" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="normal-bottom"
+       width="10"
+       height="1"
+       x="170"
+       y="303" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="normal-right"
+       width="1"
+       height="10"
+       x="180"
+       y="293" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="normal-bottomright"
+       width="1"
+       height="1"
+       x="180"
+       y="303" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="normal-topright"
+       width="1"
+       height="1"
+       x="180"
+       y="292" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="normal-topleft"
+       width="1"
+       height="1"
+       x="169"
+       y="292" />
+    <rect
+       style="fill:#96938e;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="normal-bottomleft"
+       width="1"
+       height="1"
+       x="169"
+       y="303" />
+    <rect
+       style="fill:#d4d0c8;fill-opacity:1;stroke-width:0.186218;opacity:0.6"
+       id="active-center"
+       width="10"
+       height="10"
+       x="185"
+       y="293" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="active-top"
+       width="10"
+       height="1"
+       x="185"
+       y="292" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="active-left"
+       width="1"
+       height="10"
+       x="184"
+       y="293" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="active-bottom"
+       width="10"
+       height="1"
+       x="185"
+       y="303" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="active-right"
+       width="1"
+       height="10"
+       x="195"
+       y="293" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="active-bottomright"
+       width="1"
+       height="1"
+       x="195"
+       y="303" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="active-topright"
+       width="1"
+       height="1"
+       x="195"
+       y="292" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="active-topleft"
+       width="1"
+       height="1"
+       x="184"
+       y="292" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="active-bottomleft"
+       width="1"
+       height="1"
+       x="184"
+       y="303" />
+    <rect
+       style="fill:#afa99d;fill-opacity:1;stroke-width:0.186218;opacity:0.5"
+       id="hover-center"
+       width="10"
+       height="10"
+       x="155"
+       y="293" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="hover-top"
+       width="10"
+       height="1"
+       x="155"
+       y="292" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="hover-left"
+       width="1"
+       height="10"
+       x="154"
+       y="293" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="hover-bottom"
+       width="10"
+       height="1"
+       x="155"
+       y="303" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0588874;opacity:1"
+       id="hover-right"
+       width="1"
+       height="10"
+       x="165"
+       y="293" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="hover-bottomright"
+       width="1"
+       height="1"
+       x="165"
+       y="303" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="hover-topright"
+       width="1"
+       height="1"
+       x="165"
+       y="292" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="hover-topleft"
+       width="1"
+       height="1"
+       x="154"
+       y="292" />
+    <rect
+       style="fill:#3a6ea5;fill-opacity:1;stroke-width:0.0186218;opacity:1"
+       id="hover-bottomleft"
+       width="1"
+       height="1"
+       x="154"
+       y="303" />
+  </g>
+</svg>

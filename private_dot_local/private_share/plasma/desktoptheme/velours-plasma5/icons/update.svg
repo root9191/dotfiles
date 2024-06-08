@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg3815" width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#0000FF; }
+			.ColorScheme-Highlight { color:#FF00FF; }</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-update-high" style="opacity:.875">
+		<rect x="-32" y="-22" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m-21-20-8 5v9l8 5 8-5v-9zm6 6.1v6.8l-6 3.7v-7.1z" style="fill:currentColor"/>
+		<path class="ColorScheme-Highlight" d="m-19-16v3.3l-2-1.1-3 1.6v5.4l-2-1.2v-5.3l3-1.7-2-1z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-update-medium" style="opacity:.875">
+		<rect x="-10" y="-22" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m1-20-8 5v9l8 5 8-5v-9zm2 4v3.3l-2-1.1-3 1.6v5.4l-2-1.2v-5.3l3-1.7-2-1zm4 2.1v6.8l-6 3.7v-7.1z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-update-low" style="opacity:.875">
+		<rect x="12" y="-22" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m23-20-8 5v9l8 5 8-5v-9zm2 4v3.3l-2-1.1-3 1.6v5.4l-2-1.2v-5.3l3-1.7-2-1zm4 2.1v6.8l-6 3.7v-7.1z" style="fill:currentColor"/>
+	</g>
+	<g id="22-22-update-none" style="opacity:.875">
+		<rect x="34" y="-22" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m45-20-8 5v9l8 5 8-5v-9zm6 6.1v6.8l-6 3.7v-7.1z" style="fill:currentColor"/>
+	</g>
+	<g id="update-high" style="opacity:.875">
+		<rect x="-32" width="32" height="32" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m-16 2-12 8v12l12 8 12-8v-12zm10 9.3v9.7l-10 6.7v-9.7z" style="fill:currentColor"/>
+		<path class="ColorScheme-Highlight" d="m-23 8h9v6l-2-1.3-4 2.7v7.3l-4-2.7v-7.3l4-2.7z" style="fill:currentColor"/>
+	</g>
+	<g id="update-medium" style="opacity:.875">
+		<rect width="32" height="32" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m16 2-12 8v12l12 8 12-8v-12zm-7 6h9v6l-2-1.3-4 2.7v7.3l-4-2.7v-7.3l4-2.7zm17 3.3v9.7l-10 6.7v-9.7z" style="fill:currentColor"/>
+	</g>
+	<g id="update-low" style="opacity:.875">
+		<rect x="32" width="32" height="32" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m48 2-12 8v12l12 8 12-8v-12zm-7 6h9v6l-2-1.3-4 2.7v7.3l-4-2.7v-7.3l4-2.7zm17 3.3v9.7l-10 6.7v-9.7z" style="fill:currentColor"/>
+	</g>
+	<g id="update-none" style="opacity:.875">
+		<rect x="64" width="32" height="32" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m80 2-12 8v12l12 8 12-8v-12zm10 9.3v9.7l-10 6.7v-9.7z" style="fill:currentColor"/>
+	</g>
+</svg>

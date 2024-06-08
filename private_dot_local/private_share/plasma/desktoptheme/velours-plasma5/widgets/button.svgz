@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" version="1.1" viewBox="0 0 150 36" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Highlight { color:#FF00FF; }
+	  .ColorScheme-Text { color:#0000FF; }</style>
+  <g class="ColorScheme-Text">
+   <linearGradient id="linearGradient4709-6">
+    <stop style="stop-color:currentColor;stop-opacity:.32941" offset="0"/>
+    <stop style="stop-color:currentColor;stop-opacity:.21176" offset="1"/>
+   </linearGradient>
+   <linearGradient id="linearGradient4631">
+    <stop style="stop-color:currentColor;stop-opacity:.75" offset="0"/>
+    <stop style="stop-color:currentColor;stop-opacity:.875" offset="1"/>
+   </linearGradient>
+   <linearGradient id="linearGradient4498" x1="85" x2="85" y2="16" gradientTransform="matrix(1,0,0,-1,-57,16)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4709-6"/>
+   <linearGradient id="linearGradient4566" x1="85" x2="85" y2="16" gradientTransform="matrix(.3 0 0 -1 36 16)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4709-6"/>
+   <linearGradient id="linearGradient4570" x1="85" x2="85" y2="16" gradientTransform="matrix(.3 0 0 -1 49 16)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4709-6"/>
+   <linearGradient id="linearGradient3224" x1="25" x2="25" y1="17" y2="3" gradientTransform="matrix(.068182 0 0 1 46.795 -4.1507e-6)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4631"/>
+   <linearGradient id="linearGradient3226" x1="25" x2="25" y1="17" y2="3" gradientTransform="matrix(.068182 0 0 1 -.20455 -4.1507e-6)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4631"/>
+   <linearGradient id="linearGradient3228" x1="25" x2="25" y1="17" y2="3" gradientTransform="matrix(.22727 0 0 .71429 2.3182 .85714)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4631"/>
+   <linearGradient id="linearGradient4508" x1="85" x2="85" y2="16" gradientTransform="matrix(1,0,0,-1,-17,16)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4709-6"/>
+   <linearGradient id="linearGradient4498-2" x1="85" x2="85" y2="16" gradientTransform="matrix(1 0 0 -1 -6 16)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4709-6"/>
+   <linearGradient id="linearGradient4112">
+    <stop style="stop-color:currentColor" offset="0"/>
+    <stop style="stop-color:currentColor;stop-opacity:.75" offset="1"/>
+   </linearGradient>
+   <linearGradient id="linearGradient4315" x1="-73" x2="-73" y1="51" y2="61" gradientTransform="translate(145,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+   <linearGradient id="linearGradient4312" x1="-37" x2="-37" y1="51" y2="61" gradientTransform="translate(121,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+   <linearGradient id="linearGradient4309" x1="-54" x2="-54" y1="51" y2="61" gradientTransform="matrix(.29412 0 0 1 94.882 -28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+  </g>
+  <linearGradient id="linearGradient1092" x1="-54" x2="-54" y1="51" y2="61" gradientTransform="matrix(.29412 0 0 1 43.882 -28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+  <linearGradient id="linearGradient1094" x1="-37" x2="-37" y1="51" y2="61" gradientTransform="translate(70,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+  <linearGradient id="linearGradient1096" x1="-73" x2="-73" y1="51" y2="61" gradientTransform="translate(94,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>obnosim</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <path id="pressed-center" d="m23 3v10h10v-10h-10z" style="fill:url(#linearGradient4498)"/>
+ <rect id="hint-stretch-borders" x="-16" y="-13" width="5" height="5" ry="0" style="fill:#008000"/>
+ <g id="normal-topleft" class="ColorScheme-Text" style="color:currentColor;opacity:.875">
+  <path d="m3 0c-1.662 0-3 1.338-3 3h3z" style="fill-opacity:.875;fill:currentColor"/>
+  <path d="m3 0c-1.662 0-3 1.338-3 3 0-1.108 1.338-2 3-2z" style="fill:currentColor;opacity:.375"/>
+ </g>
+ <rect id="normal-center" class="ColorScheme-Text" x="3" y="3" width="10" height="10" style="color:currentColor;fill:url(#linearGradient3228);opacity:.875"/>
+ <g id="normal-topright" class="ColorScheme-Text" transform="translate(-34)" style="color:currentColor;opacity:.875">
+  <path d="m47 0c1.662 0 3 1.338 3 3h-3z" style="fill-opacity:.875;fill:currentColor"/>
+  <path d="m47 0v1c1.662 0 3 0.892 3 2 0-1.662-1.338-3-3-3z" style="fill:currentColor;opacity:.375"/>
+ </g>
+ <g id="normal-bottomleft" class="ColorScheme-Text" transform="translate(1.7881e-7,-4)" style="color:currentColor;opacity:.875">
+  <path class="ColorScheme-Text" d="m3 20c-1.662 0-3-1.338-3-3h3z" style="fill-opacity:.75;fill:currentColor"/>
+  <path d="m3 20c-1.662 0-3-1.338-3-3 0 1.108 1.338 2 3 2z" style="opacity:.125"/>
+ </g>
+ <g id="normal-bottomright" class="ColorScheme-Text" transform="translate(-34,-4)" style="color:currentColor;opacity:.875">
+  <path class="ColorScheme-Text" d="m47 20c1.662 0 3-1.338 3-3h-3z" style="fill-opacity:.75;fill:currentColor"/>
+  <path d="m47 20v-1c1.662 0 3-0.892 3-2 0 1.662-1.338 3-3 3z" style="opacity:.125"/>
+ </g>
+ <g id="normal-top" class="ColorScheme-Text" transform="matrix(.22727 0 0 1 2.3182 0)" style="color:currentColor;opacity:.875">
+  <rect transform="rotate(90)" y="-47" width="3" height="44" style="fill-opacity:.875;fill:currentColor"/>
+  <path d="m3 0v1h44v-1z" style="fill:currentColor;opacity:.375"/>
+ </g>
+ <g id="normal-left" transform="matrix(1 0 0 .71429 1.7881e-7 .85714)">
+  <rect class="ColorScheme-Text" x="-1.7881e-7" y="3" width="3" height="14" style="fill:url(#linearGradient3226);opacity:.875"/>
+ </g>
+ <g id="normal-bottom" transform="matrix(.22727 0 0 1 2.3182 -4)" style="opacity:.875">
+  <rect class="ColorScheme-Text" transform="matrix(0,-1,-1,0,0,0)" x="-20" y="-47" width="3" height="44" style="fill-opacity:.75;fill:currentColor"/>
+  <path d="m3 20v-1h44v1z" style="opacity:.125"/>
+ </g>
+ <g id="normal-right" transform="matrix(1 0 0 .71429 -34 .85714)">
+  <rect class="ColorScheme-Text" x="47" y="3" width="3" height="14" style="fill:url(#linearGradient3224);opacity:.875"/>
+ </g>
+ <rect id="focus-hint-top-margin" class="ColorScheme-Highlight" x="7" y="18.999" width="2" height=".001" style="color:currentColor;fill:currentColor"/>
+ <rect id="focus-hint-bottom-margin" class="ColorScheme-Highlight" x="7" y="36.999" width="2" height=".001" style="color:currentColor;fill:currentColor"/>
+ <rect id="focus-hint-left-margin" class="ColorScheme-Highlight" x="-1" y="27" width=".001" height="2" style="color:currentColor;fill:currentColor"/>
+ <rect id="focus-hint-right-margin" class="ColorScheme-Highlight" x="17" y="27" width=".001" height="2" style="color:currentColor;fill:currentColor"/>
+ <path id="focus-topleft" class="ColorScheme-Highlight" d="m3 20c-1.662 0-3 1.338-3 3h3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="focus-center" class="ColorScheme-Highlight" x="3" y="23" width="10" height="10" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <path id="focus-topright" class="ColorScheme-Highlight" d="m13 20c1.662 0 3 1.338 3 3h-3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <path id="focus-bottomleft" class="ColorScheme-Highlight" d="m3 36c-1.662 0-3-1.338-3-3h3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <path id="focus-bottomright" class="ColorScheme-Highlight" d="m13 36c1.662 0 3-1.338 3-3h-3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="focus-top" class="ColorScheme-Highlight" transform="rotate(90)" x="20" y="-13" width="3" height="9.9999" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="focus-left" class="ColorScheme-Highlight" y="23" width="3" height="10" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="focus-bottom" class="ColorScheme-Highlight" transform="matrix(0,-1,-1,0,0,0)" x="-36" y="-13" width="3" height="9.9999" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="focus-right" class="ColorScheme-Highlight" x="13" y="23" width="3" height="10" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="hover-hint-top-margin" class="ColorScheme-Text" x="27" y="18.999" width="2" height=".001" style="color:currentColor;fill:currentColor"/>
+ <rect id="hover-hint-bottom-margin" class="ColorScheme-Text" x="27" y="36.999" width="2" height=".001" style="color:currentColor;fill:currentColor"/>
+ <rect id="hover-hint-left-margin" class="ColorScheme-Text" x="19" y="27" width=".001" height="2" style="color:currentColor;fill:currentColor"/>
+ <rect id="hover-hint-right-margin" class="ColorScheme-Text" x="37" y="27" width=".001" height="2" style="color:currentColor;fill:currentColor"/>
+ <g id="pressed-topleft" transform="translate(-40)">
+  <path d="m63 0c-1.662 0-3 1.338-3 3h3v-3z" style="fill:url(#linearGradient4508)"/>
+  <path d="m63 0c-1.662 0-3 1.338-3 3h1c0-.554.892-1 2-1v-2z" style="opacity:.125"/>
+ </g>
+ <g id="pressed-topright" transform="translate(-40)">
+  <path d="m73 0v3h3c0-1.662-1.338-3-3-3z" style="fill:url(#linearGradient4508)"/>
+  <path d="m73 0v2c1.108 0 2 .446 2 1h1c0-1.662-1.338-3-3-3z" style="opacity:.125"/>
+ </g>
+ <g id="pressed-bottomleft" transform="translate(-40)">
+  <path d="m60 13c0 1.662 1.338 3 3 3v-3h-3z" style="fill:url(#linearGradient4508)"/>
+  <path transform="translate(40)" d="m20 13c0 1.5822 1.2172 2.8565 2.7676 2.9766a2 3 0 0 1-1.7676-2.9766h-1z" style="opacity:.125"/>
+ </g>
+ <g id="pressed-bottomright" transform="translate(-40)">
+  <path d="m73 13v3c1.662 0 3-1.338 3-3h-3z" style="fill:url(#linearGradient4508)"/>
+  <path transform="translate(40)" d="m35 13a2 3 0 0 1-1.7773 2.9785c1.5552-0.11527 2.7773-1.3929 2.7773-2.9785h-1z" style="opacity:.125"/>
+ </g>
+ <g id="pressed-left" transform="translate(-40)">
+  <path d="m60 3v10h3v-10h-3z" style="fill:url(#linearGradient4566)"/>
+  <rect x="60" y="3" width="1" height="10" style="opacity:.125"/>
+ </g>
+ <g id="pressed-bottom" transform="translate(-40)">
+  <path d="m63 13v3h10v-3h-10z" style="fill:url(#linearGradient4508)"/>
+ </g>
+ <g id="pressed-right" transform="translate(-40)">
+  <path d="m73 3v10h3v-10h-3z" style="fill:url(#linearGradient4570)"/>
+  <rect x="75" y="3" width="1" height="10" style="opacity:.125"/>
+ </g>
+ <g id="pressed-top" transform="translate(-40)">
+  <path d="m63 0v3h10v-3h-10z" style="fill:url(#linearGradient4508)"/>
+  <rect x="63" width="10" height="2" style="opacity:.125"/>
+ </g>
+ <path id="toolbutton-pressed-center" d="m74 3v10h10v-10z" style="fill:url(#linearGradient4498-2)"/>
+ <rect id="toolbutton-focus-hint-top-margin" class="ColorScheme-Highlight" x="58" y="18.999" width="2" height=".001" style="color:currentColor;fill:currentColor"/>
+ <rect id="toolbutton-focus-hint-bottom-margin" class="ColorScheme-Highlight" x="58" y="36.999" width="2" height=".001" style="color:currentColor;fill:currentColor"/>
+ <rect id="toolbutton-focus-hint-left-margin" class="ColorScheme-Highlight" x="50" y="27" width=".001" height="2" style="color:currentColor;fill:currentColor"/>
+ <rect id="toolbutton-focus-hint-right-margin" class="ColorScheme-Highlight" x="68" y="27" width=".001" height="2" style="color:currentColor;fill:currentColor"/>
+ <path id="toolbutton-focus-topleft" class="ColorScheme-Highlight" d="m54 20c-1.662 0-3 1.338-3 3h3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="toolbutton-focus-center" class="ColorScheme-Highlight" x="54" y="23" width="10" height="10" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <path id="toolbutton-focus-topright" class="ColorScheme-Highlight" d="m64 20c1.662 0 3 1.338 3 3h-3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <path id="toolbutton-focus-bottomleft" class="ColorScheme-Highlight" d="m54 36c-1.662 0-3-1.338-3-3h3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <path id="toolbutton-focus-bottomright" class="ColorScheme-Highlight" d="m64 36c1.662 0 3-1.338 3-3h-3z" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="toolbutton-focus-top" class="ColorScheme-Highlight" transform="rotate(90)" x="20" y="-64" width="3" height="9.9999" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="toolbutton-focus-left" class="ColorScheme-Highlight" x="51" y="23" width="3" height="10" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="toolbutton-focus-bottom" class="ColorScheme-Highlight" transform="matrix(0,-1,-1,0,0,0)" x="-36" y="-64" width="3" height="9.9999" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <rect id="toolbutton-focus-right" class="ColorScheme-Highlight" x="64" y="23" width="3" height="10" style="color:currentColor;fill:currentColor;opacity:.75"/>
+ <g id="toolbutton-pressed-topleft" transform="translate(11)">
+  <path d="m63 0c-1.662 0-3 1.338-3 3h3z" style="fill:url(#linearGradient4508)"/>
+  <path d="m63 0c-1.662 0-3 1.338-3 3h1c0-0.554 0.892-1 2-1z" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-pressed-topright" transform="translate(11)">
+  <path d="m73 0v3h3c0-1.662-1.338-3-3-3z" style="fill:url(#linearGradient4508)"/>
+  <path d="m73 0v2c1.108 0 2 0.446 2 1h1c0-1.662-1.338-3-3-3z" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-pressed-bottomleft" transform="translate(11)">
+  <path d="m60 13c0 1.662 1.338 3 3 3v-3z" style="fill:url(#linearGradient4508)"/>
+  <path transform="translate(40)" d="m 20,13 c 0,1.5822 1.2172,2.8565 2.7676,2.9766 A 2,3 0 0 1 21,13 Z" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-pressed-bottomright" transform="translate(11)">
+  <path d="m73 13v3c1.662 0 3-1.338 3-3z" style="fill:url(#linearGradient4508)"/>
+  <path transform="translate(40)" d="m 35,13 a 2,3 0 0 1 -1.7773,2.9785 C 34.7779,15.86323 36,14.5856 36,13 Z" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-pressed-left" transform="translate(11)">
+  <path d="m60 3v10h3v-10z" style="fill:url(#linearGradient4566)"/>
+  <rect x="60" y="3" width="1" height="10" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-pressed-bottom" transform="translate(11)">
+  <path d="m63 13v3h10v-3z" style="fill:url(#linearGradient4508)"/>
+ </g>
+ <g id="toolbutton-pressed-right" transform="translate(11)">
+  <path d="m73 3v10h3v-10z" style="fill:url(#linearGradient4570)"/>
+  <rect x="75" y="3" width="1" height="10" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-pressed-top" transform="translate(11)">
+  <path d="m63 0v3h10v-3z" style="fill:url(#linearGradient4508)"/>
+  <rect x="63" width="10" height="2" style="opacity:.125"/>
+ </g>
+ <rect id="toolbutton-hover-left" class="ColorScheme-Text" x="71" y="23" width="3" height="10" style="fill:url(#linearGradient4315);opacity:.25"/>
+ <rect id="toolbutton-hover-right" class="ColorScheme-Text" x="84" y="23" width="3" height="10" style="fill:url(#linearGradient4312);opacity:.25"/>
+ <rect id="toolbutton-hover-center" class="ColorScheme-Text" x="74" y="23" width="10" height="10" style="fill:url(#linearGradient4309);opacity:.25"/>
+ <g id="toolbutton-hover-top" class="ColorScheme-Text" transform="matrix(.29412 0 0 1 136.35 -21)">
+  <rect transform="scale(1,-1)" x="-212" y="-44" width="34" height="3" style="fill:currentColor;opacity:.25"/>
+  <rect transform="translate(-141,-7)" x="-71" y="48" width="34" height="1" style="fill:currentColor;opacity:.125"/>
+ </g>
+ <g id="toolbutton-hover-topleft" class="ColorScheme-Text" transform="translate(286,-21)">
+  <path d="m-215 44c0-1.662 1.338-3 3-3v3z" style="fill:currentColor;opacity:.25"/>
+  <path d="m-212 41c-1.662 0-3 1.338-3 3 0-1.108 1.338-2 3-2z" style="fill:currentColor;opacity:.125"/>
+ </g>
+ <g id="toolbutton-hover-topright" class="ColorScheme-Text" transform="translate(262,-21)">
+  <path d="m-175 44c0-1.662-1.338-3-3-3v3z" style="fill:currentColor;opacity:.25"/>
+  <path d="m-178 41c1.662 0 3 1.338 3 3 0-1.108-1.338-2-3-2z" style="fill:currentColor;opacity:.125"/>
+ </g>
+ <g id="toolbutton-hover-bottom" class="ColorScheme-Text" transform="matrix(.29412 0 0 -1 136.35 77)">
+  <rect transform="scale(1,-1)" x="-212" y="-44" width="34" height="3" style="fill-opacity:.75;fill:currentColor;opacity:.25"/>
+  <rect transform="translate(-141,-7)" x="-71" y="48" width="34" height="1" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-hover-bottomleft" class="ColorScheme-Text" transform="matrix(1,0,0,-1,286,77)">
+  <path d="m-215 44c0-1.662 1.338-3 3-3v3z" style="fill-opacity:.75;fill:currentColor;opacity:.25"/>
+  <path d="m-212 41c-1.662 0-3 1.338-3 3 0-1.108 1.338-2 3-2z" style="opacity:.125"/>
+ </g>
+ <g id="toolbutton-hover-bottomright" class="ColorScheme-Text" transform="matrix(1,0,0,-1,262,77)">
+  <path d="m-175 44c0-1.662-1.338-3-3-3v3z" style="fill-opacity:.75;fill:currentColor;opacity:.25"/>
+  <path d="m-178 41c1.662 0 3 1.338 3 3 0-1.108-1.338-2-3-2z" style="opacity:.125"/>
+ </g>
+ <rect id="hover-left" class="ColorScheme-Text" x="20" y="23" width="3" height="10" style="fill:url(#linearGradient1096);opacity:.25"/>
+ <rect id="hover-right" class="ColorScheme-Text" x="33" y="23" width="3" height="10" style="fill:url(#linearGradient1094);opacity:.25"/>
+ <rect id="hover-center" class="ColorScheme-Text" x="23" y="23" width="10" height="10" style="fill:url(#linearGradient1092);opacity:.25"/>
+ <g id="hover-top" class="ColorScheme-Text" transform="matrix(.29412 0 0 1 85.35 -21)">
+  <rect transform="scale(1,-1)" x="-212" y="-44" width="34" height="3" style="fill:currentColor;opacity:.25"/>
+  <rect transform="translate(-141,-7)" x="-71" y="48" width="34" height="1" style="fill:currentColor;opacity:.125"/>
+ </g>
+ <g id="hover-topleft" class="ColorScheme-Text" transform="translate(235,-21)">
+  <path d="m-215 44c0-1.662 1.338-3 3-3v3z" style="fill:currentColor;opacity:.25"/>
+  <path d="m-212 41c-1.662 0-3 1.338-3 3 0-1.108 1.338-2 3-2z" style="fill:currentColor;opacity:.125"/>
+ </g>
+ <g id="hover-topright" class="ColorScheme-Text" transform="translate(211,-21)">
+  <path d="m-175 44c0-1.662-1.338-3-3-3v3z" style="fill:currentColor;opacity:.25"/>
+  <path d="m-178 41c1.662 0 3 1.338 3 3 0-1.108-1.338-2-3-2z" style="fill:currentColor;opacity:.125"/>
+ </g>
+ <g id="hover-bottom" class="ColorScheme-Text" transform="matrix(.29412 0 0 -1 85.35 77)" style="stroke-width:1.8439">
+  <rect transform="scale(1,-1)" x="-212" y="-44" width="34" height="3" style="fill-opacity:.75;fill:currentColor;opacity:.25"/>
+  <rect transform="translate(-141,-7)" x="-71" y="48" width="34" height="1" style="opacity:.125"/>
+ </g>
+ <g id="hover-bottomleft" class="ColorScheme-Text" transform="matrix(1,0,0,-1,235,77)">
+  <path d="m-215 44c0-1.662 1.338-3 3-3v3z" style="fill-opacity:.75;fill:currentColor;opacity:.25"/>
+  <path d="m-212 41c-1.662 0-3 1.338-3 3 0-1.108 1.338-2 3-2z" style="opacity:.125"/>
+ </g>
+ <g id="hover-bottomright" class="ColorScheme-Text" transform="matrix(1,0,0,-1,211,77)">
+  <path d="m-175 44c0-1.662-1.338-3-3-3v3z" style="fill-opacity:.75;fill:currentColor;opacity:.25"/>
+  <path d="m-178 41c1.662 0 3 1.338 3 3 0-1.108-1.338-2-3-2z" style="opacity:.125"/>
+ </g>
+</svg>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56" height="56" version="1.1" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs >
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#0000FF; }</style>
+		<linearGradient id="linearGradient1045" class="ColorScheme-Background">
+			<stop style="stop-color:currentColor;stop-opacity:0" offset="0"/>
+			<stop style="stop-color:currentColor;stop-opacity:0" offset=".6"/>
+			<stop style="stop-color:currentColor;stop-opacity:.06125" offset=".6"/>
+			<stop style="stop-color:currentColor;stop-opacity:0" offset="1"/>
+		</linearGradient>
+		<g class="ColorScheme-Text">
+			<linearGradient id="linearGradient4112">
+				<stop style="stop-color:currentColor" offset="0"/>
+				<stop style="stop-color:currentColor;stop-opacity:.75" offset="1"/>
+			</linearGradient>
+		</g>
+		<linearGradient id="linearGradient4288" x1="-73" x2="-73" y1="51" y2="61" gradientTransform="translate(94,-48)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient4285" x1="-37" x2="-37" y1="51" y2="61" gradientTransform="translate(70.3,-48)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient4282" x1="-54" x2="-54" y1="51" y2="61" gradientTransform="matrix(.294 0 0 1 44 -48)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1093" x1="-54" x2="-54" y1="51" y2="61" gradientTransform="matrix(.294 0 0 1 24 -28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1095" x1="-37" x2="-37" y1="51" y2="61" gradientTransform="translate(50.3,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1097" x1="-73" x2="-73" y1="51" y2="61" gradientTransform="translate(74,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1129" x1="-54" x2="-54" y1="51" y2="61" gradientTransform="matrix(.294 0 0 1 64 -28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1131" x1="-37" x2="-37" y1="51" y2="61" gradientTransform="translate(90.3,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1133" x1="-73" x2="-73" y1="51" y2="61" gradientTransform="translate(114,-28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1165" x1="-54" x2="-54" y1="51" y2="61" gradientTransform="matrix(.294 0 0 1 44 -8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1167" x1="-37" x2="-37" y1="51" y2="61" gradientTransform="translate(70.3,-8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<linearGradient id="linearGradient1169" x1="-73" x2="-73" y1="51" y2="61" gradientTransform="translate(94,-8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4112"/>
+		<radialGradient id="radialGradient1047" cx="23" cy="3" r="2.5" gradientTransform="matrix(0,-2,2,0,17,49)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1076" cx="33" cy="3" r="2.5" gradientTransform="matrix(2,0,0,2,-33,-3)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1084" cx="33" cy="13" r="2.5" gradientTransform="matrix(0,2,-2,0,59,-53)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1092" cx="23" cy="13" r="2.5" gradientTransform="matrix(-2,0,0,-2,69,39)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1100" x1="28" x2="28" y1="3" y2="-2" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1108" x1="23" x2="18" y1="8" y2="8" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1116" x1="33" x2="38" y1="8" y2="8" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1124" x1="28" x2="28" y1="13" y2="18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1063" cx="23" cy="43" r="2.5" gradientTransform="matrix(0,-2,2,0,-63,89)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1069" cx="33" cy="43" r="2.5" gradientTransform="matrix(2,0,0,2,-33,-43)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1073" x1="28" x2="28" y1="43" y2="38" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1077" x1="28" x2="28" y1="53" y2="58" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1081" cx="23" cy="53" r="2.5" gradientTransform="matrix(-2,0,0,-2,69,159)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1085" cx="33" cy="53" r="2.5" gradientTransform="matrix(0,2,-2,0,139,-13)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1089" x1="13" x2="18" y1="28" y2="28" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1094" x1="53" x2="58" y1="28" y2="28" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1098" x1="3" x2="-2" y1="28" y2="28" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1102" x1="43" x2="38" y1="28" y2="28" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1106" x1="8" x2="8" y1="23" y2="18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1110" x1="48" x2="48" y1="23" y2="18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1114" x1="48" x2="48" y1="33" y2="38" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<linearGradient id="linearGradient1118" x1="8" x2="8" y1="33" y2="38" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1122" cx="3" cy="33" r="2.5" gradientTransform="matrix(-2,0,0,-2,9,99)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1127" cx="13" cy="33" r="2.5" gradientTransform="matrix(0,2,-2,0,79,7)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1132" cx="43" cy="33" r="2.5" gradientTransform="matrix(-2,0,0,-2,129,99)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1136" cx="53" cy="33" r="2.5" gradientTransform="matrix(0,2,-2,0,119,-73)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1140" cx="43" cy="23" r="2.5" gradientTransform="matrix(0,-2,2,0,-3,109)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1144" cx="53" cy="23" r="2.5" gradientTransform="matrix(2,0,0,2,-53,-23)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1148" cx="3" cy="23" r="2.5" gradientTransform="matrix(0,-2,2,0,-43,29)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+		<radialGradient id="radialGradient1152" cx="13" cy="23" r="2.5" gradientTransform="matrix(2,0,0,2,-13,-23)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1045"/>
+	</defs>
+	<metadata >
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<rect id="hint-stretch-borders" x="-8" y="63" width="10" height="10" style="fill:green"/>
+	<rect id="hint-top-margin" x="-8" y="63" width="1" height="5" style="fill:green"/>
+	<rect id="hint-bottom-margin" x="-8" y="63" width="1" height="5" style="fill:green"/>
+	<rect id="hint-left-margin" x="-8" y="63" width="5" height="1" style="fill:green"/>
+	<rect id="hint-right-margin" x="-8" y="63" width="5" height="1" style="fill:green"/>
+	<g id="north-active-tab-left">
+		<rect x="18" y="3" width="5" height="10" style="fill:url(#linearGradient1108)"/>
+		<rect id="selected-left" x="20" y="3" width="3" height="10" style="fill:url(#linearGradient4288);opacity:.125"/>
+	</g>
+	<g id="north-active-tab-right">
+		<rect x="33" y="3" width="5" height="10" style="fill:url(#linearGradient1116)"/>
+		<rect id="selected-right" x="33" y="3" width="3" height="10" style="fill:url(#linearGradient4285);opacity:.125"/>
+	</g>
+	<rect id="north-active-tab-center" x="23" y="3" width="10" height="10" style="fill:url(#linearGradient4282);opacity:.125"/>
+	<g id="north-active-tab-top">
+		<rect x="23" y="-2" width="10" height="5" style="fill:url(#linearGradient1100)"/>
+		<rect class="ColorScheme-Text" transform="scale(1,-1)" x="23" y="-3" width="10" height="3" style="fill:currentColor;opacity:.125"/>
+		<rect class="ColorScheme-Text" x="23" width="10" height="1" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="north-active-tab-topleft">
+		<rect x="18" y="-2" width="5" height="5" style="fill:url(#radialGradient1047)"/>
+		<path id="path99-3" class="ColorScheme-Text" d="m20 3c0-1.7 1-3 3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m23 0c-2 0-3 1.3-3 3 0-1.1 1-2 3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="north-active-tab-topright">
+		<rect x="33" y="-2" width="5" height="5" style="fill:url(#radialGradient1076)"/>
+		<path id="path104-6" class="ColorScheme-Text" d="m36 3c0-1.7-1-3-3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m33 0c2 0 3 1.3 3 3 0-1.1-1-2-3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="north-active-tab-bottom">
+		<rect x="23" y="13" width="10" height="5" style="fill:url(#linearGradient1124)"/>
+		<rect class="ColorScheme-Text" x="23" y="13" width="10" height="3" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="north-active-tab-bottomleft">
+		<rect x="18" y="13" width="5" height="5" style="fill:url(#radialGradient1092)"/>
+		<path class="ColorScheme-Text" d="m20 13c0 1.7 1 3 3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="north-active-tab-bottomright">
+		<rect x="33" y="13" width="5" height="5" style="fill:url(#radialGradient1084)"/>
+		<path class="ColorScheme-Text" d="m36 13c0 1.7-1 3-3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="west-active-tab-left">
+		<rect x="-2" y="23" width="5" height="10" style="fill:url(#linearGradient1098)"/>
+		<rect y="23" width="3" height="10" style="fill:url(#linearGradient1097);opacity:.125"/>
+	</g>
+	<g id="west-active-tab-right">
+		<rect x="13" y="23" width="5" height="10" style="fill:url(#linearGradient1089)"/>
+		<rect x="13" y="23" width="3" height="10" style="fill:url(#linearGradient1095);opacity:.125"/>
+	</g>
+	<rect id="west-active-tab-center" x="3" y="23" width="10" height="10" style="fill:url(#linearGradient1093);opacity:.125"/>
+	<g id="west-active-tab-top">
+		<rect x="3" y="18" width="10" height="5" style="fill:url(#linearGradient1106)"/>
+		<rect class="ColorScheme-Text" transform="scale(1,-1)" x="3" y="-23" width="10" height="3" style="fill:currentColor;opacity:.125"/>
+		<rect class="ColorScheme-Text" x="3" y="20" width="10" height="1" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="west-active-tab-topleft">
+		<rect x="-2" y="18" width="5" height="5" style="fill:url(#radialGradient1148)"/>
+		<path class="ColorScheme-Text" d="m0 23c0-1.7 1-3 3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m3 20c-2 0-3 1.3-3 3 0-1.1 1-2 3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="west-active-tab-topright">
+		<rect x="13" y="18" width="5" height="5" style="fill:url(#radialGradient1152)"/>
+		<path class="ColorScheme-Text" d="m16 23c0-1.7-1-3-3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m13 20c2 0 3 1.3 3 3 0-1.1-1-2-3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="west-active-tab-bottom">
+		<rect x="3" y="33" width="10" height="5" style="fill:url(#linearGradient1118)"/>
+		<rect class="ColorScheme-Text" x="3" y="33" width="10" height="3" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="west-active-tab-bottomleft">
+		<rect x="-2" y="33" width="5" height="5" style="fill:url(#radialGradient1122)"/>
+		<path class="ColorScheme-Text" d="m0 33c0 1.7 1 3 3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="west-active-tab-bottomright">
+		<rect x="13" y="33" width="5" height="5" style="fill:url(#radialGradient1127)"/>
+		<path class="ColorScheme-Text" d="m16 33c0 1.7-1 3-3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="east-active-tab-left">
+		<rect x="38" y="23" width="5" height="10" style="fill:url(#linearGradient1102)"/>
+		<rect x="40" y="23" width="3" height="10" style="fill:url(#linearGradient1133);opacity:.125"/>
+	</g>
+	<g id="east-active-tab-right">
+		<rect x="53" y="23" width="5" height="10" style="fill:url(#linearGradient1094)"/>
+		<rect x="53" y="23" width="3" height="10" style="fill:url(#linearGradient1131);opacity:.125"/>
+	</g>
+	<rect id="east-active-tab-center" x="43" y="23" width="10" height="10" style="fill:url(#linearGradient1129);opacity:.125"/>
+	<g id="east-active-tab-top">
+		<rect x="43" y="18" width="10" height="5" style="fill:url(#linearGradient1110)"/>
+		<rect class="ColorScheme-Text" transform="scale(1,-1)" x="43" y="-23" width="10" height="3" style="fill:currentColor;opacity:.125"/>
+		<rect class="ColorScheme-Text" x="43" y="20" width="10" height="1" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="east-active-tab-topleft">
+		<rect x="38" y="18" width="5" height="5" style="fill:url(#radialGradient1140)"/>
+		<path class="ColorScheme-Text" d="m40 23c0-1.7 1-3 3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m43 20c-2 0-3 1.3-3 3 0-1.1 1-2 3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="east-active-tab-topright">
+		<rect x="53" y="18" width="5" height="5" style="fill:url(#radialGradient1144)"/>
+		<path class="ColorScheme-Text" d="m56 23c0-1.7-1-3-3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m53 20c2 0 3 1.3 3 3 0-1.1-1-2-3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="east-active-tab-bottom">
+		<rect x="43" y="33" width="10" height="5" style="fill:url(#linearGradient1114)"/>
+		<rect class="ColorScheme-Text" x="43" y="33" width="10" height="3" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="east-active-tab-bottomleft">
+		<rect x="38" y="33" width="5" height="5" style="fill:url(#radialGradient1132)"/>
+		<path class="ColorScheme-Text" d="m40 33c0 1.7 1 3 3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="east-active-tab-bottomright">
+		<rect x="53" y="33" width="5" height="5" style="fill:url(#radialGradient1136)"/>
+		<path class="ColorScheme-Text" d="m56 33c0 1.7-1 3-3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="south-active-tab-left">
+		<rect x="18" y="43" width="5" height="10" style="fill:url(#linearGradient1108)"/>
+		<rect x="20" y="43" width="3" height="10" style="fill:url(#linearGradient1169);opacity:.125"/>
+	</g>
+	<g id="south-active-tab-right">
+		<rect x="33" y="43" width="5" height="10" style="fill:url(#linearGradient1116)"/>
+		<rect x="33" y="43" width="3" height="10" style="fill:url(#linearGradient1167);opacity:.125"/>
+	</g>
+	<rect id="south-active-tab-center" x="23" y="43" width="10" height="10" style="fill:url(#linearGradient1165);opacity:.125"/>
+	<g id="south-active-tab-top">
+		<rect x="23" y="38" width="10" height="5" style="fill:url(#linearGradient1073)"/>
+		<rect class="ColorScheme-Text" transform="scale(1,-1)" x="23" y="-43" width="10" height="3" style="fill:currentColor;opacity:.125"/>
+		<rect class="ColorScheme-Text" x="23" y="40" width="10" height="1" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="south-active-tab-topleft">
+		<rect x="18" y="38" width="5" height="5" style="fill:url(#radialGradient1063)"/>
+		<path class="ColorScheme-Text" d="m20 43c0-1.7 1-3 3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m23 40c-2 0-3 1.3-3 3 0-1.1 1-2 3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="south-active-tab-topright">
+		<rect x="33" y="38" width="5" height="5" style="fill:url(#radialGradient1069)"/>
+		<path class="ColorScheme-Text" d="m36 43c0-1.7-1-3-3-3v3z" style="fill:currentColor;opacity:.125"/>
+		<path class="ColorScheme-Text" d="m33 40c2 0 3 1.3 3 3 0-1.1-1-2-3-2z" style="fill:currentColor;opacity:.0625"/>
+	</g>
+	<g id="south-active-tab-bottom">
+		<rect x="23" y="53" width="10" height="5" style="fill:url(#linearGradient1077)"/>
+		<rect class="ColorScheme-Text" x="23" y="53" width="10" height="3" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="south-active-tab-bottomleft">
+		<rect x="18" y="53" width="5" height="5" style="fill:url(#radialGradient1081)"/>
+		<path class="ColorScheme-Text" d="m20 53c0 1.7 1 3 3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+	<g id="south-active-tab-bottomright">
+		<rect x="33" y="53" width="5" height="5" style="fill:url(#radialGradient1085)"/>
+		<path class="ColorScheme-Text" d="m36 53c0 1.7-1 3-3 3v-3z" style="fill-opacity:.75;fill:currentColor;opacity:.125"/>
+	</g>
+</svg>

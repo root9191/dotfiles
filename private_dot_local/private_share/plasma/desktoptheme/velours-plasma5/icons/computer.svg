@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs5">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-computer-laptop">
+		<rect style="fill:none" height="22" width="22" y="0" x="0"/>
+		<path d="m4 3a1.0001 1.0001 0 0 0 -1 1v8.8066l-1.9277 4.8223a1.0001 1.0001 0 0 0 .9277 1.371h18a1.0001 1.0001 0 0 0 .92773 -1.3711l-1.928-4.822v-8.807a1.0001 1.0001 0 0 0 -1 -1h-14zm0 1h14v9h-14v-9z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="16-16-computer-laptop">
+		<rect style="fill:none" height="16" width="16" y="30" x="0"/>
+		<path d="m2 32c-.55226.000055-.99994.44774-1 1v7.8379l-.94922 2.8457c-.21596.647.26638 1.316.94922 1.316h14c.68284.000312 1.1652-.66862.94922-1.3164l-.949-2.846v-7.838c-.000055-.55226-.44774-.99994-1-1zm0 1h12v8h-12z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="computer-laptop">
+		<rect style="fill:none" height="32" width="32" y="-34" x="0"/>
+		<path d="m5-31c-.55226.000055-.99994.44774-1 1v14.836l-2.9492 8.8477c-.21598.6474.2664 1.3163.9492 1.316h28c.68284.0003117 1.1652-.66862.94922-1.3164l-2.949-8.8456v-14.838c-.000055-.55226-.44774-.99994-1-1zm0 1h22v15h-22z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="computer">
+		<rect style="fill:none" height="32" width="32" y="-34" x="-40"/>
+		<path d="m-38-32a1.0001 1.0001 0 0 0 -1 1v19a1.0001 1.0001 0 0 0 1 1h11.984c-.02336 1.7471-.17782 2.8081-1.1074 4.0078a1.0001 1.0001 0 0 0 -.19336 .042969l-3 1a1.0001 1.0001 0 0 0 .316 1.9492h12a1.0001 1.0001 0 0 0 .31641 -1.9492l-3-1a1.0001 1.0001 0 0 0 -.21680 -.044922c-.779-1.057-1.01-2.2615-1.066-4.0059h11.967a1.0001 1.0001 0 0 0 1 -1v-19a1.0001 1.0001 0 0 0 -1 -1h-28zm1 2h26v17h-26v-17z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="22-22-computer">
+		<rect style="fill:none" height="22" width="22" y="0" x="-30"/>
+		<path d="m-28 2a1.0001 1.0001 0 0 0 -1 1v12a1.0001 1.0001 0 0 0 1 1h7.9863c-.0358 1.0094-.19966 1.2133-.98633 2h-1a.50005 .50005 0 0 0 -.35352 .14648l-1 1a.50005 .50005 0 0 0 .354 .854h8a.50005 .50005 0 0 0 .35352 -.85352l-1-1a.50005 .50005 0 0 0 -.354 -.146h-1c-.78667-.78667-.95053-.99055-.98633-2h7.986a1.0001 1.0001 0 0 0 1 -1v-12a1.0001 1.0001 0 0 0 -1 -1h-18zm1 2h16v10h-16v-10z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="16-16-computer">
+		<rect style="fill:none" height="16" width="16" y="30" x="-24"/>
+		<path d="m-22 32c-.55226.000055-.99994.44774-1 1v8c.000055.55226.44774.99994 1 1h5c0 1 0 2-1 2h-.5c-.277 0-.5.223-.5.5s.223.5.5.5h5c.277 0 .5-.223.5-.5s-.223-.5-.5-.5h-.5c-1 0-1-1-1-2h5c.55226-.000055.99994-.44774 1-1v-8c-.0000552-.55226-.44774-.99994-1-1h-12zm0 1h12v8h-12v-8z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+</svg>

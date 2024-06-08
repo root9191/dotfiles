@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg7826" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-kalarm-disabled" transform="translate(-1.4966,75)">
+		<rect style="opacity:.125;fill:none" height="22" width="22" y="-27" x="1.4966"/>
+		<path class="ColorScheme-Text" style="opacity:.875;color:#0000ff;stroke:currentColor;stroke-linecap:round;stroke-width:2;fill:none" d="m2.5078-21.736c.87836-1.3542 2.0775-2.3564 3.2536-3.2536m13.47 0c1.3542.87836 2.3564 2.0775 3.2536 3.2536m-1.9884 6.7348c0 4.4183-3.5817 8-8 8s-8-3.5817-8-8 3.5817-8 8-8 8 3.5817 8 8z"/>
+	</g>
+	<g id="22-22-kalarm-partdisabled" transform="translate(-1.4966,51)">
+		<rect style="opacity:.125;fill:none" height="22" width="22" y="-27" x="1.4966"/>
+		<path class="ColorScheme-Text" style="opacity:.875;color:#0000ff;stroke:currentColor;stroke-linecap:round;stroke-width:2;fill:none" d="m2.5078-21.736c.87836-1.3542 2.0775-2.3564 3.2536-3.2536m13.47 0c1.3542.87836 2.3564 2.0775 3.2536 3.2536m-1.9884 6.7348c0 4.4183-3.5817 8-8 8s-8-3.5817-8-8 3.5817-8 8-8 8 3.5817 8 8zm-11-2.999 6 6m0-6-6 6"/>
+	</g>
+	<g id="22-22-kalarm" transform="translate(-1.4966,27)">
+		<rect style="opacity:.125;fill:none" height="22" width="22" y="-27" x="1.4966"/>
+		<path class="ColorScheme-Text" style="opacity:.875;color:#0000ff;stroke:currentColor;stroke-linecap:round;stroke-width:2;fill:none" d="m2.5078-21.736c.87836-1.3542 2.0775-2.3564 3.2536-3.2536m13.47 0c1.3542.87836 2.3564 2.0775 3.2536 3.2536m-1.9884 6.7348c0 4.4183-3.5817 8-8 8s-8-3.5817-8-8 3.5817-8 8-8 8 3.5817 8 8zm-8-4.999v5l3 3"/>
+	</g>
+	<g id="kalarm-disabled" transform="matrix(1.3333 0 0 1.3333 31.338 75.333)">
+		<rect style="opacity:.125;fill:none" height="24" width="24" y="-28" x=".4966"/>
+		<path class="ColorScheme-Text" d="m-4.3654-31.376c.78117-.15985 1.59-.24380 2.4184-.24380.82843 0 1.6372.08395 2.4184.24380m-14.174 14.175c-.15985-.78117-.24380-1.59-.24380-2.4184 0-.82843.08395-1.6372.24380-2.4184m17.059-2.885a7.5 7.5 0 0 1 0 10.607 7.5 7.5 0 0 1 -10.607 0 7.5 7.5 0 0 1 -2e-7 -10.607 7.5 7.5 0 0 1 10.607 0z" style="opacity:.875;stroke:currentColor;stroke-linecap:round;stroke-width:1.5;fill:none" transform="rotate(45)"/>
+	</g>
+	<g id="kalarm-partdisabled" transform="matrix(1.3333 0 0 1.3333 31.338 43.333)">
+		<rect style="opacity:.125;fill:none" height="24" width="24" y="-28" x=".4966"/>
+		<path class="ColorScheme-Text" style="opacity:.875;stroke:currentColor;stroke-linecap:round;stroke-width:1.5;fill:none" d="m9.4966-18.25 6 6m0-6-6 6m9.6028-13.023c.66540.43934 1.2967.95190 1.8825 1.5377.58579.58579 1.0983 1.2171 1.5377 1.8825m-20.046 0c.43934-.66540.95190-1.2967 1.5377-1.8825.58579-.58579 1.2171-1.0983 1.8825-1.5377m14.103 10.023a7.5 7.5 0 0 1 -7.5 7.5 7.5 7.5 0 0 1 -7.5 -7.5 7.5 7.5 0 0 1 7.5 -7.5 7.5 7.5 0 0 1 7.5 7.5z"/>
+	</g>
+	<g id="kalarm" transform="matrix(1.3333 0 0 1.3333 31.338 11.333)">
+		<rect style="opacity:.125;fill:none" height="24" width="24" y="-28" x=".4966"/>
+		<path class="ColorScheme-Text" style="opacity:.875;stroke:currentColor;stroke-linecap:round;stroke-width:1.5;fill:none" d="m12.497-19.75v4.5l3 2.25m3.6028-12.273c.66540.43934 1.2967.95190 1.8825 1.5377.58579.58579 1.0983 1.2171 1.5377 1.8825m-20.046 0c.43934-.66540.95190-1.2967 1.5377-1.8825.58579-.58579 1.2171-1.0983 1.8825-1.5377m14.103 10.023a7.5 7.5 0 0 1 -7.5 7.5 7.5 7.5 0 0 1 -7.5 -7.5 7.5 7.5 0 0 1 7.5 -7.5 7.5 7.5 0 0 1 7.5 7.5z"/>
+	</g>
+</svg>

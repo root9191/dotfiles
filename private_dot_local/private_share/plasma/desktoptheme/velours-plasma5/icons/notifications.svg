@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="local" type="text/css">
+			.negative { color:#ff2121; }
+		</style>
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+			.ColorScheme-Highlight { color:#FF00FF; }
+		</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-notifications-disabled">
+		<rect x="-26" y="10" width="22" height="22" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m-22 13c-1.1 0-2 0.9-2 2v10c0 1.1 0.9 2 2 2h4l3 3 3-3h4c1.1 0 2-0.9 2-2v-10c0-1.1-0.9-2-2-2h-14zm0 2h14v10h-4.8l-2.2 2.2-2.2-2.2h-4.8v-10z" style="fill:currentColor;opacity:.25"/>
+		<path class="negative" d="m-19 20h8" style="opacity:.875;fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+	<g id="notifications-disabled">
+		<rect width="32" height="32" style="fill:none"/>
+		<path class="ColorScheme-Text" d="m5 4c-1.11 0-2 0.89-2 2v16c0 1.1 0.89 2 2 2h7l4 4 4-4h7c1.1 0 2-0.9 2-2v-16c0-1.11-0.9-2-2-2h-22zm0 2h22v16h-7.8l-3.2 3.2-3.2-3.2h-7.8v-16z" style="fill:currentColor;opacity:.25"/>
+		<path class="negative" d="m9 14h14" style="opacity:.875;fill:none;stroke-linecap:round;stroke-width:2;stroke:currentColor"/>
+	</g>
+</svg>

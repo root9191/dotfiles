@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 32 32" width="32" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+			.ColorScheme-Highlight { color:#FF00FF; }
+		</style>
+	</defs>
+	<g id="quota" class="ColorScheme-Text" transform="translate(21,-11)">
+		<rect style="opacity:.875;fill:none" height="22" width="22" y="-9" x="-101"/>
+		<path style="opacity:.875;fill-rule:evenodd;fill:currentColor" d="m-90-7c-4.9706 0-9 4.0294-9 9s4.0294 9 9 9 9-4.0294 9-9c0-.52232-.05522-1.0313-.14062-1.5293l-8.5801 2.4902a1.0001 1.0001 0 0 1 -1.2461 -1.2188l2.3125-8.6309c-.44-.066-.888-.1112-1.346-.1112z"/>
+		<path style="opacity:.875;fill-rule:evenodd;fill:currentColor" d="m-86.389-7.6133-2.1855 8.1582 8.1191-2.3574c-.91261-2.7731-3.1321-4.9523-5.9336-5.8008z"/>
+	</g>
+	<g id="22-22-quota-low" transform="translate(21,39)">
+		<rect style="fill:none" height="22" width="22" y="0" x="-30"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m-10.666 16.506c2.6173-3.961 2.0893-9.2155-1.264-12.576-1.839-1.8393-4.323-2.8895-6.924-2.9277-2.702-.03942-5.305 1.0167-7.216 2.9277-3.3596 3.3599-3.8911 8.6199-1.2715 12.584"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m-24.506 19.334c3.3403 2.2088 7.6761 2.2118 11.02.0078"/>
+	</g>
+	<g id="22-22-quota-critical" transform="translate(21,39)">
+		<rect style="fill:none" height="22" width="22" y="0" x="30"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m44.164 1.5176c-.973-.3258-1.991-.4997-3.018-.5156-1.109-.01244-2.212.1598-3.265.5097"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m34.408 3.4961c-.16413.13934-.32372.28395-.47852.43359-3.9042 3.9051-3.9042 10.236 0 14.141 3.9051 3.9042 10.236 3.9042 14.141 0 3.9042-3.9051 3.9042-10.236 0-14.141-.143-.1415-.29-.2783-.441-.4106"/>
+	</g>
+	<g id="22-22-quota-high" transform="translate(21,39)">
+		<rect style="fill:none" height="22" width="22" y="0" x="0"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m18.467 4.3672c-.128-.1497-.260-.2956-.397-.4375-1.839-1.8393-4.323-2.8895-6.924-2.9277-2.7019-.03947-5.3052 1.0166-7.2163 2.9277-.1418.1429-.2792.2901-.4121.4414"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m1.5176 7.834c-1.1999 3.5935-.26608 7.5566 2.4121 10.236 3.9051 3.9042 10.236 3.9042 14.141 0 2.6763-2.6834 3.6057-6.6491 2.4004-10.242"/>
+	</g>
+	<g id="22-22-quota-missing" transform="translate(21,39)">
+		<rect style="fill:none" height="22" width="22" y="0" x="-60"/>
+		<path class="ColorScheme-Text" style="opacity:.5;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m-40.666 16.498c2.2088-3.3403 2.2118-7.6761.0078-11.02m-13.848 13.855c3.3403 2.2088 7.6761 2.2118 11.02.0078m-.01561-16.683c-3.3403-2.2088-7.6761-2.2118-11.02-.0078m-2.8202 2.8436c-2.2088 3.3403-2.2118 7.6761-.0078 11.02"/>
+	</g>
+	<g id="quota-missing" class="ColorScheme-Text" transform="matrix(1.3333,0,0,1.3333,41.333,1.333)">
+		<rect style="fill:none" height="24" width="24" y="-1" x="-61"/>
+		<path style="opacity:.5;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" transform="matrix(.75 0 0 .75 -15.25 -9.25)" d="m-37.342 16.514c-2.222-1.628-4.903-2.509-7.658-2.514-2.7546.0054-5.4362.88559-7.6582 2.5137m-2.8281 2.8281c-1.628 2.222-2.509 4.903-2.514 7.658.0054 2.7546.88559 5.4362 2.5137 7.6582m20.973 0c1.627-2.222 2.508-4.903 2.513-7.658-.0054-2.7546-.88559-5.4362-2.5137-7.6582m-18.144 18.144c2.222 1.628 4.903 2.509 7.658 2.514 2.7546-.0054 5.4362-.88559 7.6582-2.5137"/>
+	</g>
+	<g id="quota-high" transform="translate(21,-11)">
+		<rect style="fill:none" height="32" width="32" y="11" x="19"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m45.121 18.848c-2.467-3.064-6.188-4.846-10.121-4.848-3.9319.0043-7.6507 1.7879-10.115 4.8516"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m22.887 22.316c-.582 1.494-.883 3.081-.887 4.684 0 7.1797 5.8203 13 13 13s13-5.8203 13-13c-.000295-1.6045-.29762-3.1951-.87695-4.6914"/>
+	</g>
+	<g id="quota-low" transform="translate(21,-11)">
+		<rect style="fill:none" height="32" width="32" y="11" x="-21"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m5.4863 34.658c1.6281-2.222 2.5083-4.903 2.5137-7.658 0-7.18-5.8203-13-13-13s-13 5.8203-13 13c.0054 2.7546.88559 5.4362 2.5137 7.6582"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m-12.658 37.486c2.222 1.628 4.9034 2.509 7.658 2.514 2.7546-.005 5.4362-.886 7.6582-2.514"/>
+	</g>
+	<g id="quota-critical" transform="translate(21,-11)">
+		<rect style="fill:none" height="32" width="32" y="11" x="59"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m79.684 14.887c-1.494-.582-3.081-.883-4.684-.887-1.6039.000536-3.1938.29786-4.6895.87695"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m66.848 16.881c-3.064 2.466-4.846 6.186-4.848 10.119 0 7.1797 5.8203 13 13 13s13-5.8203 13-13c-.0038-3.9316-1.7867-7.6503-4.8496-10.115"/>
+	</g>
+	<g id="48-48-quota-high" transform="translate(21,-11)">
+		<rect style="fill:none" height="48" width="48" y="-45" x="59"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m98.344-32.168c-3.569-4.913-9.272-7.823-15.344-7.832-6.0726.0077-11.776 2.9177-15.346 7.8301"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m65.65-28.709c-1.083 2.426-1.645 5.052-1.65 7.709 0 10.493 8.5066 19 19 19s19-8.5066 19-19c-.008-2.6552-.57198-5.2794-1.6562-7.7031"/>
+	</g>
+	<g id="48-48-quota-critical" transform="translate(21,-11)">
+		<rect style="fill:none" height="48" width="48" y="-45" x="119"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m150.71-38.35c-2.43-1.082-5.05-1.645-7.71-1.65-2.6552.0078-5.2794.57198-7.7031 1.6562"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m131.83-36.342c-4.91 3.569-7.82 9.27-7.83 15.342 0 10.493 8.5066 19 19 19s19-8.5066 19-19c-.008-6.0726-2.9177-11.776-7.8301-15.346"/>
+	</g>
+	<g id="48-48-quota-low" transform="translate(21,-11)">
+		<rect style="fill:none" height="48" width="48" y="-45" x="-1"/>
+		<path class="ColorScheme-Text" style="opacity:0.187;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m37.721-9.0208c2.7352-3.3764 4.2304-7.5883 4.2363-11.934-.0000010-10.493-8.5066-19-19-19-10.493-.000001-19 8.5066-19 19 .0025 4.3472 1.4957 8.5621 4.2305 11.941"/>
+		<path class="ColorScheme-Highlight" style="opacity:.875;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m11.11-6.1024c3.3769 2.7356 7.5896 4.2308 11.936 4.2363 4.3466-.003 8.5607-1.4962 11.939-4.2305"/>
+	</g>
+	<g id="48-48-quota-missing" class="ColorScheme-Text" transform="translate(21,-11)">
+		<rect style="fill:none" height="48" width="48" y="-45" x="-61"/>
+		<path style="opacity:.5;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none" d="m-22.235-9.0631c2.7356-3.3769 4.2308-7.5896 4.2363-11.936-.003-4.3466-1.4962-8.5607-4.2305-11.939m-2.8351-2.8256c-3.377-2.735-7.59-4.23-11.936-4.236-4.3466.003-8.5607 1.4962-11.939 4.2305m-2.8242 2.834c-2.736 3.377-4.231 7.59-4.237 11.936.003 4.3466 1.4962 8.5607 4.2305 11.939m2.834 2.8242c3.377 2.7361 7.59 4.2313 11.936 4.2368 4.3466-.00297 8.5607-1.4962 11.939-4.2305"/>
+	</g>
+</svg>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Pokemon Infinity
+Exec=bottles-cli run -p 'Pokemon Infinity' -b 'Pokemon' -- %u
+Type=Application
+Terminal=false
+Categories=Application;
+Icon=/home/lichti/.local/share/bottles/bottles/Pokemon/icons/InfinityIcon.ico
+Comment=Launch Pokemon Infinity using Bottles.
+StartupWMClass=Pokemon Infinity
+Actions=Configure;
+[Desktop Action Configure]
+Name=Configure in Bottles
+Exec=bottles -b 'Pokemon'

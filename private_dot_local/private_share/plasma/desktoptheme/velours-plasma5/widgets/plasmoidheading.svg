@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg>
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+		.ColorScheme-Text { color: #0000FF; }
+		.ColorScheme-Background { color: #FF0000; }
+	</style>
+  </defs>
+  <rect id="hint-stretch-borders" width="1" height="1" x="-3" y="-3" />
+
+  <rect id="hint-top-margin"    width="1" height="5" x="5" y="0" />
+  <rect id="hint-bottom-margin" width="1" height="5" x="5" y="4" />
+  <rect id="hint-left-margin"   width="5" height="1" x="0" y="5" />
+  <rect id="hint-height-margin" width="5" height="1" x="4" y="5" />
+
+  <g id="header-topleft">
+    <rect width="3" height="3" x="0" y="0" style="fill:none" />
+  </g>
+  <g id="header-top">
+    <rect width="3" height="3" x="3" y="0" style="fill:none" />
+  </g>
+  <g id="header-topright">
+    <rect width="3" height="3" x="6" y="0" style="fill:none" />
+  </g>
+  <g id="header-left">
+    <rect width="3" height="3" x="0" y="3" style="fill:none" />
+  </g>
+  <g id="header-center">
+    <rect width="3" height="3" x="3" y="3" style="fill:none" />
+  </g>
+  <g id="header-right">
+    <rect width="3" height="3" x="6" y="3" style="fill:none" />
+  </g>
+  <g id="header-bottomleft">
+    <rect width="3" height="3" x="0" y="6" style="fill:none" />
+    <rect width="3" height="1" x="0" y="8" class="ColorScheme-Text" style="fill:currentColor;opacity:0.06125" />
+  </g>
+  <g id="header-bottom">
+    <rect width="3" height="3" x="3" y="6" style="fill:none" />
+    <rect width="3" height="1" x="3" y="8" class="ColorScheme-Text" style="fill:currentColor;opacity:0.06125"/>
+  </g>
+  <g id="header-bottomright">
+    <rect width="3" height="3" x="6" y="6" style="fill:none" />
+    <rect width="3" height="1" x="6" y="8" class="ColorScheme-Text" style="fill:currentColor;opacity:0.06125" />
+  </g>
+
+  <g id="footer-topleft">
+    <rect width="3" height="3" x="0" y="10" style="fill:none" />
+    <rect width="3" height="1" x="0" y="10" class="ColorScheme-Text" style="fill:currentColor;opacity:0.06125" />
+  </g>
+  <g id="footer-top">
+    <rect width="3" height="3" x="3" y="10" style="fill:none" />
+    <rect width="3" height="1" x="3" y="10" class="ColorScheme-Text" style="fill:currentColor;opacity:0.06125"/>
+  </g>
+  <g id="footer-topright">
+    <rect width="3" height="3" x="6" y="10" style="fill:none" />
+    <rect width="3" height="1" x="6" y="10" class="ColorScheme-Text" style="fill:currentColor;opacity:0.06125" />
+  </g>
+  <g id="footer-left">
+    <rect width="3" height="3" x="0" y="13" style="fill:none" />
+  </g>
+  <g id="footer-center">
+    <rect width="3" height="3" x="3" y="13" style="fill:none" />
+  </g>
+  <g id="footer-right">
+    <rect width="3" height="3" x="6" y="13" style="fill:none" />
+  </g>
+  <g id="footer-bottomleft">
+    <rect width="3" height="3" x="0" y="16" style="fill:none" />
+  </g>
+  <g id="footer-bottom">
+    <rect width="3" height="3" x="3" y="16" style="fill:none" />
+  </g>
+  <g id="footer-bottomright">
+    <rect width="3" height="3" x="6" y="16" style="fill:none" />
+  </g>
+</svg>

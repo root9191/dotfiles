@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs4">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="22-22-distribute-horizontal-x" transform="translate(0,22)">
+		<rect style="fill:none" ry=".5" height="22" width="22" y="-22" x="0"/>
+		<path d="m3 2c-.554 0-1 .446-1 1v1h2v-2h-1zm3 0v2h2v-2h-2zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zm4 0v2h2v-1c0-.554-.446-1-1-1h-1zm-16 4v2h2v-2h-2zm16 0v2h2v-2h-2zm-16 4v2h2v-2h-2zm16 0v2h2v-2h-2zm-16 4v2h2v-2h-2zm16 0v2h2v-2h-2zm-16 4v1c0 .554.446 1 1 1h1v-2h-2zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zm4 0v2h1c.554 0 1-.446 1-1v-1h-2z" style="opacity:.875;fill:currentColor" transform="translate(0,-22)" class="ColorScheme-Text"/>
+	</g>
+	<g id="distribute-horizontal-x">
+		<rect style="fill:none" height="32" width="32" y="-10" x="24"/>
+		<path d="m28-7c-.554 0-1 .446-1 1v1h2v-2h-1zm23 0v2h2v-1c0-.554-.446-1-1-1h-1zm-24 24v1c0 .554.446 1 1 1h1v-2h-2zm24 0v2h1c.554 0 1-.446 1-1v-1h-2zm-20-24v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-2zm-20 4v2h2v-2zm24 0v2h2v-2zm-24 4v2h2v-2zm24 0v2h2v-2zm-24 4v2h2v-2zm24 0v2h2v-2zm-24 4v2h2v-2zm24 0v2h2v-2zm-24 4v2h2v-2zm24 0v2h2v-2zm-20 4v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-2z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="16-16-distribute-horizontal-x" transform="translate(-30,22)">
+		<rect style="fill:none" height="16" width="16" y="-16" x="6"/>
+		<path style="opacity:.875;fill:currentColor" d="m8-15c-.554 0-1 .446-1 1v1h2v-2zm3 0v2h2v-2zm4 0v2h2v-2zm4 0v2h2v-1c0-.554-.446-1-1-1zm-12 4v2h2v-2zm12 0v2h2v-2zm-12 4v2h2v-2zm12 0v2h2v-2zm-12 4v1c0 .554.446 1 1 1h1v-2zm4 0v2h2v-2zm4 0v2h2v-2zm4 0v2h1c.554 0 1-.446 1-1v-1z" class="ColorScheme-Text"/>
+	</g>
+</svg>

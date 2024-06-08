@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg3055" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="location" transform="translate(-1,-1)">
+		<rect style="opacity:.375;fill:none" height="22" width="22" y="1" x="1"/>
+		<path d="m12 1c-3.866 0-7 3.134-7 7s7 15 7 15 7-11.134 7-15-3.134-7-7-7zm0 2c2.7614 0 5 2.2386 5 5s-2.2386 5-5 5-5-2.239-5-5c0-2.7614 2.2386-5 5-5z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="location-changed" transform="translate(-7,-1)">
+		<rect style="opacity:.375;fill:none" height="22" width="22" y="1" x="29"/>
+		<path d="m40 1c-3.866 0-7 3.134-7 7s7 15 7 15 7-11.134 7-15-3.134-7-7-7zm0 2c2.7614 0 5 2.2386 5 5s-2.2386 5-5 5-5-2.2386-5-5 2.2386-5 5-5zm0 3c-1.1046 0-2 .89543-2 2s.89543 2 2 2 2-.89543 2-2-.89543-2-2-2z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="location-unknown" transform="translate(-13,-1)">
+		<rect style="opacity:.375;fill:none" height="22" width="22" y="1" x="57"/>
+		<path d="m68 1c-3.866 0-7 3.134-7 7s7 15 7 15 7-11.134 7-15-3.134-7-7-7zm0 2c2.7614 0 5 2.2386 5 5s-2.2386 5-5 5-5-2.2386-5-5 2.2386-5 5-5zm-3 4c-.554 0-1 .446-1 1s.446 1 1 1h6c.554 0 1-.446 1-1s-.446-1-1-1h-6z" style="opacity:.875;fill:currentColor" class="ColorScheme-Text"/>
+	</g>
+	<g id="location" transform="matrix(1.4545 0 0 1.4545 -16.455 -35.455)">
+		<rect style="opacity:.375;fill:none" height="22" width="22" y="1" x="1"/>
+		<path style="opacity:.875;fill-rule:evenodd;fill:currentColor" d="m16-33c-4.9706 0-9 4.0294-9 9-3e-7 8 9 21 9 21 0-.0000015 9-13 9-21 0-4.9706-4.0294-9-9-9zm0 2a7 7 0 0 1 7 7 7 7 0 0 1 -7 7 7 7 0 0 1 -7 -7 7 7 0 0 1 7 -7z" transform="matrix(.68750 0 0 .68750 1 24.375)" class="ColorScheme-Text"/>
+	</g>
+	<g id="location-changed" transform="matrix(1.4545 0 0 1.4545 15.545 -35.455)">
+		<rect style="opacity:.375;fill:none" height="22" width="22" y="1" x="1"/>
+		<path style="opacity:.875;fill-rule:evenodd;fill:currentColor" d="m14.062 7.875a2.0625 2.0625 0 0 1 -2.0625 2.0625 2.0625 2.0625 0 0 1 -2.0625 -2.0625 2.0625 2.0625 0 0 1 2.0625 -2.0625 2.0625 2.0625 0 0 1 2.0625 2.0625zm-2.062-6.1875c-3.4173 0-6.1875 2.7702-6.1875 6.1875 0 5.5 6.1875 14.437 6.1875 14.437 0-.0000010 6.1875-8.9375 6.1875-14.437 0-3.4173-2.7702-6.1875-6.1875-6.1875zm0 1.375a4.8125 4.8125 0 0 1 4.812 4.8125 4.8125 4.8125 0 0 1 -4.812 4.812 4.8125 4.8125 0 0 1 -4.8125 -4.812 4.8125 4.8125 0 0 1 4.8125 -4.8125z" class="ColorScheme-Text"/>
+	</g>
+	<g id="location-unknown" transform="matrix(1.4545 0 0 1.4545 47.545 -35.455)">
+		<rect style="opacity:.375;fill:none" height="22" width="22" y="1" x="1"/>
+		<path style="opacity:.875;fill-rule:evenodd;fill:currentColor" d="m9.3896 7.1875h5.2207c.45824 0 .82715.36891.82715.82715s-.36891.82715-.82715.82715h-5.2207c-.45824 0-.82715-.36891-.82715-.82715s.36891-.82715.82715-.82715zm2.6104-5.5c-3.4173 0-6.1875 2.7702-6.1875 6.1875 0 5.5 6.1875 14.437 6.1875 14.437 0-.0000010 6.1875-8.9375 6.1875-14.437 0-3.4173-2.7702-6.1875-6.1875-6.1875zm0 1.375a4.8125 4.8125 0 0 1 4.812 4.8125 4.8125 4.8125 0 0 1 -4.812 4.812 4.8125 4.8125 0 0 1 -4.8125 -4.812 4.8125 4.8125 0 0 1 4.8125 -4.8125z" class="ColorScheme-Text"/>
+	</g>
+</svg>

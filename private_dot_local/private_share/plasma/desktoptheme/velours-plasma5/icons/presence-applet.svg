@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg3022" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs3615">
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text { color:#0000FF; }
+		</style>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>obnosim</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="user-online-plasma" transform="translate(-1,33)">
+		<rect style="opacity:.1;fill:none" height="22" width="22" y="-33" x="1"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" d="m12-33c-6.0751 0-11 4.9249-11 11 0 4 3 6 0 11 5-3 7 0 11 0 6.0751 0 11-4.9249 11-11s-4.9249-11-11-11zm5.9375 6.9688a1.0001 1.0001 0 0 1 .8125 1.6875l-7 8-.625.71875-.75-.59375-5-4a1.0005 1.0005 0 1 1 1.25 -1.5625l4.25 3.4062 6.375-7.2812a1.0001 1.0001 0 0 1 .562 -.343 1.0001 1.0001 0 0 1 .125 -.03125z"/>
+	</g>
+	<g id="user-busy-plasma" transform="translate(27,33)">
+		<rect style="opacity:.1;fill:none" height="22" width="22" y="-33" x="1"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" transform="translate(-28,-92)" d="m40 59c-6.0751 0-11 4.9249-11 11 0 4 3 6 0 11 5-3 7 0 11 0 6.0751 0 11-4.9249 11-11s-4.9249-11-11-11zm-7 10h14c.554 0 1 .446 1 1s-.446 1-1 1h-14c-.554 0-1-.446-1-1s.446-1 1-1z"/>
+	</g>
+	<g id="user-offline-plasma" transform="translate(55,33)">
+		<rect style="opacity:.1;fill:none" height="22" width="22" y="-33" x="1"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" transform="translate(-56,-92)" d="m68 59c-6.0751 0-11 4.9249-11 11 0 4 3 6 0 11 5-3 7 0 11 0 6.0751 0 11-4.9249 11-11s-4.9249-11-11-11zm4.9062 4.9688a1.0001 1.0001 0 0 1 .75 1.7812l-4.25 4.25 4.25 4.25a1.0001 1.0001 0 1 1 -1.406 1.406l-4.25-4.25-4.25 4.25a1.0001 1.0001 0 1 1 -1.406 -1.406l4.25-4.25-4.25-4.25a1.0001 1.0001 0 0 1 .59375 -1.7188 1.0001 1.0001 0 0 1 .8125 .3125l4.25 4.25 4.25-4.25a1.0001 1.0001 0 0 1 .65625 -.375z"/>
+	</g>
+	<g id="user-invisible-plasma" transform="translate(83,33)">
+		<rect style="opacity:.1;fill:none" height="22" width="22" y="-33" x="1"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" transform="translate(-56,-92)" d="m68 59c-6.0751 0-11 4.9249-11 11 0 4 3 6 0 11 5-3 7 0 11 0 6.0751 0 11-4.9249 11-11s-4.9249-11-11-11z"/>
+	</g>
+	<g id="user-away-plasma" transform="translate(111,33)">
+		<rect style="opacity:.1;fill:none" height="22" width="22" y="-33" x="1"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" transform="translate(-112,-92)" d="m124 59c-6.0751 0-11 4.9249-11 11 0 4 3 6 0 11 5-3 7 0 11 0 6.0751 0 11-4.9249 11-11s-4.9249-11-11-11zm-.0937 2.9688a1.0001 1.0001 0 0 1 1.09 1.031v6h6a1.0001 1.0001 0 1 1 0 2h-8v-8a1.0001 1.0001 0 0 1 .78125 -1 1.0001 1.0001 0 0 1 .125 -.03125z"/>
+	</g>
+	<g id="user-away-extended-plasma" transform="translate(139,33)">
+		<rect style="opacity:.1;fill:none" height="22" width="22" y="-33" x="1"/>
+		<path style="fill:currentColor;opacity:.875" class="ColorScheme-Text" transform="translate(-140,-92)" d="m152 59c-6.0751 0-11 4.9249-11 11 0 4 3 6 0 11 5-3 7 0 11 0 6.0751 0 11-4.9249 11-11s-4.9249-11-11-11zm-.0937 2.9688a1.0001 1.0001 0 0 1 1.09 1.031v7.4062l-.28125.3125-4.9688 4.9375a1.0001 1.0001 0 1 1 -1.41 -1.406l4.66-4.688v-6.562a1.0001 1.0001 0 0 1 .78125 -1 1.0001 1.0001 0 0 1 .125 -.03125z"/>
+	</g>
+</svg>
