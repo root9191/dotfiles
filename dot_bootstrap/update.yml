@@ -9,6 +9,7 @@
     #- setup.yml
   vars:
     remote_regular_user: "{{ lookup('env', 'USER') }}"
+    install_aur_packages: true  # Hier die Variable hinzugefügt
 
   tasks:
     - name: System update and package installation
