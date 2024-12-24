@@ -36,7 +36,7 @@
           become: yes
           become_user: "{{ remote_regular_user }}"
           ansible.builtin.command:
-            cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
+            cmd: "paru -S --needed --noconfirm {{ aur_packages|default([])|join(' ') }}"
           when: 
             - install_aur_packages | bool
 
