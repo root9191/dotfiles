@@ -1,0 +1,34 @@
+---
+- name: CachyOS System Update
+  hosts: localhost
+  become: true
+  connection: local
+  gather_facts: true
+  vars_files:
+    - packages.yml
+
+  tasks:
+    - name: System update and package installation
+      block:
+        - name: Check for updates
+          command: pacman -Qu
+          register: updates_available
+          changed_when: false
+          failed_when: false
+
+        - name: Update system
+          pacman:
+            update_cache: yes
+            upgrade: yes
+          when: updates_available.rc == 0
+
+        - name: Install pacman packages
+          pacman:
+            name: "{{ pacman_packages }}"
+            state: present
+            extra_args: "--noconfirm --noprogressbar"
+
+        - name: Install Flatpak packages
+          flatpak:
+            name: "{{ flatpak_packages }}"
+            state: present

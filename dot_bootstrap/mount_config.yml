@@ -1,0 +1,75 @@
+---
+- name: Configure System Mounts
+  hosts: localhost
+  become: true
+  connection: local
+  gather_facts: true
+  vars:
+    remote_regular_user: "{{ ansible_env.SUDO_USER or ansible_user_id }}"
+    # Variablen für Mount-Konfigurationen
+    configure_local_mounts: true
+    configure_cifs_mounts: true
+    configure_ftp_mount: false  # auf true setzen um FTP-Mount zu aktivieren
+    ftp_mount_variant: 1  # 1-4 für verschiedene FTP-Mount-Varianten
+    configure_bkplog_mount: false  # auf true setzen um bkplog-Mount zu aktivieren
+
+  tasks:
+    - name: Configure mount points
+      block:
+        - name: Create mount directories
+          file:
+            path: "{{ item }}"
+            state: directory
+            mode: '0755'
+          loop:
+            - /mnt/Daten
+            - /mnt/Volume1
+            - /mnt/Volume2
+            - /mnt/Games
+            - /mnt/Data
+            - /mnt/npm
+            - /mnt/GamesExt
+
+        - name: Add local partition mounts to fstab
+          mount:
+            path: "{{ item.path }}"
+            src: "{{ item.src }}"
+            fstype: "{{ item.fstype }}"
+            opts: "{{ item.opts }}"
+            state: present
+          loop:
+            - path: /mnt/Daten
+              src: UUID=3A7C537D7C53333D
+              fstype: auto
+              opts: "nosuid,nodev,nofail,x-gvfs-show"
+            - path: /mnt/Volume1
+              src: UUID=54C2791AC2790192
+              fstype: auto
+              opts: "nosuid,nodev,nofail,x-gvfs-show"
+            - path: /mnt/Volume2
+              src: UUID=38DC740DDC73C3A2
+              fstype: auto
+              opts: "nosuid,nodev,nofail,x-gvfs-show"
+            - path: /mnt/Games
+              src: UUID=f89a7672-aa56-4f18-aded-afc0a59c6f08
+              fstype: auto
+              opts: "nosuid,nodev,nofail,x-gvfs-show"
+            - path: /mnt/GamesExt
+              src: UUID=03963e3b-4a29-4acb-bbc1-061569c98e4b
+              fstype: auto
+              opts: "nosuid,nodev,nofail,x-gvfs-show"
+          when: configure_local_mounts | bool
+
+        - name: Add CIFS mounts to fstab
+          mount:
+            path: "{{ item.path }}"
+            src: "{{ item.src }}"
+            fstype: cifs
+            opts: "credentials=/home/lichti/.smbcredentials,iocharset=utf8,vers=3.0,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,x-gvfs-show,user"
+            state: present
+          loop:
+            - path: /mnt/Data
+              src: //rpi5/data
+            - path: /mnt/npm
+              src: //rpi5/ext/home/npm
+          when: configure_cifs_mounts | bool
