@@ -1,0 +1,50 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 710,
+                "origin_hash": "395a488c504ffde19f36963e95103332"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_TL",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 711,
+                "origin_hash": "395a488c504ffde19f36963e95103332"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_NORTH",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 708,
+                "origin_hash": "395a488c504ffde19f36963e95103332"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_TR",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 709,
+                "origin_hash": "395a488c504ffde19f36963e95103332"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_A",
+        "mapping_type": "key_macro"
+    }
+]
