@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Für jede gezogene Datei
+for video in "$@"; do
+    # Erstelle MP3-Dateinamen
+    filename="${video%.*}.mp3"
+    
+    # Öffne Terminal und konvertiere
+    gnome-terminal --wait -- bash -c "
+        echo 'Konvertiere: $video'
+        ffmpeg -i \"$video\" -vn -acodec mp3 \"$filename\"
+        echo 'Fertig! Enter zum Beenden...'
+        "
+done

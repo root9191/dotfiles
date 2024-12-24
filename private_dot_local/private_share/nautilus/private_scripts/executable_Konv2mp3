@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Für jede von Nautilus übergebene Datei
+echo "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" | while read -r video; do
+    # Überspringe leere Zeilen
+    [ -z "$video" ] && continue
+    
+    filename="${video%.*}.mp3"
+    
+    ffmpeg -y -i "$video" -vn \
+           -codec:a libmp3lame \
+           -b:a 320k \
+           -map_metadata 0 \
+           -id3v2_version 3 \
+           "$filename" \
+           -loglevel error
+done

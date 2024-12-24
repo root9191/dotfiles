@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Für jede von Nautilus übergebene Datei
+echo "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" | while read -r video; do
+    # Überspringe leere Zeilen
+    [ -z "$video" ] && continue
+    
+    filename="${video%.*}.mp4"
+    
+    # Konvertiere still im Hintergrund
+    # -y: Überschreibe existierende Dateien ohne Nachfrage
+    ffmpeg -y -i "$video" \
+           -codec:v copy \
+           -codec:a copy \
+           -map 0 \
+           -map_metadata 0 \
+           "$filename" \
+           -loglevel error
+done
