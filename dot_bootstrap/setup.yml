@@ -9,7 +9,7 @@
 
   vars:
     chaotic_aur_key: "3056513887B78AEB"
-    remote_regular_user: "{{ ansible_env.SUDO_USER or ansible_user_id }}"
+    remote_regular_user: "{{ lookup('env', 'USER') }}"
     install_aur_packages: false
   tasks:
     - name: Check if Chaotic AUR is already configured
