@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Windows
+Exec=/home/lichti/.local/bin/winapps windows %F
+Terminal=false
+Type=Application
+Icon=/home/lichti/.local/share/winapps/icons/windows.svg
+StartupWMClass=Microsoft Windows
+Comment=Microsoft Windows RDP Session

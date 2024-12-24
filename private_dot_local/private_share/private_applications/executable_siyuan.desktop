@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=SiYuan
+Exec='/mnt/Volume1/Cloud/Portable/Linux Apps/siyuan_3_1_16.appimage' --no-sandbox %U
+TryExec=/mnt/Volume1/Cloud/Portable/Linux Apps/siyuan_3_1_16.appimage
+Icon=siyuan2
+Terminal=false
+Type=Application
+
+StartupWMClass=SiYuan
+X-AppImage-Version=3.1.16
+Comment=Refactor your thinking
+Categories=Utility;
+
+X-AppImage-Version=3.1.16

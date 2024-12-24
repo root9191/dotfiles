@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Bitwarden
+Exec='/mnt/Volume1/Cloud/Portable/Linux Apps/bitwarden_2024_12_0.appimage' --no-sandbox %U
+TryExec=/mnt/Volume1/Cloud/Portable/Linux Apps/bitwarden_2024_12_0.appimage
+Icon=bitwarden
+Terminal=false
+Type=Application
+
+StartupWMClass=Bitwarden
+X-AppImage-Version=2024.12.0
+GenericName=Password Manager
+Comment=A secure and free password manager for all of your devices.
+MimeType=x-scheme-handler/bitwarden;
+Categories=Utility;
+
+X-AppImage-Version=2024.12.0

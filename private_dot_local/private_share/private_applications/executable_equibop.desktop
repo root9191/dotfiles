@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Discord
+GenericName=Internet Messenger
+Comment=Forked Custom Discord desktop app with Equicord preinstalled
+Type=Application
+Exec=equibop
+Icon=discord6
+Categories=Network;InstantMessaging;
+StartupWMClass=equibop
+Keywords=discord;equicord;equibop
