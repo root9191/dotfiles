@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "chezmoi",
+			"path": "../.local/share/chezmoi"
+		},
+		{
+			"name": "github",
+			"path": "github"
+		}
+	],
+	"settings": {
+		"folder-color.pathColors": [
+			{
+				"folderPath": "chezmoi/dot_bootstrap/update.yml/",
+				"color": "foldercolorizer.color_006699"
+			},
+			{
+				"folderPath": "chezmoi/",
+				"color": "foldercolorizer.color_ff3399"
+			},
+			{
+				"folderPath": "/home/lichti/Dokumente/github/",
+				"color": "foldercolorizer.color_008800"
+			}
+		],
+		"workbench.colorCustomizations": {}
+	}
+}
