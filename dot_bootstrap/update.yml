@@ -6,6 +6,7 @@
   gather_facts: true
   vars_files:
     - packages.yml
+    - setup.yml
 
   tasks:
     - name: System update and package installation
