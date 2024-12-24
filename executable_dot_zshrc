@@ -1,0 +1,54 @@
+fastfetch -c /home/lichti/.config/fastfetch/config.jsonc --logo-padding-top 5
+#-l small
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source /usr/share/cachyos-zsh-config/cachyos-config.zsh
+
+export PATH="$PATH:/home/lichti/.local/bin"
+eval "$(zoxide init zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+alias autoupdate='sudo /home/lichti/Dokumente/github/SystemCheck/system_check.sh -up'
+alias backuplinux='sudo /home/lichti/Dokumente/github/BackupLinux/backup_extneu.sh'
+alias syscheck='sudo /home/lichti/Dokumente/github/SystemCheck/system_check.sh'
+alias sshrpi='ssh dietpi@rpi5'
+alias vmnet='sudo systemctl start vmware-networks'
+alias stopnc='sudo /home/lichti/Dokumente/github/tools/stopnc.sh'
+alias supdate='echo "N" | autoupdate'
+alias cat='bat'
+alias ls='eza --icons --group-directories-first'
+alias ll='eza --icons --group-directories-first -l'
+alias start-docker='sudo systemctl start docker.service' 
+alias stop-docker='sudo systemctl stop docker.service' 
+alias status-docker='sudo systemctl status docker.service'
+alias start-winapps='docker compose --file ~/.config/winapps/compose.yaml start'
+alias stop-winapps='docker compose --file ~/.config/winapps/compose.yaml stop'
+
+
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
+#export PATH=/home/lichti/.local/bin:$PATH
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/lichti/.cache/lm-studio/bin"
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/keyring/ssh"
+export GNOME_KEYRING_CONTROL="${XDG_RUNTIME_DIR}/keyring"
+export GNOME_KEYRING_PID
+
+if [ -n "$DESKTOP_SESSION" ]; then
+    eval $(gnome-keyring-daemon --start 2>/dev/null)
+    export SSH_AUTH_SOCK
+fi
+
+#eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519_gh)
