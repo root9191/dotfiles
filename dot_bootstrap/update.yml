@@ -7,6 +7,8 @@
   vars_files:
     - packages.yml
     - setup.yml
+  vars:
+    remote_regular_user: "{{ lookup('env', 'USER') }}"
 
   tasks:
     - name: System update and package installation
@@ -34,10 +36,12 @@
           become_user: "{{ remote_regular_user }}"
           ansible.builtin.command:
             cmd: "paru -S --needed --noconfirm {{ aur_packages|default([])|join(' ') }}"
-            when: aur_packages is defined and aur_packages is not none and (aur_packages|default([])|length > 0)
-
+          when: aur_packages is defined and aur_packages is not none and (aur_packages|default([])|length > 0)
 
         - name: Install Flatpak packages
           flatpak:
-            name: "{{ flatpak_packages }}"
+            name: "{{ item }}"
             state: present
+            method: system
+          with_items: "{{ flatpak_packages | default([]) }}"
+          when: flatpak_packages is defined and flatpak_packages is not none and (flatpak_packages | default([]) | length > 0)
