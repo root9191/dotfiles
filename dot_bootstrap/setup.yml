@@ -58,8 +58,8 @@
       become_user: "{{ remote_regular_user }}"
       ansible.builtin.command:
         cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
-      when: 
-        - install_aur_packages | bool
+      #when: 
+       # - install_aur_packages | bool
       
     # Theme Installation Checks
     - name: Check for existing themes
