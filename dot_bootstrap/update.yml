@@ -35,8 +35,9 @@
           become: yes
           become_user: "{{ remote_regular_user }}"
           ansible.builtin.command:
-            cmd: "paru -S --needed --noconfirm {{ aur_packages|default([])|join(' ') }}"
-          when: aur_packages is defined and aur_packages is not none and (aur_packages|default([])|length > 0)
+            cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
+          when: 
+            - install_aur_packages | bool
 
         - name: Install Flatpak packages
           flatpak:
