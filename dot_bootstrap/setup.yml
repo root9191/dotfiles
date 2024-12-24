@@ -10,7 +10,7 @@
   vars:
     chaotic_aur_key: "3056513887B78AEB"
     remote_regular_user: "{{ ansible_env.SUDO_USER or ansible_user_id }}"
-
+    install_aur_packages: true
   tasks:
     - name: Check if Chaotic AUR is already configured
       command: grep -c "^\[chaotic-aur\]" /etc/pacman.conf
@@ -57,8 +57,9 @@
       become: yes
       become_user: "{{ remote_regular_user }}"
       ansible.builtin.command:
-        cmd: "paru -S --needed --noconfirm {{ aur_packages|default([])|join(' ') }}"
-        when: aur_packages is defined and aur_packages is not none and (aur_packages|default([])|length > 0)
+        cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
+      when: 
+        - install_aur_packages | bool
 
     # Theme Installation Checks
     - name: Check for existing themes
