@@ -1,0 +1,23 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=6FA7-EF72                            /boot/efi      vfat    defaults,umask=0077 0 2
+UUID=5cde1c17-b467-442b-9afe-6186a1e635ca /              ext4    defaults,noatime,commit=60 0 1
+tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
+/dev/disk/by-uuid/3A7C537D7C53333D /mnt/Daten auto nosuid,nodev,nofail,x-gvfs-show 0 0
+/dev/disk/by-uuid/54C2791AC2790192 /mnt/Volume1 auto nosuid,nodev,nofail,x-gvfs-show 0 0
+/dev/disk/by-uuid/38DC740DDC73C3A2 /mnt/Volume2 auto nosuid,nodev,nofail,x-gvfs-show 0 0
+/dev/disk/by-uuid/f89a7672-aa56-4f18-aded-afc0a59c6f08 /mnt/Games auto nosuid,nodev,nofail,x-gvfs-show 0 0
+//rpi5/data  /mnt/Data  cifs  credentials=/home/lichti/.smbcredentials,iocharset=utf8,vers=3.0,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,x-gvfs-show,user 0 0
+#curlftpfs#sirrah.ssl.hosttech.eu /mnt/ftp_lichti.at fuse auto,user,uid=1000,gid=1000,allow_other,_netdev,x-gvfs-show  0  0
+#curlftpfs#ftp://ftp_lichti:Z*#n8!Ys2&63lB4^^idX%z*#vw52#^y2z@sirrah.ssl.hosttech.eu /mnt/ftp_lichti.at fuse auto,user,uid=1000,gid=1000,allow_other,_netdev,x-gvfs-show,direct_io,big_writes 0 0
+#curlftpfs#sirrah.ssl.hosttech.eu /mnt/ftp_lichti.at fuse netrc=/home/lichti/.netrc,auto,user,uid=1000,gid=1000,allow_other,_netdev,x-gvfs-show,direct_io,big_writes 0 0
+#curlftpfs#sirrah.ssl.hosttech.eu /mnt/ftp_lichti.at fuse auto,user,uid=1000,gid=1000,allow_other,_netdev,x-gvfs-show,direct_io,big_writes 0 0
+//rpi5/ext/home/npm  /mnt/npm  cifs  credentials=/home/lichti/.smbcredentials,iocharset=utf8,vers=3.0,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,x-gvfs-show,user  0  0
+#/mnt/bkplog  /mnt/bkplog  none  bind,defaults,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,x-gvfs-show,user 0 0
+
+/dev/disk/by-uuid/03963e3b-4a29-4acb-bbc1-061569c98e4b /mnt/GamesExt auto nosuid,nodev,nofail,x-gvfs-show 0 0
