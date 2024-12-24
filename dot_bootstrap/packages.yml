@@ -37,12 +37,12 @@ pacman_packages:
   #- tracktion-waveform
   #- antimicrox
 aur_packages:
-  - equibop-git
+  #- equibop-git
   - numix-folders-git
 flatpak_packages:
   #- app.moosync.moosync
   #- com.bitwarden.desktop
-  - com.mattjakeman.ExtensionManager
+  #- com.mattjakeman.ExtensionManager
   #- com.usebottles.bottles
   #- com.vysp3r.ProtonPlus
   #- org.videolan.VLC
