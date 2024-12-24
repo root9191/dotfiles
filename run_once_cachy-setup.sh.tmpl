@@ -1,20 +1,20 @@
 #!/bin/bash
 
 # Exit bei Fehlern
-set -e
+#set -e
 
 # Markiere, dass eine Ersteinrichtung läuft
-touch ~/.local/share/chezmoi/.initial_setup
+#touch ~/.local/share/chezmoi/.initial_setup
 
 # Cleanup-Funktion für fehlerhafte Beendigung
-cleanup() {
-    local exit_code=$?
-    rm -f ~/.local/share/chezmoi/.initial_setup
-    exit $exit_code
-}
+#cleanup() {
+#    local exit_code=$?
+#    rm -f ~/.local/share/chezmoi/.initial_setup
+#    exit $exit_code
+#}
 
 # Trap für cleanup bei Fehler oder Abbruch
-trap cleanup ERR INT TERM
+#trap cleanup ERR INT TERM
 
 # Funktion zum Prüfen ob ein Paket installiert ist
 is_installed() {
@@ -77,6 +77,6 @@ else
 fi
 
 # Entferne die Markierung nach erfolgreicher Ersteinrichtung
-rm -f ~/.local/share/chezmoi/.initial_setup
+#rm -f ~/.local/share/chezmoi/.initial_setup
 
 echo "Setup erfolgreich abgeschlossen"
