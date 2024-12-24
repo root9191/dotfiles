@@ -18,7 +18,11 @@
       changed_when: false
       failed_when: false
 
+    - name: Include dotfiles tasks
+      include_tasks: config.yml
+    # Chaotic AUR Setup
     - name: Set up Chaotic AUR
+      when: chaotic_aur_check.stdout == "0"
       block:
         - name: Import and sign Chaotic AUR key
           shell: |
@@ -36,8 +40,8 @@
               [chaotic-aur]
               Include = /etc/pacman.d/chaotic-mirrorlist
             marker: "# {mark} CHAOTIC AUR REPO"
-      when: chaotic_aur_check.stdout == "0"
 
+    # System Updates and Package Installation
     - name: System update
       pacman:
         update_cache: yes
@@ -49,11 +53,99 @@
         state: present
         extra_args: "--noconfirm --noprogressbar"
 
+    - name: Install AUR packages
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      ansible.builtin.command:
+        cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
+
+    # Theme Installation Checks
+    - name: Check for existing themes
+      block:
+        - name: Check if Bibata cursor theme exists
+          stat:
+            path: "/home/{{ remote_regular_user }}/.icons/Bibata-Modern-Classic"
+          register: bibata_check
+          changed_when: false
+          failed_when: false
+
+        - name: Check if Numix Circle exists
+          stat:
+            path: "/home/{{ remote_regular_user }}/.icons/Numix-Circle"
+          register: numix_check
+          changed_when: false
+          failed_when: false
+
+    # Theme Installation
+    - name: Ensure required packages for themes
+      when: not bibata_check.stat.exists or not numix_check.stat.exists
+      block:
+        - name: Install git package
+          pacman:
+            name: git
+            state: present
+
+        - name: Create .icons directory
+          file:
+            path: "/home/{{ remote_regular_user }}/.icons"
+            state: directory
+            mode: '0755'
+            owner: "{{ remote_regular_user }}"
+            group: "{{ remote_regular_user }}"
+
+    # Bibata Theme Installation
+    - name: Install Bibata cursor theme
+      when: not bibata_check.stat.exists
+      block:
+        - name: Download cursor theme
+          get_url:
+            url: "https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.5/Bibata-Modern-Classic.tar.xz"
+            dest: "/tmp/Bibata-Modern-Classic.tar.xz"
+            mode: '0644'
+
+        - name: Extract cursor theme
+          unarchive:
+            src: "/tmp/Bibata-Modern-Classic.tar.xz"
+            dest: "/home/{{ remote_regular_user }}/.icons/"
+            remote_src: yes
+            owner: "{{ remote_regular_user }}"
+            group: "{{ remote_regular_user }}"
+
+        - name: Clean up cursor theme archive
+          file:
+            path: "/tmp/Bibata-Modern-Classic.tar.xz"
+            state: absent
+
+    # Numix Theme Installation
+    - name: Install Numix Circle icons
+      when: not numix_check.stat.exists
+      block:
+        - name: Clone Numix Circle repository
+          git:
+            repo: 'https://github.com/numixproject/numix-icon-theme-circle.git'
+            dest: '/tmp/numix-circle'
+            depth: 1
+
+        - name: Copy Circle theme
+          copy:
+            src: "/tmp/numix-circle/Numix-Circle"
+            dest: "/home/{{ remote_regular_user }}/.icons/"
+            remote_src: yes
+            owner: "{{ remote_regular_user }}"
+            group: "{{ remote_regular_user }}"
+
+        - name: Clean up Numix repository
+          file:
+            path: "/tmp/numix-circle"
+            state: absent
+
+    # Shell Configuration
     - name: Change shell to zsh
       user:
         name: "{{ remote_regular_user }}"
         shell: /usr/bin/zsh
 
+    # Flatpak Setup
     - name: Setup Flatpak and Flathub
       block:
         - name: Install Flatpak
@@ -72,6 +164,7 @@
             method: system
           loop: "{{ flatpak_packages }}"
 
+    # Timezone Setup
     - name: Set timezone
       timezone:
         name: Europe/Vienna

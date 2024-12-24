@@ -28,6 +28,12 @@
             state: present
             extra_args: "--noconfirm --noprogressbar"
 
+        - name: Install AUR packages
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          ansible.builtin.command:
+            cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
+
         - name: Install Flatpak packages
           flatpak:
             name: "{{ flatpak_packages }}"

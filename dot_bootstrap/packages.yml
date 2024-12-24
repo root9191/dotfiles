@@ -1,36 +1,26 @@
 pacman_packages:
-  #- base-devel
-  ##- firefox
-  - visual-studio-code-bin
+  - base-devel
+  #- visual-studio-code-bin
   #- betterbird-de-bin
-  #- bibata-cursor-theme
   #- brave-bin
-  #- cmatrix
-  #- ddcutil
+  - cmatrix
   #- gdm-settings
   #- iperf3
   #- mission-center
   #- nautilus-open-any-terminal
   #- nmap
   #- ntfs-3g
-  #- numix-circle-icon-theme-git
   #- obs-studio
   #- powershell-bin
   #- ptyxis
   #- vmware-workstation
   #- zoxide
   #- yay
-  #- paru
-  #- yelp
   #- fzf
-  #- nextcloud-client
   #- p7zip
   #- gnome-tweaks
-  #- tracktion-waveform
   #- timeshift-autosnap
-  #- vmware-workstation
   #- fuse2
-  #- firefox-i18n-de
   #- keychain
   #- eza
   #- bat
@@ -38,13 +28,23 @@ pacman_packages:
   #- github-cli
   #- libsecret
   #- seahorse
+  #- bibata-cursor-theme
+  #- firefox
+  #- firefox-i18n-de
+  #- ddcutil
+  #- numix-circle-icon-theme-git
+  #- nextcloud-client
+  #- tracktion-waveform
   #- antimicrox
+aur_packages:
+  - equibop-git
+  - numix-folders-git
 flatpak_packages:
   #- app.moosync.moosync
   #- com.bitwarden.desktop
   - com.mattjakeman.ExtensionManager
   #- com.usebottles.bottles
   #- com.vysp3r.ProtonPlus
-  - org.videolan.VLC
+  #- org.videolan.VLC
   #- it.mijorus.gearlever
   #- org.filezillaproject.Filezilla
