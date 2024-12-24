@@ -37,8 +37,8 @@ pacman_packages:
   #- tracktion-waveform
   #- antimicrox
 aur_packages:
-  - equibop-git
-  - numix-folders-git
+  #- equibop-git
+  #- numix-folders-git
 flatpak_packages:
   #- app.moosync.moosync
   #- com.bitwarden.desktop
