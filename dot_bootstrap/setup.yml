@@ -10,7 +10,8 @@
   vars:
     chaotic_aur_key: "3056513887B78AEB"
     remote_regular_user: "{{ lookup('env', 'USER') }}"
-    install_aur_packages: false
+    install_aur_packages: true
+
   tasks:
     - name: Check if Chaotic AUR is already configured
       command: grep -c "^\[chaotic-aur\]" /etc/pacman.conf
