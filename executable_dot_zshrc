@@ -35,6 +35,8 @@ alias stop-docker='sudo systemctl stop docker.service'
 alias status-docker='sudo systemctl status docker.service'
 alias start-winapps='docker compose --file ~/.config/winapps/compose.yaml start'
 alias stop-winapps='docker compose --file ~/.config/winapps/compose.yaml stop'
+
+#alias 'chezmoi git'='nocorrect chezmoi git'
 export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 #export PATH=/home/lichti/.local/bin:$PATH
 
