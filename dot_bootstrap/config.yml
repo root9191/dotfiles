@@ -1,0 +1,59 @@
+- name: Check if Extensions are present
+  stat:
+    path: "/home/{{ remote_regular_user }}/.local/share/gnome-shell/extensions"
+  register: ext_check
+  changed_when: false
+  failed_when: false
+
+- name: Setup dotfiles
+  vars:
+    dotfiles_repo: "https://github.com/root9191/configs.git"
+    dotfiles_local_path: "/tmp/dotfiles-clone"
+  when: not ext_check.stat.exists
+  block:
+    - name: Clean up existing temporary clone directory
+      file:
+        path: "{{ dotfiles_local_path }}"
+        state: absent
+
+    - name: Clone dotfiles repository
+      git:
+        repo: "{{ dotfiles_repo }}"
+        dest: "{{ dotfiles_local_path }}"
+        version: main
+
+    - name: Copy dotfiles to home directory
+      synchronize:
+        src: "{{ dotfiles_local_path }}/"
+        dest: "/home/{{ remote_regular_user }}/"
+        recursive: yes
+        delete: no
+        rsync_opts:
+          - "--exclude=.git"
+          - "--exclude=README.md"
+          - "--exclude=LICENSE"
+      become: false
+
+    - name: Set correct ownership
+      file:
+        path: "/home/{{ remote_regular_user }}"
+        owner: "{{ remote_regular_user }}"
+        group: "{{ remote_regular_user }}"
+        recurse: yes
+
+    - name: Clean up temporary clone directory
+      file:
+        path: "{{ dotfiles_local_path }}"
+        state: absent
+
+ #   - name: Create required directories
+ #     file:
+ #       path: "/home/{{ remote_regular_user }}/{{ item }}"
+ #       state: directory
+ #       mode: '0755'
+ #       owner: "{{ remote_regular_user }}"
+ #       group: "{{ remote_regular_user }}"
+ #     loop:
+ #       - .config
+ #       - .local/share
+ #       - .local/bin
