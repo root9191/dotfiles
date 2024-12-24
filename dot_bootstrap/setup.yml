@@ -163,8 +163,8 @@
             name: "{{ item }}"
             state: present
             method: system
-          loop: "{{ flatpak_packages|default([]) }}"
-          when: flatpak_packages is defined and flatpak_packages is not none and flatpak_packages|length > 0
+          when: flatpak_packages is defined and flatpak_packages | length > 0
+          with_items: "{{ flatpak_packages | default([]) }}"
     # Timezone Setup
     - name: Set timezone
       timezone:
