@@ -1,0 +1,558 @@
+Archcraft:
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢰⡆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢠⣿⣿⡄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣾⣿⣿⣿⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣷⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢼⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣰⣤⣈⠻⢿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣮⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣿⡿⣿⣿⡟⠄⠄⠸⣿⣿⡿⣿⣿⣿⣿⣿⣷⡀⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣿⡏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⣿⣿⣿⣿⣿⣷⡀⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⢀⣼⣿⣿⣿⣿⣿⣿⡗⠄⠄⠄⢀⣠⣤⣀⠄⠄⠄⠸⣿⣿⣿⣿⣿⣿⣷⡀⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⢀⣾⣿⣿⣿⣿⣿⡏⠁⠄⠄⠄⢠⣿⣿⣿⣿⡇⠄⠄⠄⠄⢙⣿⣿⣻⠿⣿⣷⡀⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⢀⣾⣿⣿⣿⣿⣿⣿⣷⣤⡀⠄⠄⠄⠻⣿⣿⡿⠃⠄⠄⠄⢀⣼⣿⣿⣿⣿⣦⣌⠙⠄⠄⠄⠄⠄
+⠄⠄⠄⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠄⠄⠄
+⠄⠄⢠⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⡄⠄⠄
+⠄⣠⣿⣿⣿⣿⠿⠛⠋⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠉⠙⠻⢿⣿⣿⣿⣿⣆⠄
+⡰⠟⠛⠉⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠉⠙⠛⠿⢆
+
+Archcraft2:
+                   -o\
+                  :ooo:
+                 .ooooo.
+                 ooooooo.
+                +oooooooo.
+               -oooooooooo.
+              --:-+oooooooo.
+             yooo+=+sooooooo.
+            yoooooosooooooooo.
+           y+ooooooooooooooooo.
+          yoooooooooooooooooooo`
+         yoooooo+oo=  :oo++ooooo`
+        :oooooo.           +ooooo-
+       -ooooooo.   .::.    +ooosoo=
+      -oooooo`    .oooo`     +os-=o=
+     =ooooooo=:    `oo+    :=ooo=--`.
+    +ooooooooos.          .=sooooooo+-
+  .+osossos+-`              `-+osososs+.
+ :sss+=-:`                     `:-=+ssss:
+:=-:`                                `-=+:
+
+arch:
+                  -`
+                 .o+`
+                `ooo/
+               `+oooo:
+              `+oooooo:
+              -+oooooo+:
+            `/:-:++oooo+:
+           `/++++/+++++++:
+          `/++++++++++++++:
+         `/+++ooooooooooooo/`
+        ./ooosssso++osssssso+`
+       .oossssso-````/ossssss+`
+      -osssssso.      :ssssssso.
+     :osssssss/        osssso+++.
+    /ossssssss/        +ssssooo/-
+  `/ossssso+/:-        -:/+osssso+-
+ `+sso+:-`                 `.-/+oso:
+`++:.                           `-/+/
+.`                                 `/
+
+arch2:
+                  ▄
+                 ▟█▙
+                ▟███▙
+               ▟█████▙
+              ▟███████▙
+             ▂▔▀▜██████▙
+            ▟██▅▂▝▜█████▙
+           ▟█████████████▙
+          ▟███████████████▙
+         ▟█████████████████▙
+        ▟███████████████████▙
+       ▟█████████▛▀▀▜████████▙
+      ▟████████▛      ▜███████▙
+     ▟█████████        ████████▙
+    ▟██████████        █████▆▅▄▃▂
+   ▟██████████▛        ▜█████████▙
+  ▟██████▀▀▀              ▀▀██████▙
+ ▟███▀▘                       ▝▀███▙
+▟▛▀                               ▀▜▙
+
+arch3:
+                  .
+                 / \
+                /   \
+               /     \
+              /       \
+             />,       \
+            /  `*.      \
+           /      `      \
+          /               \
+         /                 \
+        /      ,.-+-..      \
+       /      ,/'   `\.      \
+      /      .|'     `|.   _  \
+     /       :|.     ,|;    `+.\
+    /        .\:     ;/,      "<\
+   /     __,--+"     "+--.__     \
+  /  _,+'"                 "'+._  \
+ /,-'                           `-.\
+'                                   '
+
+arch_small:
+      /\
+     /  \
+    /    \
+   /      \
+  /   ,,   \
+ /   |  |   \
+/_-''    ''-_\
+
+ARCHlabs:
+                     'c'
+                    'kKk,
+                   .dKKKx.
+                  .oKXKXKd.
+                 .l0XXXXKKo.
+                 c0KXXXXKX0l.
+                :0XKKOxxOKX0l.
+               :OXKOc. .c0XX0l.
+              :OK0o. ...'dKKX0l.
+             :OX0c  ;xOx''dKXX0l.
+            :0KKo..o0XXKd'.lKXX0l.
+           c0XKd..oKXXXXKd..oKKX0l.
+         .c0XKk;.l0K0OO0XKd..oKXXKo.
+        .l0XXXk:,dKx,.'l0XKo..kXXXKo.
+       .o0XXXX0d,:x;   .oKKx'.dXKXXKd.
+      .oKXXXXKK0c.;.    :00c'cOXXXXXKd.
+     .dKXXXXXXXXk,.     cKx''xKXXXXXXKx'
+    'xKXXXXK0kdl:.     .ok; .cdk0KKXXXKx'
+   'xKK0koc,..         'c,     ..,cok0KKk,
+  ,xko:'.             ..            .':okx;
+ .,'.                                   .',.
+
+ArchStrike:
+                   *
+                  **.
+                 ****
+                ******
+                *******
+              ** *******
+             **** *******
+            ****_____***/*
+           ***/*******//***
+          **/********///*/**
+         **/*******////***/**
+        **/****//////.,****/**
+       ***/*****/////////**/***
+      ****/****    /////***/****
+     ******/***  ////   **/******
+    ********/* ///      */********
+  ,******     // ______ /    ******,
+
+Arkane:
+                    .:..
+                 ..:::......
+           .   .......
+           +=...==....
+   ......:.:-:..+*=....
+            :----::......
+          .=***##*+=:    ..
+         =***######*=
+          .-*######+
+         :+###%%%###:
+         -+*########+.
+         =++*#######-
+        -+=+***####=
+     .-=++==***##*-
+    -++++++==++++=
+  .-+++**+++=+===.
+:---===++++=-=--.
+-===============-==--:
+.-==+++***++**#########=:::.
+ .-=++++*++++**#######%%###=
+   .:==++++++**#############:
+            .-+*++*+++==###+
+                       -*+:
+
+Armbian:
+                ..
+            `:]x**j-,'
+       .,+t***********z\<"
+       ?******************;
+      '*n` .'`^,;;,^`'. ,cc.
+      -<.                .[l
+     //     ^^      ^^    \\
+     !^         ^^         ":
+    'tt}`     !~]rj_     ")t/.
+    Itttt?'   ~~]rr]   `{tttt,
+    \tttttt!""I_]r("""~tttttt1
+  '_tttttttttttt)ftttttttttttti.
+ \*ztttttttttttttttttttttttttf**[
+l**c)tttttttttttttttttttttttt(z**,
+.z*x.`tttttttttttttttttttttttt.`u*n
+>`   (tttttttttttttttttttttt]   "I
+     ,tttttttttttttttttttttt`
+     ./tttttfttttttttfttttt(
+      'I)))(\()(tt))|\()({;'
+        .~~~~~~~|)~~~~~~~<
+        '[)))))1|()))))))?
+          ",,,"    ",,,^
+
+Armbian2:
+   █ █ █ █ █ █ █ █ █ █ █
+  ███████████████████████
+▄▄██                   ██▄▄
+▄▄██    ███████████    ██▄▄
+▄▄██   ██         ██   ██▄▄
+▄▄██   ██         ██   ██▄▄
+▄▄██   ██         ██   ██▄▄
+▄▄██   █████████████   ██▄▄
+▄▄██   ██         ██   ██▄▄
+▄▄██   ██         ██   ██▄▄
+▄▄██   ██         ██   ██▄▄
+▄▄██                   ██▄▄
+  ███████████████████████
+   █ █ █ █ █ █ █ █ █ █ █
+
+artix:
+                   '
+                  'o'
+                 'ooo'
+                'ooxoo'
+               'ooxxxoo'
+              'oookkxxoo'
+             'oiioxkkxxoo'
+            ':;:iiiioxxxoo'
+               `'.;::ioxxoo'
+          '-.      `':;jiooo'
+         'oooio-..     `'i:io'
+        'ooooxxxxoio:,.   `'-;'
+       'ooooxxxxxkkxoooIi:-.  `'
+      'ooooxxxxxkkkkxoiiiiiji'
+     'ooooxxxxxkxxoiiii:'`     .i'
+    'ooooxxxxxoi:::'`       .;ioxo'
+   'ooooxooi::'`         .:iiixkxxo'
+  'ooooi:'`                `'';ioxxo'
+ 'i:'`                          '':io'
+'`                                   `'
+
+artix_small:
+      /\
+     /  \
+    /`'.,\
+   /     ',
+  /      ,`\
+ /   ,.'`.  \
+/.,'`     `'.\
+
+artix2_small:
+            '
+           'A'
+          'ooo'
+         'ookxo'
+         `ookxxo'
+       '.   `ooko'
+      'ooo`.   `oo'
+     'ooxxxoo`.   `'
+    'ookxxxkooo.`   .
+   'ookxxkoo'`   .'oo'
+  'ooxoo'`     .:ooxxo'
+ 'io'`             `'oo'
+'`                     `'
+
+arco:
+                   /-
+                  ooo:
+                 yoooo/
+                yooooooo
+               yooooooooo
+              yooooooooooo
+            .yooooooooooooo
+           .oooooooooooooooo
+          .oooooooarcoooooooo
+         .ooooooooo-oooooooooo
+        .ooooooooo-  oooooooooo
+       :ooooooooo.    :ooooooooo
+      :ooooooooo.      :ooooooooo
+     :oooarcooo         .oooarcooo
+    :ooooooooy           .ooooooooo
+   :ooooooooo   /ooooooooooooooooooo
+  :ooooooooo      .-ooooooooooooooooo.
+  ooooooooo-            -ooooooooooooo.
+ ooooooooo-                .-oooooooooo.
+ooooooooo.                    -ooooooooo
+
+arco_small:
+          A
+         ooo
+        ooooo
+       ooooooo
+      ooooooooo
+     ooooo ooooo
+    ooooo   ooooo
+   ooooo     ooooo
+  ooooo  <oooooooo>
+ ooooo      <oooooo>
+ooooo          <oooo>
+
+arse:
+                      ⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⣴⣶⠀⠀⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣄⠀⠀⠀⠀⣼⠟⠁⠀⠀⢀⣀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⢀⣤⡀⠀⠀⠀⠉⢻⣷⡄⠀⠀⠁⠀⢀⣤⣾⡿⠟⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣷⣿⠏⠀⠀⠀⠀⠀⠀⠹⣿⡄⠀⠀⠀⠙⠉⠁⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⡄⠀⠀⠀⠀⠀⠀⠀⢹⣿⠀⠀⠀⠀⠠⣶⣶⣶⡶
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⢠⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠂⠀⠀⠀⠀⠀⢀⣾⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⠇⠀⠀⠀⠀⠀⣠⣾⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣇⣀⣀⣀⣠⣴⣾⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⠀⠀⠀⠀⠀⣤⣤⣴⣶⣾⠿⠟⣿⡏⠙⠛⠛⠛⠋⠉⢀⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣿⡄⠀⠀⠀⠀⠈⠉⠉⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⢸⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⠇⠀⠀⠀⠀⠀⠀⠘⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+macos:
+                     ..'
+                 ,xNMM.
+               .OMMMMo
+               lMM"
+     .;loddo:.  .olloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ 'XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  'XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       "cooc*"    "*coo'"
+
+macos_small:
+        .:'
+    __ :'__
+ .'`__`-'__``.
+:__________.-'
+:_________:
+ :_________`-;
+  `.__.-.__.'
+
+macos2:
+                     ..'
+                 ,xN  .
+               .O    o
+               l  "
+     .;loddo:.  .olloddol;.
+   cK          NW          0:
+ .K                       Wd.
+ X                       X.
+;                        :
+:                        :
+.                        X.
+ k                        Wd.
+ 'X                          k
+  'X                        K.
+    k                      d
+     ;K       WXXW       k.
+       "cooc*"    "*coo'"
+
+macos2_small:
+        .:'
+    __ :'__
+ .'`  `-'  ``.
+:          .-'
+:         :
+ :         `-;
+  `.__.-.__.'
+
+macos3:
+                -:+:.
+               :++++.
+              /+++/.
+      .:-::- .+/:-\`\`.::-
+   .:/++++++/::::/++++++/::`
+ .:///////////////////////::`
+ /////////////////////////`
++++++++++++++++++++++++++`
+++++++++++++++++++++++++
+ssssssssssssssssssssssss.
+:ssssssssssssssssssssssss-
+ osssssssssssssssssssssssss`
+ `syyyyyyyyyyyyyyyyyyyyyyyyys`
+  `ossssssssssssssssssssssss
+    :ooooooooooooooooooo+.
+     `:++oo+/:-  -:/+o+/-
+
+MainsailOS:
+                           -
+                          *%:
+                        :%%%#
+                       =%%%%%-
+                      *%%%%%%#
+                    :#%%%%%%%#.
+                   -%%%%%%%%+
+                  *%%%%%%%%-    :
+                .#%%%%%%%#.    *%=
+               -%%%%%%%%+    :#%%%*
+              +%%%%%%%%-    =%%%%%%#.
+            .#%%%%%%%#.    *%%%%%%%%:
+           -%%%%%%%%*    :#%%%%%%%#.
+          +%%%%%%%%-    =%%%%%%%%+    :%*.
+        .#%%%%%%%#:    *%%%%%%%%-    +%%%%*:
+       :%%%%%%%%*    :#%%%%%%%#.   .*%%%%%%%*
+      +%%%%%%%%=    -%%%%%%%%+    :%%%%%%%%*
+    .#%%%%%%%%:    *%%%%%%%%-    =%%%%%%%%=
+
+MainsailOS_small:
+          -:
+         +%*
+       .#%%+
+      -%%%: +=
+     +%%#..#%%-
+   .#%%+ -%%%- +=
+  -%%%- +%%#..#%%+
+
+Mageia:
+        .°°.
+         °°   .°°.
+         .°°°. °°
+         .   .
+          °°° .°°°.
+      .°°°.   '___'
+     .'___'        .
+   :dkxc;'.  ..,cxkd;
+ .dkk. kkkkkkkkkk .kkd.
+.dkk.  ';cloolc;.  .kkd
+ckk.                .kk;
+xO:                  cOd
+xO:                  lOd
+lOO.                .OO:
+.k00.              .00x
+ .k00;            ;00O.
+  .lO0Kc;,,,,,,;c0KOc.
+     ;d00KKKKKK00d;
+        .,KKKK,.
+
+Mageia_small:
+   *
+    *
+   **
+ /\\__/\\
+/      \\
+\\      /
+ \\____/
+
+Magix:
+                @
+           @@--=====@@
+      @@--==@@     @@====+@
+     @-@@               @==@
+    @=@
+   @=@   @=@  @-====  @=@
+  @=@    @-===@==++@===+@
+ @=@     @--====@@=====+@
+-=@      @--==========++@
+==       @--==========++@     @=@
+@==      @--=======@==++@    @=+@
+ @==      @-==========++    @=@
+  @==      @-=======@=%    @=@
+   @==        @@@@@@      @=@
+    @====@@@         @@===+%
+        @@=====@@==++++@@
+              =#@=@
+             @==@++@
+               @@@
+
+MagpieOS:
+        ;00000     :000Ol
+     .x00kk00:    O0kk00k;
+    l00:   :00.  o0k   :O0k.
+  .k0k.     xd$ddddk'    .d00;
+  k0k.      .dddddl       o00,
+ o00.        ':cc:.        d0O
+.00l                       ,00.
+l00.                       d0x
+k0O                     .:k0o
+O0k                 ;dO0000d.
+k0O               .O0Oxxxxk00:
+o00.              k0Oddddddocc
+'00l              x0Odddddo;..
+ x00.             .x00kxxd:..
+ .O0x               .:oxxxOkl.
+  .x0d                     ,xx,
+    .:o.          .xd       ckd
+       ..          dxl     .xx;
+                    :xxolldxd'
+                      ;oxdl.
+
+mandriva:
+                        ``
+                       `-.
+      `               .---
+    -/               -::--`
+  `++    `----...```-:::::.
+ `os.      .::::::::::::::-```     `  `
+ +s+         .::::::::::::::::---...--`
+-ss:          `-::::::::::::::::-.``.``
+/ss-           .::::::::::::-.``   `
++ss:          .::::::::::::-
+/sso         .::::::-::::::-
+.sss/       -:::-.`   .:::::
+ /sss+.    ..`  `--`    .:::
+  -ossso+/:://+/-`        .:`
+    -/+ooo+/-.              `
+
+manjaro:
+██████████████████  ████████
+██████████████████  ████████
+██████████████████  ████████
+██████████████████  ████████
+████████            ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+
+OSX:
+                     ..'
+                 ,xNMM.
+               .OMMMMo
+               lMM"
+     .;loddo:.  .olloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ 'XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  'XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       "cooc*"    "*coo'"
+
+OSX_small:
+        .:'
+    __ :'__
+ .'`__`-'__``.
+:__________.-'
+:_________:
+ :_________`-;
+  `.__.-.__.'
