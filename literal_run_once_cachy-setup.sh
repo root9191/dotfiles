@@ -1,0 +1,82 @@
+#!/bin/bash
+
+# Exit bei Fehlern
+set -e
+
+# Markiere, dass eine Ersteinrichtung läuft
+touch ~/.local/share/chezmoi/.initial_setup
+
+# Cleanup-Funktion für fehlerhafte Beendigung
+cleanup() {
+    local exit_code=$?
+    rm -f ~/.local/share/chezmoi/.initial_setup
+    exit $exit_code
+}
+
+# Trap für cleanup bei Fehler oder Abbruch
+trap cleanup ERR INT TERM
+
+# Funktion zum Prüfen ob ein Paket installiert ist
+is_installed() {
+    pacman -Qi "$1" &> /dev/null
+}
+
+# Funktion zum Prüfen ob ein Befehl verfügbar ist
+is_command_available() {
+    command -v "$1" >/dev/null 2>&1
+}
+
+# Prüfen ob wir auf einem Arch-basierten System sind
+if [ -f /etc/arch-release ]; then
+    echo "Aktualisiere Paketdatenbanken..."
+    if ! sudo pacman -Syy; then
+        echo "Fehler beim Aktualisieren der Paketdatenbanken"
+        exit 1
+    fi
+
+    # Basis-Pakete nur installieren wenn sie fehlen
+    for pkg in ansible; do
+        if ! is_installed "$pkg"; then
+            echo "Installiere $pkg..."
+            if sudo pacman -S --noconfirm --noprogressbar "$pkg"; then
+                echo "$pkg wurde erfolgreich installiert"
+            else
+                echo "Fehler bei der Installation von $pkg"
+                exit 1
+            fi
+        else
+            echo "$pkg ist bereits installiert - überspringe..."
+        fi
+    done
+else
+    echo "Kein Arch-basiertes System gefunden"
+    exit 1
+fi
+
+# Prüfe ob ansible-playbook verfügbar ist
+if ! is_command_available ansible-playbook; then
+    echo "ERROR: ansible-playbook wurde nicht gefunden"
+    echo "Die Installation von ansible scheint fehlgeschlagen zu sein"
+    exit 1
+fi
+
+# Prüfe ob ansible überhaupt funktioniert
+if ! ansible --version >/dev/null 2>&1; then
+    echo "ERROR: ansible scheint nicht korrekt zu funktionieren"
+    echo "Bitte überprüfen Sie die Installation"
+    exit 1
+fi
+
+# Playbook ausführen
+echo "Starte Ansible Playbook..."
+if ansible-playbook ~/.bootstrap/setup.yml --ask-become-pass; then
+    echo "Playbook wurde erfolgreich ausgeführt"
+else
+    echo "Fehler beim Ausführen des Playbooks"
+    exit 1
+fi
+
+# Entferne die Markierung nach erfolgreicher Ersteinrichtung
+rm -f ~/.local/share/chezmoi/.initial_setup
+
+echo "Setup erfolgreich abgeschlossen"
