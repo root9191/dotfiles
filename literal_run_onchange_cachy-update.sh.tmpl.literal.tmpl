@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# packages.yml hash: {{ include "dot_bootstrap/packages.yml" | sha256sum }}
+
+# Hole sudo Passwort und speichere es in der Umgebung
+stty -echo
+printf "Sudo Passwort: "
+read -r PASSWORD
+stty echo
+printf "\n"
+
+export ANSIBLE_BECOME_PASS="$PASSWORD"
+
+# Prüfe ob es Änderungen gibt
+ansible-playbook ~/.bootstrap/update.yml --check --diff
+
+# Frage den Benutzer, ob die Änderungen angewendet werden sollen
+read -p "Möchten Sie diese Änderungen anwenden? (j/N) " response
+if [[ "$response" =~ ^[jJ] ]]; then
+    ansible-playbook ~/.bootstrap/update.yml
+else
+    echo "Abgebrochen - keine Änderungen vorgenommen"
+fi
