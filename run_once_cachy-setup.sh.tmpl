@@ -8,9 +8,9 @@
 
 # Cleanup-Funktion für fehlerhafte Beendigung
 #cleanup() {
-#    local exit_code=$?
-#    rm -f ~/.local/share/chezmoi/.initial_setup
-#    exit $exit_code
+    local exit_code=$?
+    rm -f ~/.local/share/chezmoi/.initial_setup
+    exit $exit_code
 #}
 
 # Trap für cleanup bei Fehler oder Abbruch
@@ -28,21 +28,20 @@ is_command_available() {
 
 # Prüfen ob wir auf einem Arch-basierten System sind
 if [ -f /etc/arch-release ]; then
-    echo "Aktualisiere Paketdatenbanken..."
-    if ! sudo pacman -Syy; then
-        echo "Fehler beim Aktualisieren der Paketdatenbanken"
-        exit 1
-    fi
-
     # Basis-Pakete nur installieren wenn sie fehlen
     for pkg in ansible; do
         if ! is_installed "$pkg"; then
-            echo "Installiere $pkg..."
-            if sudo pacman -S --noconfirm --noprogressbar "$pkg"; then
-                echo "$pkg wurde erfolgreich installiert"
+            echo "Versuche $pkg zu installieren..."
+            if ! sudo pacman -S --noconfirm --noprogressbar "$pkg"; then
+                echo "Fehler bei der Installation von $pkg. Aktualisiere Paketdatenbanken und versuche erneut..."
+                if sudo pacman -Syy && sudo pacman -Syu --noconfirm && sudo pacman -S --noconfirm --noprogressbar "$pkg"; then
+                    echo "$pkg wurde erfolgreich installiert"
+                else
+                    echo "Fehler bei der Installation von $pkg auch nach Update"
+                    exit 1
+                fi
             else
-                echo "Fehler bei der Installation von $pkg"
-                exit 1
+                echo "$pkg wurde erfolgreich installiert"
             fi
         else
             echo "$pkg ist bereits installiert - überspringe..."
