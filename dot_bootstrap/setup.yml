@@ -55,18 +55,18 @@
         state: present
         extra_args: "--noconfirm --noprogressbar"
 
+    - name: Check if there are AUR packages to install
+      set_fact:
+        active_aur_packages: "{{ aur_packages | default([]) | select() | list }}"
+
     - name: Install AUR packages
       become: yes
       become_user: "{{ remote_regular_user }}"
       ansible.builtin.command:
-        cmd: "paru -S --needed --noconfirm {{ item }}"
-      loop: "{{ aur_packages | default([]) }}"
+        cmd: "paru -S --needed --noconfirm {{ active_aur_packages | join(' ') }}"
       when: 
         - install_aur_packages | bool
-        - aur_packages is defined 
-        - aur_packages is not none
-        - item is not none
-        - item != ''
+        - active_aur_packages | length > 0
       
     # Theme Installation Checks
     - name: Check for existing themes
