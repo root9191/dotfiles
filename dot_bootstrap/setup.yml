@@ -282,10 +282,12 @@
         - name: Import VPN configurations to NetworkManager
           become: yes
           become_user: "{{ remote_regular_user }}"
-          command: "nmcli connection import type openvpn file '/home/{{ remote_regular_user }}/.config/openvpn/{{ item.item }}'"
+          command: "nmcli connection import type openvpn file '/home/{{ remote_regular_user }}/.config/openvpn/{{ item }}'"
           register: nmcli_result
           failed_when: false
-          loop: "{{ vpn_check.results }}"
-          when: 
-            - configure_vpn | bool
-            - item.rc != 0
+          loop: "{{ vpn_configs }}"
+          when: >
+            configure_vpn | bool and 
+            vpn_check.results is defined and 
+            vpn_check.results | selectattr('item', 'equalto', item) | list | length > 0 and 
+            (vpn_check.results | selectattr('item', 'equalto', item) | list | first).rc != 0
