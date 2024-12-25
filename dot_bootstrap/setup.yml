@@ -63,10 +63,11 @@
       become: yes
       become_user: "{{ remote_regular_user }}"
       environment:
-        DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/{{ ansible_user_uid }}/bus
+        DISPLAY: ":0"
+        DBUS_SESSION_BUS_ADDRESS: "unix:path=/run/user/{{ ansible_user_uid }}/bus"
       shell: |
-        cat ~/.config/dconf/shell-settings.dconf | dconf load /org/gnome/shell/
-        cat ~/.config/dconf/desktop-settings.dconf | dconf load /org/gnome/desktop/
+        dbus-launch dconf load /org/gnome/shell/ < /home/{{ remote_regular_user }}/.config/dconf/shell-settings.dconf
+        dbus-launch dconf load /org/gnome/desktop/ < /home/{{ remote_regular_user }}/.config/dconf/desktop-settings.dconf
       changed_when: false
 
     #- name: Load dconf shortcuts
