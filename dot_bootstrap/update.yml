@@ -24,7 +24,9 @@
           pacman:
             update_cache: yes
             upgrade: yes
-          when: updates_available.rc == 0
+          when: updates_available.stdout != ""
+          register: pacman_update
+          changed_when: pacman_update.changed and updates_available.stdout != ""
 
         - name: Install pacman packages
           pacman:
