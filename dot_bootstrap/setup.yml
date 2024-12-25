@@ -314,3 +314,33 @@
             vpn_check.results is defined and 
             vpn_check.results | selectattr('item', 'equalto', item) | list | length > 0 and 
             (vpn_check.results | selectattr('item', 'equalto', item) | list | first).rc != 0
+
+    - name: Configure Nautilus Terminal Integration
+      block:
+        - name: Backup original nautilus terminal extension
+          command: mv /usr/lib/nautilus/extensions-4/libterminal-nautilus.so /usr/lib/nautilus/extensions-4/libterminal-nautilus.so.bak
+          args:
+            creates: /usr/lib/nautilus/extensions-4/libterminal-nautilus.so.bak
+            removes: /usr/lib/nautilus/extensions-4/libterminal-nautilus.so
+      
+    - name: Set default terminal to ptyxis
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      dconf:
+        key: "/com/github/stunkymonkey/nautilus-open-any-terminal/terminal"
+        value: "'ptyxis'"
+        state: present
+
+    - name: Enable new tab option
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      dconf:
+        key: "/com/github/stunkymonkey/nautilus-open-any-terminal/new-tab"
+        value: "true"
+        state: present
+
+    - name: Restart nautilus to apply changes
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      command: killall nautilus
+      ignore_errors: yes

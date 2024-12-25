@@ -7,12 +7,12 @@ pacman_packages:
   #- gdm-settings
   #- iperf3
   #- mission-center
-  #- nautilus-open-any-terminal
+  - nautilus-open-any-terminal
   #- nmap
   #- ntfs-3g
   #- obs-studio
   #- powershell-bin
-  #- ptyxis
+  - ptyxis
   #- vmware-workstation
   #- zoxide
   #- yay
