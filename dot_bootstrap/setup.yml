@@ -182,14 +182,14 @@
 
     # Keyboard Layout Setup
     - name: Set keyboard layout to German (Austria)
-      command: localectl set-keymap de-at  # oder 'de' für Deutschland
+      command: localectl set-keymap de  # oder 'de' für Deutschland
       #command: localectl set-x11-keymap de at  # Alternative für X11        
 
     # Keyboard Shortcuts Setup
     - name: Ensure dconf is installed
       pacman:
-      name: dconf
-      state: present
+        name: dconf
+        state: present
 
     - name: Create dconf directory
       file:
@@ -213,3 +213,46 @@
       shell: |
         dconf load /org/gnome/settings-daemon/plugins/media-keys/ < /home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf
       changed_when: false
+
+    # GNOME Settings Configuration
+    - name: Configure GNOME Settings with gsettings
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      ansible.builtin.shell: "{{ item }}"
+      loop:
+        # Dark Mode
+        - gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+    
+        # Nautilus List View Settings
+        - gsettings set org.gnome.nautilus.list-view default-column-order "['name', 'size', 'type', 'date_modified']"
+        - gsettings set org.gnome.nautilus.list-view default-visible-columns "['name', 'size', 'type', 'date_modified']"
+        - gsettings set org.gnome.nautilus.list-view use-tree-view false
+    
+        # Nautilus Preferences
+        - gsettings set org.gnome.nautilus.preferences click-policy 'double'
+        - gsettings set org.gnome.nautilus.preferences date-time-format 'detailed'
+        - gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+        - gsettings set org.gnome.nautilus.preferences recursive-search 'always'
+        - gsettings set org.gnome.nautilus.preferences search-filter-time-type 'last_modified'
+        - gsettings set org.gnome.nautilus.preferences show-hidden-files true
+        - gsettings set org.gnome.nautilus.preferences default-sort-order 'name'
+        - gsettings set org.gnome.nautilus.preferences default-sort-in-reverse-order false
+    
+        # GTK File Chooser Settings
+        - gsettings set org.gtk.Settings.FileChooser sort-directories-first true
+        - gsettings set org.gtk.gtk4.Settings.FileChooser sort-directories-first true
+    
+        # Window State
+        - gsettings set org.gnome.nautilus.window-state initial-size "(890, 550)"
+      changed_when: false
+
+    # Zusätzliche Einstellungen mit dconf
+    - name: Configure additional settings with dconf
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      dconf:
+        key: "{{ item.key }}"
+        value: "{{ item.value }}"
+        state: present
+      loop:
+        - { key: "/org/gnome/nautilus/sort-directories-first", value: "true" }
