@@ -36,7 +36,7 @@ pacman_packages:
   #- nextcloud-client
   #- tracktion-waveform
   #- antimicrox
-aur_packages:
+aur_packages: []
   #- equibop-git
   #- numix-folders-git
 flatpak_packages:
