@@ -39,25 +39,25 @@
         - gsettings set org.gnome.nautilus.preferences default-sort-in-reverse-order false
     
         # GTK File Chooser Settings
-        - gsettings set org.gtk.Settings.FileChooser show-hidden true
+        - gsettings set org.gtk.gtk4.Settings.FileChooser show-hidden true
         - gsettings set org.gtk.Settings.FileChooser sort-directories-first true
-        #- gsettings set org.gtk.gtk4.Settings.FileChooser sort-directories-first true
+        - gsettings set org.gtk.gtk4.Settings.FileChooser sort-directories-first true
     
         # Window State
         - gsettings set org.gnome.nautilus.window-state initial-size "(890, 550)"
       changed_when: false
 
     # Zusätzliche Einstellungen mit dconf
-    - name: Configure additional settings with dconf
-      become: yes
-      become_user: "{{ remote_regular_user }}"
-      dconf:
-        key: "{{ item.key }}"
-        value: "{{ item.value }}"
-        state: present
-      loop:
-        - { key: "/org/gnome/nautilus/sort-directories-first", value: "true" }
-        #- { key: "/org/gnome/nautilus/show-hidden-files", value: "true" }
+    #- name: Configure additional settings with dconf
+    #  become: yes
+    #  become_user: "{{ remote_regular_user }}"
+    #  dconf:
+    #    key: "{{ item.key }}"
+    #    value: "{{ item.value }}"
+    #    state: present
+    #  loop:
+    #    - { key: "/org/gnome/nautilus/sort-directories-first", value: "true" }
+    #    - { key: "/org/gnome/nautilus/show-hidden-files", value: "true" }
 
     - name: Check if Chaotic AUR is already configured
       command: grep -c "^\[chaotic-aur\]" /etc/pacman.conf
