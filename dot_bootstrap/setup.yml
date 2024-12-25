@@ -260,3 +260,24 @@
         dconf load /org/gnome/settings-daemon/plugins/media-keys/ < /home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf
       changed_when: false
 
+    - name: Configure OpenVPN
+      vars:
+        configure_vpn: true  # Schalter zum Aktivieren/Deaktivieren
+        vpn_configs:
+          - AT.ovpn
+          - DE.ovpn
+          - HU.ovpn
+          - IT.ovpn
+
+      block:
+        - name: Import VPN configurations to NetworkManager
+        become: yes
+        become_user: "{{ remote_regular_user }}"
+        command: >
+          nmcli connection import type openvpn file "/home/{{ remote_regular_user }}/.config/openvpn/{{ item }}"
+        register: nmcli_result
+        failed_when: 
+          - nmcli_result.rc != 0 
+          - "'already exists' not in nmcli_result.stderr"
+        loop: "{{ vpn_configs }}"
+        when: configure_vpn | bool
