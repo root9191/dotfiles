@@ -26,6 +26,7 @@ pacman_packages:
   #- bat
   #- vivid
   #- github-cli
+  #- dbus-glib
   #- libsecret
   #- seahorse
   #- bibata-cursor-theme
