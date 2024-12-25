@@ -65,8 +65,8 @@
       changed_when: false
       failed_when: false
 
-    #- name: Include dotfiles tasks
-    #  include_tasks: config.yml
+    - name: Include dotfiles tasks
+      include_tasks: config.yml
 
     # Chaotic AUR Setup
     - name: Set up Chaotic AUR
