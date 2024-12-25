@@ -1,51 +1,52 @@
 pacman_packages:
   - base-devel
-  #- visual-studio-code-bin
-  #- betterbird-de-bin
-  #- brave-bin
+  - visual-studio-code-bin
+  - betterbird-de-bin
+  - brave-bin
   - cmatrix
-  #- gdm-settings
-  #- iperf3
-  #- mission-center
+  - gdm-settings
+  - iperf3
+  - mission-center
   - nautilus-open-any-terminal
-  #- nmap
-  #- ntfs-3g
-  #- obs-studio
-  #- powershell-bin
+  - nmap
+  - ntfs-3g
+  - obs-studio
+  - powershell-bin
   - ptyxis
-  #- vmware-workstation
-  #- zoxide
-  #- yay
-  #- fzf
-  #- p7zip
+  - vmware-workstation
+  - zoxide
+  - yay
+  - fzf
+  - p7zip
   - gnome-tweaks
-  #- timeshift-autosnap
-  #- fuse2
-  #- keychain
+  - timeshift-autosnap
+  - fuse2
+  - python-fuse
+  - keychain
   #- eza
   #- bat
-  #- vivid
-  #- github-cli
-  #- dbus-glib
-  #- libsecret
-  #- seahorse
+  - vivid
+  - github-cli
+  - dbus-glib
+  - libsecret
+  - seahorse
   #- bibata-cursor-theme
   #- firefox
   #- firefox-i18n-de
-  #- ddcutil
+  - ddcutil
   #- numix-circle-icon-theme-git
   #- nextcloud-client
   #- tracktion-waveform
   #- antimicrox
 aur_packages: 
-  #- equibop-git
-  #- numix-folders-git
+  - equibop-git
+  - numix-folders-git
 flatpak_packages:
-  #- app.moosync.moosync
+  - app.moosync.moosync
   #- com.bitwarden.desktop
-  #- com.mattjakeman.ExtensionManager
-  #- com.usebottles.bottles
-  #- com.vysp3r.ProtonPlus
-  #- org.videolan.VLC
-  #- it.mijorus.gearlever
-  #- org.filezillaproject.Filezilla
+  - com.mattjakeman.ExtensionManager
+  - com.usebottles.bottles
+  - com.vysp3r.ProtonPlus
+  - org.videolan.VLC
+  - it.mijorus.gearlever
+  - org.filezillaproject.Filezilla

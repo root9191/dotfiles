@@ -322,25 +322,33 @@
           args:
             creates: /usr/lib/nautilus/extensions-4/libterminal-nautilus.so.bak
             removes: /usr/lib/nautilus/extensions-4/libterminal-nautilus.so
-      
-    - name: Set default terminal to ptyxis
-      become: yes
-      become_user: "{{ remote_regular_user }}"
-      dconf:
-        key: "/com/github/stunkymonkey/nautilus-open-any-terminal/terminal"
-        value: "'ptyxis'"
-        state: present
+        
+        - name: Set default terminal to ptyxis
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          dconf:
+            key: "/com/github/stunkymonkey/nautilus-open-any-terminal/terminal"
+            value: "'ptyxis'"
+            state: present
 
-    - name: Enable new tab option
-      become: yes
-      become_user: "{{ remote_regular_user }}"
-      dconf:
-        key: "/com/github/stunkymonkey/nautilus-open-any-terminal/new-tab"
-        value: "true"
-        state: present
+        - name: Enable new tab option
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          dconf:
+            key: "/com/github/stunkymonkey/nautilus-open-any-terminal/new-tab"
+            value: "true"
+            state: present
 
-    - name: Restart nautilus to apply changes
-      become: yes
-      become_user: "{{ remote_regular_user }}"
-      command: killall nautilus
-      ignore_errors: yes
+        - name: Check if Nautilus is running
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          shell: pgrep nautilus
+          register: nautilus_check
+          changed_when: false
+          failed_when: false
+
+        - name: Restart Nautilus if running
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          command: killall nautilus
+          when: nautilus_check.rc == 0
