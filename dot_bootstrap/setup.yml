@@ -64,10 +64,11 @@
       become: yes
       become_user: "{{ remote_regular_user }}"
       ansible.builtin.command:
-        cmd: "paru -S --needed --noconfirm {{ active_aur_packages | join(' ') }}"
+        cmd: "paru -S --needed --noconfirm {{ item }}"
+      loop: "{{ (aur_packages | default([])) | select('string') | list }}"
       when: 
         - install_aur_packages | bool
-        - active_aur_packages | length > 0
+        - (aur_packages | default([])) | select('string') | list | length > 0
       
     # Theme Installation Checks
     - name: Check for existing themes
@@ -234,13 +235,13 @@
         - gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
         - gsettings set org.gnome.nautilus.preferences recursive-search 'always'
         - gsettings set org.gnome.nautilus.preferences search-filter-time-type 'last_modified'
-        - gsettings set org.gnome.nautilus.preferences show-hidden-files true
         - gsettings set org.gnome.nautilus.preferences default-sort-order 'name'
         - gsettings set org.gnome.nautilus.preferences default-sort-in-reverse-order false
     
         # GTK File Chooser Settings
+        - gsettings set org.gtk.Settings.FileChooser show-hidden true
         - gsettings set org.gtk.Settings.FileChooser sort-directories-first true
-        - gsettings set org.gtk.gtk4.Settings.FileChooser sort-directories-first true
+        #- gsettings set org.gtk.gtk4.Settings.FileChooser sort-directories-first true
     
         # Window State
         - gsettings set org.gnome.nautilus.window-state initial-size "(890, 550)"
@@ -256,3 +257,4 @@
         state: present
       loop:
         - { key: "/org/gnome/nautilus/sort-directories-first", value: "true" }
+        #- { key: "/org/gnome/nautilus/show-hidden-files", value: "true" }
