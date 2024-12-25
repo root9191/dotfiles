@@ -87,7 +87,7 @@
             block: |
               [chaotic-aur]
               Include = /etc/pacman.d/chaotic-mirrorlist
-            marker: "# {mark} CHAOTIC AUR REPO"
+            marker: "# {mark} CHAOTIC AUR REPO added by ansible"
 
     # System Updates and Package Installation
     - name: System update
