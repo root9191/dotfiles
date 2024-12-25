@@ -262,22 +262,30 @@
 
     - name: Configure OpenVPN
       vars:
-        configure_vpn: true  # Schalter zum Aktivieren/Deaktivieren
+        configure_vpn: true
         vpn_configs:
           - AT.ovpn
           - DE.ovpn
           - HU.ovpn
           - IT.ovpn
-
       block:
+        - name: Check if VPN connection exists
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          command: "nmcli connection show {{ item | splitext | first }}"
+          register: vpn_check
+          failed_when: false
+          changed_when: false
+          loop: "{{ vpn_configs }}"
+          when: configure_vpn | bool
+
         - name: Import VPN configurations to NetworkManager
-        become: yes
-        become_user: "{{ remote_regular_user }}"
-        command: >
-          nmcli connection import type openvpn file "/home/{{ remote_regular_user }}/.config/openvpn/{{ item }}"
-        register: nmcli_result
-        failed_when: 
-          - nmcli_result.rc != 0 
-          - "'already exists' not in nmcli_result.stderr"
-        loop: "{{ vpn_configs }}"
-        when: configure_vpn | bool
+          become: yes
+          become_user: "{{ remote_regular_user }}"
+          command: "nmcli connection import type openvpn file '/home/{{ remote_regular_user }}/.config/openvpn/{{ item.item }}'"
+          register: nmcli_result
+          failed_when: false
+          loop: "{{ vpn_check.results }}"
+          when: 
+            - configure_vpn | bool
+            - item.rc != 0

@@ -1,6 +1,6 @@
 pacman_packages:
   - base-devel
-  - visual-studio-code-bin
+  #- visual-studio-code-bin
   #- betterbird-de-bin
   #- brave-bin
   - cmatrix
@@ -18,7 +18,7 @@ pacman_packages:
   #- yay
   #- fzf
   #- p7zip
-  #- gnome-tweaks
+  - gnome-tweaks
   #- timeshift-autosnap
   #- fuse2
   #- keychain
