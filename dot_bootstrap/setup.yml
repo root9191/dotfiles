@@ -56,9 +56,17 @@
       become: yes
       become_user: "{{ remote_regular_user }}"
       shell: |
-        dconf load / < /home/{{ remote_regular_user }}/.config/dconf/desktop-settings.dconf 
-        dconf load / < /home/{{ remote_regular_user }}/.config/dconf/shell-settings.dconf 
         dconf load /org/gnome/settings-daemon/plugins/media-keys/ < /home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf 
+      changed_when: false
+
+    - name: Load dconf Shell settings
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      environment:
+        DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/{{ ansible_user_uid }}/bus
+      shell: |
+        cat ~/.config/dconf/shell-settings.dconf | dconf load /org/gnome/shell/
+        cat ~/.config/dconf/desktop-settings.dconf | dconf load /org/gnome/desktop/
       changed_when: false
 
     #- name: Load dconf shortcuts
