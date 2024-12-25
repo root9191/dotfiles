@@ -52,6 +52,13 @@
         - gsettings set org.gnome.TextEditor show-map true
       changed_when: false
 
+    - name: Load dconf settings
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: |
+        dconf load / < /home/{{ remote_regular_user }}/.config/dconf/desktop-settings
+        dconf load / < /home/{{ remote_regular_user }}/.config/dconf/all-settings  
+
     # Zusätzliche Einstellungen mit dconf
     #- name: Configure additional settings with dconf
     #  become: yes
@@ -237,26 +244,26 @@
       #command: localectl set-x11-keymap de at  # Alternative für X11        
 
     # Keyboard Shortcuts Setup
-    - name: Ensure dconf is installed
-      pacman:
-        name: dconf
-        state: present
+    #- name: Ensure dconf is installed
+    #  pacman:
+    #    name: dconf
+    #    state: present
 
-    - name: Create dconf directory
-      file:
-        path: "/home/{{ remote_regular_user }}/.config/dconf"
-        state: directory
-        owner: "{{ remote_regular_user }}"
-        group: "{{ remote_regular_user }}"
-        mode: '0755'
+    #- name: Create dconf directory
+    #  file:
+    #    path: "/home/{{ remote_regular_user }}/.config/dconf"
+    #    state: directory
+    #    owner: "{{ remote_regular_user }}"
+    #    group: "{{ remote_regular_user }}"
+    #    mode: '0755'
 
-    - name: Copy dconf shortcuts file
-      copy:
-        src: "/home/{{ remote_regular_user }}/.bootstrap/kb_shortcuts.dconf"
-        dest: "/home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf"
-        owner: "{{ remote_regular_user }}"
-        group: "{{ remote_regular_user }}"
-        mode: '0644'
+    #- name: Copy dconf shortcuts file
+    #  copy:
+    #    src: "/home/{{ remote_regular_user }}/.bootstrap/kb_shortcuts.dconf"
+    #    dest: "/home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf"
+    #    owner: "{{ remote_regular_user }}"
+    #    group: "{{ remote_regular_user }}"
+    #    mode: '0644'
 
     - name: Load dconf shortcuts
       become: yes
