@@ -11,6 +11,7 @@
     chaotic_aur_key: "3056513887B78AEB"
     remote_regular_user: "{{ lookup('env', 'USER') }}"
     install_aur_packages: true
+    install_flatpak_packages: true
 
   tasks:
     - name: Check if Chaotic AUR is already configured
@@ -58,7 +59,7 @@
       become: yes
       become_user: "{{ remote_regular_user }}"
       ansible.builtin.command:
-        cmd: "paru -S --needed --noconfirm {{ aur_packages|join(' ') }}"
+        cmd: "paru -S --needed --noconfirm {{ aur_packages|default([])|join(' ') }}"
       when: 
         - install_aur_packages | bool
       
@@ -166,7 +167,8 @@
             state: present
             method: system
           with_items: "{{ flatpak_packages | default([]) }}"
-          when: flatpak_packages is defined and flatpak_packages is not none and (flatpak_packages | default([]) | length > 0)
+          when:
+            - install_flatpak_packages | bool
     # Timezone Setup
     - name: Set timezone
       timezone:
