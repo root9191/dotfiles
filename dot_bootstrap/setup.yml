@@ -57,7 +57,16 @@
       become_user: "{{ remote_regular_user }}"
       shell: |
         dconf load / < /home/{{ remote_regular_user }}/.config/dconf/desktop-settings
-        dconf load / < /home/{{ remote_regular_user }}/.config/dconf/all-settings  
+        dconf load / < /home/{{ remote_regular_user }}/.config/dconf/shell-settings
+        dconf load /org/gnome/settings-daemon/plugins/media-keys/ < /home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf 
+      changed_when: false
+
+    #- name: Load dconf shortcuts
+    #  become: yes
+    #  become_user: "{{ remote_regular_user }}"
+    #  shell: |
+    #    dconf load /org/gnome/settings-daemon/plugins/media-keys/ < /home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf
+    #  changed_when: false
 
     # Zusätzliche Einstellungen mit dconf
     #- name: Configure additional settings with dconf
@@ -264,13 +273,6 @@
     #    owner: "{{ remote_regular_user }}"
     #    group: "{{ remote_regular_user }}"
     #    mode: '0644'
-
-    - name: Load dconf shortcuts
-      become: yes
-      become_user: "{{ remote_regular_user }}"
-      shell: |
-        dconf load /org/gnome/settings-daemon/plugins/media-keys/ < /home/{{ remote_regular_user }}/.config/dconf/gnome-shortcuts.dconf
-      changed_when: false
 
     - name: Configure OpenVPN
       vars:
