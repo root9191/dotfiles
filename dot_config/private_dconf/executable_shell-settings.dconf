@@ -1,0 +1,565 @@
+[/]
+app-picker-layout=[{'514f34d2-afb2-4e02-8492-0e3cc32d3a86': <{'position': <0>}>, 'b2bb9ced-df92-47a8-8e77-5b4bb4024be1': <{'position': <1>}>, 'Utilities': <{'position': <2>}>, 'c1de4509-f667-4cdb-b092-9b903b2227c5': <{'position': <3>}>, '56b670e6-f912-409f-bdc8-e26829a554a8': <{'position': <4>}>, 'f872b966-cfac-41b3-8157-06d3970c319d': <{'position': <5>}>, 'io.missioncenter.MissionCenter.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Calendar.desktop': <{'position': <8>}>, 'timeshift-gtk.desktop': <{'position': <9>}>, 'firefox.desktop': <{'position': <10>}>, 'com.nextcloud.desktopclient.nextcloud.desktop': <{'position': <11>}>, 'org.gnome.Software.desktop': <{'position': <12>}>, 'cxmenu-cxoffice-0-29ra4ke-CrossOver.desktop': <{'position': <13>}>, 'b6777a99-78e7-43fb-84eb-0148965606c9': <{'position': <14>}>, 'com.belmoussaoui.Obfuscate.desktop': <{'position': <15>}>, 'eb4ebfe6-ced1-4352-859e-4637ee8e074d': <{'position': <16>}>, 'org.remmina.Remmina.desktop': <{'position': <17>}>, 'com.github.jeromerobert.pdfarranger.desktop': <{'position': <18>}>, 'auto-cpufreq-gtk.desktop': <{'position': <19>}>, 'org.videolan.VLC.desktop': <{'position': <20>}>, 'siyuan.desktop': <{'position': <21>}>}]
+disable-user-extensions=false
+disabled-extensions=['workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'dynamic-panel@velhlkj.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'SettingsCenter@lauinger-clan.de', 'user-theme-x@tuberry.github.io']
+enabled-extensions=['compact-quick-settings@gnome-shell-extensions.mariospr.org', 'appindicatorsupport@rgcjonas.gmail.com', 'display-brightness-ddcutil@themightydeity.github.com', 'caffeine@patapon.info', 'clipboard-history@alexsaveau.dev', 'default-workspace@mateusrodcosta.com', 'extension-list@tu.berry', 'mprisLabel@moon-0xff.github.com', 'openweather-extension@penguin-teal.github.io', 'quicksettings-audio-devices-renamer@marcinjahn.com', 'logomenu@aryan_k', 'blur-my-shell@aunetx', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'quick-settings-audio-panel@rayzeq.github.io', 'dash-to-dock@micxgx.gmail.com', 'gnome-ui-tune@itstime.tech', 'tilingshell@ferrarodomenico.com', 'openbar@neuromorph', 'burn-my-windows@schneegans.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'smart-auto-move@khimaros.com', 'quick-settings-tweaks@qwreey', 'just-perfection-desktop@just-perfection']
+favorite-apps=['siyuan.desktop', 'feishin.desktop', 'org.gnome.Nautilus.desktop', 'brave-browser.desktop', 'code.desktop', 'equibop.desktop', 'ferdium.desktop', 'eu.betterbird.Betterbird.desktop', 'org.gnome.TextEditor.desktop', 'davinci-resolve-studio.desktop', 'com.obsproject.Studio.desktop', 'steam.desktop', 'org.gnome.Ptyxis.desktop', 'com.bitwarden.desktop.desktop', 'com.mattjakeman.ExtensionManager.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='47.2'
+
+[extensions/Logo-menu]
+custom-icon-path='/mnt/Volume1/Cloud/Portable/Linux Apps/.icons/icons8-mac-os.svg'
+menu-button-extensions-app='com.mattjakeman.ExtensionManager.desktop'
+menu-button-icon-image=1
+menu-button-icon-size=27
+menu-button-system-monitor='missioncenter'
+menu-button-terminal='ptyxis --tab'
+show-activities-button=true
+symbolic-icon=true
+use-custom-icon=true
+
+[extensions/SettingsCenter]
+items='Gnome Config Editor;gconf-editor.desktop;1;gconf-editor|Gnome Tweaks;gnome-tweaks.desktop;1;gnome-tweaks|Desktop Config Editor;dconf-editor.desktop;1;dconf-editor|Extensions Preferences;org.gnome.Extensions.desktop;1;gnome-extensions-app|NVidia Settings;nvidia-settings.desktop;1;nvidia-settings|Passwords and Keys;seahorse.desktop;1;seahorse|PulseAudio;pavucontrol.desktop;1;pavucontrol|Session Properties;session-properties.desktop;0;gnome-session-properties'
+
+[extensions/appindicator]
+legacy-tray-enabled=true
+
+[extensions/blur-my-shell]
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.88>, 'unscaled_radius': <33>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.88>, 'unscaled_radius': <33>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <33>}>}>]>}}
+settings-version=2
+
+[extensions/blur-my-shell/appfolder]
+blur=true
+brightness=1.0
+sigma=33
+style-dialogs=2
+
+[extensions/blur-my-shell/applications]
+blacklist=['Plank', 'com.desktop.ding', 'Conky', 'Brave-browser', 'Vmware']
+blur=true
+brightness=0.88
+dynamic-opacity=false
+enable-all=true
+opacity=231
+sigma=15
+
+[extensions/blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+override-background=false
+pipeline='pipeline_default_rounded'
+sigma=25
+static-blur=true
+style-dash-to-dock=0
+
+[extensions/blur-my-shell/hidetopbar]
+compatibility=false
+
+[extensions/blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/overview]
+pipeline='pipeline_default'
+style-components=1
+
+[extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+override-background=true
+pipeline='pipeline_default'
+sigma=30
+style-panel=2
+
+[extensions/blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[extensions/burn-my-windows]
+active-profile='/home/lichti/.config/burn-my-windows/profiles/1733793262956084.conf'
+last-extension-version=44
+last-prefs-version=44
+prefs-open-count=6
+
+[extensions/caffeine]
+indicator-position-max=2
+restore-state=true
+toggle-state=true
+user-enabled=true
+
+[extensions/dash-to-dock]
+always-center-icons=false
+apply-custom-theme=true
+autohide=false
+background-opacity=0.80000000000000004
+custom-theme-shrink=true
+dash-max-icon-size=42
+dock-fixed=true
+dock-position='BOTTOM'
+extend-height=false
+height-fraction=1.0
+intellihide=true
+intellihide-mode='ALWAYS_ON_TOP'
+preferred-monitor=-2
+preferred-monitor-by-connector='HDMI-1'
+preview-size-scale=0.0
+scroll-action='switch-workspace'
+show-apps-at-top=true
+show-favorites=true
+show-mounts=false
+show-mounts-only-mounted=false
+
+[extensions/display-brightness-ddcutil]
+button-location=1
+ddcutil-binary-path='/usr/bin/ddcutil'
+ddcutil-queue-ms=130.0
+ddcutil-sleep-multiplier=40.0
+decrease-brightness-shortcut=['<Control>XF86MonBrightnessDown']
+hide-system-indicator=true
+increase-brightness-shortcut=['<Control>XF86MonBrightnessUp']
+position-system-menu=3.0
+show-value-label=true
+step-change-keyboard=2.0
+
+[extensions/dynamic-panel]
+auto-width=false
+background-mode=1
+blur=true
+colors-use-in-static=true
+detection-mode=0
+float-align=0
+float-width=99
+radius-times=13
+solid-type=1
+transparent=51
+
+[extensions/extension-list]
+button-icon=uint32 0
+del-button=false
+ext-app='com.mattjakeman.ExtensionManager.desktop'
+hide-inactive=false
+toggle-unpin=false
+unpin-list=@as []
+
+[extensions/gnome-ui-tune]
+always-show-thumbnails=true
+increase-thumbnails-size='200%'
+restore-thumbnails-background=true
+
+[extensions/just-perfection]
+activities-button=true
+animation=1
+clock-menu=true
+clock-menu-position=1
+clock-menu-position-offset=6
+dash-icon-size=0
+notification-banner-position=2
+osd-position=5
+panel-button-padding-size=2
+panel-icon-size=0
+panel-indicator-padding-size=3
+panel-size=0
+quick-settings-dark-mode=false
+search=false
+startup-status=0
+weather=false
+workspace-switcher-should-show=false
+workspace-wrap-around=true
+workspaces-in-app-grid=true
+world-clock=false
+
+[extensions/libpanel]
+layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
+
+[extensions/mpris-label]
+album-size=70
+auto-switch-to-most-recent=true
+extension-place='center'
+first-field='xesam:title'
+last-field='xesam:album'
+max-string-length=70
+second-field='xesam:artist'
+symbolic-source-icon=true
+volume-control-scheme='global'
+
+[extensions/openbar]
+accent-color=['0', '0.75', '0.75']
+accent-override=false
+apply-accent-shell=true
+apply-all-shell=true
+apply-flatpak=true
+apply-gtk=true
+apply-menu-notif=true
+apply-menu-shell=true
+auto-bgalpha=true
+autofg-bar=true
+autofg-menu=true
+autohg-bar=true
+autohg-menu=true
+autotheme-dark='Dark'
+autotheme-font=true
+autotheme-light='Pastel'
+autotheme-refresh=true
+balpha=0.84999999999999998
+bartype='Mainland'
+bcolor=['0.259', '0.098', '0.773']
+bg-change=true
+bgalpha=0.94999999999999996
+bgalpha-wmax=0.0
+bgalpha2=0.0
+bgcolor=['0.094', '0.020', '0.251']
+bgcolor-wmax=['0.169', '0.141', '0.373']
+bgcolor2=['0.302', '0.259', '0.373']
+bgpalette=false
+bguri='file:///home/lichti/.local/share/backgrounds/2024-12-19-17-56-41-12-Dark.jpg'
+border-wmax=false
+bordertype='solid'
+boxalpha=0.0
+boxcolor=['0.094', '0.020', '0.251']
+bradius=33.0
+buttonbg-wmax=false
+bwidth=1.5
+candy1=['0', '0.61', '0.74']
+candy10=['0.09', '0.19', '0.72']
+candy11=['0.75', '0.49', '0.44']
+candy12=['1', '0.92', '0.12']
+candy13=['0.38', '0.63', '0.92']
+candy14=['0.37', '0.36', '0.39']
+candy15=['0.40', '0.23', '0.72']
+candy16=['1', '0.32', '0.32']
+candy2=['1', '0.41', '0.41']
+candy3=['0.63', '0.16', '0.8']
+candy4=['0.94', '0.60', '0.23']
+candy5=['0.03', '0.41', '0.62']
+candy6=['0.56', '0.18', '0.43']
+candy7=['0.95', '0.12', '0.67']
+candy8=['0.18', '0.76', '0.49']
+candy9=['0.93', '0.20', '0.23']
+candyalpha=0.0
+candybar=false
+card-hint=69
+color-scheme='prefer-dark'
+corner-radius=false
+count1=315988
+count10=3202
+count11=664
+count12=4
+count2=240971
+count3=135251
+count4=97281
+count5=80862
+count6=80531
+count7=35958
+count8=4728
+count9=4560
+cust-margin-wmax=false
+dark-accent-color=['0', '0.75', '0.75']
+dark-bcolor=['0.259', '0.098', '0.773']
+dark-bgcolor=['0.094', '0.020', '0.251']
+dark-bgcolor-wmax=['0.169', '0.141', '0.373']
+dark-bgcolor2=['0.302', '0.259', '0.373']
+dark-bguri='file:///home/lichti/.local/share/backgrounds/2024-12-19-17-56-41-12-Dark.jpg'
+dark-boxcolor=['0.094', '0.020', '0.251']
+dark-candy1=['0', '0.61', '0.74']
+dark-candy10=['0.09', '0.19', '0.72']
+dark-candy11=['0.75', '0.49', '0.44']
+dark-candy12=['1', '0.92', '0.12']
+dark-candy13=['0.38', '0.63', '0.92']
+dark-candy14=['0.37', '0.36', '0.39']
+dark-candy15=['0.40', '0.23', '0.72']
+dark-candy16=['1', '0.32', '0.32']
+dark-candy2=['1', '0.41', '0.41']
+dark-candy3=['0.63', '0.16', '0.8']
+dark-candy4=['0.94', '0.60', '0.23']
+dark-candy5=['0.03', '0.41', '0.62']
+dark-candy6=['0.56', '0.18', '0.43']
+dark-candy7=['0.95', '0.12', '0.67']
+dark-candy8=['0.18', '0.76', '0.49']
+dark-candy9=['0.93', '0.20', '0.23']
+dark-dbgcolor=['0.125', '0.125', '0.125']
+dark-fgcolor=['1.0', '1.0', '1.0']
+dark-hcolor=['0', '0.7', '0.9']
+dark-hscd-color=['0.251', '0.176', '0.773']
+dark-iscolor=['0.094', '0.020', '0.251']
+dark-mbcolor=['0.455', '0.239', '0.718']
+dark-mbgcolor=['0.090', '0.075', '0.125']
+dark-mfgcolor=['0.467', '0.169', '0.565']
+dark-mhcolor=['0', '0.7', '0.9']
+dark-mscolor=['0.251', '0.176', '0.773']
+dark-mshcolor=['0.000', '0.000', '0.000']
+dark-palette1=['54', '15', '122']
+dark-palette10=['28', '4', '60']
+dark-palette11=['70', '44', '171']
+dark-palette12=['28', '4', '92']
+dark-palette2=['16', '4', '46']
+dark-palette3=['50', '28', '201']
+dark-palette4=['29', '6', '76']
+dark-palette5=['55', '21', '165']
+dark-palette6=['90', '28', '135']
+dark-palette7=['119', '43', '144']
+dark-palette8=['116', '61', '183']
+dark-palette9=['94', '44', '181']
+dark-shcolor=['0.000', '0.000', '0.000']
+dark-smbgcolor=['0.302', '0.259', '0.373']
+dark-vw-color=['0.251', '0.176', '0.773']
+dark-winbcolor=['0.251', '0.176', '0.773']
+dashdock-style='Bar'
+dbgalpha=0.0
+dbgcolor=['0.125', '0.125', '0.125']
+dborder=true
+dbradius=55.0
+default-font='Sans 12'
+destruct-color=['0.75', '0.11', '0.16']
+disize=42.0
+dshadow=false
+fgalpha=1.0
+fgcolor=['1.0', '1.0', '1.0']
+fitts-widgets=false
+gradient=false
+gradient-direction='vertical'
+gtk-popover=true
+gtk-shadow='None'
+gtk-transparency=0.66000000000000003
+halpha=0.66000000000000003
+handle-border=3.0
+hbar-gtk3only=false
+hcolor=['0', '0.7', '0.9']
+headerbar-hint=39
+heffect=false
+height=20.0
+hpad=0.0
+hscd-color=['0.251', '0.176', '0.773']
+import-export=false
+isalpha=0.94999999999999996
+iscolor=['0.094', '0.020', '0.251']
+light-accent-color=['0', '0.75', '0.75']
+light-bcolor=['0.259', '0.098', '0.773']
+light-bgcolor=['0.353', '0.110', '0.529']
+light-bgcolor-wmax=['0.682', '0.651', '0.898']
+light-bgcolor2=['0.827', '0.788', '0.894']
+light-bguri='file:///home/lichti/.local/share/backgrounds/2024-12-19-17-56-41-12-Dark.jpg'
+light-boxcolor=['0.353', '0.110', '0.529']
+light-candy1=['0', '0.61', '0.74']
+light-candy10=['0.09', '0.19', '0.72']
+light-candy11=['0.75', '0.49', '0.44']
+light-candy12=['1', '0.92', '0.12']
+light-candy13=['0.38', '0.63', '0.92']
+light-candy14=['0.37', '0.36', '0.39']
+light-candy15=['0.40', '0.23', '0.72']
+light-candy16=['1', '0.32', '0.32']
+light-candy2=['1', '0.41', '0.41']
+light-candy3=['0.63', '0.16', '0.8']
+light-candy4=['0.94', '0.60', '0.23']
+light-candy5=['0.03', '0.41', '0.62']
+light-candy6=['0.56', '0.18', '0.43']
+light-candy7=['0.95', '0.12', '0.67']
+light-candy8=['0.18', '0.76', '0.49']
+light-candy9=['0.93', '0.20', '0.23']
+light-dbgcolor=['0.125', '0.125', '0.125']
+light-fgcolor=['1.0', '1.0', '1.0']
+light-hcolor=['0', '0.7', '0.9']
+light-hscd-color=['0.314', '0.231', '0.863']
+light-iscolor=['0.353', '0.110', '0.529']
+light-mbcolor=['0.063', '0.016', '0.180']
+light-mbgcolor=['0.776', '0.682', '0.808']
+light-mfgcolor=['1.0', '1.0', '1.0']
+light-mhcolor=['0', '0.7', '0.9']
+light-mscolor=['0.314', '0.231', '0.863']
+light-mshcolor=['0.000', '0.000', '0.000']
+light-palette1=['54', '15', '122']
+light-palette10=['28', '4', '60']
+light-palette11=['70', '44', '171']
+light-palette12=['28', '4', '92']
+light-palette2=['16', '4', '46']
+light-palette3=['50', '28', '201']
+light-palette4=['29', '6', '76']
+light-palette5=['55', '21', '165']
+light-palette6=['90', '28', '135']
+light-palette7=['119', '43', '144']
+light-palette8=['116', '61', '183']
+light-palette9=['94', '44', '181']
+light-shcolor=['0.000', '0.000', '0.000']
+light-smbgcolor=['0.827', '0.788', '0.894']
+light-vw-color=['0.314', '0.231', '0.863']
+light-winbcolor=['0.314', '0.231', '0.863']
+margin=0.0
+margin-wmax=2.0
+mbalpha=0.0
+mbcolor=['0.455', '0.239', '0.718']
+mbg-gradient=false
+mbgalpha=0.44
+mbgcolor=['0.090', '0.075', '0.125']
+menu-radius=18.0
+menustyle=true
+mfgalpha=1.0
+mfgcolor=['0.467', '0.169', '0.565']
+mhalpha=1.0
+mhcolor=['0', '0.7', '0.9']
+monitors='all'
+msalpha=1.0
+mscolor=['0.251', '0.176', '0.773']
+mshalpha=0.33000000000000002
+mshcolor=['0.000', '0.000', '0.000']
+neon=true
+neon-wmax=false
+notif-radius=10.0
+palette1=['54', '15', '122']
+palette10=['28', '4', '60']
+palette11=['70', '44', '171']
+palette12=['28', '4', '92']
+palette2=['16', '4', '46']
+palette3=['50', '28', '201']
+palette4=['29', '6', '76']
+palette5=['55', '21', '165']
+palette6=['90', '28', '135']
+palette7=['119', '43', '144']
+palette8=['116', '61', '183']
+palette9=['94', '44', '181']
+pause-reload=false
+position='Top'
+prominent1=['100', '100', '100']
+prominent2=['100', '100', '100']
+prominent3=['100', '100', '100']
+prominent4=['100', '100', '100']
+prominent5=['100', '100', '100']
+prominent6=['100', '100', '100']
+qtoggle-radius=50.0
+radius-bottomleft=false
+radius-bottomright=false
+radius-topleft=true
+radius-topright=true
+reloadstyle=true
+removestyle=false
+sbar-gradient='none'
+set-fullscreen=true
+set-notifications=false
+set-overview=false
+set-yarutheme=false
+shadow=false
+shalpha=0.25
+shcolor=['0.000', '0.000', '0.000']
+sidebar-hint=27
+slider-height=4.0
+smbgalpha=0.94999999999999996
+smbgcolor=['0.302', '0.259', '0.373']
+smbgoverride=true
+success-color=['0.15', '0.635', '0.41']
+traffic-light=true
+trigger-autotheme=true
+trigger-reload=true
+view-hint=22
+vpad=0.0
+vw-color=['0.251', '0.176', '0.773']
+warning-color=['0.96', '0.83', '0.17']
+width-bottom=true
+width-left=false
+width-right=false
+width-top=false
+winbalpha=0.75
+winbcolor=['0.251', '0.176', '0.773']
+winbradius=12.0
+winbwidth=1.0
+window-hint=22
+wmax-hbarhint=false
+wmaxbar=false
+
+[extensions/openweatherrefined]
+actual-city=1
+custom-keys=['237b665edfd4695edc4bc884d1f26a10', '', '']
+delay-ext-init=0
+has-run=true
+last-init-error='(2024/11/12) Gio.IOErrorEnum: Verbindung mit api.infoip.io ist gescheitert: Verbindungsaufbau abgelehnt'
+locs=[(uint32 1, '', uint32 1, ''), (0, 'Sinabelkirchen', 0, '47.1049888,15.8269858')]
+my-loc-prov='ipinfoio'
+owm-api-translate=true
+position-index=6
+weather-provider='openweathermap'
+
+[extensions/quick-settings-audio-panel]
+create-mixer-sliders=false
+create-profile-switcher=false
+media-control='move'
+merge-panel=true
+move-master-volume=false
+panel-position='bottom'
+show-current-device=true
+
+[extensions/quick-settings-tweaks]
+add-dnd-quick-toggle-enabled=false
+input-show-selected=false
+list-buttons='[{"name":"SystemItem","title":null,"visible":true},{"name":"OutputStreamSlider","title":null,"visible":true},{"name":"InputStreamSlider","title":null,"visible":false},{"name":"BrightnessItem","title":null,"visible":false},{"name":"NMWiredToggle","title":"Kabelgebunden","visible":true},{"name":"NMWirelessToggle","title":"WLAN","visible":true},{"name":"NMModemToggle","title":null,"visible":false},{"name":"NMBluetoothToggle","title":null,"visible":false},{"name":"NMVpnToggle","title":null,"visible":false},{"name":"BluetoothToggle","title":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","title":"Energiemodus","visible":false},{"name":"NightLightToggle","title":"Nachtmodus","visible":true},{"name":"DarkModeToggle","title":"Dunkler Stil","visible":false},{"name":"KeyboardBrightnessToggle","title":"Tastatur","visible":false},{"name":"RfkillToggle","title":"Flugzeugmodus","visible":false},{"name":"RotationToggle","title":"Automatisches Drehen","visible":false},{"name":"CaffeineToggle","title":"Koffein","visible":true},{"name":"BackgroundAppsToggle","title":"Keine Hintergrundanwendungen","visible":false},{"name":"MediaSection","title":null,"visible":false},{"name":"Notifications","title":null,"visible":false},{"name":"St_BoxLayout","title":null,"visible":true}]'
+media-control-compact-mode=false
+media-control-enabled=false
+notifications-hide-when-no-notifications=true
+notifications-max-height=292
+notifications-use-native-controls=false
+volume-mixer-check-description=true
+volume-mixer-enabled=true
+volume-mixer-filter-mode='allow'
+volume-mixer-filtered-apps=@as []
+volume-mixer-position='bottom'
+volume-mixer-show-description=true
+volume-mixer-use-regex=false
+
+[extensions/quicksettings-audio-devices-renamer]
+input-names-map={'Mikrofon – Komplete Audio 2': 'Mikrofon – Komplete Audio 2', 'Digitaleingang (S/PDIF) – Komplete Audio 2': 'Digitaleingang (S/PDIF) – Komplete Audio 2'}
+output-names-map={'HDMI / DisplayPort – GA102 High Definition Audio Controller': 'HDMI / DisplayPort – GA102 High Definition Audio Controller', 'Analoge Ausgabe – Komplete Audio 2': 'Analoge Ausgabe – Komplete Audio 2', 'Digitalausgang (S/PDIF) – Komplete Audio 2': 'Digitalausgang (S/PDIF) – Komplete Audio 2', 'S/PDIF Output – USB Audio': 'S/PDIF Output – USB Audio', 'Schein-Ausgabe': '🪩Schein-Ausgabe'}
+
+[extensions/smart-auto-move]
+activate-workspace=false
+debug-logging=false
+freeze-saves=false
+ignore-position=false
+ignore-workspace=false
+match-threshold=0.69999999999999973
+overrides='{"SiYuan":[{"action":0,"threshold":0.7}],"org.gnome.Nautilus":[{"query":{"title":"Persönlicher Ordner"},"action":1},{"query":{"title":"github"},"action":1}],"gnome-text-editor":[{"action":1,"threshold":0.7}],"com.mattjakeman.ExtensionManager":[{"action":1,"threshold":0.7}]}'
+save-frequency=1000
+saved-windows="{\"org.gnome.Ptyxis\":[{\"id\":338429634,\"hash\":338429634,\"sequence\":57,\"title\":\"sudo systemctl reboot -i — sudo systemctl reboot -i \",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1233,\"y\":702,\"width\":1370,\"height\":663,\"occupied\":false},{\"id\":3773348599,\"hash\":3773348599,\"sequence\":1,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":19996883,\"hash\":19996883,\"sequence\":281,\"title\":\"Einstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1824,\"y\":391,\"width\":640,\"height\":700,\"occupied\":false},{\"id\":2955672689,\"hash\":2955672689,\"sequence\":32,\"title\":\"nvidia-settings — nvidia-settings \",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1370,\"height\":663,\"occupied\":false},{\"id\":19996890,\"hash\":19996890,\"sequence\":288,\"title\":\"lichti@cachyos:/mnt/Volume1/Cloud/Portable/Linux Apps\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3951295849,\"hash\":3951295849,\"sequence\":15,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3487519282,\"hash\":3487519282,\"sequence\":2,\"title\":\"lichti@cachyos:/var/log\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":4182573833,\"hash\":4182573833,\"sequence\":10,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1370,\"height\":663,\"occupied\":false},{\"id\":3773348750,\"hash\":3773348750,\"sequence\":152,\"title\":\"sudo systemctl reboot -i — sudo systemctl reboot -i \",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1777483439,\"hash\":1777483439,\"sequence\":1,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1777483512,\"hash\":1777483512,\"sequence\":74,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2671740345,\"hash\":2671740345,\"sequence\":228,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":967936922,\"hash\":967936922,\"sequence\":13,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":987540488,\"hash\":987540488,\"sequence\":3,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":987540590,\"hash\":987540590,\"sequence\":105,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":987540605,\"hash\":987540605,\"sequence\":120,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1370,\"height\":663,\"occupied\":false},{\"id\":3278970092,\"hash\":3278970092,\"sequence\":1,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1370,\"height\":663,\"occupied\":false},{\"id\":360793715,\"hash\":360793715,\"sequence\":1,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3020819101,\"hash\":3020819101,\"sequence\":1,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3020819150,\"hash\":3020819150,\"sequence\":50,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1909935838,\"hash\":1909935838,\"sequence\":145,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3030761802,\"hash\":3030761802,\"sequence\":53,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2460499474,\"hash\":2460499474,\"sequence\":16,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3705249146,\"hash\":3705249146,\"sequence\":11,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2462612549,\"hash\":2462612549,\"sequence\":1,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":19996862,\"hash\":19996862,\"sequence\":260,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":658,\"height\":537,\"occupied\":false},{\"id\":19996866,\"hash\":19996866,\"sequence\":264,\"title\":\"lichti@cachyos:/run/media/lichti/GamesExt/SteamLibrary/steamapps/common/assettocorsa\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":658,\"height\":491,\"occupied\":false},{\"id\":3951296163,\"hash\":3951296163,\"sequence\":329,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3948759877,\"hash\":3948759877,\"sequence\":19,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":4209052119,\"hash\":4209052119,\"sequence\":7,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":646317434,\"hash\":646317434,\"sequence\":3,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":336776384,\"hash\":336776384,\"sequence\":23,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":336776510,\"hash\":336776510,\"sequence\":149,\"title\":\"sudo /home/lichti/Dokumente/github/BackupLinux/backup_extneu.sh — sudo /home/lichti/Dokumente/github/BackupLinux/backup_extneu.sh \",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":819856224,\"hash\":819856224,\"sequence\":11,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":558214414,\"hash\":558214414,\"sequence\":1,\"title\":\"sudo /home/lichti/Dokumente/github/BackupLinux/backup_extneu.sh — sudo /home/lichti/Dokumente/github/BackupLinux/backup_extneu.sh \",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":true}],\"com.mattjakeman.ExtensionManager\":[{\"id\":558214415,\"hash\":558214415,\"sequence\":2,\"title\":\"Erweiterungs-Manager\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false}],\"equibop\":[{\"id\":3676329545,\"hash\":3676329545,\"sequence\":263,\"title\":\"• Discord | #project-updates | TUFU - 2Unreal5Underground\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":2163252258,\"hash\":2163252258,\"sequence\":20,\"title\":\"• Discord | Updater | Benutzereinstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":32,\"width\":1372,\"height\":1343,\"occupied\":false},{\"id\":3970256699,\"hash\":3970256699,\"sequence\":5,\"title\":\"• Discord | #✅-mod-release | [PC] CARX STREET MODDING COMMUNITY\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":3020819126,\"hash\":3020819126,\"sequence\":26,\"title\":\"• Discord | #🙋♂-𝔹𝕚𝕖𝕟𝕧𝕖𝕟𝕦𝕖 | Le Stand N°36\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":1777483450,\"hash\":1777483450,\"sequence\":12,\"title\":\"• Discord | #donator-chat | TUFU - 2Unreal5Underground\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":987540621,\"hash\":987540621,\"sequence\":136,\"title\":\"• Discord | Mein Account | Benutzereinstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":4182573835,\"hash\":4182573835,\"sequence\":12,\"title\":\"• Discord | #terrace-kebabists | Le Stand N°36\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":1234981327,\"hash\":1234981327,\"sequence\":10,\"title\":\"• Discord | #meets-events-chat | Inertia\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":3278970097,\"hash\":3278970097,\"sequence\":6,\"title\":\"• Discord | #terrace-boys-chat | TerraceGang\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":3020819106,\"hash\":3020819106,\"sequence\":6,\"title\":\"• Discord | #donator-chat | TUFU - 2Unreal5Underground\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":3278970095,\"hash\":3278970095,\"sequence\":4,\"title\":\"equibop\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":true,\"monitor\":0,\"x\":1570,\"y\":523,\"width\":300,\"height\":350,\"occupied\":false},{\"id\":3110516479,\"hash\":3110516479,\"sequence\":6,\"title\":\"• Discord | #project-updates | TUFU - 2Unreal5Underground\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":1279920475,\"hash\":1279920475,\"sequence\":18,\"title\":\"• Discord | #game-announcements | CarX Street\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false}],\"feishin\":[{\"id\":1807531891,\"hash\":1807531891,\"sequence\":3,\"title\":\"(Paused) (100 / 222) Sugar (feat. Francesco Yates) — Robin Schulz\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":32,\"width\":1720,\"height\":1343,\"occupied\":false},{\"id\":2671740153,\"hash\":2671740153,\"sequence\":36,\"title\":\"(Paused) (177 / 222) Pyramid Building — Hilltop Hoods\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1720,\"height\":1353,\"occupied\":false},{\"id\":1234981323,\"hash\":1234981323,\"sequence\":6,\"title\":\"(Paused) (69 / 222) dj maxwell - allegria — dj maxwell\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1719,\"height\":1353,\"occupied\":false},{\"id\":3773348658,\"hash\":3773348658,\"sequence\":60,\"title\":\"Feishin\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1720,\"height\":1353,\"occupied\":false}],\"Brave-browser\":[{\"id\":4250200802,\"hash\":4250200802,\"sequence\":6,\"title\":\"Troubleshooting GNOME 47 display issues - Claude - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":3676329611,\"hash\":3676329611,\"sequence\":329,\"title\":\"accounts.google.com/signin/oauth/consent?as=S1779816851:1734232136056086&authuser=1&client_id=1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com&flowName=GeneralOAuthFlow&part=AJi8hAMuovmW0SZDTQtyn84j9pTsKnOSoQ20aN9dYjbiDudwgvp7jF2zqpO2jmmwc2x8m4hOZ4hUWZiWZ4RTn4fwjf_TY8Jy91xydMWvBqyX52pEica9iw3eewsF7nnYbtnGkb4cmZSyce1MYkaK1OViRwMUPnT2VAdaEmp6sxrVd0RCPud0avXebOZMMJxa49lHNVfvs4kt0UKBMWzyu6N64XvsrMlm3bN7KzGnLhUNPwZjJoM2_aUItBsUOCyY9w2cEbNeJy-bgAjlMFEemJ_Z7IDaSklrbqrcmFqlLA-1yG37to8zGu5cF\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1470,\"y\":408,\"width\":500,\"height\":619,\"occupied\":false},{\"id\":2997043328,\"hash\":2997043328,\"sequence\":3,\"title\":\"Troubleshooting CachyOS Settings - Claude - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":4057072150,\"hash\":4057072150,\"sequence\":15,\"title\":\"cachyos WaylandEnable=true - Brave Search - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":4057072136,\"hash\":4057072136,\"sequence\":1,\"title\":\"Saucy Cumslut - HQporner.com - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":338429624,\"hash\":338429624,\"sequence\":47,\"title\":\"Avoid Password Prompt for Backup Log in Gnome 47 Cachyos - Claude - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":4182573827,\"hash\":4182573827,\"sequence\":4,\"title\":\"Comparing Dotfile Management Tools: yadm, stow, and chezmoi - Claude - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":3956335132,\"hash\":3956335132,\"sequence\":1,\"title\":\"KEINE FICKS GEGEBEN! Beste Taxifahrt Aller Zeiten! MILLIDOLLARSAFT - Pornhub.com - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":527,\"y\":27,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":53364178,\"hash\":53364178,\"sequence\":4,\"title\":\"Setting the Same Desktop Background for GNOME 47 GDM Login Screen - Claude - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":2360498942,\"hash\":2360498942,\"sequence\":19,\"title\":\"Valerica Steele – Pornstar Videos - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1991,\"height\":1404,\"occupied\":false},{\"id\":2460499463,\"hash\":2460499463,\"sequence\":5,\"title\":\"Search Results for valerica steele - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":3705249136,\"hash\":3705249136,\"sequence\":1,\"title\":\"Shaiden Rogue - IKA Experience - I Suck Those Cocks Everywhere - Onlyfans - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":3487519283,\"hash\":3487519283,\"sequence\":3,\"title\":\"Customizing GDM Configuration and Debugging - Claude - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":646317432,\"hash\":646317432,\"sequence\":1,\"title\":\"Sleek and Powerful: My GNOME 47 Configuration and Must-Have Extensions - YouTube - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":32,\"width\":2068,\"height\":1343,\"occupied\":false},{\"id\":819856227,\"hash\":819856227,\"sequence\":14,\"title\":\"Bitwarden\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1691,\"y\":65,\"width\":380,\"height\":607,\"occupied\":false},{\"id\":558214418,\"hash\":558214418,\"sequence\":5,\"title\":\"YouTube - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":true},{\"id\":819856230,\"hash\":819856230,\"sequence\":17,\"title\":\"accounts.google.com/signin/oauth/consent?authuser=1&part=AJi8hAN-OXR9gJ6mGaumLxbXxQ6dGqJpLsfHMsOpMBSMxkMsZA6Prn8yLzSzQy1xkCHLG58_vry4dfJSNnCzxViVF_xEIZBJzHJ8MV0qJYUYXXjO75QdSkCzEXeNzUsWnN58DikBo9oRMQwK5kC2X9-F-HRJr1eR38U3OSxeiinMMnRvNFSHNQNy3_BCjc-8X-mislB0jUvkNIWlrYMvY2qGdcURnsZfmsY4g5hS9SCZJBuehsfW4DlULaeGtghC7TM3lQLg38AbdLor2qcP86M2hCoS8RPSfA9xzhm-u1u0BoHjrTrbsNSKjC-Che_25UWMlFnw6qL0HrKkWy2mBJJ_04R0mKi_dUNQNjiQvKXxL3PPfQkcvzpQkb54mpyicEaAZr6Xp8pTayuYgMJY3rofNqOYORGCseTQyfuhiRMobmxIUNYuNwtD0FlRPq4dXKKhCkg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":770,\"y\":321,\"width\":500,\"height\":619,\"occupied\":false},{\"id\":819856252,\"hash\":819856252,\"sequence\":39,\"title\":\"Suchergebnis Ihres Filters bei BookSusi - Brave\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":10,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false}],\"CachyOSHello\":[{\"id\":1165115082,\"hash\":1165115082,\"sequence\":11,\"title\":\"CachyOS Hello\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1288,\"y\":412,\"width\":800,\"height\":632,\"occupied\":false}],\"org.gnome.tweaks\":[{\"id\":3948759898,\"hash\":3948759898,\"sequence\":40,\"title\":\"GNOME-Optimierung\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1430,\"y\":415,\"width\":980,\"height\":640,\"occupied\":false}],\"org.gnome.Nautilus\":[{\"id\":2139353178,\"hash\":2139353178,\"sequence\":3,\"title\":\"gnome_extensions\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2,\"y\":247,\"width\":1035,\"height\":677,\"occupied\":false},{\"id\":3676329326,\"hash\":3676329326,\"sequence\":44,\"title\":\"Musik\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":1211740974,\"hash\":1211740974,\"sequence\":14,\"title\":\"Nach »pty« suchen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3676329337,\"hash\":3676329337,\"sequence\":55,\"title\":\"logs\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":4209052115,\"hash\":4209052115,\"sequence\":3,\"title\":\"Dokumente\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":34,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996612,\"hash\":19996612,\"sequence\":10,\"title\":\"assettocorsa\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3030761750,\"hash\":3030761750,\"sequence\":1,\"title\":\".icons\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":987540649,\"hash\":987540649,\"sequence\":164,\"title\":\"Linux\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":223468408,\"hash\":223468408,\"sequence\":81,\"title\":\"Dokumente\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3676329478,\"hash\":3676329478,\"sequence\":196,\"title\":\".ssh\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3773348660,\"hash\":3773348660,\"sequence\":62,\"title\":\"Dokumente\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":200145678,\"hash\":200145678,\"sequence\":25,\"title\":\".ssh\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2,\"y\":247,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3970256701,\"hash\":3970256701,\"sequence\":7,\"title\":\"CarX Street_Data\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1167,\"y\":401,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":200145751,\"hash\":200145751,\"sequence\":98,\"title\":\"assets\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":2139353184,\"hash\":2139353184,\"sequence\":9,\"title\":\"extensions\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1037,\"y\":247,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":4099348516,\"hash\":4099348516,\"sequence\":3,\"title\":\"custom.conf.d\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2,\"y\":247,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":2374665831,\"hash\":2374665831,\"sequence\":4,\"title\":\"gdm\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":4057072151,\"hash\":4057072151,\"sequence\":16,\"title\":\"Evolve-v1.6.1BLD163-PublicRelease\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":930,\"height\":677,\"occupied\":false},{\"id\":987540500,\"hash\":987540500,\"sequence\":15,\"title\":\"Nach »discord« suchen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3970256753,\"hash\":3970256753,\"sequence\":59,\"title\":\"Nach »media« suchen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":338429579,\"hash\":338429579,\"sequence\":2,\"title\":\"bkplog\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1594,\"y\":304,\"width\":1215,\"height\":677,\"occupied\":false},{\"id\":338429627,\"hash\":338429627,\"sequence\":50,\"title\":\"bkplog\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":1215,\"height\":677,\"occupied\":false},{\"id\":3956335148,\"hash\":3956335148,\"sequence\":17,\"title\":\"bkplog\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":504,\"y\":247,\"width\":1215,\"height\":677,\"occupied\":false},{\"id\":223468390,\"hash\":223468390,\"sequence\":63,\"title\":\"Dokumente\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":1777483510,\"hash\":1777483510,\"sequence\":72,\"title\":\".icons\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":1775300761,\"hash\":1775300761,\"sequence\":1,\"title\":\"Favoriten\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":1777483575,\"hash\":1777483575,\"sequence\":137,\"title\":\"share\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":987540663,\"hash\":987540663,\"sequence\":178,\"title\":\"custom-osdneuromorph.v28.shell-extension\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2014,\"y\":342,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":837978326,\"hash\":837978326,\"sequence\":2,\"title\":\"extensions\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":2690832552,\"hash\":2690832552,\"sequence\":7,\"title\":\"Evolve-v1.6.1BLD163-PublicRelease\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3399581311,\"hash\":3399581311,\"sequence\":9,\"title\":\"gnome-shell\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1688,\"y\":691,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":1909935706,\"hash\":1909935706,\"sequence\":13,\"title\":\"Nach »nauti« suchen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3020819169,\"hash\":3020819169,\"sequence\":69,\"title\":\"Nach »eeeeee« suchen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":1909935825,\"hash\":1909935825,\"sequence\":132,\"title\":\"Nach »code« suchen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":2462612562,\"hash\":2462612562,\"sequence\":14,\"title\":\"package\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1204,\"y\":715,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3110516491,\"hash\":3110516491,\"sequence\":18,\"title\":\"package\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3951296205,\"hash\":3951296205,\"sequence\":371,\"title\":\"Papierkorb\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996750,\"hash\":19996750,\"sequence\":148,\"title\":\"bkplog\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996790,\"hash\":19996790,\"sequence\":188,\"title\":\"assettocorsa\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996868,\"hash\":19996868,\"sequence\":266,\"title\":\"assettocorsa\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996874,\"hash\":19996874,\"sequence\":272,\"title\":\"Linux Apps\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2245,\"y\":499,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996891,\"hash\":19996891,\"sequence\":289,\"title\":\"nex\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996895,\"hash\":19996895,\"sequence\":293,\"title\":\"mnt\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":19996903,\"hash\":19996903,\"sequence\":301,\"title\":\"config\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3951295852,\"hash\":3951295852,\"sequence\":18,\"title\":\"system\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3951295889,\"hash\":3951295889,\"sequence\":55,\"title\":\"system\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3951296113,\"hash\":3951296113,\"sequence\":279,\"title\":\"lichti\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2332,\"y\":22,\"width\":1108,\"height\":677,\"occupied\":false},{\"id\":3951296184,\"hash\":3951296184,\"sequence\":350,\"title\":\"Persönlicher Ordner\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3948759878,\"hash\":3948759878,\"sequence\":20,\"title\":\"Wallpaper\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2126,\"y\":54,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":336776398,\"hash\":336776398,\"sequence\":37,\"title\":\"package\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3773348622,\"hash\":3773348622,\"sequence\":24,\"title\":\"Linux Apps\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1441,\"y\":672,\"width\":686,\"height\":677,\"occupied\":false},{\"id\":3773348633,\"hash\":3773348633,\"sequence\":35,\"title\":\"Downloads\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1204,\"y\":698,\"width\":820,\"height\":677,\"occupied\":false},{\"id\":819856216,\"hash\":819856216,\"sequence\":3,\"title\":\".icons\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":698,\"width\":686,\"height\":677,\"occupied\":false}],\"org.gnome.SystemMonitor\":[{\"id\":3773348723,\"hash\":3773348723,\"sequence\":125,\"title\":\"Systemüberwachung\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":713,\"y\":302,\"width\":800,\"height\":720,\"occupied\":false}],\"Bitwarden\":[{\"id\":336776507,\"hash\":336776507,\"sequence\":146,\"title\":\"Bitwarden\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false}],\"steam\":[{\"id\":3278970098,\"hash\":3278970098,\"sequence\":7,\"title\":\"Steam\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":19996666,\"hash\":19996666,\"sequence\":64,\"title\":\"Freundesliste\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":3127,\"y\":701,\"width\":313,\"height\":741,\"occupied\":false},{\"id\":3278970106,\"hash\":3278970106,\"sequence\":15,\"title\":\"Herunterfahren\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2454,\"y\":240,\"width\":600,\"height\":240,\"occupied\":false},{\"id\":3278970096,\"hash\":3278970096,\"sequence\":5,\"title\":\"Bei Steam anmelden\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1367,\"y\":478,\"width\":705,\"height\":440,\"occupied\":false},{\"id\":3948759864,\"hash\":3948759864,\"sequence\":6,\"title\":\"CarX Street\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2333,\"y\":59,\"width\":842,\"height\":601,\"occupied\":false},{\"id\":3951295875,\"hash\":3951295875,\"sequence\":41,\"title\":\"Steam-Einstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2329,\"y\":22,\"width\":850,\"height\":722,\"occupied\":false},{\"id\":2671740160,\"hash\":2671740160,\"sequence\":43,\"title\":\"Randy Marsh\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1350,\"y\":373,\"width\":740,\"height\":650,\"occupied\":false},{\"id\":1234981331,\"hash\":1234981331,\"sequence\":14,\"title\":\"<#fa7878>❀Jo<#00ffd5>re❀\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2386,\"y\":793,\"width\":740,\"height\":650,\"occupied\":false},{\"id\":19996719,\"hash\":19996719,\"sequence\":117,\"title\":\"Steam-Dialogfenster\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2456,\"y\":290,\"width\":596,\"height\":186,\"occupied\":false},{\"id\":19996954,\"hash\":19996954,\"sequence\":352,\"title\":\"Assetto Corsa\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2333,\"y\":59,\"width\":842,\"height\":601,\"occupied\":false}],\"com.obsproject.Studio\":[{\"id\":204853965,\"hash\":204853965,\"sequence\":25,\"title\":\"OBS 31.0.0-1.1 - Profil: Unbenannt - Szenensammlung: Unbenannt\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false}],\"org.gnome.TextEditor\":[{\"id\":4209052127,\"hash\":4209052127,\"sequence\":15,\"title\":\".zshrc (~/) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2420237826,\"hash\":2420237826,\"sequence\":7,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3676329405,\"hash\":3676329405,\"sequence\":123,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3676329610,\"hash\":3676329610,\"sequence\":328,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2955672667,\"hash\":2955672667,\"sequence\":10,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":890,\"y\":198,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3956335149,\"hash\":3956335149,\"sequence\":18,\"title\":\"monitors.conf (/etc/gdm/custom.conf.d) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2565467565,\"hash\":2565467565,\"sequence\":5,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1909935835,\"hash\":1909935835,\"sequence\":142,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":338429580,\"hash\":338429580,\"sequence\":3,\"title\":\"update_20241215_0913.log (~/logs) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":819856217,\"hash\":819856217,\"sequence\":4,\"title\":\"siyuan.desktop (~/.local/share/applications) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3951296191,\"hash\":3951296191,\"sequence\":357,\"title\":\"readme.txt (~/Downloads/ac-fonts) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":54,\"y\":72,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":987540669,\"hash\":987540669,\"sequence\":184,\"title\":\"metadata.json (~/.local/share/gnome-shell/extensions/custom-osdneuromorph.v28.shell-extension) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3399581312,\"hash\":3399581312,\"sequence\":10,\"title\":\"gnome-shell.css (~/.themes/WhiteSur-Dark/gnome-shell) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":332,\"y\":422,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":19996855,\"hash\":19996855,\"sequence\":253,\"title\":\"loginusers.vdf (~/.steam/root/config) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":19996619,\"hash\":19996619,\"sequence\":17,\"title\":\"code.desktop (/usr/share/applications) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":347,\"y\":247,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":336776412,\"hash\":336776412,\"sequence\":51,\"title\":\"Click To Run.bat (/mnt/Volume2/bottles/test/drive_c/package) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":1372,\"height\":677,\"occupied\":false}],\"Code\":[{\"id\":3773348611,\"hash\":3773348611,\"sequence\":13,\"title\":\"check_paspool.ps1 - Untitled (Workspace) - Visual Studio Code\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false}],\"Ferdium\":[{\"id\":204854042,\"hash\":204854042,\"sequence\":102,\"title\":\"Ferdium - WhatsApp - (14) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1777483451,\"hash\":1777483451,\"sequence\":13,\"title\":\"Ferdium - WhatsApp - (13) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2671740303,\"hash\":2671740303,\"sequence\":186,\"title\":\"Ferdium - WhatsApp - (14) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3937898122,\"hash\":3937898122,\"sequence\":6,\"title\":\"Ferdium - WhatsApp - (14) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":2565467607,\"hash\":2565467607,\"sequence\":47,\"title\":\"Ferdium - WhatsApp - (14) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":19996693,\"hash\":19996693,\"sequence\":91,\"title\":\"Ferdium - WhatsApp - (14) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3951296165,\"hash\":3951296165,\"sequence\":331,\"title\":\"Ferdium - WhatsApp - (14) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":4209052128,\"hash\":4209052128,\"sequence\":16,\"title\":\"Ferdium - Telegram - change - Telegram Web\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":819856247,\"hash\":819856247,\"sequence\":34,\"title\":\"Ferdium - WhatsApp - (13) WhatsApp\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1279920473,\"hash\":1279920473,\"sequence\":16,\"title\":\"Ferdium - Telegram - change - Telegram Web\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":698,\"width\":1372,\"height\":677,\"occupied\":false}],\"SiYuan\":[{\"id\":204854047,\"hash\":204854047,\"sequence\":107,\"title\":\"misc - Notes - SiYuan v3.1.15\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":686,\"y\":22,\"width\":1382,\"height\":1353,\"occupied\":false},{\"id\":3676329309,\"hash\":3676329309,\"sequence\":27,\"title\":\"SiYuan\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":860,\"y\":360,\"width\":1720,\"height\":676,\"occupied\":false},{\"id\":200145726,\"hash\":200145726,\"sequence\":73,\"title\":\"Securing DietPi Server with SSH Key Authentication - Claude-20241215064320-5wwc9nr.pdf - Notes - SiYuan v3.1.15\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":686,\"y\":22,\"width\":1382,\"height\":1353,\"occupied\":false}],\"org.gnome.Settings\":[{\"id\":4182573825,\"hash\":4182573825,\"sequence\":2,\"title\":\"Einstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":673,\"occupied\":false}],\"org.gnome.Software\":[{\"id\":336776459,\"hash\":336776459,\"sequence\":98,\"title\":\"Software\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false}],\"gnome-text-editor\":[{\"id\":3676329406,\"hash\":3676329406,\"sequence\":124,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1909935902,\"hash\":1909935902,\"sequence\":209,\"title\":\"Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1909935903,\"hash\":1909935903,\"sequence\":210,\"title\":\"update_20241217_0349.log (~/logs) - Texteditor\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":1372,\"height\":677,\"occupied\":false}],\"DaVinci_Resolve_Welcome\":[{\"id\":3676329415,\"hash\":3676329415,\"sequence\":133,\"title\":\"Welcome to DaVinci Resolve\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":true,\"monitor\":0,\"x\":1270,\"y\":420,\"width\":900,\"height\":600,\"occupied\":false}],\"resolve\":[{\"id\":4250200801,\"hash\":4250200801,\"sequence\":5,\"title\":\"DaVinci Resolve Studio - Untitled Project\",\"workspace\":2,\"maximized\":3,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":3440,\"height\":1353,\"occupied\":false}],\"io.missioncenter.MissionCenter\":[{\"id\":19996843,\"hash\":19996843,\"sequence\":241,\"title\":\"Mission Center\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false}],\"it.mijorus.gearlever\":[{\"id\":3773348648,\"hash\":3773348648,\"sequence\":50,\"title\":\"Gear lever\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2097,\"y\":647,\"width\":686,\"height\":677,\"occupied\":false}],\"eu.betterbird.Betterbird\":[{\"id\":3278970094,\"hash\":3278970094,\"sequence\":3,\"title\":\"rpi - iCloud - Betterbird\",\"workspace\":2,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1720,\"height\":1353,\"occupied\":false},{\"id\":2462612578,\"hash\":2462612578,\"sequence\":30,\"title\":\"Filter\",\"workspace\":2,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1720,\"y\":22,\"width\":874,\"height\":972,\"occupied\":false}],\"org.gnome.Calendar\":[{\"id\":3676329431,\"hash\":3676329431,\"sequence\":149,\"title\":\"Kalender\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":1372,\"height\":677,\"occupied\":false}],\"com.vysp3r.ProtonPlus\":[{\"id\":4291892497,\"hash\":4291892497,\"sequence\":33,\"title\":\"ProtonPlus\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":699,\"width\":686,\"height\":677,\"occupied\":false}],\"filezilla\":[{\"id\":1777483539,\"hash\":1777483539,\"sequence\":101,\"title\":\"upload - upload@sirrah.ssl.hosttech.eu - FileZilla\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":3020819146,\"hash\":3020819146,\"sequence\":46,\"title\":\"lichti.at / - ftproot@sirrah.ssl.hosttech.eu - FileZilla\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1354,\"occupied\":false},{\"id\":1909935893,\"hash\":1909935893,\"sequence\":200,\"title\":\"lichti.at - ftp_lichti@sirrah.ssl.hosttech.eu - FileZilla\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1354,\"occupied\":false}],\"wineboot.exe\":[{\"id\":2460499569,\"hash\":2460499569,\"sequence\":111,\"title\":\"Wine\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2120,\"y\":564,\"width\":306,\"height\":106,\"occupied\":false}],\"setupui.exe\":[{\"id\":3676329512,\"hash\":3676329512,\"sequence\":230,\"title\":\"Affinity\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":388,\"width\":446,\"height\":310,\"occupied\":false}],\"photo.exe\":[{\"id\":3676329514,\"hash\":3676329514,\"sequence\":232,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3951296257,\"hash\":3951296257,\"sequence\":423,\"title\":\"Affinity Photo 2\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":686,\"y\":22,\"width\":1382,\"height\":1353,\"occupied\":false},{\"id\":3676329519,\"hash\":3676329519,\"sequence\":237,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3676329524,\"hash\":3676329524,\"sequence\":242,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2139353181,\"hash\":2139353181,\"sequence\":6,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":4057072157,\"hash\":4057072157,\"sequence\":22,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3970256760,\"hash\":3970256760,\"sequence\":66,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3956335156,\"hash\":3956335156,\"sequence\":25,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2671740266,\"hash\":2671740266,\"sequence\":149,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":987540554,\"hash\":987540554,\"sequence\":69,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3020819114,\"hash\":3020819114,\"sequence\":14,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3110516512,\"hash\":3110516512,\"sequence\":39,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3951296256,\"hash\":3951296256,\"sequence\":422,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false}],\"net.lutris.Lutris\":[{\"id\":2460499478,\"hash\":2460499478,\"sequence\":20,\"title\":\"Lutris\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3676329542,\"hash\":3676329542,\"sequence\":260,\"title\":\"Konfiguriere Wine\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2332,\"y\":32,\"width\":845,\"height\":647,\"occupied\":false},{\"id\":2460499479,\"hash\":2460499479,\"sequence\":21,\"title\":\"Spiel zu Lutris hinzufügen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2434,\"y\":82,\"width\":640,\"height\":497,\"occupied\":false},{\"id\":2460499480,\"hash\":2460499480,\"sequence\":22,\"title\":\"Install Office Run\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2384,\"y\":78,\"width\":740,\"height\":507,\"occupied\":false}],\"org.gnome.Shell.Extensions\":[{\"id\":2671740119,\"hash\":2671740119,\"sequence\":2,\"title\":\"Export layouts\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1278,\"y\":493,\"width\":885,\"height\":326,\"occupied\":false},{\"id\":3676329549,\"hash\":3676329549,\"sequence\":267,\"title\":\"Export settings to a text file\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1278,\"y\":493,\"width\":885,\"height\":326,\"occupied\":false}],\"org.gnome.Terminal\":[{\"id\":3676329606,\"hash\":3676329606,\"sequence\":324,\"title\":\"lichti@cachyos:/run/user/1000/gvfs/smb-share:server=rpi5,share=dietpi/.ssh\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1368,\"height\":675,\"occupied\":false},{\"id\":200145740,\"hash\":200145740,\"sequence\":87,\"title\":\"ssh dietpi@rpi5\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1976,\"y\":279,\"width\":656,\"height\":477,\"occupied\":false},{\"id\":338429593,\"hash\":338429593,\"sequence\":16,\"title\":\"lichti@cachyos:/mnt/bkplog\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":749,\"width\":656,\"height\":477,\"occupied\":false},{\"id\":19996832,\"hash\":19996832,\"sequence\":230,\"title\":\"lichti@cachyos:~\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":698,\"width\":656,\"height\":477,\"occupied\":false}],\"org.gnome.seahorse.Application\":[{\"id\":200145742,\"hash\":200145742,\"sequence\":89,\"title\":\"Passwörter und Verschlüsselung\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":892,\"y\":149,\"width\":600,\"height\":523,\"occupied\":false},{\"id\":200145713,\"hash\":200145713,\"sequence\":60,\"title\":\"SSH-Schlüssel werden eingerichtet …\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1067,\"y\":290,\"width\":480,\"height\":526,\"occupied\":false},{\"id\":200145744,\"hash\":200145744,\"sequence\":91,\"title\":\"Eigenschaften des Eintrags\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":956,\"y\":170,\"width\":473,\"height\":460,\"occupied\":false}],\"com.github.tchx84.Flatseal\":[{\"id\":200145736,\"hash\":200145736,\"sequence\":83,\"title\":\"Flatseal\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1568,\"y\":545,\"width\":1024,\"height\":768,\"occupied\":false}],\"Nvidia-settings\":[{\"id\":2955672696,\"hash\":2955672696,\"sequence\":39,\"title\":\"NVIDIA Settings\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":922,\"height\":668,\"occupied\":false}],\"nvidia-settings\":[{\"id\":837978331,\"hash\":837978331,\"sequence\":7,\"title\":\"NVIDIA Settings\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1594,\"y\":570,\"width\":922,\"height\":668,\"occupied\":false}],\"org.cachyos.cachyos-pi\":[{\"id\":2997043329,\"hash\":2997043329,\"sequence\":4,\"title\":\"CachyOS-Paket-Installationsprogramm\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":802,\"height\":640,\"occupied\":false}],\"gtkthememanager\":[{\"id\":819856231,\"hash\":819856231,\"sequence\":18,\"title\":\"Evolve\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1814,\"y\":379,\"width\":899,\"height\":777,\"occupied\":false}],\"org.gnome.Console\":[{\"id\":3399581314,\"hash\":3399581314,\"sequence\":12,\"title\":\"Console\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1394,\"height\":884,\"occupied\":false}],\"com.nextcloud.desktopclient.nextcloud\":[{\"id\":819856244,\"hash\":819856244,\"sequence\":31,\"title\":\"Nextcloud\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":710,\"height\":572,\"occupied\":false},{\"id\":3970256746,\"hash\":3970256746,\"sequence\":52,\"title\":\"Nextcloud-Einstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":150,\"y\":172,\"width\":858,\"height\":702,\"occupied\":false}],\"publisher.exe\":[{\"id\":3970256773,\"hash\":3970256773,\"sequence\":79,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":987540547,\"hash\":987540547,\"sequence\":62,\"title\":\"Affinity Publisher 2\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":686,\"y\":22,\"width\":1382,\"height\":1353,\"occupied\":false},{\"id\":3956335152,\"hash\":3956335152,\"sequence\":21,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":987540546,\"hash\":987540546,\"sequence\":61,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false}],\"eog\":[{\"id\":3951296192,\"hash\":3951296192,\"sequence\":358,\"title\":\"Bildschirmfoto vom 2024-11-24 16-54-03.png\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":1777483506,\"hash\":1777483506,\"sequence\":68,\"title\":\"Einstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2588,\"y\":109,\"width\":333,\"height\":414,\"occupied\":false},{\"id\":819856255,\"hash\":819856255,\"sequence\":42,\"title\":\"siyuan.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":564,\"height\":748,\"occupied\":false},{\"id\":3937898139,\"hash\":3937898139,\"sequence\":23,\"title\":\"brave-dev.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2707,\"y\":246,\"width\":447,\"height\":350,\"occupied\":false},{\"id\":1777483531,\"hash\":1777483531,\"sequence\":93,\"title\":\"ferdium.png\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":100,\"y\":122,\"width\":447,\"height\":350,\"occupied\":false},{\"id\":2671740379,\"hash\":2671740379,\"sequence\":262,\"title\":\"vsc.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":447,\"height\":350,\"occupied\":false},{\"id\":2671740383,\"hash\":2671740383,\"sequence\":266,\"title\":\"vso.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":100,\"y\":122,\"width\":447,\"height\":350,\"occupied\":false},{\"id\":1909935779,\"hash\":1909935779,\"sequence\":86,\"title\":\"extension-manager.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2754,\"y\":22,\"width\":447,\"height\":350,\"occupied\":false},{\"id\":223468375,\"hash\":223468375,\"sequence\":48,\"title\":\"filerunner.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2813,\"y\":286,\"width\":447,\"height\":350,\"occupied\":false},{\"id\":3030761751,\"hash\":3030761751,\"sequence\":2,\"title\":\"linuxpowertoys.png\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":972,\"y\":103,\"width\":564,\"height\":748,\"occupied\":false},{\"id\":3030761753,\"hash\":3030761753,\"sequence\":4,\"title\":\"powertoys.svg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":152,\"y\":122,\"width\":784,\"height\":845,\"occupied\":false},{\"id\":3948759882,\"hash\":3948759882,\"sequence\":24,\"title\":\"wallhaven-2e73o6.jpg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":686,\"y\":22,\"width\":1382,\"height\":1353,\"occupied\":false},{\"id\":3948759911,\"hash\":3948759911,\"sequence\":53,\"title\":\"6.jpeg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":2620,\"height\":1224,\"occupied\":false},{\"id\":3948759913,\"hash\":3948759913,\"sequence\":55,\"title\":\"5 - Copy.jpeg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":2620,\"height\":1224,\"occupied\":false}],\"firefox\":[{\"id\":1909935748,\"hash\":1909935748,\"sequence\":55,\"title\":\"YouTube – Mozilla Firefox\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":2068,\"height\":1353,\"occupied\":false},{\"id\":987540666,\"hash\":987540666,\"sequence\":181,\"title\":\"Custom OSD - GNOME Shell-Erweiterungen – Mozilla Firefox\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":22,\"width\":1720,\"height\":1348,\"occupied\":false},{\"id\":2690832556,\"hash\":2690832556,\"sequence\":11,\"title\":\"The PERFECT GNOME Customization ever! - YouTube – Mozilla Firefox\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":1720,\"height\":1348,\"occupied\":false}],\"linuxpowertoys\":[{\"id\":2671740366,\"hash\":2671740366,\"sequence\":249,\"title\":\"Linux PowerToys\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false}],\"designer.exe\":[{\"id\":2671740190,\"hash\":2671740190,\"sequence\":73,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":1909935768,\"hash\":1909935768,\"sequence\":75,\"title\":\"Affinity Designer 2\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":686,\"y\":22,\"width\":1382,\"height\":1353,\"occupied\":false},{\"id\":2671740281,\"hash\":2671740281,\"sequence\":164,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2671740307,\"hash\":2671740307,\"sequence\":190,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2671740349,\"hash\":2671740349,\"sequence\":232,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2420237834,\"hash\":2420237834,\"sequence\":15,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2420237851,\"hash\":2420237851,\"sequence\":32,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":2420237878,\"hash\":2420237878,\"sequence\":59,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3937898141,\"hash\":3937898141,\"sequence\":25,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":223468351,\"hash\":223468351,\"sequence\":24,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":223468371,\"hash\":223468371,\"sequence\":44,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":967936924,\"hash\":967936924,\"sequence\":15,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":967936956,\"hash\":967936956,\"sequence\":47,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":1211740979,\"hash\":1211740979,\"sequence\":19,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":987540525,\"hash\":987540525,\"sequence\":40,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":3020819110,\"hash\":3020819110,\"sequence\":10,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false},{\"id\":1909935767,\"hash\":1909935767,\"sequence\":74,\"title\":\"\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1427,\"y\":474,\"width\":587,\"height\":450,\"occupied\":false}],\"mpv\":[{\"id\":967936948,\"hash\":967936948,\"sequence\":39,\"title\":\"No file - mpv\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":983,\"y\":347,\"width\":960,\"height\":540,\"occupied\":false}],\"org.pulseaudio.pavucontrol\":[{\"id\":3951296103,\"hash\":3951296103,\"sequence\":269,\"title\":\"Lautstärkeregler\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1236,\"height\":613,\"occupied\":false}],\"Eog\":[{\"id\":987540647,\"hash\":987540647,\"sequence\":162,\"title\":\"cropped-image-1.jpg\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":258,\"y\":174,\"width\":2924,\"height\":1043,\"occupied\":false}],\"steam_app_1114150\":[{\"id\":3951296092,\"hash\":3951296092,\"sequence\":258,\"title\":\"CarX Street\",\"workspace\":1,\"maximized\":0,\"fullscreen\":true,\"above\":false,\"monitor\":0,\"x\":0,\"y\":0,\"width\":3440,\"height\":1440,\"occupied\":false}],\"moosync\":[{\"id\":3030761770,\"hash\":3030761770,\"sequence\":21,\"title\":\"Moosync\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1720,\"y\":22,\"width\":1720,\"height\":1353,\"occupied\":false},{\"id\":3020819154,\"hash\":3020819154,\"sequence\":54,\"title\":\"Moosync\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1300,\"y\":372,\"width\":840,\"height\":709,\"occupied\":false}],\"muffon\":[{\"id\":3020819155,\"hash\":3020819155,\"sequence\":55,\"title\":\"Porter Robinson - Goodbye To A World\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1720,\"y\":22,\"width\":1720,\"height\":1353,\"occupied\":false}],\"Vmware\":[{\"id\":2460499475,\"hash\":2460499475,\"sequence\":17,\"title\":\"Home - VMware Workstation\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1589,\"y\":74,\"width\":1851,\"height\":1301,\"occupied\":false}],\"org.gnome.Epiphany\":[{\"id\":1909935762,\"hash\":1909935762,\"sequence\":69,\"title\":\"Neuer Tab\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":1024,\"height\":768,\"occupied\":false}],\"com.usebottles.bottles\":[{\"id\":336776495,\"hash\":336776495,\"sequence\":134,\"title\":\"Bottles\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false}],\"steam_proton\":[{\"id\":2460499553,\"hash\":2460499553,\"sequence\":95,\"title\":\"WinRAR self-extracting archive\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1459,\"y\":514,\"width\":521,\"height\":401,\"occupied\":false},{\"id\":2460499556,\"hash\":2460499556,\"sequence\":98,\"title\":\"C:\\\\users\\\\steamuser\\\\Documents\\\\temp\\\\start.bat\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2194,\"y\":678,\"width\":657,\"height\":373,\"occupied\":false},{\"id\":336776430,\"hash\":336776430,\"sequence\":69,\"title\":\"\u202aWe're getting things ready...\u202c\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1223,\"y\":921,\"width\":352,\"height\":216,\"occupied\":false},{\"id\":2460499545,\"hash\":2460499545,\"sequence\":87,\"title\":\"Couldn't start Microsoft 365 and Office installation\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1433,\"y\":570,\"width\":574,\"height\":300,\"occupied\":false},{\"id\":336776481,\"hash\":336776481,\"sequence\":120,\"title\":\"Couldn't install\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1475,\"y\":570,\"width\":490,\"height\":333,\"occupied\":false},{\"id\":19996630,\"hash\":19996630,\"sequence\":28,\"title\":\"Fehler\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1634,\"y\":655,\"width\":172,\"height\":119,\"occupied\":false},{\"id\":3951296241,\"hash\":3951296241,\"sequence\":407,\"title\":\"\u202aDas hat leider nicht geklappt.\u202c\",\"workspace\":0,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1475,\"y\":570,\"width\":490,\"height\":300,\"occupied\":false},{\"id\":19996952,\"hash\":19996952,\"sequence\":350,\"title\":\"rundll32.exe - This application could not be started.\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1566,\"y\":651,\"width\":307,\"height\":89,\"occupied\":false},{\"id\":3951296132,\"hash\":3951296132,\"sequence\":298,\"title\":\"Wine-Konfiguration\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2187,\"y\":535,\"width\":410,\"height\":483,\"occupied\":false},{\"id\":3951296137,\"hash\":3951296137,\"sequence\":303,\"title\":\"Wine-Systemsteuerung\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":4,\"y\":22,\"width\":2572,\"height\":1083,\"occupied\":false}],\"office_2024_de_64bits.exe\":[{\"id\":2462612630,\"hash\":2462612630,\"sequence\":82,\"title\":\"WinRAR self-extracting archive\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1456,\"y\":522,\"width\":527,\"height\":396,\"occupied\":false}],\"conhost.exe\":[{\"id\":3110516495,\"hash\":3110516495,\"sequence\":22,\"title\":\"Z:\\\\home\\\\lichti\\\\Downloads\\\\temp\\\\package\\\\Click To Run.bat\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2108,\"y\":766,\"width\":665,\"height\":370,\"occupied\":false},{\"id\":2462612631,\"hash\":2462612631,\"sequence\":83,\"title\":\"Z:\\\\home\\\\lichti\\\\temp\\\\start.bat\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":0,\"y\":22,\"width\":665,\"height\":434,\"occupied\":false}],\"setup.exe\":[{\"id\":3951296216,\"hash\":3951296216,\"sequence\":382,\"title\":\"\u202aWe're getting things ready...\u202c\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1544,\"y\":612,\"width\":352,\"height\":216,\"occupied\":false},{\"id\":2460499580,\"hash\":2460499580,\"sequence\":122,\"title\":\"Couldn't install\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1476,\"y\":570,\"width\":490,\"height\":328,\"occupied\":false},{\"id\":2462612634,\"hash\":2462612634,\"sequence\":86,\"title\":\"Couldn't start Microsoft 365 and Office installation\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1409,\"y\":570,\"width\":622,\"height\":300,\"occupied\":false}],\"officeclicktorun.exe\":[{\"id\":2460499579,\"hash\":2460499579,\"sequence\":121,\"title\":\"\u202aDas hat leider nicht geklappt.\u202c\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1475,\"y\":570,\"width\":490,\"height\":300,\"occupied\":false}],\"zenity\":[{\"id\":2462612628,\"hash\":2462612628,\"sequence\":80,\"title\":\"Select the exectuable to run\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":391,\"y\":100,\"width\":885,\"height\":372,\"occupied\":false}],\"io.github.realmazharhussain.GdmSettings\":[{\"id\":2391038096,\"hash\":2391038096,\"sequence\":1,\"title\":\"GDM-Einstellungen\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":832,\"y\":230,\"width\":1224,\"height\":962,\"occupied\":false}],\"easyterm.py\":[{\"id\":3110516578,\"hash\":3110516578,\"sequence\":105,\"title\":\"EasyTerm\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":100,\"y\":122,\"width\":800,\"height\":450,\"occupied\":false}],\"org.gnome.baobab\":[{\"id\":3951296173,\"hash\":3951296173,\"sequence\":339,\"title\":\"Daten\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":677,\"occupied\":false},{\"id\":3951296244,\"hash\":3951296244,\"sequence\":410,\"title\":\"Geräte und Orte\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":1372,\"height\":677,\"occupied\":false}],\"gnome-disks\":[{\"id\":19996772,\"hash\":19996772,\"sequence\":170,\"title\":\"Laufwerke\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":686,\"height\":677,\"occupied\":false}],\"steam_app_244210\":[{\"id\":19996817,\"hash\":19996817,\"sequence\":215,\"title\":\"rundll32.exe - This application could not be started.\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1566,\"y\":651,\"width\":307,\"height\":126,\"occupied\":false},{\"id\":3951296089,\"hash\":3951296089,\"sequence\":255,\"title\":\"Content Manager (Lite mode)\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1372,\"height\":1353,\"occupied\":false},{\"id\":3951295942,\"hash\":3951295942,\"sequence\":108,\"title\":\"BMW M4 Competition G82 Coupe 2021 (FPS: 90)\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":924,\"y\":263,\"width\":1592,\"height\":903,\"occupied\":false},{\"id\":3951295959,\"hash\":3951295959,\"sequence\":125,\"title\":\"Desktop\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":4,\"y\":22,\"width\":632,\"height\":483,\"occupied\":false},{\"id\":3951295960,\"hash\":3951295960,\"sequence\":126,\"title\":\"cky_bmw_m3_touring_cekyperformance\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":4,\"y\":22,\"width\":632,\"height\":483,\"occupied\":false},{\"id\":3951296057,\"hash\":3951296057,\"sequence\":223,\"title\":\"Custom Shaders Patch\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1770,\"y\":632,\"width\":323,\"height\":204,\"occupied\":false},{\"id\":3951296076,\"hash\":3951296076,\"sequence\":242,\"title\":\"Failed to launch the race\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1570,\"y\":606,\"width\":299,\"height\":217,\"occupied\":false},{\"id\":3951296082,\"hash\":3951296082,\"sequence\":248,\"title\":\"system\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":4,\"y\":22,\"width\":632,\"height\":483,\"occupied\":false}],\"com.belmoussaoui.Obfuscate\":[{\"id\":336776448,\"hash\":336776448,\"sequence\":87,\"title\":\"Obfuscate\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2337,\"y\":333,\"width\":500,\"height\":400,\"occupied\":false}],\"com.github.jeromerobert.pdfarranger\":[{\"id\":336776465,\"hash\":336776465,\"sequence\":104,\"title\":\"PDF Arranger\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1042,\"y\":329,\"width\":700,\"height\":600,\"occupied\":false}],\"auto-cpufreq\":[{\"id\":3773348604,\"hash\":3773348604,\"sequence\":6,\"title\":\"auto-cpufreq\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":2068,\"y\":22,\"width\":1135,\"height\":779,\"occupied\":false}],\"gearlever\":[{\"id\":3773348662,\"hash\":3773348662,\"sequence\":64,\"title\":\"gearlever\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":50,\"y\":72,\"width\":720,\"height\":700,\"occupied\":false}],\"Microsoft Windows\":[{\"id\":3773348665,\"hash\":3773348665,\"sequence\":67,\"title\":\"Windows RDP Session [127.0.0.1]\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":1490,\"y\":280,\"width\":1024,\"height\":805,\"occupied\":false}],\"LM Studio\":[{\"id\":3773348729,\"hash\":3773348729,\"sequence\":131,\"title\":\"LM Studio\",\"workspace\":1,\"maximized\":0,\"fullscreen\":false,\"above\":false,\"monitor\":0,\"x\":895,\"y\":223,\"width\":1650,\"height\":987,\"occupied\":false}]}"
+startup-delay=2500
+sync-frequency=60
+sync-mode='RESTORE'
+
+[extensions/tilingshell]
+enable-blur-selected-tilepreview=false
+enable-blur-snap-assistant=false
+inner-gaps=uint32 0
+last-version-name-installed='15.1'
+layouts-json='[{"id":"14273995","tiles":[{"x":0,"y":0,"width":0.1994186046511628,"height":0.5,"groups":[]},{"x":0.1994186046511628,"y":0,"width":0.4017441860465124,"height":1,"groups":[]},{"x":0.8005813953488372,"y":0,"width":0.19941860465115724,"height":0.5,"groups":[]},{"x":0.8005813953488372,"y":0.5,"width":0.19941860465115724,"height":0.5,"groups":[]},{"x":0,"y":0.5,"width":0.1994186046511628,"height":0.5,"groups":[]},{"x":0.6011627906976744,"y":0,"width":0.1994186046511628,"height":0.5,"groups":[]},{"x":0.6011627906976744,"y":0.5,"width":0.1994186046511628,"height":0.5,"groups":[]}]}]'
+outer-gaps=uint32 0
+overridden-settings="{\"org.gnome.mutter.keybindings\":{\"toggle-tiled-right\":\"['<Super>Right']\",\"toggle-tiled-left\":\"['<Super>Left']\"},\"org.gnome.desktop.wm.keybindings\":{\"maximize\":\"['<Super>Up']\",\"unmaximize\":\"['<Super>Down', '<Alt>F5']\"},\"org.gnome.mutter\":{\"edge-tiling\":\"true\"}}"
+override-window-menu=false
+resize-complementing-windows=false
+restore-window-original-size=false
+selected-layouts=[['14273995'], ['14273995'], ['14273995']]
+show-indicator=true
+snap-assistant-animation-time=uint32 200
+snap-assistant-threshold=50
+window-border-width=uint32 1
+
+[extensions/user-theme-x]
+name=''
+x-autoswitch=true
+x-color='prefer-dark'
+x-color-night='prefer-dark'
+x-cursor='Bibata-Modern-Classic'
+x-cursor-night='Bibata-Modern-Classic'
+x-gtk='Adwaita-dark'
+x-gtk-night='Adwaita-dark'
+x-icons='Numix-Circle'
+x-icons-night='Numix-Circle'
+x-shell=''
+x-shell-night=''
+x-stylesheet=true
+
+[extensions/user-theme]
+name='default-pure'
+
+[keybindings]
+toggle-quick-settings=@as []
+
+[world-clocks]
+locations=@av []
