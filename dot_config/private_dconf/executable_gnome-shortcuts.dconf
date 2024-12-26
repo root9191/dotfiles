@@ -13,11 +13,6 @@ binding='<Super>t'
 command='gnome-text-editor --new-window'
 name='Texteditor'
 
-[custom-keybindings/custom2]
-binding='<Super>c'
-command='/usr/bin/code'
-name='Code'
-
 [custom-keybindings/custom3]
 binding='<Super>y'
 command='ptyxis --tab'
