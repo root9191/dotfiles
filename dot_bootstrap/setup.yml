@@ -433,21 +433,45 @@
 
 # Füge diese Tasks zu deiner setup.yml hinzu
 
-    # Disable IPv6 in GNOME Network Manager
-    - name: Get list of all network connections
+    # Disable IPv6 specifically for WiFi
+    - name: Get list of WiFi connections
       become: yes
       become_user: "{{ remote_regular_user }}"
-      shell: nmcli -t -f UUID,TYPE connection show | grep -E 'ethernet|wifi' | cut -d':' -f1
-      register: network_connections
+      shell: nmcli -t -f UUID,TYPE connection show | grep 'wifi' | cut -d':' -f1
+      register: wifi_connections
       changed_when: false
 
-    - name: Disable IPv6 for each network connection
+    - name: Show current WiFi connections # Debug Task
+      debug:
+        var: wifi_connections.stdout_lines
+
+    - name: Disable IPv6 for WiFi connections
       become: yes
       become_user: "{{ remote_regular_user }}"
       shell: |
-        nmcli connection modify "{{ item }}" ipv6.method "disabled"
-      loop: "{{ network_connections.stdout_lines }}"
-      when: network_connections.stdout_lines | length > 0
+        for uuid in {{ wifi_connections.stdout_lines | join(' ') }}; do
+          nmcli connection modify $uuid ipv6.method "disabled"
+          nmcli connection modify $uuid ipv6.ip6-privacy "disabled"
+          nmcli connection modify $uuid ipv6.addr-gen-mode "disabled"
+        done
+      when: wifi_connections.stdout_lines | length > 0
+
+    # Alternative direct method for active WiFi connection
+    - name: Get active WiFi connection name
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: nmcli -t -f NAME,TYPE connection show --active | grep 'wifi' | cut -d':' -f1
+      register: active_wifi
+      changed_when: false
+
+    - name: Disable IPv6 for active WiFi connection
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: |
+        nmcli connection modify "{{ active_wifi.stdout }}" ipv6.method "disabled"
+        nmcli connection modify "{{ active_wifi.stdout }}" ipv6.ip6-privacy "disabled"
+        nmcli connection modify "{{ active_wifi.stdout }}" ipv6.addr-gen-mode "disabled"
+      when: active_wifi.stdout != ""
 
     - name: Restart NetworkManager
       systemd:
