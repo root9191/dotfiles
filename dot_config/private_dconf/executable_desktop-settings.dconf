@@ -37,7 +37,7 @@ apps=['explorer.desktop', 'cmd.desktop', 'iexplorer.desktop', 'powershell-ide.de
 name='Unbenannter Ordner'
 
 [app-folders/folders/c1de4509-f667-4cdb-b092-9b903b2227c5]
-apps=['muffon.desktop', 'waveform13.desktop', 'app.moosync.moosync.desktop', 'evolve.desktop', 'AffinityPhoto.desktop', 'AffinityDesigner.desktop', 'AffinityPublisher.desktop']
+apps=['muffon.desktop', 'waveform13.desktop', 'app.moosync.moosync.desktop', 'evolve.desktop', 'AffinityPhoto.desktop', 'AffinityDesigner.desktop', 'AffinityPublisher.desktop', 'org.videolan.VLC.desktop']
 name='Multimedia'
 
 [app-folders/folders/eb4ebfe6-ced1-4352-859e-4637ee8e074d]
@@ -51,8 +51,8 @@ name='Spiele'
 [background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/lichti/.local/share/backgrounds/2024-12-19-17-56-41-12-Dark.jpg'
-picture-uri-dark='file:///home/lichti/.local/share/backgrounds/2024-12-19-17-56-41-12-Dark.jpg'
+picture-uri='file:///home/lichti/.config/background'
+picture-uri-dark='file:///home/lichti/.config/background'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -61,6 +61,7 @@ show-weekdate=true
 
 [input-sources]
 sources=[('xkb', 'at+nodeadkeys')]
+xkb-options=['terminate:ctrl_alt_bksp']
 
 [interface]
 accent-color='purple'
