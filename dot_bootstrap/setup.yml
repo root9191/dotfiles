@@ -473,6 +473,16 @@
         nmcli connection modify "{{ active_wifi.stdout }}" ipv6.addr-gen-mode "disabled"
       when: active_wifi.stdout != ""
 
+    - name: Configure NetworkManager to disable IPv6 globally
+      copy:
+        dest: /etc/NetworkManager/conf.d/disable-ipv6.conf
+        content: |
+          [connection]
+          ipv6.method=disabled
+          ipv6.ip6-privacy=disabled
+          ipv6.addr-gen-mode=disabled
+        mode: '0644'
+
     - name: Restart NetworkManager
       systemd:
         name: NetworkManager
