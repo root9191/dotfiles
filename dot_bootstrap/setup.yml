@@ -487,3 +487,24 @@
       systemd:
         name: NetworkManager
         state: restarted
+
+      # WiFi IPv6 deaktivieren
+    - name: Get list of WiFi connections only
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: nmcli -t -f UUID,TYPE connection show | grep 'wifi' | cut -d':' -f1
+      register: wifi_connections
+      changed_when: false
+
+    - name: Disable IPv6 for all WiFi connections
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: |
+        nmcli connection modify "{{ item }}" ipv6.method "disabled"
+      loop: "{{ wifi_connections.stdout_lines }}"
+      when: wifi_connections.stdout_lines | length > 0
+
+    - name: Restart NetworkManager
+      systemd:
+        name: NetworkManager
+        state: restarted
