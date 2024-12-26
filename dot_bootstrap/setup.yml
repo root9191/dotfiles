@@ -483,26 +483,30 @@
           ipv6.addr-gen-mode=disabled
         mode: '0644'
 
-    - name: Restart NetworkManager
-      systemd:
-        name: NetworkManager
-        state: restarted
+ #   - name: Restart NetworkManager
+ #     systemd:
+ #       name: NetworkManager
+ #       state: restarted
 
-      # WiFi IPv6 deaktivieren
-    - name: Get list of WiFi connections only
+ # Disable IPv6 for all network connections (LAN and WiFi)
+    - name: Get list of all network connections
       become: yes
       become_user: "{{ remote_regular_user }}"
-      shell: nmcli -t -f UUID,TYPE connection show | grep 'wifi' | cut -d':' -f1
-      register: wifi_connections
+      shell: nmcli -t -f NAME,TYPE connection show | grep -E '*-ethernet|*-wireless' | cut -d':' -f1
+      register: network_connections
       changed_when: false
 
-    - name: Disable IPv6 for all WiFi connections
+    - name: Debug - Show found connections
+      debug:
+        msg: "Found connections: {{ network_connections.stdout_lines }}"
+
+    - name: Disable IPv6 for each network connection
       become: yes
       become_user: "{{ remote_regular_user }}"
       shell: |
         nmcli connection modify "{{ item }}" ipv6.method "disabled"
-      loop: "{{ wifi_connections.stdout_lines }}"
-      when: wifi_connections.stdout_lines | length > 0
+      loop: "{{ network_connections.stdout_lines }}"
+      when: network_connections.stdout_lines | length > 0
 
     - name: Restart NetworkManager
       systemd:
