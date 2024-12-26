@@ -1,5 +1,7 @@
 pacman_packages:
   - base-devel
+  - cachyos-snapper-support
+  - cachyos-gaming-meta
   - visual-studio-code-bin
   - betterbird-de-bin
   - brave-bin
@@ -34,7 +36,6 @@ pacman_packages:
   #- firefox
   #- firefox-i18n-de
   - ddcutil
-  #- numix-circle-icon-theme-git
   #- nextcloud-client
   #- tracktion-waveform
   #- antimicrox
@@ -43,10 +44,10 @@ aur_packages:
   - numix-folders-git
 flatpak_packages:
   - app.moosync.moosync
-  #- com.bitwarden.desktop
   - com.mattjakeman.ExtensionManager
   - com.usebottles.bottles
   - com.vysp3r.ProtonPlus
   - org.videolan.VLC
   - it.mijorus.gearlever
   - org.filezillaproject.Filezilla
+  #- com.bitwarden.desktop
