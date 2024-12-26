@@ -492,7 +492,7 @@
     - name: Get list of all network connections
       become: yes
       become_user: "{{ remote_regular_user }}"
-      shell: nmcli -t -f NAME,TYPE connection show | grep -E '*-ethernet|*-wireless' | cut -d':' -f1
+      shell: nmcli -t -f NAME,TYPE connection show | grep -E '*ethernet|*wireless' | cut -d':' -f1
       register: network_connections
       changed_when: false
 
