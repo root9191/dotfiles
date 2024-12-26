@@ -19,7 +19,7 @@ pacman_packages:
   - fzf
   - p7zip
   - gnome-tweaks
-  - timeshift-autosnap
+  #- timeshift-autosnap
   - fuse2
   - python-fuse
   - keychain
