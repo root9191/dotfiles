@@ -1,6 +1,6 @@
 pacman_packages:
   - base-devel
-  - cachyos-snapper-support
+  #- cachyos-snapper-support
   - cachyos-gaming-meta
   - visual-studio-code-bin
   - betterbird-de-bin
