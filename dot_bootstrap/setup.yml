@@ -48,8 +48,7 @@
         - gsettings set org.gnome.desktop.wm.preferences num-workspaces 3
         - gsettings set org.gnome.mutter workspaces-only-on-primary true
         - gsettings set org.gnome.SessionManager logout-prompt false
-        - gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/{{ remote_regular_user }}/.config/background"
-        - gsettings set org.gnome.desktop.background picture-uri "file:///home/{{ remote_regular_user }}/.config/background"
+
         # Ptyxis Settings
         - gsettings set org.gnome.Ptyxis.Shortcuts copy-clipboard '<Super>c' 
         - gsettings set org.gnome.Ptyxis.Shortcuts paste-clipboard '<Ctrl>v'
@@ -375,3 +374,59 @@
       become: yes
       become_user: "{{ remote_regular_user }}"
       command: gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/{{ remote_regular_user }}/.config/background"
+
+
+# Füge diese Tasks zu deiner setup.yml hinzu
+
+    # Disable IPv6
+    - name: Create networkd configuration directory
+      file:
+        path: /etc/systemd/network
+        state: directory
+        mode: '0755'
+
+    - name: Configure wired network to disable IPv6
+      copy:
+        dest: /etc/systemd/network/20-wired.network
+        content: |
+          [Match]
+          Name=en*
+          Type=ether
+
+          [Network]
+          IPv6AcceptRA=no
+          IPv6PrivacyExtensions=no
+          LinkLocalAddressing=no
+        mode: '0644'
+
+    - name: Configure wireless network to disable IPv6
+      copy:
+        dest: /etc/systemd/network/25-wireless.network
+        content: |
+          [Match]
+          Name=wl*
+          Type=wlan
+
+          [Network]
+          IPv6AcceptRA=no
+          IPv6PrivacyExtensions=no
+          LinkLocalAddressing=no
+        mode: '0644'
+
+    - name: Disable IPv6 via sysctl
+      sysctl:
+        name: "{{ item }}"
+        value: '1'
+        state: present
+        sysctl_set: yes
+        reload: yes
+      loop:
+        - net.ipv6.conf.all.disable_ipv6
+        - net.ipv6.conf.default.disable_ipv6
+        - net.ipv6.conf.lo.disable_ipv6
+
+    - name: Restart systemd-networkd
+      systemd:
+        name: systemd-networkd
+        state: restarted
+        enabled: yes
