@@ -363,3 +363,15 @@
           become_user: "{{ remote_regular_user }}"
           command: killall nautilus
           when: nautilus_check.rc == 0
+
+
+    # Desktop Background Setup
+    - name: Set desktop background
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      command: gsettings set org.gnome.desktop.background picture-uri "file:///home/{{ remote_regular_user }}/.config/background"
+      
+    - name: Set desktop background (dark variant)
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      command: gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/{{ remote_regular_user }}/.config/background"
