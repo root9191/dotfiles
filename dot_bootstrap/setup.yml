@@ -43,8 +43,17 @@
         - gsettings set org.gtk.Settings.FileChooser sort-directories-first true
         - gsettings set org.gtk.gtk4.Settings.FileChooser sort-directories-first true
     
+        # Gnome Settings
+        - gsettings set org.gnome.mutter dynamic-workspaces false
+        - gsettings set org.gnome.desktop.wm.preferences num-workspaces 3
+        - gsettings set org.gnome.mutter workspaces-only-on-primary true
+
+        # Ptyxis Settings
+        - gsettings set org.gnome.Ptyxis.Shortcuts copy-clipboard '<Super>c' 
+        - gsettings set org.gnome.Ptyxis.Shortcuts paste-clipboard '<Ctrl>v'
+
         # Window State
-        - gsettings set org.gnome.nautilus.window-state initial-size "(890, 550)"
+       # - gsettings set org.gnome.nautilus.window-state initial-size "(890, 550)"
 
         # TextEditor Settings
         - gsettings set org.gnome.TextEditor show-line-numbers true
