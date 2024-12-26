@@ -37,6 +37,10 @@ alias start-winapps='docker compose --file ~/.config/winapps/compose.yaml start'
 alias stop-winapps='docker compose --file ~/.config/winapps/compose.yaml stop'
 export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 #export PATH=/home/lichti/.local/bin:$PATH
+alias ca='chezmoi add'
+alias cdi='chezmoi diff'
+alias capp='chezmoi apply'
+alias cup='chezmoi update'
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/lichti/.cache/lm-studio/bin"
