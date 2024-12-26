@@ -48,7 +48,8 @@
         - gsettings set org.gnome.desktop.wm.preferences num-workspaces 3
         - gsettings set org.gnome.mutter workspaces-only-on-primary true
         - gsettings set org.gnome.SessionManager logout-prompt false
-
+        - gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/{{ remote_regular_user }}/.config/background"
+        - gsettings set org.gnome.desktop.background picture-uri "file:///home/{{ remote_regular_user }}/.config/background"
         # Ptyxis Settings
         - gsettings set org.gnome.Ptyxis.Shortcuts copy-clipboard '<Super>c' 
         - gsettings set org.gnome.Ptyxis.Shortcuts paste-clipboard '<Ctrl>v'
