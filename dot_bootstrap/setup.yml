@@ -430,3 +430,26 @@
         name: systemd-networkd
         state: restarted
         enabled: yes
+
+# Füge diese Tasks zu deiner setup.yml hinzu
+
+    # Disable IPv6 in GNOME Network Manager
+    - name: Get list of all network connections
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: nmcli -t -f UUID,TYPE connection show | grep -E 'ethernet|wifi' | cut -d':' -f1
+      register: network_connections
+      changed_when: false
+
+    - name: Disable IPv6 for each network connection
+      become: yes
+      become_user: "{{ remote_regular_user }}"
+      shell: |
+        nmcli connection modify "{{ item }}" ipv6.method "disabled"
+      loop: "{{ network_connections.stdout_lines }}"
+      when: network_connections.stdout_lines | length > 0
+
+    - name: Restart NetworkManager
+      systemd:
+        name: NetworkManager
+        state: restarted
