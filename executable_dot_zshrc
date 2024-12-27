@@ -35,7 +35,7 @@ alias stop-docker='sudo systemctl stop docker.service'
 alias status-docker='sudo systemctl status docker.service'
 alias start-winapps='docker compose --file ~/.config/winapps/compose.yaml start'
 alias stop-winapps='docker compose --file ~/.config/winapps/compose.yaml stop'
-export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
+#export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 #export PATH=/home/lichti/.local/bin:$PATH
 alias ca='chezmoi add'
 alias cdi='chezmoi diff'
@@ -53,7 +53,7 @@ if [ -n "$DESKTOP_SESSION" ]; then
     export SSH_AUTH_SOCK
 fi
 
-#eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519_gh)
+eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519_gh)
 
 #alias git='nocorrect git'
 alias chezmoi='nocorrect chezmoi'
