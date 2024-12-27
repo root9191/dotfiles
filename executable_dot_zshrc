@@ -54,6 +54,7 @@ if [ -n "$DESKTOP_SESSION" ]; then
 fi
 
 eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519_gh)
+eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519)
 
 #alias git='nocorrect git'
 alias chezmoi='nocorrect chezmoi'
