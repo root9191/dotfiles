@@ -36,6 +36,7 @@ pacman_packages:
   #- firefox
   #- firefox-i18n-de
   - ddcutil
+  - adw-gtk-theme
   #- nextcloud-client
   #- tracktion-waveform
   #- antimicrox
