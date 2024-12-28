@@ -18,6 +18,10 @@
 			{
 				"folderPath": "chezmoi/",
 				"color": "foldercolorizer.color_9966ff"
+			},
+			{
+				"folderPath": "chezmoi/dot_config/",
+				"color": "foldercolorizer.color_990099"
 			}
 		],
 		"workbench.colorCustomizations": {}
