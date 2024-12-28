@@ -1,0 +1,36 @@
+[org/gnome/Ptyxis]
+default-profile-uuid='af3af7d02e0323083b6b24f7675e27ee'
+interface-style='dark'
+profile-uuids=['900aab0d86d776a96fcc87b8675e21b3', '1a95e1964e36b3ff06030199675e22a1', 'af3af7d02e0323083b6b24f7675e27ee']
+restore-window-size=false
+use-system-font=true
+window-size=(uint32 169, uint32 31)
+
+[org/gnome/Ptyxis/Profiles/1a95e1964e36b3ff06030199675e22a1]
+bold-is-bright=false
+label='Github'
+opacity=0.69
+palette='Github'
+
+[org/gnome/Ptyxis/Profiles/397faaac01cefc2d63b81681675a1c48]
+opacity=0.69
+
+[org/gnome/Ptyxis/Profiles/900aab0d86d776a96fcc87b8675e21b3]
+bold-is-bright=false
+label='Vaugn'
+opacity=0.69
+palette='Vaughn'
+
+[org/gnome/Ptyxis/Profiles/af3af7d02e0323083b6b24f7675e27ee]
+bold-is-bright=false
+label='Neon'
+palette='Cobalt Neon'
+
+[org/gnome/Ptyxis/Profiles/b3098ff8dee37561b19ce9bc675b7d73]
+bold-is-bright=false
+opacity=0.69
+palette='Adventure Time'
+
+[org/gnome/Ptyxis/Profiles/ba42f2670cb184558ab5f849675e21b0]
+opacity=0.69
+

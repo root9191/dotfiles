@@ -80,3 +80,5 @@ alias chezmoi='nocorrect chezmoi'
 
 # Fügen Sie Ihre Schlüssel zum SSH-Agent hinzu
 #SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 </dev/null
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
