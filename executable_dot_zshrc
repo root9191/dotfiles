@@ -75,8 +75,8 @@ fi
 #   eval `cat $HOME/.ssh/ssh-agent`
 #fi
 
-eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519_gh)
-eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519)
+#eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519_gh)
+#eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519)
 
 # Fügen Sie Ihre Schlüssel zum SSH-Agent hinzu
 #SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 </dev/null
