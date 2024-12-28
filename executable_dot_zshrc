@@ -53,8 +53,8 @@ if [ -n "$DESKTOP_SESSION" ]; then
     export SSH_AUTH_SOCK
 fi
 
-eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519_gh)
-eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519)
+#eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519_gh)
+#eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519)
 
 #alias git='nocorrect git'
 alias chezmoi='nocorrect chezmoi'
