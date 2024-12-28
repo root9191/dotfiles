@@ -12,16 +12,12 @@
 	"settings": {
 		"folder-color.pathColors": [
 			{
-				"folderPath": "chezmoi/dot_bootstrap/update.yml/",
-				"color": "foldercolorizer.color_006699"
+				"folderPath": "/home/lichti/Dokumente/github/",
+				"color": "foldercolorizer.color_008800"
 			},
 			{
 				"folderPath": "chezmoi/",
-				"color": "foldercolorizer.color_ff3399"
-			},
-			{
-				"folderPath": "/home/lichti/Dokumente/github/",
-				"color": "foldercolorizer.color_008800"
+				"color": "foldercolorizer.color_9966ff"
 			}
 		],
 		"workbench.colorCustomizations": {}
