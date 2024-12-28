@@ -66,4 +66,4 @@ if [ -n "$DESKTOP_SESSION" ]; then
 fi
 
 # Fügen Sie Ihre Schlüssel zum SSH-Agent hinzu
-SSH_ASKPASS=/usr/lib/seahorse/seahorse-ssh-askpass ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 </dev/null
+SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 </dev/null
