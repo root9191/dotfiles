@@ -43,18 +43,18 @@ alias capp='chezmoi apply'
 alias cup='chezmoi update'
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/lichti/.cache/lm-studio/bin"
-export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/keyring/ssh"
-export GNOME_KEYRING_CONTROL="${XDG_RUNTIME_DIR}/keyring"
-export GNOME_KEYRING_PID
+#export PATH="$PATH:/home/lichti/.cache/lm-studio/bin"
+#export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/keyring/ssh"
+#export GNOME_KEYRING_CONTROL="${XDG_RUNTIME_DIR}/keyring"
+#export GNOME_KEYRING_PID
 
 if [ -n "$DESKTOP_SESSION" ]; then
     eval $(gnome-keyring-daemon --start 2>/dev/null)
     export SSH_AUTH_SOCK
 fi
 
-eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519_gh)
-eval $(keychain --eval --agents ssh --quiet --quiet ~/.ssh/id_ed25519)
+eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519_gh)
+eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519)
 
 #alias git='nocorrect git'
 alias chezmoi='nocorrect chezmoi'
