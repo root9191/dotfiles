@@ -82,3 +82,8 @@ alias chezmoi='nocorrect chezmoi'
 #SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 </dev/null
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+# Starten Sie keychain mit den SSH-Keys
+#/usr/bin/keychain --quiet ~/.ssh/id_ed25519 ~/.ssh/id_ed25519_gh
+#source ~/.keychain/cachyos-sh
+
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/keyring/ssh"
