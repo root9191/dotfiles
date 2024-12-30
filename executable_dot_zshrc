@@ -86,4 +86,4 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 #/usr/bin/keychain --quiet ~/.ssh/id_ed25519 ~/.ssh/id_ed25519_gh
 #source ~/.keychain/cachyos-sh
 
-export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/keyring/ssh"
+export SSH_AUTH_SOCK="/run/user/$UID/keyring/ssh"
