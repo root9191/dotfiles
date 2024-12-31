@@ -1,6 +1,6 @@
 pacman_packages:
   - base-devel
-  #- cachyos-snapper-support
+  - cachyos-snapper-support
   - cachyos-gaming-meta
   - visual-studio-code-bin
   - betterbird-de-bin
@@ -33,11 +33,11 @@ pacman_packages:
   - libsecret
   - seahorse
   #- bibata-cursor-theme
-  #- firefox
-  #- firefox-i18n-de
+  - firefox
+  - firefox-i18n-de
   - ddcutil
   - adw-gtk-theme
-  #- nextcloud-client
+  - nextcloud-client
   #- tracktion-waveform
   #- antimicrox
 aur_packages: 
