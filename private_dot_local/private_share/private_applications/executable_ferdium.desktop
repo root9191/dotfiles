@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Ferdium
-Exec='/mnt/Volume1/Cloud/Portable/Linux Apps/ferdium.appimage' --no-sandbox %U
-TryExec=/mnt/Volume1/Cloud/Portable/Linux Apps/ferdium.appimage
-Icon=ferdium2
+Exec=/home/lichti/AppImages/ferdium.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/ferdium.appimage
+Icon=/home/lichti/.icons/ferdium2.svg
 Terminal=false
 Type=Application
 
@@ -13,3 +13,5 @@ MimeType=x-scheme-handler/ferdium;
 Categories=Network;InstantMessaging;
 
 X-AppImage-Version=7.0.0
+Path=
+StartupNotify=false

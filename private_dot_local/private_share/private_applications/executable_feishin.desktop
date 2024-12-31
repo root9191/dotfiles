@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Feishin
-Exec='/mnt/Volume1/Cloud/Portable/Linux Apps/feishin_0_12_1.appimage' --no-sandbox %U
-TryExec=/mnt/Volume1/Cloud/Portable/Linux Apps/feishin_0_12_1.appimage
-Icon=feishin2
+Exec=/home/lichti/AppImages/feishin.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/feishin.appimage
+Icon=/home/lichti/.icons/feishin2.svg
 Terminal=false
 Type=Application
 
@@ -11,3 +11,6 @@ X-AppImage-Version=0.12.1
 Categories=AudioVideo;Audio;Player;
 
 X-AppImage-Version=0.12.1
+Comment=
+Path=
+StartupNotify=false

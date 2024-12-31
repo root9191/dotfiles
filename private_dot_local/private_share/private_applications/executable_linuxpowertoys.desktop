@@ -3,9 +3,9 @@ X-AppImage-Arch=x86_64
 X-AppImage-Version=latest
 X-AppImage-Name=LinuxPowerToys
 Name=LinuxPowerToys
-Exec='/mnt/Volume1/Cloud/Portable/Linux Apps/linuxpowertoys_latest.appimage'
-TryExec=/mnt/Volume1/Cloud/Portable/Linux Apps/linuxpowertoys_latest.appimage
-Icon=powertoysnew
+Exec=/home/lichti/AppImages/linuxpowertoys.appimage
+TryExec=/home/lichti/AppImages/linuxpowertoys.appimage
+Icon=/home/lichti/.icons/linuxpowertoys.png
 
 Type=Application
 Terminal=false

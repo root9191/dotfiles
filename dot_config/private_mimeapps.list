@@ -17,6 +17,7 @@ message/rfc822=betterbird.desktop
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o365.desktop
 application/xml=org.gnome.TextEditor.desktop
 audio/flac=org.videolan.VLC.desktop
+application/x-desktop=org.gnome.TextEditor.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
@@ -35,3 +36,4 @@ x-scheme-handler/https=org.gnome.Epiphany.desktop;firefox.desktop;brave-browser.
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o365.desktop;
 application/xml=org.gnome.TextEditor.desktop;
 audio/flac=org.videolan.VLC.desktop;
+application/x-desktop=org.gnome.TextEditor.desktop;
