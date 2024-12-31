@@ -21,23 +21,23 @@ pacman_packages:
   - fzf
   - p7zip
   - gnome-tweaks
-  #- timeshift-autosnap
   - fuse2
   - python-fuse
   - keychain
-  #- eza
-  #- bat
   - vivid
   - github-cli
   - dbus-glib
   - libsecret
   - seahorse
-  #- bibata-cursor-theme
   - firefox
   - firefox-i18n-de
   - ddcutil
   - adw-gtk-theme
   - nextcloud-client
+  #- timeshift-autosnap
+  #- bibata-cursor-theme
+  #- eza
+  #- bat
   #- tracktion-waveform
   #- antimicrox
 aur_packages: 
