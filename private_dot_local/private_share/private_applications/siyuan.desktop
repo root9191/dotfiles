@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=SiYuan
+Exec=/home/lichti/AppImages/siyuan.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/siyuan.appimage
+Icon=/home/lichti/.icons/siyuan2.svg
+Terminal=false
+Type=Application
+
+StartupWMClass=SiYuan
+X-AppImage-Version=3.1.18
+Comment=Refactor your thinking
+Categories=Utility;
+
+X-AppImage-Version=3.1.18
