@@ -2,7 +2,7 @@
 Name=SiYuan
 Exec=/home/lichti/AppImages/siyuan.appimage --no-sandbox %U
 TryExec=/home/lichti/AppImages/siyuan.appimage
-Icon=/home/lichti/.icons/siyuan2.svg
+Icon=/home/lichti/.icons/siyuan.svg
 Terminal=false
 Type=Application
 
