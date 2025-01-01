@@ -41,49 +41,13 @@ alias ca='chezmoi add'
 alias cdi='chezmoi diff'
 alias capp='chezmoi apply'
 alias cup='chezmoi update'
+alias chezmoi='nocorrect chezmoi'
+#alias git='nocorrect git'
 
 # Added by LM Studio CLI (lms)
 #export PATH="$PATH:/home/lichti/.cache/lm-studio/bin"
 #export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/keyring/ssh"
 #export GNOME_KEYRING_CONTROL="${XDG_RUNTIME_DIR}/keyring"
 #export GNOME_KEYRING_PID
-
-#if [ -n "$DESKTOP_SESSION" ]; then
-#    eval $(gnome-keyring-daemon --start 2>/dev/null)
-#    export SSH_AUTH_SOCK
-#fi
-
-# Fügen Sie Ihre Schlüssel zum SSH-Agent hinzu
-#ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 2>/dev/null
-
-
-#alias git='nocorrect git'
-alias chezmoi='nocorrect chezmoi'
-
-#if [ -n "$DESKTOP_SESSION" ]; then
-#    eval $(gnome-keyring-daemon --start)
-#    export SSH_AUTH_SOCK
-#fi
-
-#if [ -z "$SSH_AUTH_SOCK" ]; then
-#   # Check for a currently running instance of the agent
-#   RUNNING_AGENT="`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
-#   if [ "$RUNNING_AGENT" = "0" ]; then
-#        # Launch a new instance of the agent
-#        ssh-agent -s &> $HOME/.ssh/ssh-agent
-#   fi
-#   eval `cat $HOME/.ssh/ssh-agent`
-#fi
-
-#eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519_gh)
-#eval $(keychain --eval --agents ssh --quiet ~/.ssh/id_ed25519)
-
-# Fügen Sie Ihre Schlüssel zum SSH-Agent hinzu
-#SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass ssh-add ~/.ssh/id_ed25519_gh ~/.ssh/id_ed25519 </dev/null
-
-#export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-# Starten Sie keychain mit den SSH-Keys
-#/usr/bin/keychain --quiet ~/.ssh/id_ed25519 ~/.ssh/id_ed25519_gh
-#source ~/.keychain/cachyos-sh
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
