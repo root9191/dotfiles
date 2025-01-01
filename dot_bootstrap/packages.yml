@@ -35,7 +35,6 @@ pacman_packages:
   - adw-gtk-theme
   - nextcloud-client
   - docker
-  - docker-cli
   - docker-compose
   #- timeshift-autosnap
   #- bibata-cursor-theme
