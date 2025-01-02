@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Affinity PhotoShop
+Comment=A powerful image editing software.
+Icon=/home/lichti/.local/share/icons/AffinityPhoto.svg
+Path=/home/lichti/.AffinityLinux
+Exec=env WINEPREFIX=/home/lichti/.AffinityLinux /home/lichti/.AffinityLinux/ElementalWarriorWine/bin/wine "/home/lichti/.AffinityLinux/drive_c/Program Files/Affinity/Photo 2/Photo.exe"
+Terminal=false
+NoDisplay=false
+StartupWMClass=photo.exe
+Type=Application
+Categories=Graphics;
+StartupNotify=true
+[Desktop Entry]
+Name=Affinity Photo
+Comment=A powerful image editing software.
+Icon=AdobePhotoshop
+Path=/home/lichti/.AffinityLinux
+Exec=env WINEPREFIX=/home/lichti/.AffinityLinux /home/lichti/.AffinityLinux/ElementalWarriorWine/bin/wine "/home/lichti/.AffinityLinux/drive_c/Program Files/Affinity/Photo 2/Photo.exe"
+Terminal=false
+NoDisplay=false
+StartupWMClass=photo.exe
+Type=Application
+Categories=Graphics;
+StartupNotify=true

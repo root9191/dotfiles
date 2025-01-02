@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Affinity Photo 2
+MimeType=application/afphoto;
+Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start /ProgIDOpen Affinity.Photo\\ 2 %f
+NoDisplay=true
+StartupNotify=true
+Icon=D16B_Photo.0
