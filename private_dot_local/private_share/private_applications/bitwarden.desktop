@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Bitwarden
-Exec='/mnt/Volume1/Cloud/Portable/Linux Apps/bitwarden_2024_12_1.appimage' --no-sandbox %U
-TryExec=/mnt/Volume1/Cloud/Portable/Linux Apps/bitwarden_2024_12_1.appimage
+Exec=/home/lichti/AppImages/bitwarden.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/bitwarden.appimage
 Icon=/home/lichti/.icons/bitwarden2.svg
 Terminal=false
 Type=Application

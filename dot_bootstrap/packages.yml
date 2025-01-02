@@ -36,6 +36,9 @@ pacman_packages:
   - nextcloud-client
   - docker
   - docker-compose
+  - spotify
+  #- spicetify-cli
+  #- spicetify-marketplace-bin
   #- timeshift-autosnap
   #- bibata-cursor-theme
   #- eza
