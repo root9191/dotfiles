@@ -1,5 +1,27 @@
 <monitors version="2">
   <configuration>
+    <layoutmode>logical</layoutmode>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>DEL</vendor>
+          <product>DELL S3422DWG</product>
+          <serial>JNDVS63</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>99.982</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
     <layoutmode>physical</layoutmode>
     <logicalmonitor>
       <x>0</x>
