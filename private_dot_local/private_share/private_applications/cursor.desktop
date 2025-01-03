@@ -7,9 +7,9 @@ Terminal=false
 Type=Application
 
 StartupWMClass=Cursor
-X-AppImage-Version=2412268nc6pfzgo
+X-AppImage-Version=250102ys80vtnud
 Comment=Cursor is an AI-first coding environment.
 MimeType=x-scheme-handler/cursor;
 Categories=Utility;
 
-X-AppImage-Version=2412268nc6pfzgo
+X-AppImage-Version=250102ys80vtnud

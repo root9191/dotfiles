@@ -51,3 +51,5 @@ alias chezmoi='nocorrect chezmoi'
 #export GNOME_KEYRING_PID
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
+
+export PATH=$PATH:/home/lichti/.spicetify
