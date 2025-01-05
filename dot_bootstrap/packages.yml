@@ -37,6 +37,7 @@ pacman_packages:
   - docker
   - docker-compose
   - spotify
+  - bc
   #- spicetify-cli
   #- spicetify-marketplace-bin
   #- timeshift-autosnap
