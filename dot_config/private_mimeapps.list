@@ -19,6 +19,7 @@ application/xml=org.gnome.TextEditor.desktop
 audio/flac=org.videolan.VLC.desktop
 application/x-desktop=org.gnome.TextEditor.desktop
 application/x-resolveproj=davinci-resolve-studio.desktop
+application/x-php=org.gnome.TextEditor.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
@@ -37,3 +38,4 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o36
 application/xml=org.gnome.TextEditor.desktop;
 audio/flac=org.videolan.VLC.desktop;
 application/x-desktop=org.gnome.TextEditor.desktop;
+application/x-php=org.gnome.TextEditor.desktop;
