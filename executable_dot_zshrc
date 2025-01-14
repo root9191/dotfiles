@@ -53,3 +53,6 @@ alias chezmoi='nocorrect chezmoi'
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
 
 export PATH=$PATH:/home/lichti/.spicetify
+
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$DOTNET_ROOT
