@@ -1,0 +1,37 @@
+[Desktop Entry]
+Type=Application
+Name=Cider
+StartupWMClass=cider
+Comment=A cross-platform Apple Music experience built on Vue.js and written from the ground up with performance in mind
+GenericName=Music Player
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+
+Categories=Audio;AudioVideo;
+
+Actions=PlayPause;Next;Previous
+
+[Desktop Action PlayPause]
+Name=Cider
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+OnlyShowIn=Unity;
+
+[Desktop Action Next]
+Name=Cider
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+OnlyShowIn=Unity;
+
+[Desktop Action Previous]
+Name=Cider
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+OnlyShowIn=Unity;
+
+X-AppImage-Version=37fb2a
+MimeType=x-scheme-handler/itunes;x-scheme-handler/ame;x-scheme-handler/cider;x-scheme-handler/itms;x-scheme-handler/itmss;x-scheme-handler/musics;x-scheme-handler/music;
