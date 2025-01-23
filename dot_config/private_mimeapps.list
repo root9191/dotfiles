@@ -26,6 +26,7 @@ x-scheme-handler/itms=cider.desktop
 x-scheme-handler/itmss=cider.desktop
 x-scheme-handler/music=cider.desktop
 x-scheme-handler/itunes=cider.desktop
+text/x-log=code.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
@@ -46,3 +47,4 @@ audio/flac=org.videolan.VLC.desktop;
 application/x-desktop=org.gnome.TextEditor.desktop;
 application/x-php=org.gnome.TextEditor.desktop;
 text/x-python=org.gnome.TextEditor.desktop;
+text/x-log=code.desktop;
