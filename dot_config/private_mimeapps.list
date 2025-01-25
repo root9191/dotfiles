@@ -28,6 +28,7 @@ x-scheme-handler/music=cider.desktop
 x-scheme-handler/itunes=cider.desktop
 text/x-log=code.desktop
 application/pdf=org.gnome.Evince.desktop
+image/gif=org.gnome.Loupe.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
@@ -50,3 +51,4 @@ application/x-php=org.gnome.TextEditor.desktop;
 text/x-python=org.gnome.TextEditor.desktop;
 text/x-log=code.desktop;
 application/pdf=org.gnome.Evince.desktop;
+image/gif=org.gnome.Loupe.desktop;
