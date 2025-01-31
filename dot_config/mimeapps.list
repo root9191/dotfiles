@@ -29,6 +29,7 @@ x-scheme-handler/itunes=cider.desktop
 text/x-log=code.desktop
 application/pdf=org.gnome.Evince.desktop
 image/gif=org.gnome.Loupe.desktop
+x-scheme-handler/mailspring=Mailspring.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
