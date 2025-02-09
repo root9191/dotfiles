@@ -8,3 +8,4 @@ Icon=discord6
 Categories=Network;InstantMessaging;
 StartupWMClass=equibop
 Keywords=discord;equicord;equibop
+MimeType=x-scheme-handler/discord;
