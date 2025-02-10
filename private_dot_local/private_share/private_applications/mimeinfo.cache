@@ -96,6 +96,7 @@ x-scheme-handler/affinity-publisher2-auth=wine-protocol-affinity-publisher2-auth
 x-scheme-handler/affinity-publisher2-dropbox-auth=wine-protocol-affinity-publisher2-dropbox-auth.desktop;
 x-scheme-handler/bitwarden=bitwarden.desktop;org.bitwarden.desktop;
 x-scheme-handler/cursor=cursor.desktop;
+x-scheme-handler/discord=equibop.desktop;
 x-scheme-handler/ferdium=ferdium.desktop;
 x-scheme-handler/gnome-extensions=com.mattjakeman.ExtensionManager.desktop;
 x-scheme-handler/http=brave-browser.desktop;
