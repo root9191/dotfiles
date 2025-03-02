@@ -1,3 +1,5 @@
+smb://rpi5/cron/ cron auf rpi5
+file:///mnt/npm npm
 file:///mnt/Volume1/Cloud Cloud
 smb://rpi5/ext/home/npm/docker/nc/data/lichti/files/Media/Music Music
 file:///mnt/Daten/lichti/cachyos_btrfs cachyos_btrfs
