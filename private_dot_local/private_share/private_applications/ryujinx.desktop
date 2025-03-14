@@ -15,4 +15,4 @@ Keywords=Switch;Nintendo;Emulator;
 StartupWMClass=Ryujinx
 PrefersNonDefaultGPU=true
 
-X-AppImage-Version=2d55ae
+X-AppImage-Version=1f3b48
