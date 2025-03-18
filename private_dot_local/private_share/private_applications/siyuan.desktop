@@ -2,13 +2,13 @@
 Name=SiYuan
 Exec=/home/lichti/AppImages/siyuan.appimage --no-sandbox %U
 TryExec=/home/lichti/AppImages/siyuan.appimage
-Icon=/home/lichti/.icons/siyuan2.svg
+Icon=/home/lichti/AppImages/.icons/siyuan.png
 Terminal=false
 Type=Application
 
 StartupWMClass=SiYuan
-X-AppImage-Version=3.1.24
+X-AppImage-Version=3.1.25
 Comment=Refactor your thinking
 Categories=Utility;
 
-X-AppImage-Version=3.1.24
+X-AppImage-Version=3.1.25
