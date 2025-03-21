@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520093696,
+        "prev_ver": 520093697,
         "name": "Desktop-Audio",
         "uuid": "efae8fd5-823e-4288-ac36-15cfbf1c12b1",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520093696,
+        "prev_ver": 520093697,
         "name": "Mikrofon-/AUX-Audio",
         "uuid": "00c9cd78-631d-4bc0-af37-6b7165f4e181",
         "id": "pulse_input_capture",
@@ -71,7 +71,7 @@
     "name": "Unbenannt",
     "sources": [
         {
-            "prev_ver": 520093696,
+            "prev_ver": 520093697,
             "name": "Szene",
             "uuid": "057b6e91-54f7-4776-a8ef-ddd581922dfe",
             "id": "scene",
@@ -159,13 +159,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093696,
+            "prev_ver": 520093697,
             "name": "Bildschirmaufnahme (PipeWire) 2",
             "uuid": "21c4cf59-6fe1-4dac-8f89-488aed570bfd",
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "49fee437-8942-41b0-85eb-25aee81fc5f4"
+                "RestoreToken": "be2ae63d-3ade-409d-8930-2664f47fec36"
             },
             "mixers": 0,
             "sync": 0,
