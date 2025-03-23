@@ -1,9 +1,10 @@
+smb://rpi5/ext/home/npm npm
 smb://rpi5/cron/ cron auf rpi5
-file:///mnt/npm npm
 file:///mnt/Volume1/Cloud Cloud
 smb://rpi5/ext/home/npm/docker/nc/data/lichti/files/Media/Music Music
 file:///mnt/Daten/lichti/cachyos_btrfs cachyos_btrfs
 file:///mnt/Volume1/Cloud/Cloud/Data/Wallpaper/Linux Linux
+file:///home/lichti/Downloads
 file:///home/lichti/.local/share/applications
 file:///home/lichti/.local/share/chezmoi chezmoi
 file:///mnt/Volume1/Cloud/Portable/Linux%20Apps Linux Apps
@@ -11,4 +12,3 @@ file:///home/lichti/Dokumente
 file:///home/lichti/Musik
 file:///home/lichti/Bilder
 file:///home/lichti/Videos
-file:///home/lichti/Downloads
