@@ -39,6 +39,8 @@ pacman_packages:
   - spotify
   - bc
   - nicotine+
+  - inotify-tools  
+  - grub-btrfs
   #- spicetify-cli
   #- spicetify-marketplace-bin
   #- timeshift-autosnap
