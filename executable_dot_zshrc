@@ -43,6 +43,10 @@ alias capp='chezmoi apply'
 alias cup='chezmoi update'
 alias chezmoi='nocorrect chezmoi'
 #alias git='nocorrect git'
+alias autoclean='sudo paccache -vrk2'
+alias autoremove='sudo pacman -Rns $(pacman -Qtdqn)'
+alias update-mirrorlist='sudo reflector --verbose --latest 10 --country "Austria" --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+
 
 # Added by LM Studio CLI (lms)
 #export PATH="$PATH:/home/lichti/.cache/lm-studio/bin"
