@@ -44,8 +44,20 @@ alias cup='chezmoi update'
 alias chezmoi='nocorrect chezmoi'
 #alias git='nocorrect git'
 alias autoclean='sudo paccache -vrk2'
-alias autoremove='sudo pacman -Rns $(pacman -Qtdqn)'
+#alias autoremove='sudo pacman -Rns $(pacman -Qtdqn)'
 alias update-mirrorlist='sudo reflector --verbose --latest 10 --country "Austria" --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+
+# Funktion zum Entfernen verwaister Pakete
+autoremove() {
+  orphans=$(pacman -Qtdqn)
+  if [[ -n "$orphans" ]]; then
+    echo "Verwaiste Pakete gefunden. Entferne..."
+    sudo pacman -Rns $orphans
+  else
+    echo "Keine verwaisten Pakete gefunden."
+  fi
+}
+
 
 
 # Added by LM Studio CLI (lms)
