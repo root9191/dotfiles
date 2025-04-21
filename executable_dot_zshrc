@@ -46,6 +46,7 @@ alias chezmoi='nocorrect chezmoi'
 alias autoclean='sudo paccache -vrk2'
 #alias autoremove='sudo pacman -Rns $(pacman -Qtdqn)'
 alias update-mirrorlist='sudo reflector --verbose --latest 10 --country "Austria" --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias gnome-journal='journalctl -b0 _COMM=gnome-shell > ~/gnome-shell-log.txt'
 
 # Funktion zum Entfernen verwaister Pakete
 autoremove() {
@@ -57,6 +58,25 @@ autoremove() {
     echo "Keine verwaisten Pakete gefunden."
   fi
 }
+
+# Funktion für Debug Nvidia in Gnome
+function debug-gnome() {
+  # Create a completely fresh log file
+  {
+    echo "=== NVIDIA DRM Errors ==="
+    journalctl -b | grep -i "flip event timeout"
+    echo "=== NVIDIA VAAPI Errors ==="
+    journalctl -b | grep -i "libva error"
+    echo "=== GNOME Shell Crashes ==="
+    journalctl -b | grep -i "gnome-shell" | grep -i "error\|fail\|crash"
+    echo "=== Current NVIDIA Status ==="
+    nvidia-smi
+  } > ~/debug.log
+  
+  echo "Debug information saved to ~/debug.log"
+}
+
+
 
 
 

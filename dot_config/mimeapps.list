@@ -31,6 +31,7 @@ application/pdf=org.gnome.Evince.desktop
 image/gif=org.gnome.Loupe.desktop
 x-scheme-handler/mailspring=Mailspring.desktop
 x-scheme-handler/discord=equibop.desktop
+text/markdown=org.gnome.TextEditor.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
@@ -54,3 +55,4 @@ text/x-python=org.gnome.TextEditor.desktop;
 text/x-log=code.desktop;org.gnome.TextEditor.desktop;
 application/pdf=org.gnome.Evince.desktop;
 image/gif=org.gnome.Loupe.desktop;
+text/markdown=org.gnome.TextEditor.desktop;
