@@ -100,6 +100,7 @@ x-scheme-handler/cider=cider.desktop;
 x-scheme-handler/cursor=cursor.desktop;
 x-scheme-handler/discord=equibop.desktop;
 x-scheme-handler/ferdium=ferdium.desktop;
+x-scheme-handler/follow=folo.desktop;
 x-scheme-handler/gnome-extensions=com.mattjakeman.ExtensionManager.desktop;
 x-scheme-handler/http=brave-browser.desktop;
 x-scheme-handler/https=brave-browser.desktop;

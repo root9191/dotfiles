@@ -35,7 +35,7 @@ text/markdown=org.gnome.TextEditor.desktop
 
 [Added Associations]
 text/plain=org.gnome.TextEditor.desktop;
-image/jpeg=org.gnome.eog.desktop;
+image/jpeg=org.gnome.Loupe.desktop;org.gnome.eog.desktop;
 application/x-shellscript=org.gnome.TextEditor.desktop;
 application/octet-stream=org.gnome.TextEditor.desktop;
 application/vnd.ms-publisher=org.gnome.TextEditor.desktop;
