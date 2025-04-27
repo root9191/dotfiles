@@ -1,11 +1,18 @@
 [Desktop Entry]
-Name=Discord
-GenericName=Internet Messenger
-Comment=Forked Custom Discord desktop app with Equicord preinstalled
-Type=Application
-Exec=equibop
-Icon=discord6
 Categories=Network;InstantMessaging;
-StartupWMClass=equibop
+Comment=Forked Custom Discord desktop app with Equicord preinstalled
+Exec=equibop
+GenericName=Internet Messenger
+Icon=/home/lichti/.icons/discord6.svg
 Keywords=discord;equicord;equibop
 MimeType=x-scheme-handler/discord;
+Name=Discord
+NoDisplay=false
+Path=
+StartupNotify=true
+StartupWMClass=equibop
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
