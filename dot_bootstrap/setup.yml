@@ -425,41 +425,7 @@
         name: NetworkManager
         state: restarted
 
-    - name: Check if custom GRUB entries already exist
-      command: grep -c "CachyOS_Ext" /etc/grub.d/40_custom
-      register: grub_check
-      changed_when: false
-      failed_when: false
-
-    - name: Configure custom GRUB entries
-      blockinfile:
-        path: /etc/grub.d/40_custom
-        create: yes
-        block: |
-          menuentry "CachyOS_Ext" {
-              load_video
-              set gfxpayload=keep
-              insmod gzio
-              insmod part_gpt
-              insmod ext2
-              search --no-floppy --fs-uuid --set=root 5cde1c17-b467-442b-9afe-6186a1e635ca
-              echo 'Linux linux-cachyos wird geladen ...'
-              linux /boot/vmlinuz-linux-cachyos root=UUID=5cde1c17-b467-442b-9afe-6186a1e635ca rw nowatchdog nvme_load=YES zswap.enabled=0 splash loglevel=3
-              echo 'Initiale Ramdisk wird geladen ...'
-              initrd /boot/initramfs-linux-cachyos.img
-          }
-          menuentry "Windows" --class windows --class os {
-              search --fs-uuid --no-floppy --set=root CEAC-BAF5
-              chainloader (${root})/EFI/Microsoft/Boot/bootmgfw.efi
-          }
-        mode: '0755'
-        marker: "# {mark} ANSIBLE MANAGED BLOCK - CUSTOM GRUB ENTRIES"
-      when: grub_check.stdout == "0"
-
-    - name: Update GRUB configuration
-      command: grub-mkconfig -o /boot/grub/grub.cfg
-      when: grub_check.stdout == "0"
-      
+    
 
 
     - name: Configure Ptyxis Shortcuts with gsettings
