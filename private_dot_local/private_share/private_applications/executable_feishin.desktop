@@ -7,10 +7,10 @@ Terminal=false
 Type=Application
 
 StartupWMClass=Feishin
-X-AppImage-Version=0.12.6
+X-AppImage-Version=0.12.7
 Categories=AudioVideo;Audio;Player;
 
-X-AppImage-Version=0.12.6
+X-AppImage-Version=0.12.7
 Comment=
 Path=
 StartupNotify=false
