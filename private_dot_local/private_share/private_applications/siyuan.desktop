@@ -7,8 +7,8 @@ Terminal=false
 Type=Application
 
 StartupWMClass=SiYuan
-X-AppImage-Version=3.1.29
+X-AppImage-Version=3.1.31
 Comment=Refactor your thinking
 Categories=Utility;
 
-X-AppImage-Version=3.1.29
+X-AppImage-Version=3.1.31
