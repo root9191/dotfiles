@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=
+MimeType=application/x-wine-extension-ct;
+Exec=env WINEPREFIX="/home/lichti/.wine" wine start /ProgIDOpen CheatEngine %f
+NoDisplay=true
+StartupNotify=true
+Icon=4B26_Cheat Engine.0

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Steinberg Download Assistant
+MimeType=x-scheme-handler/net-steinberg-sda;
+Exec=env WINEPREFIX="/home/lichti/.wine" wine start %u
+NoDisplay=true
+StartupNotify=true
+Icon=0FE0_Steinberg Download Assistant.0

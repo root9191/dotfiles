@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Cubase 13
+MimeType=cubase/project;
+Exec=env WINEPREFIX="/home/lichti/.wine" wine start /ProgIDOpen Cubase.Project %f
+NoDisplay=true
+StartupNotify=true
+Icon=68AC_Cubase13.0

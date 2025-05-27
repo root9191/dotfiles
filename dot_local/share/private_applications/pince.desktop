@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PINCE
+Exec=/home/lichti/AppImages/pince.appimage
+TryExec=/home/lichti/AppImages/pince.appimage
+Icon=/home/lichti/AppImages/.icons/pince.svg
+
+Type=Application
+Terminal=true
+Categories=Development;
+
+X-AppImage-Version=6ea0bb
