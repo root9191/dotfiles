@@ -1,12 +1,12 @@
 {
 	"folders": [
 		{
-			"name": "chezmoi",
-			"path": "../.local/share/chezmoi"
-		},
-		{
 			"name": "github",
 			"path": "github"
+		},
+		{
+			"name": "chezmoi",
+			"path": "../.local/share/chezmoi"
 		}
 	],
 	"settings": {

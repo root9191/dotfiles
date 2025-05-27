@@ -44,16 +44,10 @@ tar -xzf "/tmp/equibop.tar.gz" -C "$INSTALL_DIR" --strip-components=1
 # Ausführbar machen
 chmod +x "$INSTALL_DIR/equibop"
 
-# Symlink erstellen/aktualisieren
-echo "Erstelle/Aktualisiere Symlink..."
-rm -f "$SYMLINK_PATH"
-ln -s "$INSTALL_DIR/equibop" "$SYMLINK_PATH"
-
-# Prüfen ob Symlink erstellt wurde
-if [[ -L "$SYMLINK_PATH" ]]; then
-    echo -e "${GREEN}Symlink erfolgreich erstellt${NC}"
-else
-    echo -e "${RED}Fehler beim Erstellen des Symlinks!${NC}"
+# Symlink erstellen falls nicht vorhanden
+if [[ ! -L "$SYMLINK_PATH" ]]; then
+    echo "Erstelle Symlink..."
+    ln -s "$INSTALL_DIR/equibop" "$SYMLINK_PATH"
 fi
 
 # Aufräumen
