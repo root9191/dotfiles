@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Affinity Photo 2
-MimeType=x-scheme-handler/affinity-photo2-auth;
-Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start %u
-NoDisplay=true
-StartupNotify=true
-Icon=D16B_Photo.0

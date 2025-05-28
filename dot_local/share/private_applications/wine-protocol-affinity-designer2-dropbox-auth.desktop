@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Affinity Designer 2
-MimeType=x-scheme-handler/affinity-designer2-dropbox-auth;
-Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start %u
-NoDisplay=true
-StartupNotify=true
-Icon=2FD2_Designer.0

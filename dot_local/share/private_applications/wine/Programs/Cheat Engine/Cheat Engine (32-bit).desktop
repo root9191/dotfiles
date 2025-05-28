@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Cheat Engine (32-bit)
-Exec=env WINEPREFIX="/home/lichti/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Cheat\\ Engine\\\\Cheat\\ Engine\\ \\(32-bit\\).lnk
-Type=Application
-StartupNotify=true
-Path=/home/lichti/.wine/dosdevices/c:/Program Files/Cheat Engine
-Icon=38B4_cheatengine-i386.0
-StartupWMClass=cheatengine-i386.exe

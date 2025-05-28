@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Cubase 13
-MimeType=application/x-wine-extension-fxb;
-Exec=env WINEPREFIX="/home/lichti/.wine" wine start /ProgIDOpen Cubase.EffectBank %f
-NoDisplay=true
-StartupNotify=true
-Icon=68AC_Cubase13.0

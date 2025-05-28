@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Java(TM) Web Start Launcher
-MimeType=application/x-java-jnlp-file;
-Exec=env WINEPREFIX="/home/lichti/.wine" wine start /ProgIDOpen JNLPFile %f
-NoDisplay=true
-StartupNotify=true
-Icon=F630_javaws.0

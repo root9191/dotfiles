@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Affinity Publisher 2
-MimeType=application/afpub;
-Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start /ProgIDOpen Affinity.Publisher\\ 2 %f
-NoDisplay=true
-StartupNotify=true
-Icon=0121_Publisher.0

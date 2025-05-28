@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=rundll32
-MimeType=application/x-wine-extension-crds;
-Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start /ProgIDOpen Microsoft.WindowsCardSpaceBackup %f
-NoDisplay=true
-StartupNotify=true
-Icon=5742_rundll32.0
