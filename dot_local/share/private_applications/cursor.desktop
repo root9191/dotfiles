@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Cursor
+Exec=/home/lichti/AppImages/cursor.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/cursor.appimage
+Icon=/home/lichti/AppImages/.icons/cursor.png
+Terminal=false
+Type=Application
+
+StartupWMClass=Cursor
+X-AppImage-Version=250219jnihavxsz
+Comment=Cursor is an AI-first coding environment.
+MimeType=x-scheme-handler/cursor;
+Categories=Utility;
+
+X-AppImage-Version=250219jnihavxsz

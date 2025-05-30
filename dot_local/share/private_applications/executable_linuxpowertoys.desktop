@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppImage-Arch=x86_64
+X-AppImage-Version=latest
+X-AppImage-Name=LinuxPowerToys
+Name=LinuxPowerToys
+Exec=/home/lichti/AppImages/linuxpowertoys.appimage
+TryExec=/home/lichti/AppImages/linuxpowertoys.appimage
+Icon=/home/lichti/.icons/powertoysnew.png
+
+Type=Application
+Terminal=false
+Categories=Utility;
+Comment=
+
+X-AppImage-Version=latest

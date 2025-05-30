@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Access
+Exec=/home/lichti/.local/bin/winapps access %F
+Terminal=false
+Type=Application
+Icon=/home/lichti/.local/share/winapps/apps/access/icon.svg
+StartupWMClass=Microsoft Access
+Comment=Microsoft Access
+Categories=WinApps;Office
+MimeType=application/x-msaccess;

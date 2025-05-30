@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=PowerPoint
+Exec=/home/lichti/.local/bin/winapps powerpoint-o365 %F
+Terminal=false
+Type=Application
+Icon=/home/lichti/.local/share/winapps/apps/powerpoint-o365/icon.svg
+StartupWMClass=Microsoft PowerPoint
+Comment=Microsoft PowerPoint
+Categories=WinApps;Office
+MimeType=application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.ms-powerpoint.addin.macroEnabled.12;application/vnd.ms-powerpoint.presentation.macroEnabled.12;application/vnd.ms-powerpoint.template.macroEnabled.12;application/vnd.ms-powerpoint.slideshow.macroEnabled.12;

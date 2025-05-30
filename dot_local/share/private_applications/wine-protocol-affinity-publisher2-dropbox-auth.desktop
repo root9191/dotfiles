@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Affinity Publisher 2
+MimeType=x-scheme-handler/affinity-publisher2-dropbox-auth;
+Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start %u
+NoDisplay=true
+StartupNotify=true
+Icon=0121_Publisher.0

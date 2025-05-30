@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ClipGrab
+Comment=Download and Convert Online Videos
+Exec=/home/lichti/AppImages/clipgrab.appimage
+TryExec=/home/lichti/AppImages/clipgrab.appimage
+Icon=/home/lichti/AppImages/.icons/clipgrab.png
+
+Categories=AudioVideo;
+X-AppImage-Version=
+
+X-AppImage-Version=4c8763

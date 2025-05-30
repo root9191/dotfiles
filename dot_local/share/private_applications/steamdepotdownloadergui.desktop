@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=
+Comment=Download older versions of Steam games with DepotDownloader
+Exec=/home/lichti/AppImages/steamdepotdownloadergui.appimage
+TryExec=/home/lichti/AppImages/steamdepotdownloadergui.appimage
+Icon=/home/lichti/AppImages/.icons/steamdepotdownloadergui.png
+
+Name=SteamDepotDownloaderGUI
+Terminal=false
+Type=Application
+
+X-AppImage-Version=f2ad40

@@ -1,0 +1,44 @@
+[Desktop Entry]
+Type=Application
+Name=Cider
+StartupWMClass=cider
+Comment=A cross-platform Apple Music experience built on Vue.js and written from the ground up with performance in mind.
+GenericName=Music Player
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+
+Categories=Audio;AudioVideo;
+MimeType=x-scheme-handler/ame;x-scheme-handler/cider;x-scheme-handler/itms;x-scheme-handler/itmss;x-scheme-handler/musics;x-scheme-handler/music;
+
+Actions=PlayPause;Next;Previous;Stop
+
+[Desktop Action PlayPause]
+Name=Cider
+Name[de]=Abspielen-Pausieren
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+
+[Desktop Action Next]
+Name=Cider
+Name[de]=Nächstes
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+
+[Desktop Action Previous]
+Name=Cider
+Name[de]=Vorheriges
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+
+[Desktop Action Stop]
+Name=Cider
+Name[de]=Stoppen
+Exec=/home/lichti/AppImages/cider.appimage %U
+TryExec=/home/lichti/AppImages/cider.appimage
+Icon=/home/lichti/AppImages/.icons/cider.png
+
+X-AppImage-Version=69bba5

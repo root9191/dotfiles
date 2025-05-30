@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=OnTheSpot
+GenericName=Music downloader
+Comment=A music downloader
+
+Exec=/home/lichti/AppImages/onthespot.appimage -m onthespot
+TryExec=/home/lichti/AppImages/onthespot.appimage
+Icon=/home/lichti/AppImages/.icons/onthespot.png
+Categories=Audio;AudioVideo;Music;
+
+X-AppImage-Version=410bec

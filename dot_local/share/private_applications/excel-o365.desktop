@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Excel
+Exec=/home/lichti/.local/bin/winapps excel-o365 %F
+Terminal=false
+Type=Application
+Icon=/home/lichti/.local/share/winapps/apps/excel-o365/icon.svg
+StartupWMClass=Microsoft Excel
+Comment=Microsoft Excel
+Categories=WinApps;Office
+MimeType=application/vnd.ms-excel;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.ms-excel.sheet.macroEnabled.12;application/vnd.ms-excel.template.macroEnabled.12;application/vnd.ms-excel.addin.macroEnabled.12;application/vnd.ms-excel.sheet.binary.macroEnabled.12;

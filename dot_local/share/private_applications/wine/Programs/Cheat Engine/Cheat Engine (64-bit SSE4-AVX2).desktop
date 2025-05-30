@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cheat Engine (64-bit SSE4-AVX2)
+Exec=env WINEPREFIX="/home/lichti/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Cheat\\ Engine\\\\Cheat\\ Engine\\ \\(64-bit\\ SSE4-AVX2\\).lnk
+Type=Application
+StartupNotify=true
+Path=/home/lichti/.wine/dosdevices/c:/Program Files/Cheat Engine
+Icon=5590_cheatengine-x86_64-SSE4-AVX2.0
+StartupWMClass=cheatengine-x86_64-sse4-avx2.exe

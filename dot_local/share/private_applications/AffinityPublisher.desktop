@@ -1,0 +1,36 @@
+[Desktop Entry]
+Name=Affinity Publisher
+Comment=Affinity Publisher is a desktop publishing application developed by Serif for iPadOS, macOS and Microsoft Windows.
+Icon=/home/lichti/.local/share/icons/AffinityPublisher.svg
+Path=/home/lichti/.AffinityLinux
+Exec=env WINEPREFIX=/home/lichti/.AffinityLinux /home/lichti/.AffinityLinux/ElementalWarriorWine/bin/wine "/home/lichti/.AffinityLinux/drive_c/Program Files/Affinity/Publisher 2/Publisher.exe"
+Terminal=false
+NoDisplay=false
+StartupWMClass=publisher.exe
+Type=Application
+Categories=Graphics;
+StartupNotify=true
+[Desktop Entry]
+Name=Affinity Publisher
+Comment=Affinity Publisher is a desktop publishing application developed by Serif for iPadOS, macOS and Microsoft Windows.
+Icon=/home/lichti/.local/share/icons/AffinityPublisher.svg
+Path=/home/lichti/.AffinityLinux
+Exec=env WINEPREFIX=/home/lichti/.AffinityLinux /home/lichti/.AffinityLinux/ElementalWarriorWine/bin/wine "/home/lichti/.AffinityLinux/drive_c/Program Files/Affinity/Publisher 2/Publisher.exe"
+Terminal=false
+NoDisplay=false
+StartupWMClass=publisher.exe
+Type=Application
+Categories=Graphics;
+StartupNotify=true
+[Desktop Entry]
+Name=Affinity Publisher
+Comment=Affinity Publisher is a desktop publishing application developed by Serif for iPadOS, macOS and Microsoft Windows.
+Icon=/home/lichti/.local/share/icons/AffinityPublisher.svg
+Path=/home/lichti/.AffinityLinux
+Exec=env WINEPREFIX=/home/lichti/.AffinityLinux /home/lichti/.AffinityLinux/ElementalWarriorWine/bin/wine "/home/lichti/.AffinityLinux/drive_c/Program Files/Affinity/Publisher 2/Publisher.exe"
+Terminal=false
+NoDisplay=false
+StartupWMClass=publisher.exe
+Type=Application
+Categories=Graphics;
+StartupNotify=true

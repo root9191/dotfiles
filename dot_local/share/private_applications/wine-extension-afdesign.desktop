@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Affinity Designer 2
+MimeType=application/afdesign;
+Exec=env WINEPREFIX="/home/lichti/.AffinityLinux" wine start /ProgIDOpen Affinity.Designer\\ 2 %f
+NoDisplay=true
+StartupNotify=true
+Icon=2FD2_Designer.0
