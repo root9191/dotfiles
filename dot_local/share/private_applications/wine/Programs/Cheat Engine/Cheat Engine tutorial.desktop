@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Cheat Engine tutorial
-Exec=env WINEPREFIX="/home/lichti/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Cheat\\ Engine\\\\Cheat\\ Engine\\ tutorial.lnk
-Type=Application
-StartupNotify=true
-Path=/home/lichti/.wine/dosdevices/c:/Program Files/Cheat Engine
-StartupWMClass=tutorial-i386.exe

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Uninstall Cheat Engine
-Exec=env WINEPREFIX="/home/lichti/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Cheat\\ Engine\\\\Uninstall\\ Cheat\\ Engine.lnk
-Type=Application
-StartupNotify=true
-Path=/home/lichti/.wine/dosdevices/c:/Program Files/Cheat Engine
-Icon=5282_unins000.0
-StartupWMClass=unins000.exe

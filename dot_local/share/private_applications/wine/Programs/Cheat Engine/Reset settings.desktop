@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Reset settings
-Exec=env WINEPREFIX="/home/lichti/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Cheat\\ Engine\\\\Reset\\ settings.lnk
-Type=Application
-StartupNotify=true
-Path=/home/lichti/.wine/dosdevices/c:/Program Files/Cheat Engine
-Icon=2065_ceregreset.0
-StartupWMClass=ceregreset.exe
