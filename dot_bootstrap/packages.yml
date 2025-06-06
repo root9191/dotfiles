@@ -39,8 +39,9 @@ pacman_packages:
   - spotify
   - bc
   - nicotine+
-  - inotify-tools  
-  - grub-btrfs
+  - inotify-tools 
+  - vmware-host-modules-dkms-fix-git
+  #- grub-btrfs
   #- spicetify-cli
   #- spicetify-marketplace-bin
   #- timeshift-autosnap
@@ -50,7 +51,7 @@ pacman_packages:
   #- tracktion-waveform
   #- antimicrox
 aur_packages: 
-  - equibop-git
+  #- equibop-git
   - numix-folders-git
 #  - nautilus-admin-gtk4
 flatpak_packages:
