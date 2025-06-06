@@ -55,7 +55,7 @@ aur_packages:
   - numix-folders-git
 #  - nautilus-admin-gtk4
 flatpak_packages:
-  - app.moosync.moosync
+  #- app.moosync.moosync
   - com.mattjakeman.ExtensionManager
   - com.usebottles.bottles
   - com.vysp3r.ProtonPlus
