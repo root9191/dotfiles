@@ -24,6 +24,7 @@ text/x-python=org.gnome.TextEditor.desktop;
 x-scheme-handler/http=org.gnome.Epiphany.desktop;firefox.desktop;brave-browser.desktop;
 x-scheme-handler/https=org.gnome.Epiphany.desktop;firefox.desktop;brave-browser.desktop;
 x-scheme-handler/mailto=eu.betterbird.Betterbird.desktop;
+video/x-matroska=org.videolan.VLC.desktop;
 
 [Default Applications]
 application/json=org.gnome.TextEditor.desktop
@@ -62,3 +63,4 @@ x-scheme-handler/mailspring=Mailspring.desktop
 x-scheme-handler/mailto=eu.betterbird.Betterbird.desktop;
 x-scheme-handler/music=cider.desktop
 x-scheme-handler/siyuan=SiYuan.desktop
+video/x-matroska=org.videolan.VLC.desktop
