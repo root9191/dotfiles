@@ -40,7 +40,7 @@ pacman_packages:
   - bc
   - nicotine+
   - inotify-tools 
-  - vmware-host-modules-dkms-fix-git
+ # - vmware-host-modules-dkms-fix-git
   #- grub-btrfs
   #- spicetify-cli
   #- spicetify-marketplace-bin
