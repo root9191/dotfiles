@@ -61,5 +61,5 @@ flatpak_packages:
   - com.vysp3r.ProtonPlus
   - org.videolan.VLC
   - it.mijorus.gearlever
-  - org.filezillaproject.Filezilla
+  #- org.filezillaproject.Filezilla
   #- com.bitwarden.desktop
