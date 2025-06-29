@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Filezilla
+Exec=/home/lichti/AppImages/FileZilla/bin/filezilla %U
+#TryExec=/home/lichti/AppImages/FileZilla/bin/filezilla
+Icon=filezilla
+Terminal=false
+Type=Application
+StartupWMClass=FileZilla
+Categories=Utility;
+#X-AppImage-Version=2025.5.1

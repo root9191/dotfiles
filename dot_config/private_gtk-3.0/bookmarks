@@ -1,18 +1,16 @@
+file:///mnt/Daten/lichti/cachyos_btrfs cachyos_btrfs
 file:///home/lichti/Dokumente/github/tools/pA pA
-file:///run/media/lichti/7f836219-16b3-4892-907c-fb92ae036a05/@home/lichti/.local/share/Steam Steam
-file:///home/lichti/.local/share/Steam/steamapps/common/Schedule%20I/Mods Mods
 file:///home/lichti/.local/share/Steam/steamapps/common common
 smb://rpi5/ext/home/npm npm
 smb://rpi5/cron/ cron auf rpi5
 file:///mnt/Volume1/Cloud Cloud
 smb://rpi5/ext/home/npm/docker/nc/data/lichti/files/Media/Music Music
-file:///mnt/Daten/lichti/cachyos_btrfs_ cachyos_btrfs
 file:///mnt/Volume1/Cloud/Cloud/Data/Wallpaper/Linux Linux
-file:///home/lichti/Downloads
+file:///home/lichti/Downloads Downloads
 file:///home/lichti/.local/share/applications
 file:///home/lichti/.local/share/chezmoi chezmoi
 file:///mnt/Volume1/Cloud/Portable/Linux%20Apps Linux Apps
-file:///home/lichti/Dokumente
-file:///home/lichti/Musik
-file:///home/lichti/Bilder
-file:///home/lichti/Videos
+file:///home/lichti/Dokumente Dokumente
+file:///home/lichti/Musik Musik
+file:///home/lichti/Bilder Bilder
+file:///home/lichti/Videos Videos

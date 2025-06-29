@@ -1,7 +1,7 @@
 pacman_packages:
   - base-devel
-  - cachyos-snapper-support
-  - cachyos-gaming-meta
+  #- cachyos-snapper-support
+  #- cachyos-gaming-meta
   - visual-studio-code-bin
   - betterbird-de-bin
   - brave-bin
@@ -29,8 +29,8 @@ pacman_packages:
   - dbus-glib
   - libsecret
   - seahorse
-  - firefox
-  - firefox-i18n-de
+ # - firefox
+ # - firefox-i18n-de
   - ddcutil
   - adw-gtk-theme
   - nextcloud-client

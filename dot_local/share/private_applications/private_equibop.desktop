@@ -1,7 +1,8 @@
 [Desktop Entry]
 Categories=Network;InstantMessaging;
 Comment=Forked Custom Discord desktop app with Equicord preinstalled
-Exec=equibop
+Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/equibop.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/equibop.appimage
 GenericName=Internet Messenger
 Icon=/home/lichti/.icons/discord6.svg
 Keywords=discord;equicord;equibop

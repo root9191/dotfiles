@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=SiYuan
-Exec=/home/lichti/AppImages/siyuan.appimage --no-sandbox %U
-TryExec=/home/lichti/AppImages/siyuan.appimage
+Exec=/home/lichti/AppImages/siyuan.AppImage --no-sandbox %U
+TryExec=/home/lichti/AppImages/siyuan.AppImage
 Icon=/home/lichti/.icons/siyuan.svg
 Terminal=false
 Type=Application

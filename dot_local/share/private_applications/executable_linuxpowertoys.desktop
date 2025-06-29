@@ -3,8 +3,8 @@ X-AppImage-Arch=x86_64
 X-AppImage-Version=latest
 X-AppImage-Name=LinuxPowerToys
 Name=LinuxPowerToys
-Exec=/home/lichti/AppImages/linuxpowertoys.appimage
-TryExec=/home/lichti/AppImages/linuxpowertoys.appimage
+Exec=/home/lichti/AppImages/LinuxPowerToys.AppImage
+TryExec=/home/lichti/AppImages/LinuxPowerToys.AppImage
 Icon=/home/lichti/.icons/powertoysnew.png
 
 Type=Application

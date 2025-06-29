@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Ferdium
-Exec=/home/lichti/AppImages/ferdium.appimage --no-sandbox %U
-TryExec=/home/lichti/AppImages/ferdium.appimage
+Exec=/home/lichti/AppImages/Ferdium.AppImage --no-sandbox %U
+TryExec=/home/lichti/AppImages/Ferdium.AppImage
 Icon=/home/lichti/.icons/ferdium2.svg
 Terminal=false
 Type=Application
