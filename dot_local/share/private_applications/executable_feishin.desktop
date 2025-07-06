@@ -2,7 +2,8 @@
 Name=Feishin
 Exec=/home/lichti/AppImages/Feishin.AppImage --no-sandbox %U
 TryExec=/home/lichti/AppImages/Feishin.AppImage
-Icon=/home/lichti/.icons/feishin2.svg
+#Icon=/home/lichti/.icons/feishin2.svg
+Icon=g4music
 Terminal=false
 Type=Application
 

@@ -206,6 +206,7 @@ Comment[zh_TW]=檢視和編輯文字檔
 Comment=View and edit text files
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=jdTextEdit
+Icon=io.github.nokse22.minitext
 StartupNotify=true
 Terminal=false
 Type=Application

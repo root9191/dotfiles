@@ -5,6 +5,7 @@ Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/equibop.appimage --no-sandb
 TryExec=/home/lichti/AppImages/equibop.appimage
 GenericName=Internet Messenger
 Icon=/home/lichti/.icons/discord6.svg
+Icon=discord
 Keywords=discord;equicord;equibop
 MimeType=x-scheme-handler/discord;
 Name=Discord

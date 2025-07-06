@@ -3,6 +3,7 @@ Name=SiYuan
 Exec=/home/lichti/AppImages/siyuan.AppImage --no-sandbox %U
 TryExec=/home/lichti/AppImages/siyuan.AppImage
 Icon=/home/lichti/.icons/siyuan.svg
+Icon=ms-onenote
 Terminal=false
 Type=Application
 

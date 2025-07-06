@@ -3,6 +3,7 @@ Name=Ferdium
 Exec=/home/lichti/AppImages/Ferdium.AppImage --no-sandbox %U
 TryExec=/home/lichti/AppImages/Ferdium.AppImage
 Icon=/home/lichti/.icons/ferdium2.svg
+Icon=ferdium
 Terminal=false
 Type=Application
 

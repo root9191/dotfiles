@@ -3,6 +3,7 @@ Name=Bitwarden
 Exec=/home/lichti/AppImages/bitwarden.appimage --no-sandbox %U
 TryExec=/home/lichti/AppImages/bitwarden.appimage
 Icon=/home/lichti/.icons/bitwarden2.svg
+Icon=bitwarden
 Terminal=false
 Type=Application
 

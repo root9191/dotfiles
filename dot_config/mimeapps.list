@@ -66,3 +66,4 @@ x-scheme-handler/music=cider.desktop
 x-scheme-handler/siyuan=SiYuan.desktop
 video/x-matroska=org.videolan.VLC.desktop
 video/mp4=org.videolan.VLC.desktop
+x-scheme-handler/nxm=com.nexusmods.app.desktop

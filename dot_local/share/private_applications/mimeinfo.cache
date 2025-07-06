@@ -119,6 +119,7 @@ x-scheme-handler/mid=eu.betterbird.Betterbird.desktop;
 x-scheme-handler/music=cider.desktop;
 x-scheme-handler/musics=cider.desktop;
 x-scheme-handler/net-steinberg-sda=wine-protocol-net-steinberg-sda.desktop;
+x-scheme-handler/nxm=com.nexusmods.app.desktop;nexus_mods_app.desktop;
 x-scheme-handler/spotify=spotify.desktop;
 x-scheme-handler/webcal=eu.betterbird.Betterbird.desktop;
 x-scheme-handler/webcals=eu.betterbird.Betterbird.desktop;

@@ -227,6 +227,7 @@ Exec=nautilus --new-window
 #%U
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=file
+Icon=filerunner
 Terminal=false
 Type=Application
 DBusActivatable=true

@@ -3,6 +3,7 @@ Type=Application
 Name=Spotify
 GenericName=Music Player
 Icon=/home/lichti/.icons/spotify.svg
+Icon=spotify
 TryExec=spotify
 Exec=spotify --uri=%U
 Terminal=false
