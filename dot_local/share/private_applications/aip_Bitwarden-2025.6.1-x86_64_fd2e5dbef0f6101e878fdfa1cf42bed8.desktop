@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Bitwarden
+Exec=/home/lichti/AppImages/Bitwarden-2025.6.1-x86_64_fd2e5dbef0f6101e878fdfa1cf42bed8.AppImage --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=aip_bitwarden_fd2e5dbef0f6101e878fdfa1cf42bed8
+StartupWMClass=Bitwarden
+X-AppImage-Version=2025.6.1
+GenericName=Password Manager
+Comment=A secure and free password manager for all of your devices.
+MimeType=x-scheme-handler/bitwarden;
+Categories=Utility;

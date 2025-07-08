@@ -1,0 +1,29 @@
+[Desktop Entry]
+Categories=Utility;X-SuSE-SyncUtility;
+Type=Application
+Exec=nextcloud %u
+Name=Nextcloud
+Comment=Nextcloud
+GenericName=Folder Sync
+Icon=Nextcloud
+Keywords=Nextcloud;syncing;file;sharing;
+X-GNOME-Autostart-Delay=3
+MimeType=application/vnd.nextcloud;x-scheme-handler/nc;
+SingleMainWindow=true
+Actions=Quit;
+
+Comment[de_DE]=Nextcloud
+#GenericName[de_DE]=Ordner-Synchronisation
+Name[de_DE]=Nextcloud
+Icon[de_DE]=Nextcloud
+
+Implements=org.freedesktop.CloudProviders
+
+[org.freedesktop.CloudProviders]
+BusName=com.nextcloudgmbh.Nextcloud
+ObjectPath=/com/nextcloudgmbh/Nextcloud
+
+[Desktop Action Quit]
+Exec=nextcloud --quit
+Name=Quit Nextcloud
+Icon=nextcloud
