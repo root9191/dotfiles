@@ -42,8 +42,8 @@ pacman_packages:
   - inotify-tools 
  # - vmware-host-modules-dkms-fix-git
   #- grub-btrfs
-  #- spicetify-cli
-  #- spicetify-marketplace-bin
+  - spicetify-cli
+  - spicetify-marketplace-bin
   #- timeshift-autosnap
   #- bibata-cursor-theme
   #- eza
