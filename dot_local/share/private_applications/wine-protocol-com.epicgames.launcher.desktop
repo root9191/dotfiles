@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=EpicGamesLauncher
+MimeType=x-scheme-handler/com.epicgames.launcher;
+Exec=env WINEPREFIX="/home/lichti/.wine" wine start %u
+NoDisplay=true
+StartupNotify=true
+Icon=DFBB_EpicGamesLauncher.0

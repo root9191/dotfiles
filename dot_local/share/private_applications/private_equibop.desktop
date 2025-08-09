@@ -1,21 +1,17 @@
 [Desktop Entry]
-Categories=Network;InstantMessaging;
-Comment=Forked Custom Discord desktop app with Equicord preinstalled
+Name=Equibop
 Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/equibop.appimage --no-sandbox %U
 TryExec=/home/lichti/AppImages/equibop.appimage
-GenericName=Internet Messenger
-Icon=/home/lichti/.icons/discord6.svg
-Icon=discord
-Keywords=discord;equicord;equibop
-MimeType=x-scheme-handler/discord;
-Name=Discord
-NoDisplay=false
-Path=
-StartupNotify=true
-StartupWMClass=equibop
+Icon=/home/lichti/AppImages/.icons/equibop.png
 Terminal=false
-TerminalOptions=
 Type=Application
-X-KDE-SubstituteUID=false
-X-KDE-Username=
+
+StartupWMClass=equibop
+
+GenericName=Internet Messenger
+Categories=Network;
+Keywords=discord;equibop;vesktop;vencord;equicord;electron;chat;
+MimeType=x-scheme-handler/discord;
+Comment=A fork of Vesktop pre-packaged with Equicord
+
 X-AppImage-Version=2.1.6
