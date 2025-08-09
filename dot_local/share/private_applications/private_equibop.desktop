@@ -2,7 +2,7 @@
 Name=Equibop
 Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/equibop.appimage --no-sandbox %U
 TryExec=/home/lichti/AppImages/equibop.appimage
-Icon=/home/lichti/AppImages/.icons/equibop.png
+Icon=discord
 Terminal=false
 Type=Application
 
