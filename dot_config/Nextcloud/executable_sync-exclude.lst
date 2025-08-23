@@ -1,5 +1,3 @@
-# This file contains fixed global exclude patterns
-
 *~
 ~$*
 .~lock.*
@@ -13,10 +11,8 @@
 ]Thumbs.db
 ]photothumb.db
 System Volume Information
-
 .*.sw?
 .*.*sw?
-
 ].TemporaryItems
 ].Trashes
 ].DocumentRevisions-V100
@@ -24,16 +20,12 @@ System Volume Information
 .fseventd
 .apdisk
 .Spotlight-V100
-
 .directory
-
 *.part
 *.filepart
 *.crdownload
-
 *.kate-swp
 *.gnucash.tmp-*
-
 .synkron.*
 .sync.ffs_db
 .symform
@@ -41,13 +33,8 @@ System Volume Information
 .fuse_hidden*
 *.unison
 .nfs*
-
-# (default) metadata files created by Syncthing
 .stfolder
 .stignore
 .stversions
-
 My Saved Places.
-
-
 *.sb-*
