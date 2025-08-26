@@ -2,7 +2,7 @@
 Name=SiYuan
 Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/siyuan.AppImage --no-sandbox %U
 TryExec=/home/lichti/AppImages/siyuan.AppImage
-Icon=onenote
+Icon=/home/lichti/AppImages/.icons/siyuan.png
 Terminal=false
 Type=Application
 
@@ -11,4 +11,4 @@ StartupWMClass=SiYuan
 Comment=Refactor your thinking
 Categories=Utility;
 
-X-AppImage-Version=3.2.1
+X-AppImage-Version=3.3.0
