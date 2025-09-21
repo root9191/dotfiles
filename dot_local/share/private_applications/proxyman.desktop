@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Proxyman
+Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/proxyman.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/proxyman.appimage
+Icon=/home/lichti/AppImages/.icons/proxyman.png
+Terminal=false
+Type=Application
+
+StartupWMClass=Proxyman
+
+Comment=Proxyman: A modern web debugging proxy for Windows/Linux
+Categories=Development;
+
+X-AppImage-Version=3.2.0

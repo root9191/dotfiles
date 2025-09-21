@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=API Parrot
+Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/api_parrot.appimage --no-sandbox %U
+TryExec=/home/lichti/AppImages/api_parrot.appimage
+Icon=/home/lichti/AppImages/.icons/api_parrot.png
+Terminal=false
+Type=Application
+
+StartupWMClass=API Parrot
+
+Categories=Utility;
+
+X-AppImage-Version=0.3.1

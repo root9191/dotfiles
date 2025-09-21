@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Reqable
+GenericName=Reqable
+Comment=Advanced HTTP Productivity Tools!
+Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/reqable.appimage %u
+TryExec=/home/lichti/AppImages/reqable.appimage
+Icon=/home/lichti/AppImages/.icons/reqable.png
+
+Terminal=false
+Type=Application
+Categories=Utility
+Keywords=reqable;
+X-AppImage-Version=4be3de

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=IDA Free 9.2
+Comment=Interactive Disassembler Professional 9.2
+Icon=/home/lichti/Applications/IDA/appico.png
+Exec=/home/lichti/Applications/IDA/ida
+Terminal=false
