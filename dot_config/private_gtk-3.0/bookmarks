@@ -1,3 +1,5 @@
+file:///home/lichti/.local/share/gnome-shell/extensions extensions
+file:///mnt/Volume1/Switch Switch
 file:///mnt/Games/SteamLibrary/steamapps/common/CarX%20Street_180 CarX Street
 file:///home/lichti/.local/share/Steam/steamapps/compatdata compatdata
 file:///run/media/lichti/D8BC3541BC351B86/Program%20Files%20(x86)/Steam/steamapps/common/CarX%20Street CarX Street_WIN
@@ -11,7 +13,7 @@ smb://rpi5/ext/home/npm npm
 smb://rpi5/cron/ cron auf rpi5
 file:///mnt/Volume1/Cloud Cloud
 smb://rpi5/ext/home/npm/docker/nc/data/lichti/files/Media/Music Music
-file:///mnt/Volume1/Cloud/Cloud/Data/Wallpaper/Linux Linux
+file:///mnt/Volume1/Cloud/Cloud/Data/Wallpaper/Linux Wallpaper
 file:///home/lichti/Downloads Downloads
 file:///home/lichti/.local/share/applications
 file:///home/lichti/.local/share/chezmoi chezmoi
