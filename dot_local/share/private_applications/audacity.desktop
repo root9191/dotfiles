@@ -61,7 +61,7 @@ Categories=AudioVideo;Audio;AudioVideoEditing;
 
 Keywords=sound;music editing;voice channel;frequency;modulation;audio trim;clipping;noise reduction;multi track audio editor;edit;mixing;WAV;AIFF;FLAC;MP2;MP3;
 
-Exec=/home/lichti/AppImages/audacity.appimage
+Exec=env DESKTOPINTEGRATION=1 /home/lichti/AppImages/audacity.appimage GDK_BACKEND=x11 UBUNTU_MENUPROXY=0 audacity %F
 TryExec=/home/lichti/AppImages/audacity.appimage
 Icon=/home/lichti/AppImages/.icons/audacity.svg
 StartupNotify=false

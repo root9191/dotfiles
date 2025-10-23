@@ -13,4 +13,4 @@ Comment=A secure and free password manager for all of your devices.
 MimeType=x-scheme-handler/bitwarden;
 Categories=Utility;
 
-X-AppImage-Version=2025.8.2
+X-AppImage-Version=2025.10.0
