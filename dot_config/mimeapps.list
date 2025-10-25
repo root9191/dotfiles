@@ -27,6 +27,7 @@ x-scheme-handler/mailto=eu.betterbird.Betterbird.desktop;
 video/x-matroska=org.videolan.VLC.desktop;
 video/mp4=org.videolan.VLC.desktop;
 text/x-patch=org.gnome.TextEditor.desktop;
+x-scheme-handler/discord=equibop.desktop
 
 [Default Applications]
 application/json=org.gnome.TextEditor.desktop
